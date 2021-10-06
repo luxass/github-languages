@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "CommonJS",
+        "strict": true,
+        "declaration": true,
+        "outDir": "./dist",
+        "esModuleInterop": true,
+        "resolveJsonModule": true
+    },
+    "exclude": ["dist", "node_modules"]
+}

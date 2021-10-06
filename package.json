@@ -1,0 +1,21 @@
+{
+    "name": "github-languages",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "repository": "https://github.com/DeprecatedLuxas/github-languages.git",
+    "author": "DeprecatedLuxas <lucasmathias65@icloud.com>",
+    "license": "MIT",
+    "scripts": {
+        "build": "tsc"
+    },
+    "dependencies": {
+        "axios": "^0.22.0",
+        "js-yaml": "^4.1.0"
+    },
+    "devDependencies": {
+        "@types/axios": "^0.14.0",
+        "@types/js-yaml": "^4.0.3",
+        "@types/node": "^16.10.3"
+    }
+}
