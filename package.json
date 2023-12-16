@@ -1,21 +1,80 @@
 {
-    "name": "@deprecatedluxas/github-languages",
-    "version": "1.0.0",
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
-    "repository": "https://github.com/DeprecatedLuxas/github-languages.git",
-    "author": "DeprecatedLuxas <lucasmathias65@icloud.com>",
-    "license": "MIT",
-    "scripts": {
-        "build": "tsc"
+  "name": "@luxass/github-languages",
+  "version": "0.1.0",
+  "description": "GitHub's supported languages",
+  "type": "module",
+  "author": {
+    "name": "Lucas Nørgård",
+    "email": "lucasnrgaard@gmail.com",
+    "url": "https://luxass.dev"
+  },
+  "packageManager": "pnpm@8.10.1",
+  "license": "MIT",
+  "homepage": "https://github.com/luxass/github-languages",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luxass/github-languages"
+  },
+  "bugs": {
+    "url": "https://github.com/luxass/github-languages/issues"
+  },
+  "keywords": [
+    "languages",
+    "linguist",
+    "github",
+    "github languages"
+  ],
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
     },
-    "dependencies": {
-        "axios": "^0.22.0",
-        "js-yaml": "^4.1.0"
+    "./languages": {
+      "import": {
+        "types": "./dist/languages.d.ts",
+        "default": "./dist/languages.mjs"
+      },
+      "require": {
+        "types": "./dist/languages.d.cts",
+        "default": "./dist/languages.cjs"
+      }
     },
-    "devDependencies": {
-        "@types/axios": "^0.14.0",
-        "@types/js-yaml": "^4.0.3",
-        "@types/node": "^16.10.3"
-    }
+    "./json": "./languages.json",
+    "./package.json": "./package.json"
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "languages.d.ts",
+    "languages.json"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup",
+    "languages:download": "tsx --env-file=.env ./scripts/download.ts",
+    "prepublishOnly": "pnpm run languages:download && pnpm run build",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@luxass/eslint-config": "^4.0.0-beta.13",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^18.19.0",
+    "eslint": "^8.54.0",
+    "js-yaml": "^4.1.0",
+    "tsup": "^8.0.1",
+    "tsx": "^4.6.2",
+    "typescript": "^5.3.2",
+    "valibot": "^0.24.1"
+  }
 }

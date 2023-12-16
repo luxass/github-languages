@@ -1,12 +1,25 @@
 {
-    "compilerOptions": {
-        "target": "es6",
-        "module": "CommonJS",
-        "strict": true,
-        "declaration": true,
-        "outDir": "./dist",
-        "esModuleInterop": true,
-        "resolveJsonModule": true
-    },
-    "exclude": ["dist", "node_modules"]
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": [
+      "ES2022"
+    ],
+    "moduleDetection": "force",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "declaration": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "www"
+  ]
 }
