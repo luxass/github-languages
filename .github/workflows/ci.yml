@@ -2,22 +2,13 @@ name: CI
 
 on:
   workflow_dispatch:
-    inputs:
-      dry-run:
-        description: Run the workflow without creating a pull request
-        required: false
-        default: "false"
   push:
     branches:
       - main
   pull_request:
-    branches:
-      - main
-    types: [opened, synchronize]
-
-concurrency:
-  group: ${{ github.workflow }}-${{ github.event.number || github.sha }}
-  cancel-in-progress: ${{ github.event_name != 'push' }}
+    types:
+      - opened
+      - synchronize
 
 jobs:
   build:
@@ -44,6 +35,9 @@ jobs:
 
       - name: Lint
         run: pnpm lint
+
+      - name: Test
+        run: pnpm test
 
       - name: Typecheck
         run: pnpm typecheck
