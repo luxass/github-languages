@@ -711,6 +711,7 @@ export const Bicep = {
   language_id: 321200902,
   extensions: [
     ".bicep",
+    ".bicepparam",
   ],
 } as const;
 
@@ -742,11 +743,14 @@ export const Bison = {
 export const BitBake = {
   type: "programming",
   color: "#00bce4",
-  tm_scope: "none",
+  tm_scope: "source.bb",
   ace_mode: "text",
   language_id: 32,
   extensions: [
     ".bb",
+    ".bbappend",
+    ".bbclass",
+    ".inc",
   ],
 } as const;
 
@@ -818,7 +822,7 @@ export const BluespecBH = {
     "bh",
     "bluespec classic",
   ],
-  tm_scope: "source.haskell",
+  tm_scope: "source.bh",
   ace_mode: "haskell",
   codemirror_mode: "haskell",
   codemirror_mime_type: "text/x-haskell",
@@ -937,6 +941,7 @@ export const Csharp = {
   extensions: [
     ".cs",
     ".cake",
+    ".cs.pp",
     ".csx",
     ".linq",
   ],
@@ -1552,7 +1557,7 @@ export const CommonLisp = {
   aliases: [
     "lisp",
   ],
-  tm_scope: "source.lisp",
+  tm_scope: "source.commonlisp",
   ace_mode: "lisp",
   codemirror_mode: "commonlisp",
   codemirror_mime_type: "text/x-common-lisp",
@@ -2062,6 +2067,7 @@ export const Dotenv = {
     ".env.local",
     ".env.prod",
     ".env.production",
+    ".env.sample",
     ".env.staging",
     ".env.test",
     ".env.testing",
@@ -2251,6 +2257,17 @@ export const Ecmarkup = {
   language_id: 844766630,
   extensions: [
     ".html",
+  ],
+} as const;
+
+export const Edge = {
+  type: "markup",
+  color: "#0dffe0",
+  tm_scope: "text.html.edge",
+  ace_mode: "html",
+  language_id: 460509620,
+  extensions: [
+    ".edge",
   ],
 } as const;
 
@@ -3153,6 +3170,18 @@ export const GlimmerJS = {
   language_id: 5523150,
   extensions: [
     ".gjs",
+  ],
+} as const;
+
+export const GlimmerTS = {
+  type: "programming",
+  color: "#3178c6",
+  tm_scope: "source.gts",
+  ace_mode: "typescript",
+  group: "TypeScript",
+  language_id: 95110458,
+  extensions: [
+    ".gts",
   ],
 } as const;
 
@@ -4089,6 +4118,7 @@ export const JSON = {
   aliases: [
     "geojson",
     "jsonl",
+    "sarif",
     "topojson",
   ],
   tm_scope: "source.json",
@@ -4108,6 +4138,7 @@ export const JSON = {
     ".JSON-tmLanguage",
     ".jsonl",
     ".mcmeta",
+    ".sarif",
     ".tfstate",
     ".tfstate.backup",
     ".topojson",
@@ -6815,6 +6846,18 @@ export const Pike = {
   ],
 } as const;
 
+export const PipRequirements = {
+  type: "data",
+  color: "#FFD343",
+  tm_scope: "source.pip-requirements",
+  ace_mode: "text",
+  language_id: 684385621,
+  filenames: [
+    "requirements-dev.txt",
+    "requirements.txt",
+  ],
+} as const;
+
 export const PlantUML = {
   type: "data",
   color: "#fbbd16",
@@ -7330,7 +7373,6 @@ export const R = {
   type: "programming",
   color: "#198CE7",
   aliases: [
-    "R",
     "Rscript",
     "splus",
   ],
@@ -7809,6 +7851,17 @@ export const RobotFramework = {
   language_id: 324,
   extensions: [
     ".robot",
+  ],
+} as const;
+
+export const Roc = {
+  type: "programming",
+  color: "#7c38f5",
+  tm_scope: "source.roc",
+  ace_mode: "text",
+  language_id: 440182480,
+  extensions: [
+    ".roc",
   ],
 } as const;
 
@@ -8446,6 +8499,7 @@ export const Shell = {
     ".kshrc",
     ".login",
     ".profile",
+    ".tmux.conf",
     ".zlogin",
     ".zlogout",
     ".zprofile",
@@ -8463,6 +8517,7 @@ export const Shell = {
     "login",
     "man",
     "profile",
+    "tmux.conf",
     "zlogin",
     "zlogout",
     "zprofile",
@@ -8568,7 +8623,7 @@ export const Slash = {
 export const Slice = {
   type: "programming",
   color: "#003fa2",
-  tm_scope: "source.slice",
+  tm_scope: "source.ice",
   ace_mode: "text",
   language_id: 894641667,
   extensions: [
@@ -8940,13 +8995,11 @@ export const SystemVerilog = {
 export const TIProgram = {
   type: "programming",
   color: "#A0AA87",
-  tm_scope: "none",
+  tm_scope: "source.8xp",
   ace_mode: "text",
   language_id: 422,
   extensions: [
     ".8xp",
-    ".8xk",
-    ".8xk.txt",
     ".8xp.txt",
   ],
 } as const;
@@ -9228,6 +9281,17 @@ export const Text = {
     "test.me",
     "use.mask",
     "use.stable.mask",
+  ],
+} as const;
+
+export const TextGrid = {
+  type: "data",
+  color: "#c8506d",
+  tm_scope: "source.textgrid",
+  ace_mode: "text",
+  language_id: 965696054,
+  extensions: [
+    ".TextGrid",
   ],
 } as const;
 
@@ -10603,6 +10667,14 @@ export const jq = {
   language_id: 905371884,
   extensions: [
     ".jq",
+  ],
+  interpreters: [
+    "gojq",
+    "jaq",
+    "jq",
+    "jqjq",
+    "jqq",
+    "query-json",
   ],
 } as const;
 
