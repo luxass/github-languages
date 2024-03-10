@@ -661,7 +661,8 @@
     "ace_mode": "text",
     "language_id": 321200902,
     "extensions": [
-      ".bicep"
+      ".bicep",
+      ".bicepparam"
     ]
   },
   "Bikeshed": {
@@ -690,11 +691,14 @@
   "BitBake": {
     "type": "programming",
     "color": "#00bce4",
-    "tm_scope": "none",
+    "tm_scope": "source.bb",
     "ace_mode": "text",
     "language_id": 32,
     "extensions": [
-      ".bb"
+      ".bb",
+      ".bbappend",
+      ".bbclass",
+      ".inc"
     ]
   },
   "Blade": {
@@ -761,7 +765,7 @@
       "bh",
       "bluespec classic"
     ],
-    "tm_scope": "source.haskell",
+    "tm_scope": "source.bh",
     "ace_mode": "haskell",
     "codemirror_mode": "haskell",
     "codemirror_mime_type": "text/x-haskell",
@@ -872,6 +876,7 @@
     "extensions": [
       ".cs",
       ".cake",
+      ".cs.pp",
       ".csx",
       ".linq"
     ]
@@ -1445,7 +1450,7 @@
     "aliases": [
       "lisp"
     ],
-    "tm_scope": "source.lisp",
+    "tm_scope": "source.commonlisp",
     "ace_mode": "lisp",
     "codemirror_mode": "commonlisp",
     "codemirror_mime_type": "text/x-common-lisp",
@@ -1920,6 +1925,7 @@
       ".env.local",
       ".env.prod",
       ".env.production",
+      ".env.sample",
       ".env.staging",
       ".env.test",
       ".env.testing"
@@ -2096,6 +2102,16 @@
     "language_id": 844766630,
     "extensions": [
       ".html"
+    ]
+  },
+  "Edge": {
+    "type": "markup",
+    "color": "#0dffe0",
+    "tm_scope": "text.html.edge",
+    "ace_mode": "html",
+    "language_id": 460509620,
+    "extensions": [
+      ".edge"
     ]
   },
   "EdgeQL": {
@@ -2938,6 +2954,17 @@
     "language_id": 5523150,
     "extensions": [
       ".gjs"
+    ]
+  },
+  "Glimmer TS": {
+    "type": "programming",
+    "color": "#3178c6",
+    "tm_scope": "source.gts",
+    "ace_mode": "typescript",
+    "group": "TypeScript",
+    "language_id": 95110458,
+    "extensions": [
+      ".gts"
     ]
   },
   "Glyph": {
@@ -3812,6 +3839,7 @@
     "aliases": [
       "geojson",
       "jsonl",
+      "sarif",
       "topojson"
     ],
     "tm_scope": "source.json",
@@ -3831,6 +3859,7 @@
       ".JSON-tmLanguage",
       ".jsonl",
       ".mcmeta",
+      ".sarif",
       ".tfstate",
       ".tfstate.backup",
       ".topojson",
@@ -6357,6 +6386,17 @@
       "pike"
     ]
   },
+  "Pip Requirements": {
+    "type": "data",
+    "color": "#FFD343",
+    "tm_scope": "source.pip-requirements",
+    "ace_mode": "text",
+    "language_id": 684385621,
+    "filenames": [
+      "requirements-dev.txt",
+      "requirements.txt"
+    ]
+  },
   "PlantUML": {
     "type": "data",
     "color": "#fbbd16",
@@ -6836,7 +6876,6 @@
     "type": "programming",
     "color": "#198CE7",
     "aliases": [
-      "R",
       "Rscript",
       "splus"
     ],
@@ -7283,6 +7322,16 @@
     "language_id": 324,
     "extensions": [
       ".robot"
+    ]
+  },
+  "Roc": {
+    "type": "programming",
+    "color": "#7c38f5",
+    "tm_scope": "source.roc",
+    "ace_mode": "text",
+    "language_id": 440182480,
+    "extensions": [
+      ".roc"
     ]
   },
   "Roff": {
@@ -7888,6 +7937,7 @@
       ".kshrc",
       ".login",
       ".profile",
+      ".tmux.conf",
       ".zlogin",
       ".zlogout",
       ".zprofile",
@@ -7905,6 +7955,7 @@
       "login",
       "man",
       "profile",
+      "tmux.conf",
       "zlogin",
       "zlogout",
       "zprofile",
@@ -8002,7 +8053,7 @@
   "Slice": {
     "type": "programming",
     "color": "#003fa2",
-    "tm_scope": "source.slice",
+    "tm_scope": "source.ice",
     "ace_mode": "text",
     "language_id": 894641667,
     "extensions": [
@@ -8347,13 +8398,11 @@
   "TI Program": {
     "type": "programming",
     "color": "#A0AA87",
-    "tm_scope": "none",
+    "tm_scope": "source.8xp",
     "ace_mode": "text",
     "language_id": 422,
     "extensions": [
       ".8xp",
-      ".8xk",
-      ".8xk.txt",
       ".8xp.txt"
     ]
   },
@@ -8619,6 +8668,16 @@
       "test.me",
       "use.mask",
       "use.stable.mask"
+    ]
+  },
+  "TextGrid": {
+    "type": "data",
+    "color": "#c8506d",
+    "tm_scope": "source.textgrid",
+    "ace_mode": "text",
+    "language_id": 965696054,
+    "extensions": [
+      ".TextGrid"
     ]
   },
   "TextMate Properties": {
@@ -9906,6 +9965,14 @@
     "language_id": 905371884,
     "extensions": [
       ".jq"
+    ],
+    "interpreters": [
+      "gojq",
+      "jaq",
+      "jq",
+      "jqjq",
+      "jqq",
+      "query-json"
     ]
   },
   "kvlang": {
