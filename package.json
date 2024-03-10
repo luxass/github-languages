@@ -8,7 +8,7 @@
     "email": "lucasnrgaard@gmail.com",
     "url": "https://luxass.dev"
   },
-  "packageManager": "pnpm@8.15.1",
+  "packageManager": "pnpm@8.15.4",
   "license": "MIT",
   "homepage": "https://github.com/luxass/github-languages",
   "repository": {
@@ -75,6 +75,6 @@
     "tsup": "^8.0.1",
     "tsx": "^4.7.0",
     "typescript": "^5.3.3",
-    "valibot": "^0.27.0"
+    "valibot": "^0.29.0"
   }
 }
