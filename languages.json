@@ -5235,6 +5235,18 @@
       "descrip.mms"
     ]
   },
+  "Mojo": {
+    "type": "programming",
+    "color": "#ff4c1f",
+    "tm_scope": "source.mojo",
+    "ace_mode": "python",
+    "codemirror_mode": "python",
+    "codemirror_mime_type": "text/x-python",
+    "language_id": 1045019587,
+    "extensions": [
+      ".mojo"
+    ]
+  },
   "Monkey": {
     "type": "programming",
     "tm_scope": "source.monkey",
@@ -5742,6 +5754,15 @@
       "ocaml",
       "ocamlrun",
       "ocamlscript"
+    ]
+  },
+  "Oberon": {
+    "type": "programming",
+    "tm_scope": "source.modula2",
+    "ace_mode": "text",
+    "language_id": 677210597,
+    "extensions": [
+      ".ob2"
     ]
   },
   "ObjDump": {
@@ -8072,6 +8093,16 @@
       ".slim"
     ]
   },
+  "Slint": {
+    "type": "markup",
+    "color": "#2379F4",
+    "tm_scope": "source.slint",
+    "ace_mode": "text",
+    "language_id": 119900149,
+    "extensions": [
+      ".slint"
+    ]
+  },
   "SmPL": {
     "type": "programming",
     "color": "#c94949",
@@ -9503,6 +9534,7 @@
       ".mjml",
       ".mm",
       ".mod",
+      ".mojo",
       ".mxml",
       ".natvis",
       ".ncl",

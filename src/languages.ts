@@ -5609,6 +5609,19 @@ export const ModuleManagementSystem = {
   ],
 } as const;
 
+export const Mojo = {
+  type: "programming",
+  color: "#ff4c1f",
+  tm_scope: "source.mojo",
+  ace_mode: "python",
+  codemirror_mode: "python",
+  codemirror_mime_type: "text/x-python",
+  language_id: 1045019587,
+  extensions: [
+    ".mojo",
+  ],
+} as const;
+
 export const Monkey = {
   type: "programming",
   tm_scope: "source.monkey",
@@ -6154,6 +6167,16 @@ export const OCaml = {
     "ocaml",
     "ocamlrun",
     "ocamlscript",
+  ],
+} as const;
+
+export const Oberon = {
+  type: "programming",
+  tm_scope: "source.modula2",
+  ace_mode: "text",
+  language_id: 677210597,
+  extensions: [
+    ".ob2",
   ],
 } as const;
 
@@ -8644,6 +8667,17 @@ export const Slim = {
   ],
 } as const;
 
+export const Slint = {
+  type: "markup",
+  color: "#2379F4",
+  tm_scope: "source.slint",
+  ace_mode: "text",
+  language_id: 119900149,
+  extensions: [
+    ".slint",
+  ],
+} as const;
+
 export const SmPL = {
   type: "programming",
   color: "#c94949",
@@ -10175,6 +10209,7 @@ export const XML = {
     ".mjml",
     ".mm",
     ".mod",
+    ".mojo",
     ".mxml",
     ".natvis",
     ".ncl",
