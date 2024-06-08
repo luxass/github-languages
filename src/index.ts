@@ -1,5 +1,8 @@
 export * from './languages'
 
+/**
+ * A language definition.
+ */
 export interface Language {
   type: string
   tm_scope: string
