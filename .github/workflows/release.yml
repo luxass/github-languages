@@ -30,13 +30,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Install dependencies
-        run: |
-          node --version
+        run:
           pnpm install
 
       - name: Publish to NPM
         run: |
-          node --version
+          echo "" > .env
           npm publish --access public --no-git-checks
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
