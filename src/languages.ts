@@ -621,6 +621,17 @@ export const BASIC = {
   ],
 } as const
 
+export const BQN = {
+  type: 'programming',
+  color: '#2b7067',
+  tm_scope: 'source.bqn',
+  ace_mode: 'text',
+  language_id: 330386870,
+  extensions: [
+    '.bqn',
+  ],
+} as const
+
 export const Ballerina = {
   type: 'programming',
   color: '#FF5000',
@@ -1175,6 +1186,23 @@ export const CabalConfig = {
   filenames: [
     'cabal.config',
     'cabal.project',
+  ],
+} as const
+
+export const Caddyfile = {
+  type: 'data',
+  color: '#22b638',
+  aliases: [
+    'Caddy',
+  ],
+  tm_scope: 'source.Caddyfile',
+  ace_mode: 'text',
+  language_id: 615465151,
+  extensions: [
+    '.caddyfile',
+  ],
+  filenames: [
+    'Caddyfile',
   ],
 } as const
 
@@ -2523,6 +2551,17 @@ export const FIGletFont = {
   ],
 } as const
 
+export const FIRRTL = {
+  type: 'programming',
+  color: '#2f632f',
+  tm_scope: 'source.firrtl',
+  ace_mode: 'text',
+  language_id: 906694254,
+  extensions: [
+    '.fir',
+  ],
+} as const
+
 export const FLUX = {
   type: 'programming',
   color: '#88ccff',
@@ -3479,7 +3518,7 @@ export const HCL = {
     'HashiCorp Configuration Language',
     'terraform',
   ],
-  tm_scope: 'source.terraform',
+  tm_scope: 'source.hcl',
   ace_mode: 'ruby',
   codemirror_mode: 'ruby',
   codemirror_mime_type: 'text/x-ruby',
@@ -4158,6 +4197,7 @@ export const JSON = {
     '.tern-config',
     '.tern-project',
     '.watchmanconfig',
+    'MODULE.bazel.lock',
     'Pipfile.lock',
     'composer.lock',
     'deno.lock',
@@ -4183,6 +4223,7 @@ export const JSONwithComments = {
     '.code-snippets',
     '.code-workspace',
     '.sublime-build',
+    '.sublime-color-scheme',
     '.sublime-commands',
     '.sublime-completions',
     '.sublime-keymap',
@@ -4514,6 +4555,15 @@ export const Julia = {
   ],
 } as const
 
+export const JuliaREPL = {
+  type: 'programming',
+  color: '#a270ba',
+  tm_scope: 'source.julia.console',
+  ace_mode: 'text',
+  group: 'Julia',
+  language_id: 220689142,
+} as const
+
 export const JupyterNotebook = {
   type: 'markup',
   color: '#DA5B0B',
@@ -4542,7 +4592,13 @@ export const Just = {
   tm_scope: 'source.just',
   ace_mode: 'text',
   language_id: 128447695,
+  extensions: [
+    '.just',
+  ],
   filenames: [
+    '.JUSTFILE',
+    '.Justfile',
+    '.justfile',
     'JUSTFILE',
     'Justfile',
     'justfile',
@@ -5089,6 +5145,22 @@ export const Lua = {
   ],
   filenames: [
     '.luacheckrc',
+  ],
+} as const
+
+export const Luau = {
+  type: 'programming',
+  color: '#00A2FF',
+  tm_scope: 'source.luau',
+  ace_mode: 'lua',
+  codemirror_mode: 'lua',
+  codemirror_mime_type: 'text/x-lua',
+  language_id: 365050359,
+  extensions: [
+    '.luau',
+  ],
+  interpreters: [
+    'luau',
   ],
 } as const
 
@@ -5792,6 +5864,17 @@ export const NL = {
   language_id: 241,
   extensions: [
     '.nl',
+  ],
+} as const
+
+export const NMODL = {
+  type: 'programming',
+  color: '#00356B',
+  tm_scope: 'none',
+  ace_mode: 'text',
+  language_id: 136456478,
+  extensions: [
+    '.mod',
   ],
 } as const
 
@@ -6881,6 +6964,20 @@ export const PipRequirements = {
   ],
 } as const
 
+export const Pkl = {
+  type: 'programming',
+  color: '#6b9543',
+  tm_scope: 'source.pkl',
+  ace_mode: 'text',
+  language_id: 288822799,
+  extensions: [
+    '.pkl',
+  ],
+  interpreters: [
+    'pkl',
+  ],
+} as const
+
 export const PlantUML = {
   type: 'data',
   color: '#fbbd16',
@@ -7504,6 +7601,17 @@ export const RMarkdown = {
   extensions: [
     '.qmd',
     '.rmd',
+  ],
+} as const
+
+export const RON = {
+  type: 'data',
+  color: '#a62c00',
+  tm_scope: 'source.ron',
+  ace_mode: 'rust',
+  language_id: 587855233,
+  extensions: [
+    '.ron',
   ],
 } as const
 
@@ -8478,6 +8586,7 @@ export const Shell = {
     'shell-script',
     'bash',
     'zsh',
+    'envrc',
   ],
   tm_scope: 'source.shell',
   ace_mode: 'sh',
@@ -8518,6 +8627,7 @@ export const Shell = {
     '.bash_profile',
     '.bashrc',
     '.cshrc',
+    '.envrc',
     '.flaskenv',
     '.kshrc',
     '.login',
@@ -9073,6 +9183,7 @@ export const TOML = {
   ],
   filenames: [
     'Cargo.lock',
+    'Cargo.toml.orig',
     'Gopkg.lock',
     'Pipfile',
     'pdm.lock',
@@ -9450,6 +9561,7 @@ export const TypeScript = {
   interpreters: [
     'deno',
     'ts-node',
+    'tsx',
   ],
 } as const
 
@@ -10583,6 +10695,7 @@ export const Zig = {
   language_id: 646424281,
   extensions: [
     '.zig',
+    '.zig.zon',
   ],
 } as const
 
@@ -10611,6 +10724,21 @@ export const cURLConfig = {
   filenames: [
     '.curlrc',
     '_curlrc',
+  ],
+} as const
+
+export const crontab = {
+  type: 'data',
+  color: '#ead7ac',
+  aliases: [
+    'cron',
+    'cron table',
+  ],
+  tm_scope: 'text.crontab',
+  ace_mode: 'tcl',
+  language_id: 705203557,
+  filenames: [
+    'crontab',
   ],
 } as const
 
@@ -10854,6 +10982,17 @@ export const sed = {
     'minised',
     'sed',
     'ssed',
+  ],
+} as const
+
+export const templ = {
+  type: 'markup',
+  color: '#66D0DD',
+  tm_scope: 'source.templ',
+  ace_mode: 'text',
+  language_id: 795579337,
+  extensions: [
+    '.templ',
   ],
 } as const
 
