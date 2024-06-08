@@ -36,7 +36,9 @@ jobs:
         run: pnpm install
 
       - name: Download GitHub Languages
-        run: pnpm run languages:download
+        run:
+          node --version
+          pnpm run languages:download
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
