@@ -1,0 +1,20 @@
+{
+  "name": "@luxass/github-languages",
+  "version": "1.0.3",
+  "exports": {
+    ".": "./src/index.ts",
+    "./languages": "./src/languages.ts",
+    "./json": "./languages.json"
+  },
+  "exclude": [
+    "tsup.config.ts",
+    "eslint.config.js",
+    "pnpm-lock.yaml",
+    ".env.example",
+    ".github/**",
+    "scripts/**"
+  ],
+  "include": [
+    "github-schema.graphql"
+  ]
+}
