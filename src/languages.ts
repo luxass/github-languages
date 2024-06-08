@@ -1,3 +1,6 @@
+/**
+ * Github's language definition for 1C Enterprise.
+ */
 export const _1CEnterprise = {
   type: 'programming',
   color: '#814CCC',
@@ -10,6 +13,9 @@ export const _1CEnterprise = {
   ],
 } as const
 
+/**
+ * Github's language definition for 2-Dimensional Array.
+ */
 export const _2_DimensionalArray = {
   type: 'data',
   color: '#38761D',
@@ -21,6 +27,9 @@ export const _2_DimensionalArray = {
   ],
 } as const
 
+/**
+ * Github's language definition for 4D.
+ */
 export const _4D = {
   type: 'programming',
   color: '#004289',
@@ -32,6 +41,9 @@ export const _4D = {
   ],
 } as const
 
+/**
+ * Github's language definition for ABAP.
+ */
 export const ABAP = {
   type: 'programming',
   color: '#E8274B',
@@ -43,6 +55,9 @@ export const ABAP = {
   ],
 } as const
 
+/**
+ * Github's language definition for ABAP CDS.
+ */
 export const ABAPCDS = {
   type: 'programming',
   color: '#555e25',
@@ -54,6 +69,9 @@ export const ABAPCDS = {
   ],
 } as const
 
+/**
+ * Github's language definition for ABNF.
+ */
 export const ABNF = {
   type: 'data',
   tm_scope: 'source.abnf',
@@ -64,6 +82,9 @@ export const ABNF = {
   ],
 } as const
 
+/**
+ * Github's language definition for AGS Script.
+ */
 export const AGSScript = {
   type: 'programming',
   color: '#B9D9FF',
@@ -81,6 +102,9 @@ export const AGSScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for AIDL.
+ */
 export const AIDL = {
   type: 'programming',
   color: '#34EB6B',
@@ -95,6 +119,9 @@ export const AIDL = {
   ],
 } as const
 
+/**
+ * Github's language definition for AL.
+ */
 export const AL = {
   type: 'programming',
   color: '#3AA2B5',
@@ -106,6 +133,9 @@ export const AL = {
   ],
 } as const
 
+/**
+ * Github's language definition for AMPL.
+ */
 export const AMPL = {
   type: 'programming',
   color: '#E6EFBB',
@@ -118,6 +148,9 @@ export const AMPL = {
   ],
 } as const
 
+/**
+ * Github's language definition for ANTLR.
+ */
 export const ANTLR = {
   type: 'programming',
   color: '#9DC3FF',
@@ -129,6 +162,9 @@ export const ANTLR = {
   ],
 } as const
 
+/**
+ * Github's language definition for API Blueprint.
+ */
 export const APIBlueprint = {
   type: 'markup',
   color: '#2ACCA8',
@@ -140,6 +176,9 @@ export const APIBlueprint = {
   ],
 } as const
 
+/**
+ * Github's language definition for APL.
+ */
 export const APL = {
   type: 'programming',
   color: '#5A8164',
@@ -159,6 +198,9 @@ export const APL = {
   ],
 } as const
 
+/**
+ * Github's language definition for ASL.
+ */
 export const ASL = {
   type: 'programming',
   tm_scope: 'source.asl',
@@ -170,6 +212,9 @@ export const ASL = {
   ],
 } as const
 
+/**
+ * Github's language definition for ASN.1.
+ */
 export const ASN1 = {
   type: 'data',
   tm_scope: 'source.asn',
@@ -183,6 +228,9 @@ export const ASN1 = {
   ],
 } as const
 
+/**
+ * Github's language definition for ASP.NET.
+ */
 export const ASPNET = {
   type: 'programming',
   color: '#9400ff',
@@ -205,6 +253,9 @@ export const ASPNET = {
   ],
 } as const
 
+/**
+ * Github's language definition for ATS.
+ */
 export const ATS = {
   type: 'programming',
   color: '#1ac620',
@@ -221,6 +272,9 @@ export const ATS = {
   ],
 } as const
 
+/**
+ * Github's language definition for ActionScript.
+ */
 export const ActionScript = {
   type: 'programming',
   color: '#882B0F',
@@ -237,6 +291,9 @@ export const ActionScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for Ada.
+ */
 export const Ada = {
   type: 'programming',
   color: '#02f88c',
@@ -254,6 +311,9 @@ export const Ada = {
   ],
 } as const
 
+/**
+ * Github's language definition for Adblock Filter List.
+ */
 export const AdblockFilterList = {
   type: 'data',
   color: '#800000',
@@ -271,6 +331,9 @@ export const AdblockFilterList = {
   ],
 } as const
 
+/**
+ * Github's language definition for Adobe Font Metrics.
+ */
 export const AdobeFontMetrics = {
   type: 'data',
   color: '#fa0f00',
@@ -288,6 +351,9 @@ export const AdobeFontMetrics = {
   ],
 } as const
 
+/**
+ * Github's language definition for Agda.
+ */
 export const Agda = {
   type: 'programming',
   color: '#315665',
@@ -299,6 +365,9 @@ export const Agda = {
   ],
 } as const
 
+/**
+ * Github's language definition for Alloy.
+ */
 export const Alloy = {
   type: 'programming',
   color: '#64C800',
@@ -310,6 +379,9 @@ export const Alloy = {
   ],
 } as const
 
+/**
+ * Github's language definition for Alpine Abuild.
+ */
 export const AlpineAbuild = {
   type: 'programming',
   color: '#0D597F',
@@ -328,6 +400,9 @@ export const AlpineAbuild = {
   ],
 } as const
 
+/**
+ * Github's language definition for Altium Designer.
+ */
 export const AltiumDesigner = {
   type: 'data',
   color: '#A89663',
@@ -345,6 +420,9 @@ export const AltiumDesigner = {
   ],
 } as const
 
+/**
+ * Github's language definition for AngelScript.
+ */
 export const AngelScript = {
   type: 'programming',
   color: '#C7D7DC',
@@ -359,6 +437,9 @@ export const AngelScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for Ant Build System.
+ */
 export const AntBuildSystem = {
   type: 'data',
   color: '#A9157E',
@@ -373,6 +454,9 @@ export const AntBuildSystem = {
   ],
 } as const
 
+/**
+ * Github's language definition for Antlers.
+ */
 export const Antlers = {
   type: 'markup',
   color: '#ff269e',
@@ -386,6 +470,9 @@ export const Antlers = {
   ],
 } as const
 
+/**
+ * Github's language definition for ApacheConf.
+ */
 export const ApacheConf = {
   type: 'data',
   color: '#d12127',
@@ -407,6 +494,9 @@ export const ApacheConf = {
   ],
 } as const
 
+/**
+ * Github's language definition for Apex.
+ */
 export const Apex = {
   type: 'programming',
   color: '#1797c0',
@@ -421,6 +511,9 @@ export const Apex = {
   ],
 } as const
 
+/**
+ * Github's language definition for Apollo Guidance Computer.
+ */
 export const ApolloGuidanceComputer = {
   type: 'programming',
   color: '#0B3D91',
@@ -433,6 +526,9 @@ export const ApolloGuidanceComputer = {
   ],
 } as const
 
+/**
+ * Github's language definition for AppleScript.
+ */
 export const AppleScript = {
   type: 'programming',
   color: '#101F1F',
@@ -451,6 +547,9 @@ export const AppleScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for Arc.
+ */
 export const Arc = {
   type: 'programming',
   color: '#aa2afe',
@@ -462,6 +561,9 @@ export const Arc = {
   ],
 } as const
 
+/**
+ * Github's language definition for AsciiDoc.
+ */
 export const AsciiDoc = {
   type: 'prose',
   color: '#73a0c5',
@@ -476,6 +578,9 @@ export const AsciiDoc = {
   ],
 } as const
 
+/**
+ * Github's language definition for AspectJ.
+ */
 export const AspectJ = {
   type: 'programming',
   color: '#a957b0',
@@ -487,6 +592,9 @@ export const AspectJ = {
   ],
 } as const
 
+/**
+ * Github's language definition for Assembly.
+ */
 export const Assembly = {
   type: 'programming',
   color: '#6E4C13',
@@ -507,6 +615,9 @@ export const Assembly = {
   ],
 } as const
 
+/**
+ * Github's language definition for Astro.
+ */
 export const Astro = {
   type: 'markup',
   color: '#ff5a03',
@@ -520,6 +631,9 @@ export const Astro = {
   ],
 } as const
 
+/**
+ * Github's language definition for Asymptote.
+ */
 export const Asymptote = {
   type: 'programming',
   color: '#ff0000',
@@ -536,6 +650,9 @@ export const Asymptote = {
   ],
 } as const
 
+/**
+ * Github's language definition for Augeas.
+ */
 export const Augeas = {
   type: 'programming',
   color: '#9CC134',
@@ -547,6 +664,9 @@ export const Augeas = {
   ],
 } as const
 
+/**
+ * Github's language definition for AutoHotkey.
+ */
 export const AutoHotkey = {
   type: 'programming',
   color: '#6594b9',
@@ -562,6 +682,9 @@ export const AutoHotkey = {
   ],
 } as const
 
+/**
+ * Github's language definition for AutoIt.
+ */
 export const AutoIt = {
   type: 'programming',
   color: '#1C3552',
@@ -578,6 +701,9 @@ export const AutoIt = {
   ],
 } as const
 
+/**
+ * Github's language definition for Avro IDL.
+ */
 export const AvroIDL = {
   type: 'data',
   color: '#0040FF',
@@ -589,6 +715,9 @@ export const AvroIDL = {
   ],
 } as const
 
+/**
+ * Github's language definition for Awk.
+ */
 export const Awk = {
   type: 'programming',
   color: '#c30e9b',
@@ -610,6 +739,9 @@ export const Awk = {
   ],
 } as const
 
+/**
+ * Github's language definition for BASIC.
+ */
 export const BASIC = {
   type: 'programming',
   color: '#ff0000',
@@ -621,6 +753,9 @@ export const BASIC = {
   ],
 } as const
 
+/**
+ * Github's language definition for BQN.
+ */
 export const BQN = {
   type: 'programming',
   color: '#2b7067',
@@ -632,6 +767,9 @@ export const BQN = {
   ],
 } as const
 
+/**
+ * Github's language definition for Ballerina.
+ */
 export const Ballerina = {
   type: 'programming',
   color: '#FF5000',
@@ -643,6 +781,9 @@ export const Ballerina = {
   ],
 } as const
 
+/**
+ * Github's language definition for Batchfile.
+ */
 export const Batchfile = {
   type: 'programming',
   color: '#C1F12E',
@@ -661,6 +802,9 @@ export const Batchfile = {
   ],
 } as const
 
+/**
+ * Github's language definition for Beef.
+ */
 export const Beef = {
   type: 'programming',
   color: '#a52f4e',
@@ -674,6 +818,9 @@ export const Beef = {
   ],
 } as const
 
+/**
+ * Github's language definition for Befunge.
+ */
 export const Befunge = {
   type: 'programming',
   tm_scope: 'source.befunge',
@@ -685,6 +832,9 @@ export const Befunge = {
   ],
 } as const
 
+/**
+ * Github's language definition for Berry.
+ */
 export const Berry = {
   type: 'programming',
   color: '#15A13C',
@@ -699,6 +849,9 @@ export const Berry = {
   ],
 } as const
 
+/**
+ * Github's language definition for BibTeX.
+ */
 export const BibTeX = {
   type: 'markup',
   color: '#778899',
@@ -714,6 +867,9 @@ export const BibTeX = {
   ],
 } as const
 
+/**
+ * Github's language definition for Bicep.
+ */
 export const Bicep = {
   type: 'programming',
   color: '#519aba',
@@ -726,6 +882,9 @@ export const Bicep = {
   ],
 } as const
 
+/**
+ * Github's language definition for Bikeshed.
+ */
 export const Bikeshed = {
   type: 'markup',
   color: '#5562ac',
@@ -739,6 +898,9 @@ export const Bikeshed = {
   ],
 } as const
 
+/**
+ * Github's language definition for Bison.
+ */
 export const Bison = {
   type: 'programming',
   color: '#6A463F',
@@ -751,6 +913,9 @@ export const Bison = {
   ],
 } as const
 
+/**
+ * Github's language definition for BitBake.
+ */
 export const BitBake = {
   type: 'programming',
   color: '#00bce4',
@@ -765,6 +930,9 @@ export const BitBake = {
   ],
 } as const
 
+/**
+ * Github's language definition for Blade.
+ */
 export const Blade = {
   type: 'markup',
   color: '#f7523f',
@@ -777,6 +945,9 @@ export const Blade = {
   ],
 } as const
 
+/**
+ * Github's language definition for BlitzBasic.
+ */
 export const BlitzBasic = {
   type: 'programming',
   color: '#00FFAE',
@@ -795,6 +966,9 @@ export const BlitzBasic = {
   ],
 } as const
 
+/**
+ * Github's language definition for BlitzMax.
+ */
 export const BlitzMax = {
   type: 'programming',
   color: '#cd6400',
@@ -809,6 +983,9 @@ export const BlitzMax = {
   ],
 } as const
 
+/**
+ * Github's language definition for Bluespec.
+ */
 export const Bluespec = {
   type: 'programming',
   color: '#12223c',
@@ -826,6 +1003,9 @@ export const Bluespec = {
   ],
 } as const
 
+/**
+ * Github's language definition for Bluespec BH.
+ */
 export const BluespecBH = {
   type: 'programming',
   color: '#12223c',
@@ -844,6 +1024,9 @@ export const BluespecBH = {
   ],
 } as const
 
+/**
+ * Github's language definition for Boo.
+ */
 export const Boo = {
   type: 'programming',
   color: '#d4bec1',
@@ -855,6 +1038,9 @@ export const Boo = {
   ],
 } as const
 
+/**
+ * Github's language definition for Boogie.
+ */
 export const Boogie = {
   type: 'programming',
   color: '#c80fa0',
@@ -869,6 +1055,9 @@ export const Boogie = {
   ],
 } as const
 
+/**
+ * Github's language definition for Brainfuck.
+ */
 export const Brainfuck = {
   type: 'programming',
   color: '#2F2530',
@@ -883,6 +1072,9 @@ export const Brainfuck = {
   ],
 } as const
 
+/**
+ * Github's language definition for BrighterScript.
+ */
 export const BrighterScript = {
   type: 'programming',
   color: '#66AABB',
@@ -894,6 +1086,9 @@ export const BrighterScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for Brightscript.
+ */
 export const Brightscript = {
   type: 'programming',
   color: '#662D91',
@@ -905,6 +1100,9 @@ export const Brightscript = {
   ],
 } as const
 
+/**
+ * Github's language definition for Browserslist.
+ */
 export const Browserslist = {
   type: 'data',
   color: '#ffd539',
@@ -917,6 +1115,9 @@ export const Browserslist = {
   ],
 } as const
 
+/**
+ * Github's language definition for C.
+ */
 export const C = {
   type: 'programming',
   color: '#555555',
@@ -936,6 +1137,9 @@ export const C = {
   ],
 } as const
 
+/**
+ * Github's language definition for C#.
+ */
 export const Csharp = {
   type: 'programming',
   color: '#178600',
@@ -958,6 +1162,9 @@ export const Csharp = {
   ],
 } as const
 
+/**
+ * Github's language definition for C++.
+ */
 export const Cpp = {
   type: 'programming',
   color: '#f34b7d',
@@ -993,6 +1200,9 @@ export const Cpp = {
   ],
 } as const
 
+/**
+ * Github's language definition for C-ObjDump.
+ */
 export const C_ObjDump = {
   type: 'data',
   tm_scope: 'objdump.x86asm',
@@ -1003,6 +1213,9 @@ export const C_ObjDump = {
   ],
 } as const
 
+/**
+ * Github's language definition for C2hs Haskell.
+ */
 export const C2hsHaskell = {
   type: 'programming',
   aliases: [
@@ -1019,6 +1232,9 @@ export const C2hsHaskell = {
   ],
 } as const
 
+/**
+ * Github's language definition for CAP CDS.
+ */
 export const CAPCDS = {
   type: 'programming',
   color: '#0092d1',
@@ -1033,6 +1249,9 @@ export const CAPCDS = {
   ],
 } as const
 
+/**
+ * Github's language definition for CIL.
+ */
 export const CIL = {
   type: 'data',
   tm_scope: 'source.cil',
@@ -1043,6 +1262,9 @@ export const CIL = {
   ],
 } as const
 
+/**
+ * Github's language definition for CLIPS.
+ */
 export const CLIPS = {
   type: 'programming',
   color: '#00A300',
@@ -1054,6 +1276,9 @@ export const CLIPS = {
   ],
 } as const
 
+/**
+ * Github's language definition for CMake.
+ */
 export const CMake = {
   type: 'programming',
   color: '#DA3434',
@@ -1071,6 +1296,9 @@ export const CMake = {
   ],
 } as const
 
+/**
+ * Github's language definition for COBOL.
+ */
 export const COBOL = {
   type: 'programming',
   tm_scope: 'source.cobol',
@@ -1087,6 +1315,9 @@ export const COBOL = {
   ],
 } as const
 
+/**
+ * Github's language definition for CODEOWNERS.
+ */
 export const CODEOWNERS = {
   type: 'data',
   tm_scope: 'text.codeowners',
@@ -1097,6 +1328,9 @@ export const CODEOWNERS = {
   ],
 } as const
 
+/**
+ * Github's language definition for COLLADA.
+ */
 export const COLLADA = {
   type: 'data',
   color: '#F1A42B',
@@ -1110,6 +1344,9 @@ export const COLLADA = {
   ],
 } as const
 
+/**
+ * Github's language definition for CSON.
+ */
 export const CSON = {
   type: 'data',
   color: '#244776',
@@ -1123,6 +1360,9 @@ export const CSON = {
   ],
 } as const
 
+/**
+ * Github's language definition for CSS.
+ */
 export const CSS = {
   type: 'markup',
   color: '#563d7c',
@@ -1136,6 +1376,9 @@ export const CSS = {
   ],
 } as const
 
+/**
+ * Github's language definition for CSV.
+ */
 export const CSV = {
   type: 'data',
   color: '#237346',
@@ -1147,6 +1390,9 @@ export const CSV = {
   ],
 } as const
 
+/**
+ * Github's language definition for CUE.
+ */
 export const CUE = {
   type: 'programming',
   color: '#5886E1',
@@ -1158,6 +1404,9 @@ export const CUE = {
   ],
 } as const
 
+/**
+ * Github's language definition for CWeb.
+ */
 export const CWeb = {
   type: 'programming',
   color: '#00007a',
@@ -1169,6 +1418,9 @@ export const CWeb = {
   ],
 } as const
 
+/**
+ * Github's language definition for Cabal Config.
+ */
 export const CabalConfig = {
   type: 'data',
   color: '#483465',
@@ -1189,6 +1441,9 @@ export const CabalConfig = {
   ],
 } as const
 
+/**
+ * Github's language definition for Caddyfile.
+ */
 export const Caddyfile = {
   type: 'data',
   color: '#22b638',
@@ -1206,6 +1461,9 @@ export const Caddyfile = {
   ],
 } as const
 
+/**
+ * Github's language definition for Cadence.
+ */
 export const Cadence = {
   type: 'programming',
   color: '#00ef8b',
@@ -1217,6 +1475,9 @@ export const Cadence = {
   ],
 } as const
 
+/**
+ * Github's language definition for Cairo.
+ */
 export const Cairo = {
   type: 'programming',
   color: '#ff4a48',
@@ -1228,6 +1489,9 @@ export const Cairo = {
   ],
 } as const
 
+/**
+ * Github's language definition for CameLIGO.
+ */
 export const CameLIGO = {
   type: 'programming',
   color: '#3be133',
@@ -1242,6 +1506,9 @@ export const CameLIGO = {
   ],
 } as const
 
+/**
+ * Github's language definition for Cap'n Proto.
+ */
 export const CapnProto = {
   type: 'programming',
   color: '#c42727',
@@ -1253,6 +1520,9 @@ export const CapnProto = {
   ],
 } as const
 
+/**
+ * Github's language definition for CartoCSS.
+ */
 export const CartoCSS = {
   type: 'programming',
   aliases: [
@@ -1266,6 +1536,9 @@ export const CartoCSS = {
   ],
 } as const
 
+/**
+ * Github's language definition for Ceylon.
+ */
 export const Ceylon = {
   type: 'programming',
   color: '#dfa535',
@@ -1277,6 +1550,9 @@ export const Ceylon = {
   ],
 } as const
 
+/**
+ * Github's language definition for Chapel.
+ */
 export const Chapel = {
   type: 'programming',
   color: '#8dc63f',
@@ -1291,6 +1567,9 @@ export const Chapel = {
   ],
 } as const
 
+/**
+ * Github's language definition for Charity.
+ */
 export const Charity = {
   type: 'programming',
   tm_scope: 'none',
@@ -1301,6 +1580,9 @@ export const Charity = {
   ],
 } as const
 
+/**
+ * Github's language definition for Checksums.
+ */
 export const Checksums = {
   type: 'data',
   aliases: [
@@ -1339,6 +1621,9 @@ export const Checksums = {
   ],
 } as const
 
+/**
+ * Github's language definition for ChucK.
+ */
 export const ChucK = {
   type: 'programming',
   color: '#3f8000',
@@ -1352,6 +1637,9 @@ export const ChucK = {
   ],
 } as const
 
+/**
+ * Github's language definition for Circom.
+ */
 export const Circom = {
   type: 'programming',
   color: '#707575',
@@ -1363,6 +1651,9 @@ export const Circom = {
   ],
 } as const
 
+/**
+ * Github's language definition for Cirru.
+ */
 export const Cirru = {
   type: 'programming',
   color: '#ccccff',
@@ -1374,6 +1665,9 @@ export const Cirru = {
   ],
 } as const
 
+/**
+ * Github's language definition for Clarion.
+ */
 export const Clarion = {
   type: 'programming',
   color: '#db901e',
@@ -1385,6 +1679,9 @@ export const Clarion = {
   ],
 } as const
 
+/**
+ * Github's language definition for Clarity.
+ */
 export const Clarity = {
   type: 'programming',
   color: '#5546ff',
@@ -1396,6 +1693,9 @@ export const Clarity = {
   ],
 } as const
 
+/**
+ * Github's language definition for Classic ASP.
+ */
 export const ClassicASP = {
   type: 'programming',
   color: '#6a40fd',
@@ -1410,6 +1710,9 @@ export const ClassicASP = {
   ],
 } as const
 
+/**
+ * Github's language definition for Clean.
+ */
 export const Clean = {
   type: 'programming',
   color: '#3F85AF',
@@ -1422,6 +1725,9 @@ export const Clean = {
   ],
 } as const
 
+/**
+ * Github's language definition for Click.
+ */
 export const Click = {
   type: 'programming',
   color: '#E4E6F3',
@@ -1433,6 +1739,9 @@ export const Click = {
   ],
 } as const
 
+/**
+ * Github's language definition for Clojure.
+ */
 export const Clojure = {
   type: 'programming',
   color: '#db5855',
@@ -1461,6 +1770,9 @@ export const Clojure = {
   ],
 } as const
 
+/**
+ * Github's language definition for Closure Templates.
+ */
 export const ClosureTemplates = {
   type: 'markup',
   color: '#0d948f',
@@ -1477,6 +1789,9 @@ export const ClosureTemplates = {
   ],
 } as const
 
+/**
+ * Github's language definition for Cloud Firestore Security Rules.
+ */
 export const CloudFirestoreSecurityRules = {
   type: 'data',
   color: '#FFA000',
@@ -1490,6 +1805,9 @@ export const CloudFirestoreSecurityRules = {
   ],
 } as const
 
+/**
+ * Github's language definition for CoNLL-U.
+ */
 export const CoNLL_U = {
   type: 'data',
   aliases: [
@@ -1505,6 +1823,9 @@ export const CoNLL_U = {
   ],
 } as const
 
+/**
+ * Github's language definition for CodeQL.
+ */
 export const CodeQL = {
   type: 'programming',
   color: '#140f46',
@@ -1520,6 +1841,9 @@ export const CodeQL = {
   ],
 } as const
 
+/**
+ * Github's language definition for CoffeeScript.
+ */
 export const CoffeeScript = {
   type: 'programming',
   color: '#244776',
@@ -1547,6 +1871,9 @@ export const CoffeeScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for ColdFusion.
+ */
 export const ColdFusion = {
   type: 'programming',
   color: '#ed2cd6',
@@ -1564,6 +1891,9 @@ export const ColdFusion = {
   ],
 } as const
 
+/**
+ * Github's language definition for ColdFusion CFC.
+ */
 export const ColdFusionCFC = {
   type: 'programming',
   color: '#ed2cd6',
@@ -1579,6 +1909,9 @@ export const ColdFusionCFC = {
   ],
 } as const
 
+/**
+ * Github's language definition for Common Lisp.
+ */
 export const CommonLisp = {
   type: 'programming',
   color: '#3fb68b',
@@ -1609,6 +1942,9 @@ export const CommonLisp = {
   ],
 } as const
 
+/**
+ * Github's language definition for Common Workflow Language.
+ */
 export const CommonWorkflowLanguage = {
   type: 'programming',
   color: '#B5314C',
@@ -1628,6 +1964,9 @@ export const CommonWorkflowLanguage = {
   ],
 } as const
 
+/**
+ * Github's language definition for Component Pascal.
+ */
 export const ComponentPascal = {
   type: 'programming',
   color: '#B0CE4E',
@@ -1642,6 +1981,9 @@ export const ComponentPascal = {
   ],
 } as const
 
+/**
+ * Github's language definition for Cool.
+ */
 export const Cool = {
   type: 'programming',
   tm_scope: 'source.cool',
@@ -1652,6 +1994,9 @@ export const Cool = {
   ],
 } as const
 
+/**
+ * Github's language definition for Coq.
+ */
 export const Coq = {
   type: 'programming',
   color: '#d0b68c',
@@ -1664,6 +2009,9 @@ export const Coq = {
   ],
 } as const
 
+/**
+ * Github's language definition for Cpp-ObjDump.
+ */
 export const Cpp_ObjDump = {
   type: 'data',
   aliases: [
@@ -1681,6 +2029,9 @@ export const Cpp_ObjDump = {
   ],
 } as const
 
+/**
+ * Github's language definition for Creole.
+ */
 export const Creole = {
   type: 'prose',
   tm_scope: 'text.html.creole',
@@ -1692,6 +2043,9 @@ export const Creole = {
   ],
 } as const
 
+/**
+ * Github's language definition for Crystal.
+ */
 export const Crystal = {
   type: 'programming',
   color: '#000100',
@@ -1708,6 +2062,9 @@ export const Crystal = {
   ],
 } as const
 
+/**
+ * Github's language definition for Csound.
+ */
 export const Csound = {
   type: 'programming',
   color: '#1a1a1a',
@@ -1723,6 +2080,9 @@ export const Csound = {
   ],
 } as const
 
+/**
+ * Github's language definition for Csound Document.
+ */
 export const CsoundDocument = {
   type: 'programming',
   color: '#1a1a1a',
@@ -1737,6 +2097,9 @@ export const CsoundDocument = {
   ],
 } as const
 
+/**
+ * Github's language definition for Csound Score.
+ */
 export const CsoundScore = {
   type: 'programming',
   color: '#1a1a1a',
@@ -1751,6 +2114,9 @@ export const CsoundScore = {
   ],
 } as const
 
+/**
+ * Github's language definition for Cuda.
+ */
 export const Cuda = {
   type: 'programming',
   color: '#3A4E3A',
@@ -1765,6 +2131,9 @@ export const Cuda = {
   ],
 } as const
 
+/**
+ * Github's language definition for Cue Sheet.
+ */
 export const CueSheet = {
   type: 'data',
   tm_scope: 'source.cuesheet',
@@ -1775,6 +2144,9 @@ export const CueSheet = {
   ],
 } as const
 
+/**
+ * Github's language definition for Curry.
+ */
 export const Curry = {
   type: 'programming',
   color: '#531242',
@@ -1786,6 +2158,9 @@ export const Curry = {
   ],
 } as const
 
+/**
+ * Github's language definition for Cycript.
+ */
 export const Cycript = {
   type: 'programming',
   tm_scope: 'source.js',
@@ -1798,6 +2173,9 @@ export const Cycript = {
   ],
 } as const
 
+/**
+ * Github's language definition for Cypher.
+ */
 export const Cypher = {
   type: 'programming',
   color: '#34c0eb',
@@ -1810,6 +2188,9 @@ export const Cypher = {
   ],
 } as const
 
+/**
+ * Github's language definition for Cython.
+ */
 export const Cython = {
   type: 'programming',
   color: '#fedf5b',
@@ -1828,6 +2209,9 @@ export const Cython = {
   ],
 } as const
 
+/**
+ * Github's language definition for D.
+ */
 export const D = {
   type: 'programming',
   color: '#ba595e',
@@ -1845,6 +2229,9 @@ export const D = {
   ],
 } as const
 
+/**
+ * Github's language definition for D-ObjDump.
+ */
 export const D_ObjDump = {
   type: 'data',
   tm_scope: 'objdump.x86asm',
@@ -1855,6 +2242,9 @@ export const D_ObjDump = {
   ],
 } as const
 
+/**
+ * Github's language definition for D2.
+ */
 export const D2 = {
   type: 'markup',
   color: '#526ee8',
@@ -1869,6 +2259,9 @@ export const D2 = {
   ],
 } as const
 
+/**
+ * Github's language definition for DIGITAL Command Language.
+ */
 export const DIGITALCommandLanguage = {
   type: 'programming',
   aliases: [
@@ -1882,6 +2275,9 @@ export const DIGITALCommandLanguage = {
   ],
 } as const
 
+/**
+ * Github's language definition for DM.
+ */
 export const DM = {
   type: 'programming',
   color: '#447265',
@@ -1896,6 +2292,9 @@ export const DM = {
   ],
 } as const
 
+/**
+ * Github's language definition for DNS Zone.
+ */
 export const DNSZone = {
   type: 'data',
   tm_scope: 'text.zone_file',
@@ -1907,6 +2306,9 @@ export const DNSZone = {
   ],
 } as const
 
+/**
+ * Github's language definition for DTrace.
+ */
 export const DTrace = {
   type: 'programming',
   aliases: [
@@ -1925,6 +2327,9 @@ export const DTrace = {
   ],
 } as const
 
+/**
+ * Github's language definition for Dafny.
+ */
 export const Dafny = {
   type: 'programming',
   color: '#FFEC25',
@@ -1939,6 +2344,9 @@ export const Dafny = {
   ],
 } as const
 
+/**
+ * Github's language definition for Darcs Patch.
+ */
 export const DarcsPatch = {
   type: 'data',
   color: '#8eff23',
@@ -1954,6 +2362,9 @@ export const DarcsPatch = {
   ],
 } as const
 
+/**
+ * Github's language definition for Dart.
+ */
 export const Dart = {
   type: 'programming',
   color: '#00B4AB',
@@ -1970,6 +2381,9 @@ export const Dart = {
   ],
 } as const
 
+/**
+ * Github's language definition for DataWeave.
+ */
 export const DataWeave = {
   type: 'programming',
   color: '#003a52',
@@ -1981,6 +2395,9 @@ export const DataWeave = {
   ],
 } as const
 
+/**
+ * Github's language definition for Debian Package Control File.
+ */
 export const DebianPackageControlFile = {
   type: 'data',
   color: '#D70751',
@@ -1992,6 +2409,9 @@ export const DebianPackageControlFile = {
   ],
 } as const
 
+/**
+ * Github's language definition for DenizenScript.
+ */
 export const DenizenScript = {
   type: 'programming',
   color: '#FBEE96',
@@ -2005,6 +2425,9 @@ export const DenizenScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for Dhall.
+ */
 export const Dhall = {
   type: 'programming',
   color: '#dfafff',
@@ -2018,6 +2441,9 @@ export const Dhall = {
   ],
 } as const
 
+/**
+ * Github's language definition for Diff.
+ */
 export const Diff = {
   type: 'data',
   aliases: [
@@ -2034,6 +2460,9 @@ export const Diff = {
   ],
 } as const
 
+/**
+ * Github's language definition for DirectX 3D File.
+ */
 export const DirectX3DFile = {
   type: 'data',
   color: '#aace60',
@@ -2045,6 +2474,9 @@ export const DirectX3DFile = {
   ],
 } as const
 
+/**
+ * Github's language definition for Dockerfile.
+ */
 export const Dockerfile = {
   type: 'programming',
   color: '#384d54',
@@ -2065,6 +2497,9 @@ export const Dockerfile = {
   ],
 } as const
 
+/**
+ * Github's language definition for Dogescript.
+ */
 export const Dogescript = {
   type: 'programming',
   color: '#cca760',
@@ -2076,6 +2511,9 @@ export const Dogescript = {
   ],
 } as const
 
+/**
+ * Github's language definition for Dotenv.
+ */
 export const Dotenv = {
   type: 'data',
   color: '#e5d559',
@@ -2102,6 +2540,9 @@ export const Dotenv = {
   ],
 } as const
 
+/**
+ * Github's language definition for Dylan.
+ */
 export const Dylan = {
   type: 'programming',
   color: '#6c616e',
@@ -2118,6 +2559,9 @@ export const Dylan = {
   ],
 } as const
 
+/**
+ * Github's language definition for E.
+ */
 export const E = {
   type: 'programming',
   color: '#ccce35',
@@ -2132,6 +2576,9 @@ export const E = {
   ],
 } as const
 
+/**
+ * Github's language definition for E-mail.
+ */
 export const E_mail = {
   type: 'data',
   aliases: [
@@ -2151,6 +2598,9 @@ export const E_mail = {
   ],
 } as const
 
+/**
+ * Github's language definition for EBNF.
+ */
 export const EBNF = {
   type: 'data',
   tm_scope: 'source.ebnf',
@@ -2163,6 +2613,9 @@ export const EBNF = {
   ],
 } as const
 
+/**
+ * Github's language definition for ECL.
+ */
 export const ECL = {
   type: 'programming',
   color: '#8a1267',
@@ -2177,6 +2630,9 @@ export const ECL = {
   ],
 } as const
 
+/**
+ * Github's language definition for ECLiPSe.
+ */
 export const ECLiPSe = {
   type: 'programming',
   color: '#001d9d',
@@ -2189,6 +2645,9 @@ export const ECLiPSe = {
   ],
 } as const
 
+/**
+ * Github's language definition for EJS.
+ */
 export const EJS = {
   type: 'markup',
   color: '#a91e50',
@@ -2203,6 +2662,9 @@ export const EJS = {
   ],
 } as const
 
+/**
+ * Github's language definition for EQ.
+ */
 export const EQ = {
   type: 'programming',
   color: '#a78649',
@@ -2216,6 +2678,9 @@ export const EQ = {
   ],
 } as const
 
+/**
+ * Github's language definition for Eagle.
+ */
 export const Eagle = {
   type: 'data',
   tm_scope: 'text.xml',
@@ -2229,6 +2694,9 @@ export const Eagle = {
   ],
 } as const
 
+/**
+ * Github's language definition for Earthly.
+ */
 export const Earthly = {
   type: 'programming',
   color: '#2af0ff',
@@ -2243,6 +2711,9 @@ export const Earthly = {
   ],
 } as const
 
+/**
+ * Github's language definition for Easybuild.
+ */
 export const Easybuild = {
   type: 'data',
   color: '#069406',
@@ -2257,6 +2728,9 @@ export const Easybuild = {
   ],
 } as const
 
+/**
+ * Github's language definition for Ecere Projects.
+ */
 export const EcereProjects = {
   type: 'data',
   color: '#913960',
@@ -2271,6 +2745,9 @@ export const EcereProjects = {
   ],
 } as const
 
+/**
+ * Github's language definition for Ecmarkup.
+ */
 export const Ecmarkup = {
   type: 'markup',
   color: '#eb8131',
@@ -2288,6 +2765,9 @@ export const Ecmarkup = {
   ],
 } as const
 
+/**
+ * Github's language definition for Edge.
+ */
 export const Edge = {
   type: 'markup',
   color: '#0dffe0',
@@ -2299,6 +2779,9 @@ export const Edge = {
   ],
 } as const
 
+/**
+ * Github's language definition for EdgeQL.
+ */
 export const EdgeQL = {
   type: 'programming',
   color: '#31A7FF',
@@ -2314,6 +2797,9 @@ export const EdgeQL = {
   ],
 } as const
 
+/**
+ * Github's language definition for EditorConfig.
+ */
 export const EditorConfig = {
   type: 'data',
   color: '#fff1f2',
@@ -2334,6 +2820,9 @@ export const EditorConfig = {
   ],
 } as const
 
+/**
+ * Github's language definition for Edje Data Collection.
+ */
 export const EdjeDataCollection = {
   type: 'data',
   tm_scope: 'source.c++',
@@ -2346,6 +2835,9 @@ export const EdjeDataCollection = {
   ],
 } as const
 
+/**
+ * Github's language definition for Eiffel.
+ */
 export const Eiffel = {
   type: 'programming',
   color: '#4d6977',
@@ -2359,6 +2851,9 @@ export const Eiffel = {
   ],
 } as const
 
+/**
+ * Github's language definition for Elixir.
+ */
 export const Elixir = {
   type: 'programming',
   color: '#6e4a7e',
@@ -2377,6 +2872,9 @@ export const Elixir = {
   ],
 } as const
 
+/**
+ * Github's language definition for Elm.
+ */
 export const Elm = {
   type: 'programming',
   color: '#60B5CC',
@@ -2390,6 +2888,9 @@ export const Elm = {
   ],
 } as const
 
+/**
+ * Github's language definition for Elvish.
+ */
 export const Elvish = {
   type: 'programming',
   color: '#55BB55',
@@ -2404,6 +2905,9 @@ export const Elvish = {
   ],
 } as const
 
+/**
+ * Github's language definition for Elvish Transcript.
+ */
 export const ElvishTranscript = {
   type: 'programming',
   color: '#55BB55',
@@ -2413,6 +2917,9 @@ export const ElvishTranscript = {
   language_id: 452025714,
 } as const
 
+/**
+ * Github's language definition for Emacs Lisp.
+ */
 export const EmacsLisp = {
   type: 'programming',
   color: '#c065db',
@@ -2444,6 +2951,9 @@ export const EmacsLisp = {
   ],
 } as const
 
+/**
+ * Github's language definition for EmberScript.
+ */
 export const EmberScript = {
   type: 'programming',
   color: '#FFF4F3',
@@ -2458,6 +2968,9 @@ export const EmberScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for Erlang.
+ */
 export const Erlang = {
   type: 'programming',
   color: '#B83998',
@@ -2487,6 +3000,9 @@ export const Erlang = {
   ],
 } as const
 
+/**
+ * Github's language definition for Euphoria.
+ */
 export const Euphoria = {
   type: 'programming',
   color: '#FF790B',
@@ -2503,6 +3019,9 @@ export const Euphoria = {
   ],
 } as const
 
+/**
+ * Github's language definition for F#.
+ */
 export const Fsharp = {
   type: 'programming',
   color: '#b845fc',
@@ -2521,6 +3040,9 @@ export const Fsharp = {
   ],
 } as const
 
+/**
+ * Github's language definition for F*.
+ */
 export const Fstar = {
   type: 'programming',
   color: '#572e30',
@@ -2537,6 +3059,9 @@ export const Fstar = {
   fs_name: 'Fstar',
 } as const
 
+/**
+ * Github's language definition for FIGlet Font.
+ */
 export const FIGletFont = {
   type: 'data',
   color: '#FFDDBB',
@@ -2551,6 +3076,9 @@ export const FIGletFont = {
   ],
 } as const
 
+/**
+ * Github's language definition for FIRRTL.
+ */
 export const FIRRTL = {
   type: 'programming',
   color: '#2f632f',
@@ -2562,6 +3090,9 @@ export const FIRRTL = {
   ],
 } as const
 
+/**
+ * Github's language definition for FLUX.
+ */
 export const FLUX = {
   type: 'programming',
   color: '#88ccff',
@@ -2574,6 +3105,9 @@ export const FLUX = {
   ],
 } as const
 
+/**
+ * Github's language definition for Factor.
+ */
 export const Factor = {
   type: 'programming',
   color: '#636746',
@@ -2591,6 +3125,9 @@ export const Factor = {
   ],
 } as const
 
+/**
+ * Github's language definition for Fancy.
+ */
 export const Fancy = {
   type: 'programming',
   color: '#7b9db4',
@@ -2606,6 +3143,9 @@ export const Fancy = {
   ],
 } as const
 
+/**
+ * Github's language definition for Fantom.
+ */
 export const Fantom = {
   type: 'programming',
   color: '#14253c',
@@ -2617,6 +3157,9 @@ export const Fantom = {
   ],
 } as const
 
+/**
+ * Github's language definition for Faust.
+ */
 export const Faust = {
   type: 'programming',
   color: '#c37240',
@@ -2628,6 +3171,9 @@ export const Faust = {
   ],
 } as const
 
+/**
+ * Github's language definition for Fennel.
+ */
 export const Fennel = {
   type: 'programming',
   color: '#fff3d7',
@@ -2642,6 +3188,9 @@ export const Fennel = {
   ],
 } as const
 
+/**
+ * Github's language definition for Filebench WML.
+ */
 export const FilebenchWML = {
   type: 'programming',
   color: '#F6B900',
@@ -2653,6 +3202,9 @@ export const FilebenchWML = {
   ],
 } as const
 
+/**
+ * Github's language definition for Filterscript.
+ */
 export const Filterscript = {
   type: 'programming',
   tm_scope: 'none',
@@ -2664,6 +3216,9 @@ export const Filterscript = {
   ],
 } as const
 
+/**
+ * Github's language definition for Fluent.
+ */
 export const Fluent = {
   type: 'programming',
   color: '#ffcc33',
@@ -2675,6 +3230,9 @@ export const Fluent = {
   ],
 } as const
 
+/**
+ * Github's language definition for Formatted.
+ */
 export const Formatted = {
   type: 'data',
   tm_scope: 'none',
@@ -2686,6 +3244,9 @@ export const Formatted = {
   ],
 } as const
 
+/**
+ * Github's language definition for Forth.
+ */
 export const Forth = {
   type: 'programming',
   color: '#341708',
@@ -2706,6 +3267,9 @@ export const Forth = {
   ],
 } as const
 
+/**
+ * Github's language definition for Fortran.
+ */
 export const Fortran = {
   type: 'programming',
   color: '#4d41b1',
@@ -2723,6 +3287,9 @@ export const Fortran = {
   ],
 } as const
 
+/**
+ * Github's language definition for Fortran Free Form.
+ */
 export const FortranFreeForm = {
   type: 'programming',
   color: '#4d41b1',
@@ -2740,6 +3307,9 @@ export const FortranFreeForm = {
   ],
 } as const
 
+/**
+ * Github's language definition for FreeBasic.
+ */
 export const FreeBasic = {
   type: 'programming',
   color: '#141AC9',
@@ -2757,6 +3327,9 @@ export const FreeBasic = {
   ],
 } as const
 
+/**
+ * Github's language definition for FreeMarker.
+ */
 export const FreeMarker = {
   type: 'programming',
   color: '#0050b2',
@@ -2771,6 +3344,9 @@ export const FreeMarker = {
   ],
 } as const
 
+/**
+ * Github's language definition for Frege.
+ */
 export const Frege = {
   type: 'programming',
   color: '#00cafe',
@@ -2782,6 +3358,9 @@ export const Frege = {
   ],
 } as const
 
+/**
+ * Github's language definition for Futhark.
+ */
 export const Futhark = {
   type: 'programming',
   color: '#5f021f',
@@ -2793,6 +3372,9 @@ export const Futhark = {
   ],
 } as const
 
+/**
+ * Github's language definition for G-code.
+ */
 export const G_code = {
   type: 'programming',
   color: '#D08CF2',
@@ -2807,6 +3389,9 @@ export const G_code = {
   ],
 } as const
 
+/**
+ * Github's language definition for GAML.
+ */
 export const GAML = {
   type: 'programming',
   color: '#FFC766',
@@ -2818,6 +3403,9 @@ export const GAML = {
   ],
 } as const
 
+/**
+ * Github's language definition for GAMS.
+ */
 export const GAMS = {
   type: 'programming',
   color: '#f49a22',
@@ -2829,6 +3417,9 @@ export const GAMS = {
   ],
 } as const
 
+/**
+ * Github's language definition for GAP.
+ */
 export const GAP = {
   type: 'programming',
   color: '#0000cc',
@@ -2844,6 +3435,9 @@ export const GAP = {
   ],
 } as const
 
+/**
+ * Github's language definition for GCC Machine Description.
+ */
 export const GCCMachineDescription = {
   type: 'programming',
   color: '#FFCFAB',
@@ -2857,6 +3451,9 @@ export const GCCMachineDescription = {
   ],
 } as const
 
+/**
+ * Github's language definition for GDB.
+ */
 export const GDB = {
   type: 'programming',
   tm_scope: 'source.gdb',
@@ -2868,6 +3465,9 @@ export const GDB = {
   ],
 } as const
 
+/**
+ * Github's language definition for GDScript.
+ */
 export const GDScript = {
   type: 'programming',
   color: '#355570',
@@ -2879,6 +3479,9 @@ export const GDScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for GEDCOM.
+ */
 export const GEDCOM = {
   type: 'data',
   color: '#003058',
@@ -2890,6 +3493,9 @@ export const GEDCOM = {
   ],
 } as const
 
+/**
+ * Github's language definition for GLSL.
+ */
 export const GLSL = {
   type: 'programming',
   color: '#5686a5',
@@ -2923,6 +3529,9 @@ export const GLSL = {
   ],
 } as const
 
+/**
+ * Github's language definition for GN.
+ */
 export const GN = {
   type: 'data',
   tm_scope: 'source.gn',
@@ -2942,6 +3551,9 @@ export const GN = {
   ],
 } as const
 
+/**
+ * Github's language definition for GSC.
+ */
 export const GSC = {
   type: 'programming',
   color: '#FF6800',
@@ -2957,6 +3569,9 @@ export const GSC = {
   ],
 } as const
 
+/**
+ * Github's language definition for Game Maker Language.
+ */
 export const GameMakerLanguage = {
   type: 'programming',
   color: '#71b417',
@@ -2970,6 +3585,9 @@ export const GameMakerLanguage = {
   ],
 } as const
 
+/**
+ * Github's language definition for Gemfile.lock.
+ */
 export const Gemfilelock = {
   type: 'data',
   color: '#701516',
@@ -2982,6 +3600,9 @@ export const Gemfilelock = {
   searchable: false,
 } as const
 
+/**
+ * Github's language definition for Gemini.
+ */
 export const Gemini = {
   type: 'prose',
   color: '#ff6900',
@@ -2997,6 +3618,9 @@ export const Gemini = {
   ],
 } as const
 
+/**
+ * Github's language definition for Genero 4gl.
+ */
 export const Genero4gl = {
   type: 'programming',
   color: '#63408e',
@@ -3008,6 +3632,9 @@ export const Genero4gl = {
   ],
 } as const
 
+/**
+ * Github's language definition for Genero per.
+ */
 export const Generoper = {
   type: 'markup',
   color: '#d8df39',
@@ -3019,6 +3646,9 @@ export const Generoper = {
   ],
 } as const
 
+/**
+ * Github's language definition for Genie.
+ */
 export const Genie = {
   type: 'programming',
   color: '#fb855d',
@@ -3030,6 +3660,9 @@ export const Genie = {
   ],
 } as const
 
+/**
+ * Github's language definition for Genshi.
+ */
 export const Genshi = {
   type: 'programming',
   color: '#951531',
@@ -3047,6 +3680,9 @@ export const Genshi = {
   ],
 } as const
 
+/**
+ * Github's language definition for Gentoo Ebuild.
+ */
 export const GentooEbuild = {
   type: 'programming',
   color: '#9400ff',
@@ -3061,6 +3697,9 @@ export const GentooEbuild = {
   ],
 } as const
 
+/**
+ * Github's language definition for Gentoo Eclass.
+ */
 export const GentooEclass = {
   type: 'programming',
   color: '#9400ff',
@@ -3075,6 +3714,9 @@ export const GentooEclass = {
   ],
 } as const
 
+/**
+ * Github's language definition for Gerber Image.
+ */
 export const GerberImage = {
   type: 'data',
   color: '#d20b00',
@@ -3108,6 +3750,9 @@ export const GerberImage = {
   ],
 } as const
 
+/**
+ * Github's language definition for Gettext Catalog.
+ */
 export const GettextCatalog = {
   type: 'prose',
   aliases: [
@@ -3122,6 +3767,9 @@ export const GettextCatalog = {
   ],
 } as const
 
+/**
+ * Github's language definition for Gherkin.
+ */
 export const Gherkin = {
   type: 'programming',
   color: '#5B2063',
@@ -3137,6 +3785,9 @@ export const Gherkin = {
   ],
 } as const
 
+/**
+ * Github's language definition for Git Attributes.
+ */
 export const GitAttributes = {
   type: 'data',
   color: '#F44D27',
@@ -3153,6 +3804,9 @@ export const GitAttributes = {
   ],
 } as const
 
+/**
+ * Github's language definition for Git Config.
+ */
 export const GitConfig = {
   type: 'data',
   color: '#F44D27',
@@ -3175,6 +3829,9 @@ export const GitConfig = {
   ],
 } as const
 
+/**
+ * Github's language definition for Git Revision List.
+ */
 export const GitRevisionList = {
   type: 'data',
   color: '#F44D27',
@@ -3189,6 +3846,9 @@ export const GitRevisionList = {
   ],
 } as const
 
+/**
+ * Github's language definition for Gleam.
+ */
 export const Gleam = {
   type: 'programming',
   color: '#ffaff3',
@@ -3200,6 +3860,9 @@ export const Gleam = {
   ],
 } as const
 
+/**
+ * Github's language definition for Glimmer JS.
+ */
 export const GlimmerJS = {
   type: 'programming',
   color: '#F5835F',
@@ -3212,6 +3875,9 @@ export const GlimmerJS = {
   ],
 } as const
 
+/**
+ * Github's language definition for Glimmer TS.
+ */
 export const GlimmerTS = {
   type: 'programming',
   color: '#3178c6',
@@ -3224,6 +3890,9 @@ export const GlimmerTS = {
   ],
 } as const
 
+/**
+ * Github's language definition for Glyph.
+ */
 export const Glyph = {
   type: 'programming',
   color: '#c1ac7f',
@@ -3237,6 +3906,9 @@ export const Glyph = {
   ],
 } as const
 
+/**
+ * Github's language definition for Glyph Bitmap Distribution Format.
+ */
 export const GlyphBitmapDistributionFormat = {
   type: 'data',
   tm_scope: 'source.bdf',
@@ -3247,6 +3919,9 @@ export const GlyphBitmapDistributionFormat = {
   ],
 } as const
 
+/**
+ * Github's language definition for Gnuplot.
+ */
 export const Gnuplot = {
   type: 'programming',
   color: '#f0a9f0',
@@ -3266,6 +3941,9 @@ export const Gnuplot = {
   ],
 } as const
 
+/**
+ * Github's language definition for Go.
+ */
 export const Go = {
   type: 'programming',
   color: '#00ADD8',
@@ -3282,6 +3960,9 @@ export const Go = {
   ],
 } as const
 
+/**
+ * Github's language definition for Go Checksums.
+ */
 export const GoChecksums = {
   type: 'data',
   color: '#00ADD8',
@@ -3300,6 +3981,9 @@ export const GoChecksums = {
   ],
 } as const
 
+/**
+ * Github's language definition for Go Module.
+ */
 export const GoModule = {
   type: 'data',
   color: '#00ADD8',
@@ -3315,6 +3999,9 @@ export const GoModule = {
   ],
 } as const
 
+/**
+ * Github's language definition for Go Workspace.
+ */
 export const GoWorkspace = {
   type: 'data',
   color: '#00ADD8',
@@ -3330,6 +4017,9 @@ export const GoWorkspace = {
   ],
 } as const
 
+/**
+ * Github's language definition for Godot Resource.
+ */
 export const GodotResource = {
   type: 'data',
   color: '#355570',
@@ -3347,6 +4037,9 @@ export const GodotResource = {
   ],
 } as const
 
+/**
+ * Github's language definition for Golo.
+ */
 export const Golo = {
   type: 'programming',
   color: '#88562A',
@@ -3358,6 +4051,9 @@ export const Golo = {
   ],
 } as const
 
+/**
+ * Github's language definition for Gosu.
+ */
 export const Gosu = {
   type: 'programming',
   color: '#82937f',
@@ -3372,6 +4068,9 @@ export const Gosu = {
   ],
 } as const
 
+/**
+ * Github's language definition for Grace.
+ */
 export const Grace = {
   type: 'programming',
   color: '#615f8b',
@@ -3383,6 +4082,9 @@ export const Grace = {
   ],
 } as const
 
+/**
+ * Github's language definition for Gradle.
+ */
 export const Gradle = {
   type: 'data',
   color: '#02303a',
@@ -3394,6 +4096,9 @@ export const Gradle = {
   ],
 } as const
 
+/**
+ * Github's language definition for Gradle Kotlin DSL.
+ */
 export const GradleKotlinDSL = {
   type: 'data',
   color: '#02303a',
@@ -3406,6 +4111,9 @@ export const GradleKotlinDSL = {
   ],
 } as const
 
+/**
+ * Github's language definition for Grammatical Framework.
+ */
 export const GrammaticalFramework = {
   type: 'programming',
   color: '#ff0000',
@@ -3422,6 +4130,9 @@ export const GrammaticalFramework = {
   ],
 } as const
 
+/**
+ * Github's language definition for Graph Modeling Language.
+ */
 export const GraphModelingLanguage = {
   type: 'data',
   tm_scope: 'none',
@@ -3432,6 +4143,9 @@ export const GraphModelingLanguage = {
   ],
 } as const
 
+/**
+ * Github's language definition for GraphQL.
+ */
 export const GraphQL = {
   type: 'data',
   color: '#e10098',
@@ -3445,6 +4159,9 @@ export const GraphQL = {
   ],
 } as const
 
+/**
+ * Github's language definition for Graphviz (DOT).
+ */
 export const GraphvizDOT = {
   type: 'data',
   color: '#2596be',
@@ -3457,6 +4174,9 @@ export const GraphvizDOT = {
   ],
 } as const
 
+/**
+ * Github's language definition for Groovy.
+ */
 export const Groovy = {
   type: 'programming',
   color: '#4298b8',
@@ -3479,6 +4199,9 @@ export const Groovy = {
   ],
 } as const
 
+/**
+ * Github's language definition for Groovy Server Pages.
+ */
 export const GroovyServerPages = {
   type: 'programming',
   color: '#4298b8',
@@ -3497,6 +4220,9 @@ export const GroovyServerPages = {
   ],
 } as const
 
+/**
+ * Github's language definition for HAProxy.
+ */
 export const HAProxy = {
   type: 'data',
   color: '#106da9',
@@ -3511,6 +4237,9 @@ export const HAProxy = {
   ],
 } as const
 
+/**
+ * Github's language definition for HCL.
+ */
 export const HCL = {
   type: 'programming',
   color: '#844FBA',
@@ -3532,6 +4261,9 @@ export const HCL = {
   ],
 } as const
 
+/**
+ * Github's language definition for HLSL.
+ */
 export const HLSL = {
   type: 'programming',
   color: '#aace60',
@@ -3547,6 +4279,9 @@ export const HLSL = {
   ],
 } as const
 
+/**
+ * Github's language definition for HOCON.
+ */
 export const HOCON = {
   type: 'data',
   color: '#9ff8ee',
@@ -3562,6 +4297,9 @@ export const HOCON = {
   ],
 } as const
 
+/**
+ * Github's language definition for HTML.
+ */
 export const HTML = {
   type: 'markup',
   color: '#e34c26',
@@ -3584,6 +4322,9 @@ export const HTML = {
   ],
 } as const
 
+/**
+ * Github's language definition for HTML+ECR.
+ */
 export const HTMLpECR = {
   type: 'markup',
   color: '#2e1052',
@@ -3601,6 +4342,9 @@ export const HTMLpECR = {
   ],
 } as const
 
+/**
+ * Github's language definition for HTML+EEX.
+ */
 export const HTMLpEEX = {
   type: 'markup',
   color: '#6e4a7e',
@@ -3622,6 +4366,9 @@ export const HTMLpEEX = {
   ],
 } as const
 
+/**
+ * Github's language definition for HTML+ERB.
+ */
 export const HTMLpERB = {
   type: 'markup',
   color: '#701516',
@@ -3643,6 +4390,9 @@ export const HTMLpERB = {
   ],
 } as const
 
+/**
+ * Github's language definition for HTML+PHP.
+ */
 export const HTMLpPHP = {
   type: 'markup',
   color: '#4f5d95',
@@ -3657,6 +4407,9 @@ export const HTMLpPHP = {
   ],
 } as const
 
+/**
+ * Github's language definition for HTML+Razor.
+ */
 export const HTMLpRazor = {
   type: 'markup',
   color: '#512be4',
@@ -3675,6 +4428,9 @@ export const HTMLpRazor = {
   ],
 } as const
 
+/**
+ * Github's language definition for HTTP.
+ */
 export const HTTP = {
   type: 'data',
   color: '#005C9C',
@@ -3688,6 +4444,9 @@ export const HTTP = {
   ],
 } as const
 
+/**
+ * Github's language definition for HXML.
+ */
 export const HXML = {
   type: 'data',
   color: '#f68712',
@@ -3699,6 +4458,9 @@ export const HXML = {
   ],
 } as const
 
+/**
+ * Github's language definition for Hack.
+ */
 export const Hack = {
   type: 'programming',
   color: '#878787',
@@ -3715,6 +4477,9 @@ export const Hack = {
   ],
 } as const
 
+/**
+ * Github's language definition for Haml.
+ */
 export const Haml = {
   type: 'markup',
   color: '#ece2a9',
@@ -3729,6 +4494,9 @@ export const Haml = {
   ],
 } as const
 
+/**
+ * Github's language definition for Handlebars.
+ */
 export const Handlebars = {
   type: 'markup',
   color: '#f7931e',
@@ -3745,6 +4513,9 @@ export const Handlebars = {
   ],
 } as const
 
+/**
+ * Github's language definition for Harbour.
+ */
 export const Harbour = {
   type: 'programming',
   color: '#0e60e3',
@@ -3756,6 +4527,9 @@ export const Harbour = {
   ],
 } as const
 
+/**
+ * Github's language definition for Haskell.
+ */
 export const Haskell = {
   type: 'programming',
   color: '#5e5086',
@@ -3776,6 +4550,9 @@ export const Haskell = {
   ],
 } as const
 
+/**
+ * Github's language definition for Haxe.
+ */
 export const Haxe = {
   type: 'programming',
   color: '#df7900',
@@ -3790,6 +4567,9 @@ export const Haxe = {
   ],
 } as const
 
+/**
+ * Github's language definition for HiveQL.
+ */
 export const HiveQL = {
   type: 'programming',
   color: '#dce200',
@@ -3802,6 +4582,9 @@ export const HiveQL = {
   ],
 } as const
 
+/**
+ * Github's language definition for HolyC.
+ */
 export const HolyC = {
   type: 'programming',
   color: '#ffefaf',
@@ -3815,6 +4598,9 @@ export const HolyC = {
   ],
 } as const
 
+/**
+ * Github's language definition for Hosts File.
+ */
 export const HostsFile = {
   type: 'data',
   color: '#308888',
@@ -3830,6 +4616,9 @@ export const HostsFile = {
   ],
 } as const
 
+/**
+ * Github's language definition for Hy.
+ */
 export const Hy = {
   type: 'programming',
   color: '#7790B2',
@@ -3847,6 +4636,9 @@ export const Hy = {
   ],
 } as const
 
+/**
+ * Github's language definition for HyPhy.
+ */
 export const HyPhy = {
   type: 'programming',
   tm_scope: 'none',
@@ -3857,6 +4649,9 @@ export const HyPhy = {
   ],
 } as const
 
+/**
+ * Github's language definition for IDL.
+ */
 export const IDL = {
   type: 'programming',
   color: '#a3522f',
@@ -3871,6 +4666,9 @@ export const IDL = {
   ],
 } as const
 
+/**
+ * Github's language definition for IGOR Pro.
+ */
 export const IGORPro = {
   type: 'programming',
   color: '#0000cc',
@@ -3886,6 +4684,9 @@ export const IGORPro = {
   ],
 } as const
 
+/**
+ * Github's language definition for INI.
+ */
 export const INI = {
   type: 'data',
   color: '#d1dbe0',
@@ -3920,6 +4721,9 @@ export const INI = {
   ],
 } as const
 
+/**
+ * Github's language definition for IRC log.
+ */
 export const IRClog = {
   type: 'data',
   aliases: [
@@ -3937,6 +4741,9 @@ export const IRClog = {
   ],
 } as const
 
+/**
+ * Github's language definition for Idris.
+ */
 export const Idris = {
   type: 'programming',
   color: '#b30000',
@@ -3949,6 +4756,9 @@ export const Idris = {
   ],
 } as const
 
+/**
+ * Github's language definition for Ignore List.
+ */
 export const IgnoreList = {
   type: 'data',
   color: '#000000',
@@ -3987,6 +4797,9 @@ export const IgnoreList = {
   ],
 } as const
 
+/**
+ * Github's language definition for ImageJ Macro.
+ */
 export const ImageJMacro = {
   type: 'programming',
   color: '#99AAFF',
@@ -4001,6 +4814,9 @@ export const ImageJMacro = {
   ],
 } as const
 
+/**
+ * Github's language definition for Imba.
+ */
 export const Imba = {
   type: 'programming',
   color: '#16cec6',
@@ -4012,6 +4828,9 @@ export const Imba = {
   ],
 } as const
 
+/**
+ * Github's language definition for Inform 7.
+ */
 export const Inform7 = {
   type: 'programming',
   aliases: [
@@ -4028,6 +4847,9 @@ export const Inform7 = {
   ],
 } as const
 
+/**
+ * Github's language definition for Ink.
+ */
 export const Ink = {
   type: 'programming',
   tm_scope: 'source.ink',
@@ -4039,6 +4861,9 @@ export const Ink = {
   ],
 } as const
 
+/**
+ * Github's language definition for Inno Setup.
+ */
 export const InnoSetup = {
   type: 'programming',
   color: '#264b99',
@@ -4051,6 +4876,9 @@ export const InnoSetup = {
   ],
 } as const
 
+/**
+ * Github's language definition for Io.
+ */
 export const Io = {
   type: 'programming',
   color: '#a9188d',
@@ -4065,6 +4893,9 @@ export const Io = {
   ],
 } as const
 
+/**
+ * Github's language definition for Ioke.
+ */
 export const Ioke = {
   type: 'programming',
   color: '#078193',
@@ -4079,6 +4910,9 @@ export const Ioke = {
   ],
 } as const
 
+/**
+ * Github's language definition for Isabelle.
+ */
 export const Isabelle = {
   type: 'programming',
   color: '#FEFE00',
@@ -4090,6 +4924,9 @@ export const Isabelle = {
   ],
 } as const
 
+/**
+ * Github's language definition for Isabelle ROOT.
+ */
 export const IsabelleROOT = {
   type: 'programming',
   color: '#FEFE00',
@@ -4102,6 +4939,9 @@ export const IsabelleROOT = {
   ],
 } as const
 
+/**
+ * Github's language definition for J.
+ */
 export const J = {
   type: 'programming',
   color: '#9EEDFF',
@@ -4116,6 +4956,9 @@ export const J = {
   ],
 } as const
 
+/**
+ * Github's language definition for JAR Manifest.
+ */
 export const JARManifest = {
   type: 'data',
   color: '#b07219',
@@ -4127,6 +4970,9 @@ export const JARManifest = {
   ],
 } as const
 
+/**
+ * Github's language definition for JCL.
+ */
 export const JCL = {
   type: 'programming',
   color: '#d90e09',
@@ -4138,6 +4984,9 @@ export const JCL = {
   ],
 } as const
 
+/**
+ * Github's language definition for JFlex.
+ */
 export const JFlex = {
   type: 'programming',
   color: '#DBCA00',
@@ -4151,6 +5000,9 @@ export const JFlex = {
   ],
 } as const
 
+/**
+ * Github's language definition for JSON.
+ */
 export const JSON = {
   type: 'data',
   color: '#292929',
@@ -4206,6 +5058,9 @@ export const JSON = {
   ],
 } as const
 
+/**
+ * Github's language definition for JSON with Comments.
+ */
 export const JSONwithComments = {
   type: 'data',
   color: '#292929',
@@ -4254,6 +5109,9 @@ export const JSONwithComments = {
   ],
 } as const
 
+/**
+ * Github's language definition for JSON5.
+ */
 export const JSON5 = {
   type: 'data',
   color: '#267CB9',
@@ -4267,6 +5125,9 @@ export const JSON5 = {
   ],
 } as const
 
+/**
+ * Github's language definition for JSONLD.
+ */
 export const JSONLD = {
   type: 'data',
   color: '#0c479c',
@@ -4280,6 +5141,9 @@ export const JSONLD = {
   ],
 } as const
 
+/**
+ * Github's language definition for JSONiq.
+ */
 export const JSONiq = {
   type: 'programming',
   color: '#40d47e',
@@ -4293,6 +5157,9 @@ export const JSONiq = {
   ],
 } as const
 
+/**
+ * Github's language definition for Janet.
+ */
 export const Janet = {
   type: 'programming',
   color: '#0886a5',
@@ -4309,6 +5176,9 @@ export const Janet = {
   ],
 } as const
 
+/**
+ * Github's language definition for Jasmin.
+ */
 export const Jasmin = {
   type: 'programming',
   color: '#d03600',
@@ -4320,6 +5190,9 @@ export const Jasmin = {
   ],
 } as const
 
+/**
+ * Github's language definition for Java.
+ */
 export const Java = {
   type: 'programming',
   color: '#b07219',
@@ -4335,6 +5208,9 @@ export const Java = {
   ],
 } as const
 
+/**
+ * Github's language definition for Java Properties.
+ */
 export const JavaProperties = {
   type: 'data',
   color: '#2A6277',
@@ -4348,6 +5224,9 @@ export const JavaProperties = {
   ],
 } as const
 
+/**
+ * Github's language definition for Java Server Pages.
+ */
 export const JavaServerPages = {
   type: 'programming',
   color: '#2A6277',
@@ -4366,6 +5245,9 @@ export const JavaServerPages = {
   ],
 } as const
 
+/**
+ * Github's language definition for JavaScript.
+ */
 export const JavaScript = {
   type: 'programming',
   color: '#f1e05a',
@@ -4422,6 +5304,9 @@ export const JavaScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for JavaScript+ERB.
+ */
 export const JavaScriptpERB = {
   type: 'programming',
   color: '#f1e05a',
@@ -4436,6 +5321,9 @@ export const JavaScriptpERB = {
   ],
 } as const
 
+/**
+ * Github's language definition for Jest Snapshot.
+ */
 export const JestSnapshot = {
   type: 'data',
   color: '#15c213',
@@ -4449,6 +5337,9 @@ export const JestSnapshot = {
   ],
 } as const
 
+/**
+ * Github's language definition for JetBrains MPS.
+ */
 export const JetBrainsMPS = {
   type: 'programming',
   color: '#21D789',
@@ -4467,6 +5358,9 @@ export const JetBrainsMPS = {
   ],
 } as const
 
+/**
+ * Github's language definition for Jinja.
+ */
 export const Jinja = {
   type: 'markup',
   color: '#a52a22',
@@ -4488,6 +5382,9 @@ export const Jinja = {
   ],
 } as const
 
+/**
+ * Github's language definition for Jison.
+ */
 export const Jison = {
   type: 'programming',
   color: '#56b3cb',
@@ -4500,6 +5397,9 @@ export const Jison = {
   ],
 } as const
 
+/**
+ * Github's language definition for Jison Lex.
+ */
 export const JisonLex = {
   type: 'programming',
   color: '#56b3cb',
@@ -4512,6 +5412,9 @@ export const JisonLex = {
   ],
 } as const
 
+/**
+ * Github's language definition for Jolie.
+ */
 export const Jolie = {
   type: 'programming',
   color: '#843179',
@@ -4527,6 +5430,9 @@ export const Jolie = {
   ],
 } as const
 
+/**
+ * Github's language definition for Jsonnet.
+ */
 export const Jsonnet = {
   type: 'programming',
   color: '#0064bd',
@@ -4539,6 +5445,9 @@ export const Jsonnet = {
   ],
 } as const
 
+/**
+ * Github's language definition for Julia.
+ */
 export const Julia = {
   type: 'programming',
   color: '#a270ba',
@@ -4555,6 +5464,9 @@ export const Julia = {
   ],
 } as const
 
+/**
+ * Github's language definition for Julia REPL.
+ */
 export const JuliaREPL = {
   type: 'programming',
   color: '#a270ba',
@@ -4564,6 +5476,9 @@ export const JuliaREPL = {
   language_id: 220689142,
 } as const
 
+/**
+ * Github's language definition for Jupyter Notebook.
+ */
 export const JupyterNotebook = {
   type: 'markup',
   color: '#DA5B0B',
@@ -4583,6 +5498,9 @@ export const JupyterNotebook = {
   ],
 } as const
 
+/**
+ * Github's language definition for Just.
+ */
 export const Just = {
   type: 'programming',
   color: '#384d54',
@@ -4605,6 +5523,9 @@ export const Just = {
   ],
 } as const
 
+/**
+ * Github's language definition for KRL.
+ */
 export const KRL = {
   type: 'programming',
   color: '#28430A',
@@ -4616,6 +5537,9 @@ export const KRL = {
   ],
 } as const
 
+/**
+ * Github's language definition for Kaitai Struct.
+ */
 export const KaitaiStruct = {
   type: 'programming',
   color: '#773b37',
@@ -4632,6 +5556,9 @@ export const KaitaiStruct = {
   ],
 } as const
 
+/**
+ * Github's language definition for KakouneScript.
+ */
 export const KakouneScript = {
   type: 'programming',
   color: '#6f8042',
@@ -4650,6 +5577,9 @@ export const KakouneScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for KerboScript.
+ */
 export const KerboScript = {
   type: 'programming',
   color: '#41adf0',
@@ -4661,6 +5591,9 @@ export const KerboScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for KiCad Layout.
+ */
 export const KiCadLayout = {
   type: 'data',
   color: '#2f4aab',
@@ -4682,6 +5615,9 @@ export const KiCadLayout = {
   ],
 } as const
 
+/**
+ * Github's language definition for KiCad Legacy Layout.
+ */
 export const KiCadLegacyLayout = {
   type: 'data',
   color: '#2f4aab',
@@ -4693,6 +5629,9 @@ export const KiCadLegacyLayout = {
   ],
 } as const
 
+/**
+ * Github's language definition for KiCad Schematic.
+ */
 export const KiCadSchematic = {
   type: 'data',
   color: '#2f4aab',
@@ -4708,6 +5647,9 @@ export const KiCadSchematic = {
   ],
 } as const
 
+/**
+ * Github's language definition for Kickstart.
+ */
 export const Kickstart = {
   type: 'data',
   tm_scope: 'source.kickstart',
@@ -4718,6 +5660,9 @@ export const Kickstart = {
   ],
 } as const
 
+/**
+ * Github's language definition for Kit.
+ */
 export const Kit = {
   type: 'markup',
   tm_scope: 'text.html.basic',
@@ -4730,6 +5675,9 @@ export const Kit = {
   ],
 } as const
 
+/**
+ * Github's language definition for Kotlin.
+ */
 export const Kotlin = {
   type: 'programming',
   color: '#A97BFF',
@@ -4745,6 +5693,9 @@ export const Kotlin = {
   ],
 } as const
 
+/**
+ * Github's language definition for Kusto.
+ */
 export const Kusto = {
   type: 'data',
   tm_scope: 'source.kusto',
@@ -4756,6 +5707,9 @@ export const Kusto = {
   ],
 } as const
 
+/**
+ * Github's language definition for LFE.
+ */
 export const LFE = {
   type: 'programming',
   color: '#4C3023',
@@ -4769,6 +5723,9 @@ export const LFE = {
   ],
 } as const
 
+/**
+ * Github's language definition for LLVM.
+ */
 export const LLVM = {
   type: 'programming',
   color: '#185619',
@@ -4780,6 +5737,9 @@ export const LLVM = {
   ],
 } as const
 
+/**
+ * Github's language definition for LOLCODE.
+ */
 export const LOLCODE = {
   type: 'programming',
   color: '#cc9900',
@@ -4791,6 +5751,9 @@ export const LOLCODE = {
   ],
 } as const
 
+/**
+ * Github's language definition for LSL.
+ */
 export const LSL = {
   type: 'programming',
   color: '#3d9970',
@@ -4806,6 +5769,9 @@ export const LSL = {
   ],
 } as const
 
+/**
+ * Github's language definition for LTspice Symbol.
+ */
 export const LTspiceSymbol = {
   type: 'data',
   tm_scope: 'source.ltspice.symbol',
@@ -4818,6 +5784,9 @@ export const LTspiceSymbol = {
   ],
 } as const
 
+/**
+ * Github's language definition for LabVIEW.
+ */
 export const LabVIEW = {
   type: 'programming',
   color: '#fede06',
@@ -4833,6 +5802,9 @@ export const LabVIEW = {
   ],
 } as const
 
+/**
+ * Github's language definition for Lark.
+ */
 export const Lark = {
   type: 'data',
   color: '#2980B9',
@@ -4846,6 +5818,9 @@ export const Lark = {
   ],
 } as const
 
+/**
+ * Github's language definition for Lasso.
+ */
 export const Lasso = {
   type: 'programming',
   color: '#999999',
@@ -4863,6 +5838,9 @@ export const Lasso = {
   ],
 } as const
 
+/**
+ * Github's language definition for Latte.
+ */
 export const Latte = {
   type: 'markup',
   color: '#f2a542',
@@ -4876,6 +5854,9 @@ export const Latte = {
   ],
 } as const
 
+/**
+ * Github's language definition for Lean.
+ */
 export const Lean = {
   type: 'programming',
   tm_scope: 'source.lean',
@@ -4887,6 +5868,9 @@ export const Lean = {
   ],
 } as const
 
+/**
+ * Github's language definition for Lean 4.
+ */
 export const Lean4 = {
   type: 'programming',
   tm_scope: 'source.lean4',
@@ -4898,6 +5882,9 @@ export const Lean4 = {
   ],
 } as const
 
+/**
+ * Github's language definition for Less.
+ */
 export const Less = {
   type: 'markup',
   color: '#1d365d',
@@ -4914,6 +5901,9 @@ export const Less = {
   ],
 } as const
 
+/**
+ * Github's language definition for Lex.
+ */
 export const Lex = {
   type: 'programming',
   color: '#DBCA00',
@@ -4933,6 +5923,9 @@ export const Lex = {
   ],
 } as const
 
+/**
+ * Github's language definition for LigoLANG.
+ */
 export const LigoLANG = {
   type: 'programming',
   color: '#0e74ff',
@@ -4947,6 +5940,9 @@ export const LigoLANG = {
   ],
 } as const
 
+/**
+ * Github's language definition for LilyPond.
+ */
 export const LilyPond = {
   type: 'programming',
   color: '#9ccc7c',
@@ -4959,6 +5955,9 @@ export const LilyPond = {
   ],
 } as const
 
+/**
+ * Github's language definition for Limbo.
+ */
 export const Limbo = {
   type: 'programming',
   tm_scope: 'none',
@@ -4970,6 +5969,9 @@ export const Limbo = {
   ],
 } as const
 
+/**
+ * Github's language definition for Linker Script.
+ */
 export const LinkerScript = {
   type: 'data',
   tm_scope: 'none',
@@ -4985,6 +5987,9 @@ export const LinkerScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for Linux Kernel Module.
+ */
 export const LinuxKernelModule = {
   type: 'data',
   tm_scope: 'none',
@@ -4995,6 +6000,9 @@ export const LinuxKernelModule = {
   ],
 } as const
 
+/**
+ * Github's language definition for Liquid.
+ */
 export const Liquid = {
   type: 'markup',
   color: '#67b8de',
@@ -5006,6 +6014,9 @@ export const Liquid = {
   ],
 } as const
 
+/**
+ * Github's language definition for Literate Agda.
+ */
 export const LiterateAgda = {
   type: 'programming',
   color: '#315665',
@@ -5018,6 +6029,9 @@ export const LiterateAgda = {
   ],
 } as const
 
+/**
+ * Github's language definition for Literate CoffeeScript.
+ */
 export const LiterateCoffeeScript = {
   type: 'programming',
   color: '#244776',
@@ -5035,6 +6049,9 @@ export const LiterateCoffeeScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for Literate Haskell.
+ */
 export const LiterateHaskell = {
   type: 'programming',
   color: '#5e5086',
@@ -5053,6 +6070,9 @@ export const LiterateHaskell = {
   ],
 } as const
 
+/**
+ * Github's language definition for LiveScript.
+ */
 export const LiveScript = {
   type: 'programming',
   color: '#499886',
@@ -5074,6 +6094,9 @@ export const LiveScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for Logos.
+ */
 export const Logos = {
   type: 'programming',
   tm_scope: 'source.logos',
@@ -5086,6 +6109,9 @@ export const Logos = {
   ],
 } as const
 
+/**
+ * Github's language definition for Logtalk.
+ */
 export const Logtalk = {
   type: 'programming',
   color: '#295b9a',
@@ -5098,6 +6124,9 @@ export const Logtalk = {
   ],
 } as const
 
+/**
+ * Github's language definition for LookML.
+ */
 export const LookML = {
   type: 'programming',
   color: '#652B81',
@@ -5112,6 +6141,9 @@ export const LookML = {
   ],
 } as const
 
+/**
+ * Github's language definition for LoomScript.
+ */
 export const LoomScript = {
   type: 'programming',
   tm_scope: 'source.loomscript',
@@ -5122,6 +6154,9 @@ export const LoomScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for Lua.
+ */
 export const Lua = {
   type: 'programming',
   color: '#000080',
@@ -5148,6 +6183,9 @@ export const Lua = {
   ],
 } as const
 
+/**
+ * Github's language definition for Luau.
+ */
 export const Luau = {
   type: 'programming',
   color: '#00A2FF',
@@ -5164,6 +6202,9 @@ export const Luau = {
   ],
 } as const
 
+/**
+ * Github's language definition for M.
+ */
 export const M = {
   type: 'programming',
   aliases: [
@@ -5180,6 +6221,9 @@ export const M = {
   ],
 } as const
 
+/**
+ * Github's language definition for M4.
+ */
 export const M4 = {
   type: 'programming',
   tm_scope: 'source.m4',
@@ -5191,6 +6235,9 @@ export const M4 = {
   ],
 } as const
 
+/**
+ * Github's language definition for M4Sugar.
+ */
 export const M4Sugar = {
   type: 'programming',
   aliases: [
@@ -5208,6 +6255,9 @@ export const M4Sugar = {
   ],
 } as const
 
+/**
+ * Github's language definition for MATLAB.
+ */
 export const MATLAB = {
   type: 'programming',
   color: '#e16737',
@@ -5225,6 +6275,9 @@ export const MATLAB = {
   ],
 } as const
 
+/**
+ * Github's language definition for MAXScript.
+ */
 export const MAXScript = {
   type: 'programming',
   color: '#00a6a6',
@@ -5237,6 +6290,9 @@ export const MAXScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for MDX.
+ */
 export const MDX = {
   type: 'markup',
   color: '#fcb32c',
@@ -5251,6 +6307,9 @@ export const MDX = {
   ],
 } as const
 
+/**
+ * Github's language definition for MLIR.
+ */
 export const MLIR = {
   type: 'programming',
   color: '#5EC8DB',
@@ -5262,6 +6321,9 @@ export const MLIR = {
   ],
 } as const
 
+/**
+ * Github's language definition for MQL4.
+ */
 export const MQL4 = {
   type: 'programming',
   color: '#62A8D6',
@@ -5274,6 +6336,9 @@ export const MQL4 = {
   ],
 } as const
 
+/**
+ * Github's language definition for MQL5.
+ */
 export const MQL5 = {
   type: 'programming',
   color: '#4A76B8',
@@ -5286,6 +6351,9 @@ export const MQL5 = {
   ],
 } as const
 
+/**
+ * Github's language definition for MTML.
+ */
 export const MTML = {
   type: 'markup',
   color: '#b7e1f4',
@@ -5299,6 +6367,9 @@ export const MTML = {
   ],
 } as const
 
+/**
+ * Github's language definition for MUF.
+ */
 export const MUF = {
   type: 'programming',
   tm_scope: 'none',
@@ -5313,6 +6384,9 @@ export const MUF = {
   ],
 } as const
 
+/**
+ * Github's language definition for Macaulay2.
+ */
 export const Macaulay2 = {
   type: 'programming',
   color: '#d8ffff',
@@ -5330,6 +6404,9 @@ export const Macaulay2 = {
   ],
 } as const
 
+/**
+ * Github's language definition for Makefile.
+ */
 export const Makefile = {
   type: 'programming',
   color: '#427819',
@@ -5371,6 +6448,9 @@ export const Makefile = {
   ],
 } as const
 
+/**
+ * Github's language definition for Mako.
+ */
 export const Mako = {
   type: 'programming',
   color: '#7e858d',
@@ -5383,6 +6463,9 @@ export const Mako = {
   ],
 } as const
 
+/**
+ * Github's language definition for Markdown.
+ */
 export const Markdown = {
   type: 'prose',
   color: '#083fa1',
@@ -5414,6 +6497,9 @@ export const Markdown = {
   ],
 } as const
 
+/**
+ * Github's language definition for Marko.
+ */
 export const Marko = {
   type: 'markup',
   color: '#42bff2',
@@ -5430,6 +6516,9 @@ export const Marko = {
   ],
 } as const
 
+/**
+ * Github's language definition for Mask.
+ */
 export const Mask = {
   type: 'markup',
   color: '#f97732',
@@ -5441,6 +6530,9 @@ export const Mask = {
   ],
 } as const
 
+/**
+ * Github's language definition for Mathematica.
+ */
 export const Mathematica = {
   type: 'programming',
   color: '#dd1100',
@@ -5469,6 +6561,9 @@ export const Mathematica = {
   ],
 } as const
 
+/**
+ * Github's language definition for Maven POM.
+ */
 export const MavenPOM = {
   type: 'data',
   tm_scope: 'text.xml.pom',
@@ -5482,6 +6577,9 @@ export const MavenPOM = {
   ],
 } as const
 
+/**
+ * Github's language definition for Max.
+ */
 export const Max = {
   type: 'programming',
   color: '#c4a79c',
@@ -5503,6 +6601,9 @@ export const Max = {
   ],
 } as const
 
+/**
+ * Github's language definition for Mercury.
+ */
 export const Mercury = {
   type: 'programming',
   color: '#ff2b2b',
@@ -5518,6 +6619,9 @@ export const Mercury = {
   ],
 } as const
 
+/**
+ * Github's language definition for Mermaid.
+ */
 export const Mermaid = {
   type: 'markup',
   color: '#ff3670',
@@ -5533,6 +6637,9 @@ export const Mermaid = {
   ],
 } as const
 
+/**
+ * Github's language definition for Meson.
+ */
 export const Meson = {
   type: 'programming',
   color: '#007800',
@@ -5545,6 +6652,9 @@ export const Meson = {
   ],
 } as const
 
+/**
+ * Github's language definition for Metal.
+ */
 export const Metal = {
   type: 'programming',
   color: '#8f14e9',
@@ -5558,6 +6668,9 @@ export const Metal = {
   ],
 } as const
 
+/**
+ * Github's language definition for Microsoft Developer Studio Project.
+ */
 export const MicrosoftDeveloperStudioProject = {
   type: 'data',
   tm_scope: 'none',
@@ -5568,6 +6681,9 @@ export const MicrosoftDeveloperStudioProject = {
   ],
 } as const
 
+/**
+ * Github's language definition for Microsoft Visual Studio Solution.
+ */
 export const MicrosoftVisualStudioSolution = {
   type: 'data',
   tm_scope: 'source.solution',
@@ -5578,6 +6694,9 @@ export const MicrosoftVisualStudioSolution = {
   ],
 } as const
 
+/**
+ * Github's language definition for MiniD.
+ */
 export const MiniD = {
   type: 'programming',
   tm_scope: 'none',
@@ -5588,6 +6707,9 @@ export const MiniD = {
   ],
 } as const
 
+/**
+ * Github's language definition for MiniYAML.
+ */
 export const MiniYAML = {
   type: 'data',
   color: '#ff1111',
@@ -5602,6 +6724,9 @@ export const MiniYAML = {
   ],
 } as const
 
+/**
+ * Github's language definition for Mint.
+ */
 export const Mint = {
   type: 'programming',
   color: '#02b046',
@@ -5613,6 +6738,9 @@ export const Mint = {
   ],
 } as const
 
+/**
+ * Github's language definition for Mirah.
+ */
 export const Mirah = {
   type: 'programming',
   color: '#c7a938',
@@ -5628,6 +6756,9 @@ export const Mirah = {
   ],
 } as const
 
+/**
+ * Github's language definition for Modelica.
+ */
 export const Modelica = {
   type: 'programming',
   color: '#de1d31',
@@ -5641,6 +6772,9 @@ export const Modelica = {
   ],
 } as const
 
+/**
+ * Github's language definition for Modula-2.
+ */
 export const Modula_2 = {
   type: 'programming',
   color: '#10253f',
@@ -5652,6 +6786,9 @@ export const Modula_2 = {
   ],
 } as const
 
+/**
+ * Github's language definition for Modula-3.
+ */
 export const Modula_3 = {
   type: 'programming',
   color: '#223388',
@@ -5666,6 +6803,9 @@ export const Modula_3 = {
   ],
 } as const
 
+/**
+ * Github's language definition for Module Management System.
+ */
 export const ModuleManagementSystem = {
   type: 'programming',
   tm_scope: 'none',
@@ -5681,6 +6821,9 @@ export const ModuleManagementSystem = {
   ],
 } as const
 
+/**
+ * Github's language definition for Mojo.
+ */
 export const Mojo = {
   type: 'programming',
   color: '#ff4c1f',
@@ -5694,6 +6837,9 @@ export const Mojo = {
   ],
 } as const
 
+/**
+ * Github's language definition for Monkey.
+ */
 export const Monkey = {
   type: 'programming',
   tm_scope: 'source.monkey',
@@ -5705,6 +6851,9 @@ export const Monkey = {
   ],
 } as const
 
+/**
+ * Github's language definition for Monkey C.
+ */
 export const MonkeyC = {
   type: 'programming',
   color: '#8D6747',
@@ -5718,6 +6867,9 @@ export const MonkeyC = {
   ],
 } as const
 
+/**
+ * Github's language definition for Moocode.
+ */
 export const Moocode = {
   type: 'programming',
   tm_scope: 'none',
@@ -5728,6 +6880,9 @@ export const Moocode = {
   ],
 } as const
 
+/**
+ * Github's language definition for MoonScript.
+ */
 export const MoonScript = {
   type: 'programming',
   color: '#ff4585',
@@ -5742,6 +6897,9 @@ export const MoonScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for Motoko.
+ */
 export const Motoko = {
   type: 'programming',
   color: '#fbb03b',
@@ -5753,6 +6911,9 @@ export const Motoko = {
   ],
 } as const
 
+/**
+ * Github's language definition for Motorola 68K Assembly.
+ */
 export const Motorola68KAssembly = {
   type: 'programming',
   color: '#005daa',
@@ -5772,6 +6933,9 @@ export const Motorola68KAssembly = {
   ],
 } as const
 
+/**
+ * Github's language definition for Move.
+ */
 export const Move = {
   type: 'programming',
   color: '#4a137a',
@@ -5783,6 +6947,9 @@ export const Move = {
   ],
 } as const
 
+/**
+ * Github's language definition for Muse.
+ */
 export const Muse = {
   type: 'prose',
   aliases: [
@@ -5798,6 +6965,9 @@ export const Muse = {
   ],
 } as const
 
+/**
+ * Github's language definition for Mustache.
+ */
 export const Mustache = {
   type: 'markup',
   color: '#724b3b',
@@ -5811,6 +6981,9 @@ export const Mustache = {
   ],
 } as const
 
+/**
+ * Github's language definition for Myghty.
+ */
 export const Myghty = {
   type: 'programming',
   tm_scope: 'none',
@@ -5821,6 +6994,9 @@ export const Myghty = {
   ],
 } as const
 
+/**
+ * Github's language definition for NASL.
+ */
 export const NASL = {
   type: 'programming',
   tm_scope: 'source.nasl',
@@ -5832,6 +7008,9 @@ export const NASL = {
   ],
 } as const
 
+/**
+ * Github's language definition for NCL.
+ */
 export const NCL = {
   type: 'programming',
   color: '#28431f',
@@ -5843,6 +7022,9 @@ export const NCL = {
   ],
 } as const
 
+/**
+ * Github's language definition for NEON.
+ */
 export const NEON = {
   type: 'data',
   aliases: [
@@ -5857,6 +7039,9 @@ export const NEON = {
   ],
 } as const
 
+/**
+ * Github's language definition for NL.
+ */
 export const NL = {
   type: 'data',
   tm_scope: 'none',
@@ -5867,6 +7052,9 @@ export const NL = {
   ],
 } as const
 
+/**
+ * Github's language definition for NMODL.
+ */
 export const NMODL = {
   type: 'programming',
   color: '#00356B',
@@ -5878,6 +7066,9 @@ export const NMODL = {
   ],
 } as const
 
+/**
+ * Github's language definition for NPM Config.
+ */
 export const NPMConfig = {
   type: 'data',
   color: '#cb3837',
@@ -5893,6 +7084,9 @@ export const NPMConfig = {
   ],
 } as const
 
+/**
+ * Github's language definition for NSIS.
+ */
 export const NSIS = {
   type: 'programming',
   tm_scope: 'source.nsis',
@@ -5906,6 +7100,9 @@ export const NSIS = {
   ],
 } as const
 
+/**
+ * Github's language definition for NWScript.
+ */
 export const NWScript = {
   type: 'programming',
   color: '#111522',
@@ -5919,6 +7116,9 @@ export const NWScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for Nasal.
+ */
 export const Nasal = {
   type: 'programming',
   color: '#1d2c4e',
@@ -5930,6 +7130,9 @@ export const Nasal = {
   ],
 } as const
 
+/**
+ * Github's language definition for Nearley.
+ */
 export const Nearley = {
   type: 'programming',
   color: '#990000',
@@ -5942,6 +7145,9 @@ export const Nearley = {
   ],
 } as const
 
+/**
+ * Github's language definition for Nemerle.
+ */
 export const Nemerle = {
   type: 'programming',
   color: '#3d3c6e',
@@ -5953,6 +7159,9 @@ export const Nemerle = {
   ],
 } as const
 
+/**
+ * Github's language definition for NetLinx.
+ */
 export const NetLinx = {
   type: 'programming',
   color: '#0aa0ff',
@@ -5965,6 +7174,9 @@ export const NetLinx = {
   ],
 } as const
 
+/**
+ * Github's language definition for NetLinx+ERB.
+ */
 export const NetLinxpERB = {
   type: 'programming',
   color: '#747faa',
@@ -5977,6 +7189,9 @@ export const NetLinxpERB = {
   ],
 } as const
 
+/**
+ * Github's language definition for NetLogo.
+ */
 export const NetLogo = {
   type: 'programming',
   color: '#ff6375',
@@ -5990,6 +7205,9 @@ export const NetLogo = {
   ],
 } as const
 
+/**
+ * Github's language definition for NewLisp.
+ */
 export const NewLisp = {
   type: 'programming',
   color: '#87AED7',
@@ -6008,6 +7226,9 @@ export const NewLisp = {
   ],
 } as const
 
+/**
+ * Github's language definition for Nextflow.
+ */
 export const Nextflow = {
   type: 'programming',
   color: '#3ac486',
@@ -6025,6 +7246,9 @@ export const Nextflow = {
   ],
 } as const
 
+/**
+ * Github's language definition for Nginx.
+ */
 export const Nginx = {
   type: 'data',
   color: '#009639',
@@ -6046,6 +7270,9 @@ export const Nginx = {
   ],
 } as const
 
+/**
+ * Github's language definition for Nim.
+ */
 export const Nim = {
   type: 'programming',
   color: '#ffc200',
@@ -6064,6 +7291,9 @@ export const Nim = {
   ],
 } as const
 
+/**
+ * Github's language definition for Ninja.
+ */
 export const Ninja = {
   type: 'data',
   tm_scope: 'source.ninja',
@@ -6074,6 +7304,9 @@ export const Ninja = {
   ],
 } as const
 
+/**
+ * Github's language definition for Nit.
+ */
 export const Nit = {
   type: 'programming',
   color: '#009917',
@@ -6085,6 +7318,9 @@ export const Nit = {
   ],
 } as const
 
+/**
+ * Github's language definition for Nix.
+ */
 export const Nix = {
   type: 'programming',
   color: '#7e7eff',
@@ -6099,6 +7335,9 @@ export const Nix = {
   ],
 } as const
 
+/**
+ * Github's language definition for Nu.
+ */
 export const Nu = {
   type: 'programming',
   color: '#c9df40',
@@ -6121,6 +7360,9 @@ export const Nu = {
   ],
 } as const
 
+/**
+ * Github's language definition for NumPy.
+ */
 export const NumPy = {
   type: 'programming',
   color: '#9C8AF9',
@@ -6137,6 +7379,9 @@ export const NumPy = {
   ],
 } as const
 
+/**
+ * Github's language definition for Nunjucks.
+ */
 export const Nunjucks = {
   type: 'markup',
   color: '#3d8137',
@@ -6151,6 +7396,9 @@ export const Nunjucks = {
   ],
 } as const
 
+/**
+ * Github's language definition for Nushell.
+ */
 export const Nushell = {
   type: 'programming',
   color: '#4E9906',
@@ -6171,6 +7419,9 @@ export const Nushell = {
   ],
 } as const
 
+/**
+ * Github's language definition for OASv2-json.
+ */
 export const OASv2_json = {
   type: 'data',
   color: '#85ea2d',
@@ -6185,6 +7436,9 @@ export const OASv2_json = {
   ],
 } as const
 
+/**
+ * Github's language definition for OASv2-yaml.
+ */
 export const OASv2_yaml = {
   type: 'data',
   color: '#85ea2d',
@@ -6200,6 +7454,9 @@ export const OASv2_yaml = {
   ],
 } as const
 
+/**
+ * Github's language definition for OASv3-json.
+ */
 export const OASv3_json = {
   type: 'data',
   color: '#85ea2d',
@@ -6214,6 +7471,9 @@ export const OASv3_json = {
   ],
 } as const
 
+/**
+ * Github's language definition for OASv3-yaml.
+ */
 export const OASv3_yaml = {
   type: 'data',
   color: '#85ea2d',
@@ -6229,6 +7489,9 @@ export const OASv3_yaml = {
   ],
 } as const
 
+/**
+ * Github's language definition for OCaml.
+ */
 export const OCaml = {
   type: 'programming',
   color: '#ef7a08',
@@ -6253,6 +7516,9 @@ export const OCaml = {
   ],
 } as const
 
+/**
+ * Github's language definition for Oberon.
+ */
 export const Oberon = {
   type: 'programming',
   tm_scope: 'source.modula2',
@@ -6263,6 +7529,9 @@ export const Oberon = {
   ],
 } as const
 
+/**
+ * Github's language definition for ObjDump.
+ */
 export const ObjDump = {
   type: 'data',
   tm_scope: 'objdump.x86asm',
@@ -6273,6 +7542,9 @@ export const ObjDump = {
   ],
 } as const
 
+/**
+ * Github's language definition for Object Data Instance Notation.
+ */
 export const ObjectDataInstanceNotation = {
   type: 'data',
   tm_scope: 'source.odin-ehr',
@@ -6283,6 +7555,9 @@ export const ObjectDataInstanceNotation = {
   ],
 } as const
 
+/**
+ * Github's language definition for ObjectScript.
+ */
 export const ObjectScript = {
   type: 'programming',
   color: '#424893',
@@ -6294,6 +7569,9 @@ export const ObjectScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for Objective-C.
+ */
 export const Objective_C = {
   type: 'programming',
   color: '#438eff',
@@ -6313,6 +7591,9 @@ export const Objective_C = {
   ],
 } as const
 
+/**
+ * Github's language definition for Objective-C++.
+ */
 export const Objective_Cpp = {
   type: 'programming',
   color: '#6866fb',
@@ -6331,6 +7612,9 @@ export const Objective_Cpp = {
   ],
 } as const
 
+/**
+ * Github's language definition for Objective-J.
+ */
 export const Objective_J = {
   type: 'programming',
   color: '#ff0c5a',
@@ -6348,6 +7632,9 @@ export const Objective_J = {
   ],
 } as const
 
+/**
+ * Github's language definition for Odin.
+ */
 export const Odin = {
   type: 'programming',
   color: '#60AFFE',
@@ -6363,6 +7650,9 @@ export const Odin = {
   ],
 } as const
 
+/**
+ * Github's language definition for Omgrofl.
+ */
 export const Omgrofl = {
   type: 'programming',
   color: '#cabbff',
@@ -6374,6 +7664,9 @@ export const Omgrofl = {
   ],
 } as const
 
+/**
+ * Github's language definition for Opa.
+ */
 export const Opa = {
   type: 'programming',
   tm_scope: 'source.opa',
@@ -6384,6 +7677,9 @@ export const Opa = {
   ],
 } as const
 
+/**
+ * Github's language definition for Opal.
+ */
 export const Opal = {
   type: 'programming',
   color: '#f7ede0',
@@ -6395,6 +7691,9 @@ export const Opal = {
   ],
 } as const
 
+/**
+ * Github's language definition for Open Policy Agent.
+ */
 export const OpenPolicyAgent = {
   type: 'programming',
   color: '#7d9199',
@@ -6406,6 +7705,9 @@ export const OpenPolicyAgent = {
   ],
 } as const
 
+/**
+ * Github's language definition for OpenAPI Specification v2.
+ */
 export const OpenAPISpecificationv2 = {
   type: 'data',
   color: '#85ea2d',
@@ -6417,6 +7719,9 @@ export const OpenAPISpecificationv2 = {
   language_id: 848295328,
 } as const
 
+/**
+ * Github's language definition for OpenAPI Specification v3.
+ */
 export const OpenAPISpecificationv3 = {
   type: 'data',
   color: '#85ea2d',
@@ -6428,6 +7733,9 @@ export const OpenAPISpecificationv3 = {
   language_id: 557959099,
 } as const
 
+/**
+ * Github's language definition for OpenCL.
+ */
 export const OpenCL = {
   type: 'programming',
   color: '#ed2e2d',
@@ -6443,6 +7751,9 @@ export const OpenCL = {
   ],
 } as const
 
+/**
+ * Github's language definition for OpenEdge ABL.
+ */
 export const OpenEdgeABL = {
   type: 'programming',
   color: '#5ce600',
@@ -6461,6 +7772,9 @@ export const OpenEdgeABL = {
   ],
 } as const
 
+/**
+ * Github's language definition for OpenQASM.
+ */
 export const OpenQASM = {
   type: 'programming',
   color: '#AA70FF',
@@ -6472,6 +7786,9 @@ export const OpenQASM = {
   ],
 } as const
 
+/**
+ * Github's language definition for OpenRC runscript.
+ */
 export const OpenRCrunscript = {
   type: 'programming',
   aliases: [
@@ -6488,6 +7805,9 @@ export const OpenRCrunscript = {
   ],
 } as const
 
+/**
+ * Github's language definition for OpenSCAD.
+ */
 export const OpenSCAD = {
   type: 'programming',
   color: '#e5cd45',
@@ -6499,6 +7819,9 @@ export const OpenSCAD = {
   ],
 } as const
 
+/**
+ * Github's language definition for OpenStep Property List.
+ */
 export const OpenStepPropertyList = {
   type: 'data',
   tm_scope: 'source.plist',
@@ -6510,6 +7833,9 @@ export const OpenStepPropertyList = {
   ],
 } as const
 
+/**
+ * Github's language definition for OpenType Feature File.
+ */
 export const OpenTypeFeatureFile = {
   type: 'data',
   aliases: [
@@ -6523,6 +7849,9 @@ export const OpenTypeFeatureFile = {
   ],
 } as const
 
+/**
+ * Github's language definition for Option List.
+ */
 export const OptionList = {
   type: 'data',
   color: '#476732',
@@ -6544,6 +7873,9 @@ export const OptionList = {
   ],
 } as const
 
+/**
+ * Github's language definition for Org.
+ */
 export const Org = {
   type: 'prose',
   color: '#77aa99',
@@ -6556,6 +7888,9 @@ export const Org = {
   ],
 } as const
 
+/**
+ * Github's language definition for Ox.
+ */
 export const Ox = {
   type: 'programming',
   tm_scope: 'source.ox',
@@ -6568,6 +7903,9 @@ export const Ox = {
   ],
 } as const
 
+/**
+ * Github's language definition for Oxygene.
+ */
 export const Oxygene = {
   type: 'programming',
   color: '#cdd0e3',
@@ -6579,6 +7917,9 @@ export const Oxygene = {
   ],
 } as const
 
+/**
+ * Github's language definition for Oz.
+ */
 export const Oz = {
   type: 'programming',
   color: '#fab738',
@@ -6592,6 +7933,9 @@ export const Oz = {
   ],
 } as const
 
+/**
+ * Github's language definition for P4.
+ */
 export const P4 = {
   type: 'programming',
   color: '#7055b5',
@@ -6603,6 +7947,9 @@ export const P4 = {
   ],
 } as const
 
+/**
+ * Github's language definition for PDDL.
+ */
 export const PDDL = {
   type: 'programming',
   color: '#0d00ff',
@@ -6614,6 +7961,9 @@ export const PDDL = {
   ],
 } as const
 
+/**
+ * Github's language definition for PEG.js.
+ */
 export const PEGjs = {
   type: 'programming',
   color: '#234d6b',
@@ -6627,6 +7977,9 @@ export const PEGjs = {
   ],
 } as const
 
+/**
+ * Github's language definition for PHP.
+ */
 export const PHP = {
   type: 'programming',
   color: '#4F5D95',
@@ -6661,6 +8014,9 @@ export const PHP = {
   ],
 } as const
 
+/**
+ * Github's language definition for PLSQL.
+ */
 export const PLSQL = {
   type: 'programming',
   color: '#dad8d8',
@@ -6689,6 +8045,9 @@ export const PLSQL = {
   ],
 } as const
 
+/**
+ * Github's language definition for PLpgSQL.
+ */
 export const PLpgSQL = {
   type: 'programming',
   color: '#336790',
@@ -6703,6 +8062,9 @@ export const PLpgSQL = {
   ],
 } as const
 
+/**
+ * Github's language definition for POV-Ray SDL.
+ */
 export const POV_RaySDL = {
   type: 'programming',
   color: '#6bac65',
@@ -6719,6 +8081,9 @@ export const POV_RaySDL = {
   ],
 } as const
 
+/**
+ * Github's language definition for Pact.
+ */
 export const Pact = {
   type: 'programming',
   color: '#F7A8B8',
@@ -6730,6 +8095,9 @@ export const Pact = {
   ],
 } as const
 
+/**
+ * Github's language definition for Pan.
+ */
 export const Pan = {
   type: 'programming',
   color: '#cc0000',
@@ -6741,6 +8109,9 @@ export const Pan = {
   ],
 } as const
 
+/**
+ * Github's language definition for Papyrus.
+ */
 export const Papyrus = {
   type: 'programming',
   color: '#6600cc',
@@ -6752,6 +8123,9 @@ export const Papyrus = {
   ],
 } as const
 
+/**
+ * Github's language definition for Parrot.
+ */
 export const Parrot = {
   type: 'programming',
   color: '#f3ca0a',
@@ -6763,6 +8137,9 @@ export const Parrot = {
   ],
 } as const
 
+/**
+ * Github's language definition for Parrot Assembly.
+ */
 export const ParrotAssembly = {
   type: 'programming',
   aliases: [
@@ -6780,6 +8157,9 @@ export const ParrotAssembly = {
   ],
 } as const
 
+/**
+ * Github's language definition for Parrot Internal Representation.
+ */
 export const ParrotInternalRepresentation = {
   type: 'programming',
   aliases: [
@@ -6797,6 +8177,9 @@ export const ParrotInternalRepresentation = {
   ],
 } as const
 
+/**
+ * Github's language definition for Pascal.
+ */
 export const Pascal = {
   type: 'programming',
   color: '#E3F171',
@@ -6823,6 +8206,9 @@ export const Pascal = {
   ],
 } as const
 
+/**
+ * Github's language definition for Pawn.
+ */
 export const Pawn = {
   type: 'programming',
   color: '#dbb284',
@@ -6836,6 +8222,9 @@ export const Pawn = {
   ],
 } as const
 
+/**
+ * Github's language definition for Pep8.
+ */
 export const Pep8 = {
   type: 'programming',
   color: '#C76F5B',
@@ -6847,6 +8236,9 @@ export const Pep8 = {
   ],
 } as const
 
+/**
+ * Github's language definition for Perl.
+ */
 export const Perl = {
   type: 'programming',
   color: '#0298c3',
@@ -6884,6 +8276,9 @@ export const Perl = {
   ],
 } as const
 
+/**
+ * Github's language definition for Pic.
+ */
 export const Pic = {
   type: 'markup',
   aliases: [
@@ -6901,6 +8296,9 @@ export const Pic = {
   ],
 } as const
 
+/**
+ * Github's language definition for Pickle.
+ */
 export const Pickle = {
   type: 'data',
   tm_scope: 'none',
@@ -6911,6 +8309,9 @@ export const Pickle = {
   ],
 } as const
 
+/**
+ * Github's language definition for PicoLisp.
+ */
 export const PicoLisp = {
   type: 'programming',
   color: '#6067af',
@@ -6926,6 +8327,9 @@ export const PicoLisp = {
   ],
 } as const
 
+/**
+ * Github's language definition for PigLatin.
+ */
 export const PigLatin = {
   type: 'programming',
   color: '#fcd7de',
@@ -6937,6 +8341,9 @@ export const PigLatin = {
   ],
 } as const
 
+/**
+ * Github's language definition for Pike.
+ */
 export const Pike = {
   type: 'programming',
   color: '#005390',
@@ -6952,6 +8359,9 @@ export const Pike = {
   ],
 } as const
 
+/**
+ * Github's language definition for Pip Requirements.
+ */
 export const PipRequirements = {
   type: 'data',
   color: '#FFD343',
@@ -6964,6 +8374,9 @@ export const PipRequirements = {
   ],
 } as const
 
+/**
+ * Github's language definition for Pkl.
+ */
 export const Pkl = {
   type: 'programming',
   color: '#6b9543',
@@ -6978,6 +8391,9 @@ export const Pkl = {
   ],
 } as const
 
+/**
+ * Github's language definition for PlantUML.
+ */
 export const PlantUML = {
   type: 'data',
   color: '#fbbd16',
@@ -6991,6 +8407,9 @@ export const PlantUML = {
   ],
 } as const
 
+/**
+ * Github's language definition for Pod.
+ */
 export const Pod = {
   type: 'prose',
   tm_scope: 'none',
@@ -7007,6 +8426,9 @@ export const Pod = {
   ],
 } as const
 
+/**
+ * Github's language definition for Pod 6.
+ */
 export const Pod6 = {
   type: 'prose',
   tm_scope: 'source.raku',
@@ -7022,6 +8444,9 @@ export const Pod6 = {
   ],
 } as const
 
+/**
+ * Github's language definition for PogoScript.
+ */
 export const PogoScript = {
   type: 'programming',
   color: '#d80074',
@@ -7033,6 +8458,9 @@ export const PogoScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for Polar.
+ */
 export const Polar = {
   type: 'programming',
   color: '#ae81ff',
@@ -7044,6 +8472,9 @@ export const Polar = {
   ],
 } as const
 
+/**
+ * Github's language definition for Pony.
+ */
 export const Pony = {
   type: 'programming',
   tm_scope: 'source.pony',
@@ -7054,6 +8485,9 @@ export const Pony = {
   ],
 } as const
 
+/**
+ * Github's language definition for Portugol.
+ */
 export const Portugol = {
   type: 'programming',
   color: '#f8bd00',
@@ -7065,6 +8499,9 @@ export const Portugol = {
   ],
 } as const
 
+/**
+ * Github's language definition for PostCSS.
+ */
 export const PostCSS = {
   type: 'markup',
   color: '#dc3a0c',
@@ -7078,6 +8515,9 @@ export const PostCSS = {
   ],
 } as const
 
+/**
+ * Github's language definition for PostScript.
+ */
 export const PostScript = {
   type: 'markup',
   color: '#da291c',
@@ -7095,6 +8535,9 @@ export const PostScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for PowerBuilder.
+ */
 export const PowerBuilder = {
   type: 'programming',
   color: '#8f0f8d',
@@ -7109,6 +8552,9 @@ export const PowerBuilder = {
   ],
 } as const
 
+/**
+ * Github's language definition for PowerShell.
+ */
 export const PowerShell = {
   type: 'programming',
   color: '#012456',
@@ -7131,6 +8577,9 @@ export const PowerShell = {
   ],
 } as const
 
+/**
+ * Github's language definition for Praat.
+ */
 export const Praat = {
   type: 'programming',
   color: '#c8506d',
@@ -7142,6 +8591,9 @@ export const Praat = {
   ],
 } as const
 
+/**
+ * Github's language definition for Prisma.
+ */
 export const Prisma = {
   type: 'data',
   color: '#0c344b',
@@ -7153,6 +8605,9 @@ export const Prisma = {
   ],
 } as const
 
+/**
+ * Github's language definition for Processing.
+ */
 export const Processing = {
   type: 'programming',
   color: '#0096D8',
@@ -7164,6 +8619,9 @@ export const Processing = {
   ],
 } as const
 
+/**
+ * Github's language definition for Procfile.
+ */
 export const Procfile = {
   type: 'programming',
   color: '#3B2F63',
@@ -7175,6 +8633,9 @@ export const Procfile = {
   ],
 } as const
 
+/**
+ * Github's language definition for Proguard.
+ */
 export const Proguard = {
   type: 'data',
   tm_scope: 'none',
@@ -7185,6 +8646,9 @@ export const Proguard = {
   ],
 } as const
 
+/**
+ * Github's language definition for Prolog.
+ */
 export const Prolog = {
   type: 'programming',
   color: '#74283c',
@@ -7204,6 +8668,9 @@ export const Prolog = {
   ],
 } as const
 
+/**
+ * Github's language definition for Promela.
+ */
 export const Promela = {
   type: 'programming',
   color: '#de0000',
@@ -7215,6 +8682,9 @@ export const Promela = {
   ],
 } as const
 
+/**
+ * Github's language definition for Propeller Spin.
+ */
 export const PropellerSpin = {
   type: 'programming',
   color: '#7fa2a7',
@@ -7226,6 +8696,9 @@ export const PropellerSpin = {
   ],
 } as const
 
+/**
+ * Github's language definition for Protocol Buffer.
+ */
 export const ProtocolBuffer = {
   type: 'data',
   aliases: [
@@ -7243,6 +8716,9 @@ export const ProtocolBuffer = {
   ],
 } as const
 
+/**
+ * Github's language definition for Protocol Buffer Text Format.
+ */
 export const ProtocolBufferTextFormat = {
   type: 'data',
   aliases: [
@@ -7259,6 +8735,9 @@ export const ProtocolBufferTextFormat = {
   ],
 } as const
 
+/**
+ * Github's language definition for Public Key.
+ */
 export const PublicKey = {
   type: 'data',
   tm_scope: 'none',
@@ -7272,6 +8751,9 @@ export const PublicKey = {
   ],
 } as const
 
+/**
+ * Github's language definition for Pug.
+ */
 export const Pug = {
   type: 'markup',
   color: '#a86454',
@@ -7286,6 +8768,9 @@ export const Pug = {
   ],
 } as const
 
+/**
+ * Github's language definition for Puppet.
+ */
 export const Puppet = {
   type: 'programming',
   color: '#302B6D',
@@ -7302,6 +8787,9 @@ export const Puppet = {
   ],
 } as const
 
+/**
+ * Github's language definition for Pure Data.
+ */
 export const PureData = {
   type: 'data',
   tm_scope: 'none',
@@ -7312,6 +8800,9 @@ export const PureData = {
   ],
 } as const
 
+/**
+ * Github's language definition for PureBasic.
+ */
 export const PureBasic = {
   type: 'programming',
   color: '#5a6986',
@@ -7324,6 +8815,9 @@ export const PureBasic = {
   ],
 } as const
 
+/**
+ * Github's language definition for PureScript.
+ */
 export const PureScript = {
   type: 'programming',
   color: '#1D222D',
@@ -7337,6 +8831,9 @@ export const PureScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for Pyret.
+ */
 export const Pyret = {
   type: 'programming',
   color: '#ee1e10',
@@ -7348,6 +8845,9 @@ export const Pyret = {
   ],
 } as const
 
+/**
+ * Github's language definition for Python.
+ */
 export const Python = {
   type: 'programming',
   color: '#3572A5',
@@ -7396,6 +8896,9 @@ export const Python = {
   ],
 } as const
 
+/**
+ * Github's language definition for Python console.
+ */
 export const Pythonconsole = {
   type: 'programming',
   color: '#3572A5',
@@ -7408,6 +8911,9 @@ export const Pythonconsole = {
   language_id: 428,
 } as const
 
+/**
+ * Github's language definition for Python traceback.
+ */
 export const Pythontraceback = {
   type: 'data',
   color: '#3572A5',
@@ -7420,6 +8926,9 @@ export const Pythontraceback = {
   ],
 } as const
 
+/**
+ * Github's language definition for Q#.
+ */
 export const Qsharp = {
   type: 'programming',
   color: '#fed659',
@@ -7434,6 +8943,9 @@ export const Qsharp = {
   ],
 } as const
 
+/**
+ * Github's language definition for QML.
+ */
 export const QML = {
   type: 'programming',
   color: '#44a51c',
@@ -7446,6 +8958,9 @@ export const QML = {
   ],
 } as const
 
+/**
+ * Github's language definition for QMake.
+ */
 export const QMake = {
   type: 'programming',
   tm_scope: 'source.qmake',
@@ -7460,6 +8975,9 @@ export const QMake = {
   ],
 } as const
 
+/**
+ * Github's language definition for Qt Script.
+ */
 export const QtScript = {
   type: 'programming',
   color: '#00b841',
@@ -7477,6 +8995,9 @@ export const QtScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for Quake.
+ */
 export const Quake = {
   type: 'programming',
   color: '#882233',
@@ -7489,6 +9010,9 @@ export const Quake = {
   ],
 } as const
 
+/**
+ * Github's language definition for R.
+ */
 export const R = {
   type: 'programming',
   color: '#198CE7',
@@ -7515,6 +9039,9 @@ export const R = {
   ],
 } as const
 
+/**
+ * Github's language definition for RAML.
+ */
 export const RAML = {
   type: 'markup',
   color: '#77d9fb',
@@ -7528,6 +9055,9 @@ export const RAML = {
   ],
 } as const
 
+/**
+ * Github's language definition for RBS.
+ */
 export const RBS = {
   type: 'data',
   color: '#701516',
@@ -7542,6 +9072,9 @@ export const RBS = {
   ],
 } as const
 
+/**
+ * Github's language definition for RDoc.
+ */
 export const RDoc = {
   type: 'prose',
   color: '#701516',
@@ -7554,6 +9087,9 @@ export const RDoc = {
   ],
 } as const
 
+/**
+ * Github's language definition for REALbasic.
+ */
 export const REALbasic = {
   type: 'programming',
   tm_scope: 'source.vbnet',
@@ -7569,6 +9105,9 @@ export const REALbasic = {
   ],
 } as const
 
+/**
+ * Github's language definition for REXX.
+ */
 export const REXX = {
   type: 'programming',
   color: '#d90e09',
@@ -7589,6 +9128,9 @@ export const REXX = {
   ],
 } as const
 
+/**
+ * Github's language definition for RMarkdown.
+ */
 export const RMarkdown = {
   type: 'prose',
   color: '#198ce7',
@@ -7604,6 +9146,9 @@ export const RMarkdown = {
   ],
 } as const
 
+/**
+ * Github's language definition for RON.
+ */
 export const RON = {
   type: 'data',
   color: '#a62c00',
@@ -7615,6 +9160,9 @@ export const RON = {
   ],
 } as const
 
+/**
+ * Github's language definition for RPC.
+ */
 export const RPC = {
   type: 'programming',
   aliases: [
@@ -7630,6 +9178,9 @@ export const RPC = {
   ],
 } as const
 
+/**
+ * Github's language definition for RPGLE.
+ */
 export const RPGLE = {
   type: 'programming',
   color: '#2BDE21',
@@ -7646,6 +9197,9 @@ export const RPGLE = {
   ],
 } as const
 
+/**
+ * Github's language definition for RPM Spec.
+ */
 export const RPMSpec = {
   type: 'data',
   aliases: [
@@ -7661,6 +9215,9 @@ export const RPMSpec = {
   ],
 } as const
 
+/**
+ * Github's language definition for RUNOFF.
+ */
 export const RUNOFF = {
   type: 'markup',
   color: '#665a4e',
@@ -7674,6 +9231,9 @@ export const RUNOFF = {
   ],
 } as const
 
+/**
+ * Github's language definition for Racket.
+ */
 export const Racket = {
   type: 'programming',
   color: '#3c5caa',
@@ -7691,6 +9251,9 @@ export const Racket = {
   ],
 } as const
 
+/**
+ * Github's language definition for Ragel.
+ */
 export const Ragel = {
   type: 'programming',
   color: '#9d5200',
@@ -7706,6 +9269,9 @@ export const Ragel = {
   ],
 } as const
 
+/**
+ * Github's language definition for Raku.
+ */
 export const Raku = {
   type: 'programming',
   color: '#0000fb',
@@ -7740,6 +9306,9 @@ export const Raku = {
   ],
 } as const
 
+/**
+ * Github's language definition for Rascal.
+ */
 export const Rascal = {
   type: 'programming',
   color: '#fffaa0',
@@ -7751,6 +9320,9 @@ export const Rascal = {
   ],
 } as const
 
+/**
+ * Github's language definition for Raw token data.
+ */
 export const Rawtokendata = {
   type: 'data',
   aliases: [
@@ -7764,6 +9336,9 @@ export const Rawtokendata = {
   ],
 } as const
 
+/**
+ * Github's language definition for ReScript.
+ */
 export const ReScript = {
   type: 'programming',
   color: '#ed5051',
@@ -7780,6 +9355,9 @@ export const ReScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for Readline Config.
+ */
 export const ReadlineConfig = {
   type: 'data',
   aliases: [
@@ -7796,6 +9374,9 @@ export const ReadlineConfig = {
   ],
 } as const
 
+/**
+ * Github's language definition for Reason.
+ */
 export const Reason = {
   type: 'programming',
   color: '#ff5847',
@@ -7810,6 +9391,9 @@ export const Reason = {
   ],
 } as const
 
+/**
+ * Github's language definition for ReasonLIGO.
+ */
 export const ReasonLIGO = {
   type: 'programming',
   color: '#ff5847',
@@ -7824,6 +9408,9 @@ export const ReasonLIGO = {
   ],
 } as const
 
+/**
+ * Github's language definition for Rebol.
+ */
 export const Rebol = {
   type: 'programming',
   color: '#358a5b',
@@ -7839,6 +9426,9 @@ export const Rebol = {
   ],
 } as const
 
+/**
+ * Github's language definition for Record Jar.
+ */
 export const RecordJar = {
   type: 'data',
   color: '#0673ba',
@@ -7852,6 +9442,9 @@ export const RecordJar = {
   ],
 } as const
 
+/**
+ * Github's language definition for Red.
+ */
 export const Red = {
   type: 'programming',
   color: '#f50000',
@@ -7867,6 +9460,9 @@ export const Red = {
   ],
 } as const
 
+/**
+ * Github's language definition for Redcode.
+ */
 export const Redcode = {
   type: 'programming',
   tm_scope: 'none',
@@ -7877,6 +9473,9 @@ export const Redcode = {
   ],
 } as const
 
+/**
+ * Github's language definition for Redirect Rules.
+ */
 export const RedirectRules = {
   type: 'data',
   aliases: [
@@ -7890,6 +9489,9 @@ export const RedirectRules = {
   ],
 } as const
 
+/**
+ * Github's language definition for Regular Expression.
+ */
 export const RegularExpression = {
   type: 'data',
   color: '#009a00',
@@ -7906,6 +9508,9 @@ export const RegularExpression = {
   ],
 } as const
 
+/**
+ * Github's language definition for Ren'Py.
+ */
 export const RenPy = {
   type: 'programming',
   color: '#ff7f7f',
@@ -7920,6 +9525,9 @@ export const RenPy = {
   ],
 } as const
 
+/**
+ * Github's language definition for RenderScript.
+ */
 export const RenderScript = {
   type: 'programming',
   tm_scope: 'none',
@@ -7931,6 +9539,9 @@ export const RenderScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for Rez.
+ */
 export const Rez = {
   type: 'programming',
   color: '#FFDAB3',
@@ -7942,6 +9553,9 @@ export const Rez = {
   ],
 } as const
 
+/**
+ * Github's language definition for Rich Text Format.
+ */
 export const RichTextFormat = {
   type: 'markup',
   tm_scope: 'text.rtf',
@@ -7952,6 +9566,9 @@ export const RichTextFormat = {
   ],
 } as const
 
+/**
+ * Github's language definition for Ring.
+ */
 export const Ring = {
   type: 'programming',
   color: '#2D54CB',
@@ -7963,6 +9580,9 @@ export const Ring = {
   ],
 } as const
 
+/**
+ * Github's language definition for Riot.
+ */
 export const Riot = {
   type: 'markup',
   color: '#A71E49',
@@ -7974,6 +9594,9 @@ export const Riot = {
   ],
 } as const
 
+/**
+ * Github's language definition for RobotFramework.
+ */
 export const RobotFramework = {
   type: 'programming',
   color: '#00c0b5',
@@ -7985,6 +9608,9 @@ export const RobotFramework = {
   ],
 } as const
 
+/**
+ * Github's language definition for Roc.
+ */
 export const Roc = {
   type: 'programming',
   color: '#7c38f5',
@@ -7996,6 +9622,9 @@ export const Roc = {
   ],
 } as const
 
+/**
+ * Github's language definition for Roff.
+ */
 export const Roff = {
   type: 'markup',
   color: '#ecdebe',
@@ -8054,6 +9683,9 @@ export const Roff = {
   ],
 } as const
 
+/**
+ * Github's language definition for Roff Manpage.
+ */
 export const RoffManpage = {
   type: 'markup',
   color: '#ecdebe',
@@ -8088,6 +9720,9 @@ export const RoffManpage = {
   ],
 } as const
 
+/**
+ * Github's language definition for Rouge.
+ */
 export const Rouge = {
   type: 'programming',
   color: '#cc0088',
@@ -8101,6 +9736,9 @@ export const Rouge = {
   ],
 } as const
 
+/**
+ * Github's language definition for RouterOS Script.
+ */
 export const RouterOSScript = {
   type: 'programming',
   color: '#DE3941',
@@ -8115,6 +9753,9 @@ export const RouterOSScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for Ruby.
+ */
 export const Ruby = {
   type: 'programming',
   color: '#701516',
@@ -8188,6 +9829,9 @@ export const Ruby = {
   ],
 } as const
 
+/**
+ * Github's language definition for Rust.
+ */
 export const Rust = {
   type: 'programming',
   color: '#dea584',
@@ -8208,6 +9852,9 @@ export const Rust = {
   ],
 } as const
 
+/**
+ * Github's language definition for SAS.
+ */
 export const SAS = {
   type: 'programming',
   color: '#B34936',
@@ -8221,6 +9868,9 @@ export const SAS = {
   ],
 } as const
 
+/**
+ * Github's language definition for SCSS.
+ */
 export const SCSS = {
   type: 'markup',
   color: '#c6538c',
@@ -8234,6 +9884,9 @@ export const SCSS = {
   ],
 } as const
 
+/**
+ * Github's language definition for SELinux Policy.
+ */
 export const SELinuxPolicy = {
   type: 'data',
   aliases: [
@@ -8255,6 +9908,9 @@ export const SELinuxPolicy = {
   ],
 } as const
 
+/**
+ * Github's language definition for SMT.
+ */
 export const SMT = {
   type: 'programming',
   tm_scope: 'source.smt',
@@ -8278,6 +9934,9 @@ export const SMT = {
   ],
 } as const
 
+/**
+ * Github's language definition for SPARQL.
+ */
 export const SPARQL = {
   type: 'data',
   color: '#0C4597',
@@ -8292,6 +9951,9 @@ export const SPARQL = {
   ],
 } as const
 
+/**
+ * Github's language definition for SQF.
+ */
 export const SQF = {
   type: 'programming',
   color: '#3F3F3F',
@@ -8304,6 +9966,9 @@ export const SQF = {
   ],
 } as const
 
+/**
+ * Github's language definition for SQL.
+ */
 export const SQL = {
   type: 'data',
   color: '#e38c00',
@@ -8325,6 +9990,9 @@ export const SQL = {
   ],
 } as const
 
+/**
+ * Github's language definition for SQLPL.
+ */
 export const SQLPL = {
   type: 'programming',
   color: '#e38c00',
@@ -8339,6 +10007,9 @@ export const SQLPL = {
   ],
 } as const
 
+/**
+ * Github's language definition for SRecode Template.
+ */
 export const SRecodeTemplate = {
   type: 'markup',
   color: '#348a34',
@@ -8352,6 +10023,9 @@ export const SRecodeTemplate = {
   ],
 } as const
 
+/**
+ * Github's language definition for SSH Config.
+ */
 export const SSHConfig = {
   type: 'data',
   tm_scope: 'source.ssh-config',
@@ -8368,6 +10042,9 @@ export const SSHConfig = {
   ],
 } as const
 
+/**
+ * Github's language definition for STAR.
+ */
 export const STAR = {
   type: 'data',
   tm_scope: 'source.star',
@@ -8378,6 +10055,9 @@ export const STAR = {
   ],
 } as const
 
+/**
+ * Github's language definition for STL.
+ */
 export const STL = {
   type: 'data',
   color: '#373b5e',
@@ -8393,6 +10073,9 @@ export const STL = {
   ],
 } as const
 
+/**
+ * Github's language definition for STON.
+ */
 export const STON = {
   type: 'data',
   tm_scope: 'source.smalltalk',
@@ -8404,6 +10087,9 @@ export const STON = {
   ],
 } as const
 
+/**
+ * Github's language definition for SVG.
+ */
 export const SVG = {
   type: 'data',
   color: '#ff9900',
@@ -8417,6 +10103,9 @@ export const SVG = {
   ],
 } as const
 
+/**
+ * Github's language definition for SWIG.
+ */
 export const SWIG = {
   type: 'programming',
   tm_scope: 'source.c++',
@@ -8429,6 +10118,9 @@ export const SWIG = {
   ],
 } as const
 
+/**
+ * Github's language definition for Sage.
+ */
 export const Sage = {
   type: 'programming',
   tm_scope: 'source.python',
@@ -8442,6 +10134,9 @@ export const Sage = {
   ],
 } as const
 
+/**
+ * Github's language definition for SaltStack.
+ */
 export const SaltStack = {
   type: 'programming',
   color: '#646464',
@@ -8459,6 +10154,9 @@ export const SaltStack = {
   ],
 } as const
 
+/**
+ * Github's language definition for Sass.
+ */
 export const Sass = {
   type: 'markup',
   color: '#a53b70',
@@ -8472,6 +10170,9 @@ export const Sass = {
   ],
 } as const
 
+/**
+ * Github's language definition for Scala.
+ */
 export const Scala = {
   type: 'programming',
   color: '#c22d40',
@@ -8491,6 +10192,9 @@ export const Scala = {
   ],
 } as const
 
+/**
+ * Github's language definition for Scaml.
+ */
 export const Scaml = {
   type: 'markup',
   color: '#bd181a',
@@ -8502,6 +10206,9 @@ export const Scaml = {
   ],
 } as const
 
+/**
+ * Github's language definition for Scenic.
+ */
 export const Scenic = {
   type: 'programming',
   color: '#fdc700',
@@ -8516,6 +10223,9 @@ export const Scenic = {
   ],
 } as const
 
+/**
+ * Github's language definition for Scheme.
+ */
 export const Scheme = {
   type: 'programming',
   color: '#1e4aec',
@@ -8543,6 +10253,9 @@ export const Scheme = {
   ],
 } as const
 
+/**
+ * Github's language definition for Scilab.
+ */
 export const Scilab = {
   type: 'programming',
   color: '#ca0f21',
@@ -8556,6 +10269,9 @@ export const Scilab = {
   ],
 } as const
 
+/**
+ * Github's language definition for Self.
+ */
 export const Self = {
   type: 'programming',
   color: '#0579aa',
@@ -8567,6 +10283,9 @@ export const Self = {
   ],
 } as const
 
+/**
+ * Github's language definition for ShaderLab.
+ */
 export const ShaderLab = {
   type: 'programming',
   color: '#222c37',
@@ -8578,6 +10297,9 @@ export const ShaderLab = {
   ],
 } as const
 
+/**
+ * Github's language definition for Shell.
+ */
 export const Shell = {
   type: 'programming',
   color: '#89e051',
@@ -8659,6 +10381,9 @@ export const Shell = {
   ],
 } as const
 
+/**
+ * Github's language definition for ShellCheck Config.
+ */
 export const ShellCheckConfig = {
   type: 'data',
   color: '#cecfcb',
@@ -8675,6 +10400,9 @@ export const ShellCheckConfig = {
   ],
 } as const
 
+/**
+ * Github's language definition for ShellSession.
+ */
 export const ShellSession = {
   type: 'programming',
   aliases: [
@@ -8691,6 +10419,9 @@ export const ShellSession = {
   ],
 } as const
 
+/**
+ * Github's language definition for Shen.
+ */
 export const Shen = {
   type: 'programming',
   color: '#120F14',
@@ -8702,6 +10433,9 @@ export const Shen = {
   ],
 } as const
 
+/**
+ * Github's language definition for Sieve.
+ */
 export const Sieve = {
   type: 'programming',
   tm_scope: 'source.sieve',
@@ -8714,6 +10448,9 @@ export const Sieve = {
   ],
 } as const
 
+/**
+ * Github's language definition for Simple File Verification.
+ */
 export const SimpleFileVerification = {
   type: 'data',
   color: '#C9BFED',
@@ -8731,6 +10468,9 @@ export const SimpleFileVerification = {
   ],
 } as const
 
+/**
+ * Github's language definition for Singularity.
+ */
 export const Singularity = {
   type: 'programming',
   color: '#64E6AD',
@@ -8742,6 +10482,9 @@ export const Singularity = {
   ],
 } as const
 
+/**
+ * Github's language definition for Slash.
+ */
 export const Slash = {
   type: 'programming',
   color: '#007eff',
@@ -8753,6 +10496,9 @@ export const Slash = {
   ],
 } as const
 
+/**
+ * Github's language definition for Slice.
+ */
 export const Slice = {
   type: 'programming',
   color: '#003fa2',
@@ -8764,6 +10510,9 @@ export const Slice = {
   ],
 } as const
 
+/**
+ * Github's language definition for Slim.
+ */
 export const Slim = {
   type: 'markup',
   color: '#2b2b2b',
@@ -8777,6 +10526,9 @@ export const Slim = {
   ],
 } as const
 
+/**
+ * Github's language definition for Slint.
+ */
 export const Slint = {
   type: 'markup',
   color: '#2379F4',
@@ -8788,6 +10540,9 @@ export const Slint = {
   ],
 } as const
 
+/**
+ * Github's language definition for SmPL.
+ */
 export const SmPL = {
   type: 'programming',
   color: '#c94949',
@@ -8802,6 +10557,9 @@ export const SmPL = {
   ],
 } as const
 
+/**
+ * Github's language definition for Smali.
+ */
 export const Smali = {
   type: 'programming',
   tm_scope: 'source.smali',
@@ -8812,6 +10570,9 @@ export const Smali = {
   ],
 } as const
 
+/**
+ * Github's language definition for Smalltalk.
+ */
 export const Smalltalk = {
   type: 'programming',
   color: '#596706',
@@ -8829,6 +10590,9 @@ export const Smalltalk = {
   ],
 } as const
 
+/**
+ * Github's language definition for Smarty.
+ */
 export const Smarty = {
   type: 'programming',
   color: '#f0c040',
@@ -8842,6 +10606,9 @@ export const Smarty = {
   ],
 } as const
 
+/**
+ * Github's language definition for Smithy.
+ */
 export const Smithy = {
   type: 'programming',
   color: '#c44536',
@@ -8855,6 +10622,9 @@ export const Smithy = {
   ],
 } as const
 
+/**
+ * Github's language definition for Snakemake.
+ */
 export const Snakemake = {
   type: 'programming',
   color: '#419179',
@@ -8876,6 +10646,9 @@ export const Snakemake = {
   ],
 } as const
 
+/**
+ * Github's language definition for Solidity.
+ */
 export const Solidity = {
   type: 'programming',
   color: '#AA6746',
@@ -8887,6 +10660,9 @@ export const Solidity = {
   ],
 } as const
 
+/**
+ * Github's language definition for Soong.
+ */
 export const Soong = {
   type: 'data',
   tm_scope: 'source.bp',
@@ -8897,6 +10673,9 @@ export const Soong = {
   ],
 } as const
 
+/**
+ * Github's language definition for SourcePawn.
+ */
 export const SourcePawn = {
   type: 'programming',
   color: '#f69e1d',
@@ -8912,6 +10691,9 @@ export const SourcePawn = {
   ],
 } as const
 
+/**
+ * Github's language definition for Spline Font Database.
+ */
 export const SplineFontDatabase = {
   type: 'data',
   tm_scope: 'text.sfd',
@@ -8922,6 +10704,9 @@ export const SplineFontDatabase = {
   ],
 } as const
 
+/**
+ * Github's language definition for Squirrel.
+ */
 export const Squirrel = {
   type: 'programming',
   color: '#800000',
@@ -8935,6 +10720,9 @@ export const Squirrel = {
   ],
 } as const
 
+/**
+ * Github's language definition for Stan.
+ */
 export const Stan = {
   type: 'programming',
   color: '#b2011d',
@@ -8946,6 +10734,9 @@ export const Stan = {
   ],
 } as const
 
+/**
+ * Github's language definition for Standard ML.
+ */
 export const StandardML = {
   type: 'programming',
   color: '#dc566d',
@@ -8965,6 +10756,9 @@ export const StandardML = {
   ],
 } as const
 
+/**
+ * Github's language definition for Starlark.
+ */
 export const Starlark = {
   type: 'programming',
   color: '#76d275',
@@ -8992,6 +10786,9 @@ export const Starlark = {
   ],
 } as const
 
+/**
+ * Github's language definition for Stata.
+ */
 export const Stata = {
   type: 'programming',
   color: '#1a5f91',
@@ -9009,6 +10806,9 @@ export const Stata = {
   ],
 } as const
 
+/**
+ * Github's language definition for StringTemplate.
+ */
 export const StringTemplate = {
   type: 'markup',
   color: '#3fb34f',
@@ -9022,6 +10822,9 @@ export const StringTemplate = {
   ],
 } as const
 
+/**
+ * Github's language definition for Stylus.
+ */
 export const Stylus = {
   type: 'markup',
   color: '#ff6347',
@@ -9033,6 +10836,9 @@ export const Stylus = {
   ],
 } as const
 
+/**
+ * Github's language definition for SubRip Text.
+ */
 export const SubRipText = {
   type: 'data',
   color: '#9e0101',
@@ -9044,6 +10850,9 @@ export const SubRipText = {
   ],
 } as const
 
+/**
+ * Github's language definition for SugarSS.
+ */
 export const SugarSS = {
   type: 'markup',
   color: '#2fcc9f',
@@ -9055,6 +10864,9 @@ export const SugarSS = {
   ],
 } as const
 
+/**
+ * Github's language definition for SuperCollider.
+ */
 export const SuperCollider = {
   type: 'programming',
   color: '#46390b',
@@ -9071,6 +10883,9 @@ export const SuperCollider = {
   ],
 } as const
 
+/**
+ * Github's language definition for Svelte.
+ */
 export const Svelte = {
   type: 'markup',
   color: '#ff3e00',
@@ -9084,6 +10899,9 @@ export const Svelte = {
   ],
 } as const
 
+/**
+ * Github's language definition for Sway.
+ */
 export const Sway = {
   type: 'programming',
   color: '#00F58C',
@@ -9097,6 +10915,9 @@ export const Sway = {
   ],
 } as const
 
+/**
+ * Github's language definition for Sweave.
+ */
 export const Sweave = {
   type: 'prose',
   color: '#198ce7',
@@ -9108,6 +10929,9 @@ export const Sweave = {
   ],
 } as const
 
+/**
+ * Github's language definition for Swift.
+ */
 export const Swift = {
   type: 'programming',
   color: '#F05138',
@@ -9121,6 +10945,9 @@ export const Swift = {
   ],
 } as const
 
+/**
+ * Github's language definition for SystemVerilog.
+ */
 export const SystemVerilog = {
   type: 'programming',
   color: '#DAE1C2',
@@ -9136,6 +10963,9 @@ export const SystemVerilog = {
   ],
 } as const
 
+/**
+ * Github's language definition for TI Program.
+ */
 export const TIProgram = {
   type: 'programming',
   color: '#A0AA87',
@@ -9148,6 +10978,9 @@ export const TIProgram = {
   ],
 } as const
 
+/**
+ * Github's language definition for TL-Verilog.
+ */
 export const TL_Verilog = {
   type: 'programming',
   color: '#C40023',
@@ -9159,6 +10992,9 @@ export const TL_Verilog = {
   ],
 } as const
 
+/**
+ * Github's language definition for TLA.
+ */
 export const TLA = {
   type: 'programming',
   color: '#4b0079',
@@ -9170,6 +11006,9 @@ export const TLA = {
   ],
 } as const
 
+/**
+ * Github's language definition for TOML.
+ */
 export const TOML = {
   type: 'data',
   color: '#9c4221',
@@ -9191,6 +11030,9 @@ export const TOML = {
   ],
 } as const
 
+/**
+ * Github's language definition for TSQL.
+ */
 export const TSQL = {
   type: 'programming',
   color: '#e38c00',
@@ -9202,6 +11044,9 @@ export const TSQL = {
   ],
 } as const
 
+/**
+ * Github's language definition for TSV.
+ */
 export const TSV = {
   type: 'data',
   color: '#237346',
@@ -9213,6 +11058,9 @@ export const TSV = {
   ],
 } as const
 
+/**
+ * Github's language definition for TSX.
+ */
 export const TSX = {
   type: 'programming',
   color: '#3178c6',
@@ -9227,6 +11075,9 @@ export const TSX = {
   ],
 } as const
 
+/**
+ * Github's language definition for TXL.
+ */
 export const TXL = {
   type: 'programming',
   color: '#0178b8',
@@ -9238,6 +11089,9 @@ export const TXL = {
   ],
 } as const
 
+/**
+ * Github's language definition for Talon.
+ */
 export const Talon = {
   type: 'programming',
   color: '#333333',
@@ -9249,6 +11103,9 @@ export const Talon = {
   ],
 } as const
 
+/**
+ * Github's language definition for Tcl.
+ */
 export const Tcl = {
   type: 'programming',
   color: '#e4cc98',
@@ -9279,6 +11136,9 @@ export const Tcl = {
   ],
 } as const
 
+/**
+ * Github's language definition for Tcsh.
+ */
 export const Tcsh = {
   type: 'programming',
   tm_scope: 'source.shell',
@@ -9297,6 +11157,9 @@ export const Tcsh = {
   ],
 } as const
 
+/**
+ * Github's language definition for TeX.
+ */
 export const TeX = {
   type: 'markup',
   color: '#3D6117',
@@ -9327,6 +11190,9 @@ export const TeX = {
   ],
 } as const
 
+/**
+ * Github's language definition for Tea.
+ */
 export const Tea = {
   type: 'markup',
   tm_scope: 'source.tea',
@@ -9337,6 +11203,9 @@ export const Tea = {
   ],
 } as const
 
+/**
+ * Github's language definition for Terra.
+ */
 export const Terra = {
   type: 'programming',
   color: '#00004c',
@@ -9353,6 +11222,9 @@ export const Terra = {
   ],
 } as const
 
+/**
+ * Github's language definition for Terraform Template.
+ */
 export const TerraformTemplate = {
   type: 'markup',
   color: '#7b42bb',
@@ -9367,6 +11239,9 @@ export const TerraformTemplate = {
   ],
 } as const
 
+/**
+ * Github's language definition for Texinfo.
+ */
 export const Texinfo = {
   type: 'prose',
   tm_scope: 'text.texinfo',
@@ -9383,6 +11258,9 @@ export const Texinfo = {
   ],
 } as const
 
+/**
+ * Github's language definition for Text.
+ */
 export const Text = {
   type: 'prose',
   aliases: [
@@ -9429,6 +11307,9 @@ export const Text = {
   ],
 } as const
 
+/**
+ * Github's language definition for TextGrid.
+ */
 export const TextGrid = {
   type: 'data',
   color: '#c8506d',
@@ -9440,6 +11321,9 @@ export const TextGrid = {
   ],
 } as const
 
+/**
+ * Github's language definition for TextMate Properties.
+ */
 export const TextMateProperties = {
   type: 'data',
   color: '#df66e4',
@@ -9456,6 +11340,9 @@ export const TextMateProperties = {
   ],
 } as const
 
+/**
+ * Github's language definition for Textile.
+ */
 export const Textile = {
   type: 'prose',
   color: '#ffe7ac',
@@ -9470,6 +11357,9 @@ export const Textile = {
   ],
 } as const
 
+/**
+ * Github's language definition for Thrift.
+ */
 export const Thrift = {
   type: 'programming',
   color: '#D12127',
@@ -9481,6 +11371,9 @@ export const Thrift = {
   ],
 } as const
 
+/**
+ * Github's language definition for Toit.
+ */
 export const Toit = {
   type: 'programming',
   color: '#c2c9fb',
@@ -9492,6 +11385,9 @@ export const Toit = {
   ],
 } as const
 
+/**
+ * Github's language definition for Turing.
+ */
 export const Turing = {
   type: 'programming',
   color: '#cf142b',
@@ -9504,6 +11400,9 @@ export const Turing = {
   ],
 } as const
 
+/**
+ * Github's language definition for Turtle.
+ */
 export const Turtle = {
   type: 'data',
   tm_scope: 'source.turtle',
@@ -9516,6 +11415,9 @@ export const Turtle = {
   ],
 } as const
 
+/**
+ * Github's language definition for Twig.
+ */
 export const Twig = {
   type: 'markup',
   color: '#c1d026',
@@ -9529,6 +11431,9 @@ export const Twig = {
   ],
 } as const
 
+/**
+ * Github's language definition for Type Language.
+ */
 export const TypeLanguage = {
   type: 'data',
   aliases: [
@@ -9542,6 +11447,9 @@ export const TypeLanguage = {
   ],
 } as const
 
+/**
+ * Github's language definition for TypeScript.
+ */
 export const TypeScript = {
   type: 'programming',
   color: '#3178c6',
@@ -9565,6 +11473,9 @@ export const TypeScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for Typst.
+ */
 export const Typst = {
   type: 'programming',
   color: '#239dad',
@@ -9579,6 +11490,9 @@ export const Typst = {
   ],
 } as const
 
+/**
+ * Github's language definition for Unified Parallel C.
+ */
 export const UnifiedParallelC = {
   type: 'programming',
   color: '#4e3617',
@@ -9593,6 +11507,9 @@ export const UnifiedParallelC = {
   ],
 } as const
 
+/**
+ * Github's language definition for Unity3D Asset.
+ */
 export const Unity3DAsset = {
   type: 'data',
   color: '#222c37',
@@ -9612,6 +11529,9 @@ export const Unity3DAsset = {
   ],
 } as const
 
+/**
+ * Github's language definition for Unix Assembly.
+ */
 export const UnixAssembly = {
   type: 'programming',
   aliases: [
@@ -9629,6 +11549,9 @@ export const UnixAssembly = {
   ],
 } as const
 
+/**
+ * Github's language definition for Uno.
+ */
 export const Uno = {
   type: 'programming',
   color: '#9933cc',
@@ -9642,6 +11565,9 @@ export const Uno = {
   ],
 } as const
 
+/**
+ * Github's language definition for UnrealScript.
+ */
 export const UnrealScript = {
   type: 'programming',
   color: '#a54c4d',
@@ -9655,6 +11581,9 @@ export const UnrealScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for UrWeb.
+ */
 export const UrWeb = {
   type: 'programming',
   color: '#ccccee',
@@ -9671,6 +11600,9 @@ export const UrWeb = {
   ],
 } as const
 
+/**
+ * Github's language definition for V.
+ */
 export const V = {
   type: 'programming',
   color: '#4f87c4',
@@ -9687,6 +11619,9 @@ export const V = {
   ],
 } as const
 
+/**
+ * Github's language definition for VBA.
+ */
 export const VBA = {
   type: 'programming',
   color: '#867db1',
@@ -9706,6 +11641,9 @@ export const VBA = {
   ],
 } as const
 
+/**
+ * Github's language definition for VBScript.
+ */
 export const VBScript = {
   type: 'programming',
   color: '#15dcdc',
@@ -9719,6 +11657,9 @@ export const VBScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for VCL.
+ */
 export const VCL = {
   type: 'programming',
   color: '#148AA8',
@@ -9730,6 +11671,9 @@ export const VCL = {
   ],
 } as const
 
+/**
+ * Github's language definition for VHDL.
+ */
 export const VHDL = {
   type: 'programming',
   color: '#adb2cb',
@@ -9750,6 +11694,9 @@ export const VHDL = {
   ],
 } as const
 
+/**
+ * Github's language definition for Vala.
+ */
 export const Vala = {
   type: 'programming',
   color: '#a56de2',
@@ -9762,6 +11709,9 @@ export const Vala = {
   ],
 } as const
 
+/**
+ * Github's language definition for Valve Data Format.
+ */
 export const ValveDataFormat = {
   type: 'data',
   color: '#f26025',
@@ -9777,6 +11727,9 @@ export const ValveDataFormat = {
   ],
 } as const
 
+/**
+ * Github's language definition for Velocity Template Language.
+ */
 export const VelocityTemplateLanguage = {
   type: 'markup',
   color: '#507cff',
@@ -9794,6 +11747,9 @@ export const VelocityTemplateLanguage = {
   ],
 } as const
 
+/**
+ * Github's language definition for Verilog.
+ */
 export const Verilog = {
   type: 'programming',
   color: '#b2b7f8',
@@ -9808,6 +11764,9 @@ export const Verilog = {
   ],
 } as const
 
+/**
+ * Github's language definition for Vim Help File.
+ */
 export const VimHelpFile = {
   type: 'prose',
   color: '#199f4b',
@@ -9823,6 +11782,9 @@ export const VimHelpFile = {
   ],
 } as const
 
+/**
+ * Github's language definition for Vim Script.
+ */
 export const VimScript = {
   type: 'programming',
   color: '#199f4b',
@@ -9852,6 +11814,9 @@ export const VimScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for Vim Snippet.
+ */
 export const VimSnippet = {
   type: 'markup',
   color: '#199f4b',
@@ -9871,6 +11836,9 @@ export const VimSnippet = {
   ],
 } as const
 
+/**
+ * Github's language definition for Visual Basic .NET.
+ */
 export const VisualBasicNET = {
   type: 'programming',
   color: '#945db7',
@@ -9891,6 +11859,9 @@ export const VisualBasicNET = {
   ],
 } as const
 
+/**
+ * Github's language definition for Visual Basic 6.0.
+ */
 export const VisualBasic60 = {
   type: 'programming',
   color: '#2c6353',
@@ -9915,6 +11886,9 @@ export const VisualBasic60 = {
   ],
 } as const
 
+/**
+ * Github's language definition for Volt.
+ */
 export const Volt = {
   type: 'programming',
   color: '#1F1F1F',
@@ -9928,6 +11902,9 @@ export const Volt = {
   ],
 } as const
 
+/**
+ * Github's language definition for Vue.
+ */
 export const Vue = {
   type: 'markup',
   color: '#41b883',
@@ -9939,6 +11916,9 @@ export const Vue = {
   ],
 } as const
 
+/**
+ * Github's language definition for Vyper.
+ */
 export const Vyper = {
   type: 'programming',
   color: '#2980b9',
@@ -9950,6 +11930,9 @@ export const Vyper = {
   ],
 } as const
 
+/**
+ * Github's language definition for WDL.
+ */
 export const WDL = {
   type: 'programming',
   color: '#42f1f4',
@@ -9964,6 +11947,9 @@ export const WDL = {
   ],
 } as const
 
+/**
+ * Github's language definition for WGSL.
+ */
 export const WGSL = {
   type: 'programming',
   color: '#1a5e9a',
@@ -9975,6 +11961,9 @@ export const WGSL = {
   ],
 } as const
 
+/**
+ * Github's language definition for Wavefront Material.
+ */
 export const WavefrontMaterial = {
   type: 'data',
   tm_scope: 'source.wavefront.mtl',
@@ -9985,6 +11974,9 @@ export const WavefrontMaterial = {
   ],
 } as const
 
+/**
+ * Github's language definition for Wavefront Object.
+ */
 export const WavefrontObject = {
   type: 'data',
   tm_scope: 'source.wavefront.obj',
@@ -9995,6 +11987,9 @@ export const WavefrontObject = {
   ],
 } as const
 
+/**
+ * Github's language definition for Web Ontology Language.
+ */
 export const WebOntologyLanguage = {
   type: 'data',
   color: '#5b70bd',
@@ -10006,6 +12001,9 @@ export const WebOntologyLanguage = {
   ],
 } as const
 
+/**
+ * Github's language definition for WebAssembly.
+ */
 export const WebAssembly = {
   type: 'programming',
   color: '#04133b',
@@ -10024,6 +12022,9 @@ export const WebAssembly = {
   ],
 } as const
 
+/**
+ * Github's language definition for WebAssembly Interface Type.
+ */
 export const WebAssemblyInterfaceType = {
   type: 'data',
   color: '#6250e7',
@@ -10040,6 +12041,9 @@ export const WebAssemblyInterfaceType = {
   ],
 } as const
 
+/**
+ * Github's language definition for WebIDL.
+ */
 export const WebIDL = {
   type: 'programming',
   tm_scope: 'source.webidl',
@@ -10052,6 +12056,9 @@ export const WebIDL = {
   ],
 } as const
 
+/**
+ * Github's language definition for WebVTT.
+ */
 export const WebVTT = {
   type: 'data',
   aliases: [
@@ -10066,6 +12073,9 @@ export const WebVTT = {
   ],
 } as const
 
+/**
+ * Github's language definition for Wget Config.
+ */
 export const WgetConfig = {
   type: 'data',
   aliases: [
@@ -10080,6 +12090,9 @@ export const WgetConfig = {
   ],
 } as const
 
+/**
+ * Github's language definition for Whiley.
+ */
 export const Whiley = {
   type: 'programming',
   color: '#d5c397',
@@ -10091,6 +12104,9 @@ export const Whiley = {
   ],
 } as const
 
+/**
+ * Github's language definition for Wikitext.
+ */
 export const Wikitext = {
   type: 'prose',
   color: '#fc5757',
@@ -10109,6 +12125,9 @@ export const Wikitext = {
   ],
 } as const
 
+/**
+ * Github's language definition for Win32 Message File.
+ */
 export const Win32MessageFile = {
   type: 'data',
   tm_scope: 'source.win32-messages',
@@ -10121,6 +12140,9 @@ export const Win32MessageFile = {
   ],
 } as const
 
+/**
+ * Github's language definition for Windows Registry Entries.
+ */
 export const WindowsRegistryEntries = {
   type: 'data',
   color: '#52d5ff',
@@ -10134,6 +12156,9 @@ export const WindowsRegistryEntries = {
   ],
 } as const
 
+/**
+ * Github's language definition for Witcher Script.
+ */
 export const WitcherScript = {
   type: 'programming',
   color: '#ff0000',
@@ -10145,6 +12170,9 @@ export const WitcherScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for Wollok.
+ */
 export const Wollok = {
   type: 'programming',
   color: '#a23738',
@@ -10156,6 +12184,9 @@ export const Wollok = {
   ],
 } as const
 
+/**
+ * Github's language definition for World of Warcraft Addon Data.
+ */
 export const WorldofWarcraftAddonData = {
   type: 'data',
   color: '#f7e43f',
@@ -10167,6 +12198,9 @@ export const WorldofWarcraftAddonData = {
   ],
 } as const
 
+/**
+ * Github's language definition for Wren.
+ */
 export const Wren = {
   type: 'programming',
   color: '#383838',
@@ -10181,6 +12215,9 @@ export const Wren = {
   ],
 } as const
 
+/**
+ * Github's language definition for X BitMap.
+ */
 export const XBitMap = {
   type: 'data',
   aliases: [
@@ -10197,6 +12234,9 @@ export const XBitMap = {
   ],
 } as const
 
+/**
+ * Github's language definition for X Font Directory Index.
+ */
 export const XFontDirectoryIndex = {
   type: 'data',
   tm_scope: 'source.fontdir',
@@ -10210,6 +12250,9 @@ export const XFontDirectoryIndex = {
   ],
 } as const
 
+/**
+ * Github's language definition for X PixMap.
+ */
 export const XPixMap = {
   type: 'data',
   aliases: [
@@ -10227,6 +12270,9 @@ export const XPixMap = {
   ],
 } as const
 
+/**
+ * Github's language definition for X10.
+ */
 export const X10 = {
   type: 'programming',
   color: '#4B6BEF',
@@ -10241,6 +12287,9 @@ export const X10 = {
   ],
 } as const
 
+/**
+ * Github's language definition for XC.
+ */
 export const XC = {
   type: 'programming',
   color: '#99DA07',
@@ -10254,6 +12303,9 @@ export const XC = {
   ],
 } as const
 
+/**
+ * Github's language definition for XCompose.
+ */
 export const XCompose = {
   type: 'data',
   tm_scope: 'config.xcompose',
@@ -10266,6 +12318,9 @@ export const XCompose = {
   ],
 } as const
 
+/**
+ * Github's language definition for XML.
+ */
 export const XML = {
   type: 'data',
   color: '#0060ac',
@@ -10401,6 +12456,9 @@ export const XML = {
   ],
 } as const
 
+/**
+ * Github's language definition for XML Property List.
+ */
 export const XMLPropertyList = {
   type: 'data',
   color: '#0060ac',
@@ -10421,6 +12479,9 @@ export const XMLPropertyList = {
   ],
 } as const
 
+/**
+ * Github's language definition for XPages.
+ */
 export const XPages = {
   type: 'data',
   tm_scope: 'text.xml',
@@ -10434,6 +12495,9 @@ export const XPages = {
   ],
 } as const
 
+/**
+ * Github's language definition for XProc.
+ */
 export const XProc = {
   type: 'programming',
   tm_scope: 'text.xml',
@@ -10447,6 +12511,9 @@ export const XProc = {
   ],
 } as const
 
+/**
+ * Github's language definition for XQuery.
+ */
 export const XQuery = {
   type: 'programming',
   color: '#5232e7',
@@ -10464,6 +12531,9 @@ export const XQuery = {
   ],
 } as const
 
+/**
+ * Github's language definition for XS.
+ */
 export const XS = {
   type: 'programming',
   tm_scope: 'source.c',
@@ -10476,6 +12546,9 @@ export const XS = {
   ],
 } as const
 
+/**
+ * Github's language definition for XSLT.
+ */
 export const XSLT = {
   type: 'programming',
   color: '#EB8CEB',
@@ -10493,6 +12566,9 @@ export const XSLT = {
   ],
 } as const
 
+/**
+ * Github's language definition for Xojo.
+ */
 export const Xojo = {
   type: 'programming',
   color: '#81bd41',
@@ -10509,6 +12585,9 @@ export const Xojo = {
   ],
 } as const
 
+/**
+ * Github's language definition for Xonsh.
+ */
 export const Xonsh = {
   type: 'programming',
   color: '#285EEF',
@@ -10522,6 +12601,9 @@ export const Xonsh = {
   ],
 } as const
 
+/**
+ * Github's language definition for Xtend.
+ */
 export const Xtend = {
   type: 'programming',
   color: '#24255d',
@@ -10533,6 +12615,9 @@ export const Xtend = {
   ],
 } as const
 
+/**
+ * Github's language definition for YAML.
+ */
 export const YAML = {
   type: 'data',
   color: '#cb171e',
@@ -10566,6 +12651,9 @@ export const YAML = {
   ],
 } as const
 
+/**
+ * Github's language definition for YANG.
+ */
 export const YANG = {
   type: 'data',
   tm_scope: 'source.yang',
@@ -10576,6 +12664,9 @@ export const YANG = {
   ],
 } as const
 
+/**
+ * Github's language definition for YARA.
+ */
 export const YARA = {
   type: 'programming',
   color: '#220000',
@@ -10588,6 +12679,9 @@ export const YARA = {
   ],
 } as const
 
+/**
+ * Github's language definition for YASnippet.
+ */
 export const YASnippet = {
   type: 'markup',
   color: '#32AB90',
@@ -10603,6 +12697,9 @@ export const YASnippet = {
   ],
 } as const
 
+/**
+ * Github's language definition for Yacc.
+ */
 export const Yacc = {
   type: 'programming',
   color: '#4B6C4B',
@@ -10616,6 +12713,9 @@ export const Yacc = {
   ],
 } as const
 
+/**
+ * Github's language definition for Yul.
+ */
 export const Yul = {
   type: 'programming',
   color: '#794932',
@@ -10627,6 +12727,9 @@ export const Yul = {
   ],
 } as const
 
+/**
+ * Github's language definition for ZAP.
+ */
 export const ZAP = {
   type: 'programming',
   color: '#0d665e',
@@ -10639,6 +12742,9 @@ export const ZAP = {
   ],
 } as const
 
+/**
+ * Github's language definition for ZIL.
+ */
 export const ZIL = {
   type: 'programming',
   color: '#dc75e5',
@@ -10651,6 +12757,9 @@ export const ZIL = {
   ],
 } as const
 
+/**
+ * Github's language definition for Zeek.
+ */
 export const Zeek = {
   type: 'programming',
   aliases: [
@@ -10665,6 +12774,9 @@ export const Zeek = {
   ],
 } as const
 
+/**
+ * Github's language definition for ZenScript.
+ */
 export const ZenScript = {
   type: 'programming',
   color: '#00BCD1',
@@ -10676,6 +12788,9 @@ export const ZenScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for Zephir.
+ */
 export const Zephir = {
   type: 'programming',
   color: '#118f9e',
@@ -10687,6 +12802,9 @@ export const Zephir = {
   ],
 } as const
 
+/**
+ * Github's language definition for Zig.
+ */
 export const Zig = {
   type: 'programming',
   color: '#ec915c',
@@ -10699,6 +12817,9 @@ export const Zig = {
   ],
 } as const
 
+/**
+ * Github's language definition for Zimpl.
+ */
 export const Zimpl = {
   type: 'programming',
   color: '#d67711',
@@ -10712,6 +12833,9 @@ export const Zimpl = {
   ],
 } as const
 
+/**
+ * Github's language definition for cURL Config.
+ */
 export const cURLConfig = {
   type: 'data',
   aliases: [
@@ -10727,6 +12851,9 @@ export const cURLConfig = {
   ],
 } as const
 
+/**
+ * Github's language definition for crontab.
+ */
 export const crontab = {
   type: 'data',
   color: '#ead7ac',
@@ -10742,6 +12869,9 @@ export const crontab = {
   ],
 } as const
 
+/**
+ * Github's language definition for desktop.
+ */
 export const desktop = {
   type: 'data',
   tm_scope: 'source.desktop',
@@ -10754,6 +12884,9 @@ export const desktop = {
   ],
 } as const
 
+/**
+ * Github's language definition for dircolors.
+ */
 export const dircolors = {
   type: 'data',
   tm_scope: 'source.dircolors',
@@ -10772,6 +12905,9 @@ export const dircolors = {
   ],
 } as const
 
+/**
+ * Github's language definition for eC.
+ */
 export const eC = {
   type: 'programming',
   color: '#913960',
@@ -10784,6 +12920,9 @@ export const eC = {
   ],
 } as const
 
+/**
+ * Github's language definition for edn.
+ */
 export const edn = {
   type: 'data',
   tm_scope: 'source.clojure',
@@ -10796,6 +12935,9 @@ export const edn = {
   ],
 } as const
 
+/**
+ * Github's language definition for fish.
+ */
 export const fish = {
   type: 'programming',
   color: '#4aae47',
@@ -10811,6 +12953,9 @@ export const fish = {
   ],
 } as const
 
+/**
+ * Github's language definition for hoon.
+ */
 export const hoon = {
   type: 'programming',
   color: '#00b171',
@@ -10822,6 +12967,9 @@ export const hoon = {
   ],
 } as const
 
+/**
+ * Github's language definition for jq.
+ */
 export const jq = {
   type: 'programming',
   color: '#c7254e',
@@ -10841,6 +12989,9 @@ export const jq = {
   ],
 } as const
 
+/**
+ * Github's language definition for kvlang.
+ */
 export const kvlang = {
   type: 'markup',
   color: '#1da6e0',
@@ -10852,6 +13003,9 @@ export const kvlang = {
   ],
 } as const
 
+/**
+ * Github's language definition for mIRC Script.
+ */
 export const mIRCScript = {
   type: 'programming',
   color: '#3d57c3',
@@ -10863,6 +13017,9 @@ export const mIRCScript = {
   ],
 } as const
 
+/**
+ * Github's language definition for mcfunction.
+ */
 export const mcfunction = {
   type: 'programming',
   color: '#E22837',
@@ -10874,6 +13031,9 @@ export const mcfunction = {
   ],
 } as const
 
+/**
+ * Github's language definition for mupad.
+ */
 export const mupad = {
   type: 'programming',
   color: '#244963',
@@ -10885,6 +13045,9 @@ export const mupad = {
   ],
 } as const
 
+/**
+ * Github's language definition for nanorc.
+ */
 export const nanorc = {
   type: 'data',
   color: '#2d004d',
@@ -10901,6 +13064,9 @@ export const nanorc = {
   ],
 } as const
 
+/**
+ * Github's language definition for nesC.
+ */
 export const nesC = {
   type: 'programming',
   color: '#94B0C7',
@@ -10912,6 +13078,9 @@ export const nesC = {
   ],
 } as const
 
+/**
+ * Github's language definition for ooc.
+ */
 export const ooc = {
   type: 'programming',
   color: '#b0b77e',
@@ -10923,6 +13092,9 @@ export const ooc = {
   ],
 } as const
 
+/**
+ * Github's language definition for q.
+ */
 export const q = {
   type: 'programming',
   color: '#0040cd',
@@ -10934,6 +13106,9 @@ export const q = {
   ],
 } as const
 
+/**
+ * Github's language definition for reStructuredText.
+ */
 export const reStructuredText = {
   type: 'prose',
   color: '#141414',
@@ -10954,6 +13129,9 @@ export const reStructuredText = {
   ],
 } as const
 
+/**
+ * Github's language definition for robots.txt.
+ */
 export const robotstxt = {
   type: 'data',
   aliases: [
@@ -10968,6 +13146,9 @@ export const robotstxt = {
   ],
 } as const
 
+/**
+ * Github's language definition for sed.
+ */
 export const sed = {
   type: 'programming',
   color: '#64b970',
@@ -10985,6 +13166,9 @@ export const sed = {
   ],
 } as const
 
+/**
+ * Github's language definition for templ.
+ */
 export const templ = {
   type: 'markup',
   color: '#66D0DD',
@@ -10996,6 +13180,9 @@ export const templ = {
   ],
 } as const
 
+/**
+ * Github's language definition for wisp.
+ */
 export const wisp = {
   type: 'programming',
   color: '#7582D1',
@@ -11009,6 +13196,9 @@ export const wisp = {
   ],
 } as const
 
+/**
+ * Github's language definition for xBase.
+ */
 export const xBase = {
   type: 'programming',
   color: '#403a40',

@@ -81,12 +81,19 @@ async function run() {
       normalizedKey = `_${normalizedKey}`
     }
 
-    content += `export const ${normalizedKey} = ${JSON.stringify(lang, null, 2)} as const;\n\n`
+    content += `
+/**
+ * Github's language definition for ${key}.
+ */
+export const ${normalizedKey} = ${JSON.stringify(lang, null, 2)} as const;\n\n`
   })
 
   await writeFile('./src/languages.ts', content)
-  await writeFile('./src/index.ts', `export * from "./languages";
+  await writeFile('./src/index.ts', `export * from './languages'
 
+/**
+ * A language definition.
+ */
 export interface Language {
   type: string
   tm_scope: string
