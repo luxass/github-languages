@@ -4,5 +4,5 @@ import {
 } from '@luxass/eslint-config'
 
 export default luxass({
-  formatters: true
+  formatters: true,
 })
