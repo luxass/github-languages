@@ -8,13 +8,14 @@
   },
   "exclude": [
     "tsup.config.ts",
-    "eslint.config.js",
+    "eslint.config.mjs",
     "pnpm-lock.yaml",
     ".env.example",
     ".github/**",
-    "scripts/**"
+    "scripts/**",
+    "tsconfig.json"
   ],
   "include": [
-    "github-schema.graphql"
+    "languages.json"
   ]
 }
