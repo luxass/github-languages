@@ -17,13 +17,13 @@ jobs:
           fetch-depth: 0
 
       - name: Setup pnpm
-        uses: pnpm/action-setup@v2
+        uses: pnpm/action-setup@v4
 
       - name: Setup node
         uses: actions/setup-node@v4
         with:
           registry-url: 'https://registry.npmjs.org'
-          node-version-file: .nvmrc
+          node-version: 20
 
       - run: pnpx changelogithub
         env:
@@ -39,3 +39,6 @@ jobs:
           NPM_CONFIG_PROVENANCE: true
           # so prepublishOnly can run.
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish to JSR
+        run: npx jsr publish
