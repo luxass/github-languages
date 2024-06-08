@@ -89,7 +89,13 @@ export const ${normalizedKey} = ${JSON.stringify(lang, null, 2)} as const;\n\n`
   })
 
   await writeFile('./src/languages.ts', content)
-  await writeFile('./src/index.ts', `export * from './languages'
+  await writeFile('./src/index.ts', `
+/**
+ * All language definitions from Github's linguist.
+ * @module
+ */
+
+export * from './languages'
 
 /**
  * A language definition.
