@@ -1,3 +1,8 @@
+/**
+ * All language definitions from Github's linguist.
+ * @module
+ */
+
 export * from './languages'
 
 /**
