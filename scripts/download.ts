@@ -62,7 +62,12 @@ async function run() {
 
   await writeFile('languages.json', JSON.stringify(languages, null, 2))
 
-  let content = ``
+  let content = `
+/**
+ * All language definitions from Github's linguist.
+ * @module
+ */
+  `
   Object.keys(languages).forEach((key) => {
     const lang = languages[key]
 
@@ -83,7 +88,7 @@ async function run() {
 
     content += `
 /**
- * Github's language definition for ${key}.
+ * GitHub's language definition for ${key}.
  */
 export const ${normalizedKey} = ${JSON.stringify(lang, null, 2)} as const;\n\n`
   })
