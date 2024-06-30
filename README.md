@@ -12,12 +12,12 @@ npm install @luxass/github-languages
 ## 📚 Usage
 
 ```ts
-import { Java, Kotlin } from '@luxass/github-languages'
+import { Java, Kotlin } from "@luxass/github-languages";
 
 // we are exporting more languages.
-Java.type // "programming"
-Java.extensions // [".java"]
-Java.color // "#b07219"
+Java.type; // "programming"
+Java.extensions; // [".java"]
+Java.color; // "#b07219"
 ```
 
 ## 📄 License
