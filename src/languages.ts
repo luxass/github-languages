@@ -745,6 +745,25 @@ export const Awk = {
 } as const;
 
 /**
+ * GitHub's language definition for B4X.
+ */
+export const B4X = {
+  type: "programming",
+  color: "#00e4ff",
+  aliases: [
+    "basic for android",
+  ],
+  tm_scope: "source.vba",
+  ace_mode: "text",
+  codemirror_mode: "vb",
+  codemirror_mime_type: "text/x-vb",
+  language_id: 96642275,
+  extensions: [
+    ".bas",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for BASIC.
  */
 export const BASIC = {
@@ -1488,7 +1507,23 @@ export const Cairo = {
   color: "#ff4a48",
   tm_scope: "source.cairo",
   ace_mode: "text",
+  group: "Cairo",
   language_id: 620599567,
+  extensions: [
+    ".cairo",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for Cairo Zero.
+ */
+export const CairoZero = {
+  type: "programming",
+  color: "#ff4a48",
+  tm_scope: "source.cairo0",
+  ace_mode: "text",
+  group: "Cairo",
+  language_id: 891399890,
   extensions: [
     ".cairo",
   ],
@@ -1522,6 +1557,22 @@ export const CapnProto = {
   language_id: 52,
   extensions: [
     ".capnp",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for Carbon.
+ */
+export const Carbon = {
+  type: "programming",
+  color: "#222222",
+  tm_scope: "source.v",
+  ace_mode: "golang",
+  codemirror_mode: "go",
+  codemirror_mime_type: "text/x-go",
+  language_id: 55627273,
+  extensions: [
+    ".carbon",
   ],
 } as const;
 
@@ -2179,6 +2230,24 @@ export const Cycript = {
 } as const;
 
 /**
+ * GitHub's language definition for Cylc.
+ */
+export const Cylc = {
+  type: "data",
+  color: "#00b3fd",
+  tm_scope: "source.cylc",
+  ace_mode: "ini",
+  group: "INI",
+  language_id: 476447814,
+  extensions: [
+    ".cylc",
+  ],
+  filenames: [
+    "suite.rc",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for Cypher.
  */
 export const Cypher = {
@@ -2542,6 +2611,20 @@ export const Dotenv = {
     ".env.staging",
     ".env.test",
     ".env.testing",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for Dune.
+ */
+export const Dune = {
+  type: "programming",
+  color: "#89421e",
+  tm_scope: "source.dune",
+  ace_mode: "lisp",
+  language_id: 754574151,
+  filenames: [
+    "dune-project",
   ],
 } as const;
 
@@ -4618,6 +4701,7 @@ export const HostsFile = {
   filenames: [
     "HOSTS",
     "hosts",
+    "hosts.txt",
   ],
 } as const;
 
@@ -5247,6 +5331,24 @@ export const JavaServerPages = {
   extensions: [
     ".jsp",
     ".tag",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for Java Template Engine.
+ */
+export const JavaTemplateEngine = {
+  type: "programming",
+  color: "#2A6277",
+  aliases: [
+    "jte",
+  ],
+  tm_scope: "text.html.jte",
+  ace_mode: "text",
+  group: "Java",
+  language_id: 599494012,
+  extensions: [
+    ".jte",
   ],
 } as const;
 
@@ -6072,6 +6174,20 @@ export const LiterateHaskell = {
   language_id: 207,
   extensions: [
     ".lhs",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for LiveCode Script.
+ */
+export const LiveCodeScript = {
+  type: "programming",
+  color: "#0c5ba5",
+  tm_scope: "source.livecodescript",
+  ace_mode: "text",
+  language_id: 891017,
+  extensions: [
+    ".livecodescript",
   ],
 } as const;
 
@@ -7341,6 +7457,25 @@ export const Nix = {
 } as const;
 
 /**
+ * GitHub's language definition for Noir.
+ */
+export const Noir = {
+  type: "programming",
+  color: "#2f1f49",
+  aliases: [
+    "nargo",
+  ],
+  tm_scope: "source.nr",
+  ace_mode: "rust",
+  codemirror_mode: "rust",
+  codemirror_mime_type: "text/x-rustsrc",
+  language_id: 813068465,
+  extensions: [
+    ".nr",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for Nu.
  */
 export const Nu = {
@@ -7972,13 +8107,14 @@ export const PDDL = {
 export const PEGjs = {
   type: "programming",
   color: "#234d6b",
-  tm_scope: "source.pegjs",
+  tm_scope: "source.peggy",
   ace_mode: "javascript",
   codemirror_mode: "javascript",
   codemirror_mime_type: "text/javascript",
   language_id: 81442128,
   extensions: [
     ".pegjs",
+    ".peggy",
   ],
 } as const;
 
@@ -8546,7 +8682,7 @@ export const PostScript = {
 export const PowerBuilder = {
   type: "programming",
   color: "#8f0f8d",
-  tm_scope: "none",
+  tm_scope: "source.powerbuilder",
   ace_mode: "text",
   language_id: 292,
   extensions: [
@@ -11032,6 +11168,7 @@ export const TOML = {
     "Pipfile",
     "pdm.lock",
     "poetry.lock",
+    "uv.lock",
   ],
 } as const;
 
@@ -11055,11 +11192,15 @@ export const TSQL = {
 export const TSV = {
   type: "data",
   color: "#237346",
+  aliases: [
+    "tab-seperated values",
+  ],
   tm_scope: "source.generic-db",
   ace_mode: "text",
   language_id: 1035892117,
   extensions: [
     ".tsv",
+    ".vcf",
   ],
 } as const;
 
@@ -11797,6 +11938,7 @@ export const VimScript = {
     "vim",
     "viml",
     "nvim",
+    "vimscript",
   ],
   tm_scope: "source.viml",
   ace_mode: "text",
@@ -11877,7 +12019,7 @@ export const VisualBasic60 = {
     "visual basic classic",
     "classic visual basic",
   ],
-  tm_scope: "source.vbnet",
+  tm_scope: "source.vba",
   ace_mode: "text",
   codemirror_mode: "vb",
   codemirror_mime_type: "text/x-vb",
@@ -12973,6 +13115,26 @@ export const hoon = {
 } as const;
 
 /**
+ * GitHub's language definition for iCalendar.
+ */
+export const iCalendar = {
+  type: "data",
+  color: "#ec564c",
+  aliases: [
+    "iCal",
+  ],
+  tm_scope: "source.iCalendar",
+  ace_mode: "properties",
+  codemirror_mode: "properties",
+  codemirror_mime_type: "text/x-properties",
+  language_id: 98384424,
+  extensions: [
+    ".ics",
+    ".ical",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for jq.
  */
 export const jq = {
@@ -13182,6 +13344,26 @@ export const templ = {
   language_id: 795579337,
   extensions: [
     ".templ",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for vCard.
+ */
+export const vCard = {
+  type: "data",
+  color: "#ee2647",
+  aliases: [
+    "virtual contact file",
+    "electronic business card",
+  ],
+  tm_scope: "source.vcard",
+  ace_mode: "properties",
+  codemirror_mode: "properties",
+  codemirror_mime_type: "text/x-properties",
+  language_id: 851476558,
+  extensions: [
+    ".vcf",
   ],
 } as const;
 

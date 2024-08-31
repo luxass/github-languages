@@ -568,6 +568,21 @@
       "nawk"
     ]
   },
+  "B4X": {
+    "type": "programming",
+    "color": "#00e4ff",
+    "aliases": [
+      "basic for android"
+    ],
+    "tm_scope": "source.vba",
+    "ace_mode": "text",
+    "codemirror_mode": "vb",
+    "codemirror_mime_type": "text/x-vb",
+    "language_id": 96642275,
+    "extensions": [
+      ".bas"
+    ]
+  },
   "BASIC": {
     "type": "programming",
     "color": "#ff0000",
@@ -1137,7 +1152,19 @@
     "color": "#ff4a48",
     "tm_scope": "source.cairo",
     "ace_mode": "text",
+    "group": "Cairo",
     "language_id": 620599567,
+    "extensions": [
+      ".cairo"
+    ]
+  },
+  "Cairo Zero": {
+    "type": "programming",
+    "color": "#ff4a48",
+    "tm_scope": "source.cairo0",
+    "ace_mode": "text",
+    "group": "Cairo",
+    "language_id": 891399890,
     "extensions": [
       ".cairo"
     ]
@@ -1163,6 +1190,18 @@
     "language_id": 52,
     "extensions": [
       ".capnp"
+    ]
+  },
+  "Carbon": {
+    "type": "programming",
+    "color": "#222222",
+    "tm_scope": "source.v",
+    "ace_mode": "golang",
+    "codemirror_mode": "go",
+    "codemirror_mime_type": "text/x-go",
+    "language_id": 55627273,
+    "extensions": [
+      ".carbon"
     ]
   },
   "CartoCSS": {
@@ -1674,6 +1713,20 @@
       ".cy"
     ]
   },
+  "Cylc": {
+    "type": "data",
+    "color": "#00b3fd",
+    "tm_scope": "source.cylc",
+    "ace_mode": "ini",
+    "group": "INI",
+    "language_id": 476447814,
+    "extensions": [
+      ".cylc"
+    ],
+    "filenames": [
+      "suite.rc"
+    ]
+  },
   "Cypher": {
     "type": "programming",
     "color": "#34c0eb",
@@ -1955,6 +2008,16 @@
       ".env.staging",
       ".env.test",
       ".env.testing"
+    ]
+  },
+  "Dune": {
+    "type": "programming",
+    "color": "#89421e",
+    "tm_scope": "source.dune",
+    "ace_mode": "lisp",
+    "language_id": 754574151,
+    "filenames": [
+      "dune-project"
     ]
   },
   "Dylan": {
@@ -3566,7 +3629,8 @@
     "language_id": 231021894,
     "filenames": [
       "HOSTS",
-      "hosts"
+      "hosts",
+      "hosts.txt"
     ]
   },
   "Hy": {
@@ -4072,6 +4136,20 @@
     "extensions": [
       ".jsp",
       ".tag"
+    ]
+  },
+  "Java Template Engine": {
+    "type": "programming",
+    "color": "#2A6277",
+    "aliases": [
+      "jte"
+    ],
+    "tm_scope": "text.html.jte",
+    "ace_mode": "text",
+    "group": "Java",
+    "language_id": 599494012,
+    "extensions": [
+      ".jte"
     ]
   },
   "JavaScript": {
@@ -4713,6 +4791,16 @@
     "language_id": 207,
     "extensions": [
       ".lhs"
+    ]
+  },
+  "LiveCode Script": {
+    "type": "programming",
+    "color": "#0c5ba5",
+    "tm_scope": "source.livecodescript",
+    "ace_mode": "text",
+    "language_id": 891017,
+    "extensions": [
+      ".livecodescript"
     ]
   },
   "LiveScript": {
@@ -5688,6 +5776,21 @@
       ".nix"
     ]
   },
+  "Noir": {
+    "type": "programming",
+    "color": "#2f1f49",
+    "aliases": [
+      "nargo"
+    ],
+    "tm_scope": "source.nr",
+    "ace_mode": "rust",
+    "codemirror_mode": "rust",
+    "codemirror_mime_type": "text/x-rustsrc",
+    "language_id": 813068465,
+    "extensions": [
+      ".nr"
+    ]
+  },
   "Nu": {
     "type": "programming",
     "color": "#c9df40",
@@ -6169,13 +6272,14 @@
   "PEG.js": {
     "type": "programming",
     "color": "#234d6b",
-    "tm_scope": "source.pegjs",
+    "tm_scope": "source.peggy",
     "ace_mode": "javascript",
     "codemirror_mode": "javascript",
     "codemirror_mime_type": "text/javascript",
     "language_id": 81442128,
     "extensions": [
-      ".pegjs"
+      ".pegjs",
+      ".peggy"
     ]
   },
   "PHP": {
@@ -6619,7 +6723,7 @@
   "PowerBuilder": {
     "type": "programming",
     "color": "#8f0f8d",
-    "tm_scope": "none",
+    "tm_scope": "source.powerbuilder",
     "ace_mode": "text",
     "language_id": 292,
     "extensions": [
@@ -8576,7 +8680,8 @@
       "Gopkg.lock",
       "Pipfile",
       "pdm.lock",
-      "poetry.lock"
+      "poetry.lock",
+      "uv.lock"
     ]
   },
   "TSQL": {
@@ -8592,11 +8697,15 @@
   "TSV": {
     "type": "data",
     "color": "#237346",
+    "aliases": [
+      "tab-seperated values"
+    ],
     "tm_scope": "source.generic-db",
     "ace_mode": "text",
     "language_id": 1035892117,
     "extensions": [
-      ".tsv"
+      ".tsv",
+      ".vcf"
     ]
   },
   "TSX": {
@@ -9177,7 +9286,8 @@
     "aliases": [
       "vim",
       "viml",
-      "nvim"
+      "nvim",
+      "vimscript"
     ],
     "tm_scope": "source.viml",
     "ace_mode": "text",
@@ -9246,7 +9356,7 @@
       "visual basic classic",
       "classic visual basic"
     ],
-    "tm_scope": "source.vbnet",
+    "tm_scope": "source.vba",
     "ace_mode": "text",
     "codemirror_mode": "vb",
     "codemirror_mime_type": "text/x-vb",
@@ -10108,6 +10218,22 @@
       ".hoon"
     ]
   },
+  "iCalendar": {
+    "type": "data",
+    "color": "#ec564c",
+    "aliases": [
+      "iCal"
+    ],
+    "tm_scope": "source.iCalendar",
+    "ace_mode": "properties",
+    "codemirror_mode": "properties",
+    "codemirror_mime_type": "text/x-properties",
+    "language_id": 98384424,
+    "extensions": [
+      ".ics",
+      ".ical"
+    ]
+  },
   "jq": {
     "type": "programming",
     "color": "#c7254e",
@@ -10267,6 +10393,22 @@
     "language_id": 795579337,
     "extensions": [
       ".templ"
+    ]
+  },
+  "vCard": {
+    "type": "data",
+    "color": "#ee2647",
+    "aliases": [
+      "virtual contact file",
+      "electronic business card"
+    ],
+    "tm_scope": "source.vcard",
+    "ace_mode": "properties",
+    "codemirror_mode": "properties",
+    "codemirror_mime_type": "text/x-properties",
+    "language_id": 851476558,
+    "extensions": [
+      ".vcf"
     ]
   },
   "wisp": {
