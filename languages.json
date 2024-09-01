@@ -7546,7 +7546,8 @@
     "ace_mode": "text",
     "language_id": 324,
     "extensions": [
-      ".robot"
+      ".robot",
+      ".resource"
     ]
   },
   "Roc": {

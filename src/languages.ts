@@ -9746,6 +9746,7 @@ export const RobotFramework = {
   language_id: 324,
   extensions: [
     ".robot",
+    ".resource",
   ],
 } as const;
 
