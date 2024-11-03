@@ -1,8 +1,8 @@
-import process from "node:process";
+import { execSync } from "node:child_process";
 import {
   writeFile,
 } from "node:fs/promises";
-import { execSync } from "node:child_process";
+import process from "node:process";
 import {
   load,
 } from "js-yaml";
