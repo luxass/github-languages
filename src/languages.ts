@@ -1389,7 +1389,7 @@ export const CSON = {
  */
 export const CSS = {
   type: "markup",
-  color: "#563d7c",
+  color: "#663399",
   tm_scope: "source.css",
   ace_mode: "css",
   codemirror_mode: "css",
@@ -2564,6 +2564,7 @@ export const Dockerfile = {
   language_id: 89,
   extensions: [
     ".dockerfile",
+    ".containerfile",
   ],
   filenames: [
     "Containerfile",
@@ -3396,9 +3397,9 @@ export const FortranFreeForm = {
 } as const;
 
 /**
- * GitHub's language definition for FreeBasic.
+ * GitHub's language definition for FreeBASIC.
  */
-export const FreeBasic = {
+export const FreeBASIC = {
   type: "programming",
   color: "#141AC9",
   aliases: [
@@ -4616,6 +4617,20 @@ export const Harbour = {
 } as const;
 
 /**
+ * GitHub's language definition for Hare.
+ */
+export const Hare = {
+  type: "programming",
+  color: "#9d7424",
+  tm_scope: "none",
+  ace_mode: "text",
+  language_id: 463518941,
+  extensions: [
+    ".ha",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for Haskell.
  */
 export const Haskell = {
@@ -4799,6 +4814,7 @@ export const INI = {
     ".url",
   ],
   filenames: [
+    ".buckconfig",
     ".coveragerc",
     ".flake8",
     ".pylintrc",
@@ -4871,9 +4887,11 @@ export const IgnoreList = {
     ".coffeelintignore",
     ".cvsignore",
     ".dockerignore",
+    ".easignore",
     ".eleventyignore",
     ".eslintignore",
     ".gitignore",
+    ".ignore",
     ".markdownlintignore",
     ".nodemonignore",
     ".npmignore",
@@ -5116,9 +5134,11 @@ export const JSON = {
     ".har",
     ".ice",
     ".JSON-tmLanguage",
+    ".json.example",
     ".jsonl",
     ".mcmeta",
     ".sarif",
+    ".tact",
     ".tfstate",
     ".tfstate.backup",
     ".topojson",
@@ -6998,6 +7018,20 @@ export const Moocode = {
   language_id: 237,
   extensions: [
     ".moo",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for MoonBit.
+ */
+export const MoonBit = {
+  type: "programming",
+  color: "#b92381",
+  tm_scope: "source.moonbit",
+  ace_mode: "text",
+  language_id: 181453007,
+  extensions: [
+    ".mbt",
   ],
 } as const;
 
@@ -10170,6 +10204,12 @@ export const SRecodeTemplate = {
  */
 export const SSHConfig = {
   type: "data",
+  aliases: [
+    "sshconfig",
+    "sshdconfig",
+    "ssh_config",
+    "sshd_config",
+  ],
   tm_scope: "source.ssh-config",
   ace_mode: "text",
   group: "INI",
@@ -11174,6 +11214,23 @@ export const TOML = {
 } as const;
 
 /**
+ * GitHub's language definition for TSPLIB data.
+ */
+export const TSPLIBdata = {
+  type: "data",
+  aliases: [
+    "travelling salesman problem",
+    "traveling salesman problem",
+  ],
+  tm_scope: "none",
+  ace_mode: "text",
+  language_id: 89289301,
+  extensions: [
+    ".tsp",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for TSQL.
  */
 export const TSQL = {
@@ -11233,6 +11290,20 @@ export const TXL = {
   language_id: 366,
   extensions: [
     ".txl",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for Tact.
+ */
+export const Tact = {
+  type: "programming",
+  color: "#48b5ff",
+  tm_scope: "source.tact",
+  ace_mode: "text",
+  language_id: 606708469,
+  extensions: [
+    ".tact",
   ],
 } as const;
 
@@ -11617,6 +11688,23 @@ export const TypeScript = {
     "deno",
     "ts-node",
     "tsx",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for TypeSpec.
+ */
+export const TypeSpec = {
+  type: "programming",
+  color: "#4A3665",
+  aliases: [
+    "tsp",
+  ],
+  tm_scope: "source.tsp",
+  ace_mode: "text",
+  language_id: 952272597,
+  extensions: [
+    ".tsp",
   ],
 } as const;
 
@@ -12056,7 +12144,7 @@ export const Volt = {
 export const Vue = {
   type: "markup",
   color: "#41b883",
-  tm_scope: "text.html.vue",
+  tm_scope: "source.vue",
   ace_mode: "html",
   language_id: 391,
   extensions: [
@@ -12792,9 +12880,11 @@ export const YAML = {
   filenames: [
     ".clang-format",
     ".clang-tidy",
+    ".clangd",
     ".gemrc",
     "CITATION.cff",
     "glide.lock",
+    "pixi.lock",
     "yarn.lock",
   ],
 } as const;
@@ -13243,6 +13333,20 @@ export const nesC = {
   language_id: 417,
   extensions: [
     ".nc",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for omnetpp-ned.
+ */
+export const omnetpp_ned = {
+  type: "programming",
+  color: "#08607c",
+  tm_scope: "source.ned",
+  ace_mode: "text",
+  language_id: 924868392,
+  extensions: [
+    ".ned",
   ],
 } as const;
 
