@@ -9186,6 +9186,29 @@ export const Quake = {
 } as const;
 
 /**
+ * GitHub's language definition for QuickBASIC.
+ */
+export const QuickBASIC = {
+  type: "programming",
+  color: "#008080",
+  aliases: [
+    "qb",
+    "qbasic",
+    "qb64",
+    "classic qbasic",
+    "classic quickbasic",
+  ],
+  tm_scope: "source.QB64",
+  ace_mode: "text",
+  codemirror_mode: "vb",
+  codemirror_mime_type: "text/x-vb",
+  language_id: 593107205,
+  extensions: [
+    ".bas",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for R.
  */
 export const R = {
@@ -10965,6 +10988,7 @@ export const Starlark = {
     "Tiltfile",
     "WORKSPACE",
     "WORKSPACE.bazel",
+    "WORKSPACE.bzlmod",
   ],
 } as const;
 
@@ -13333,6 +13357,20 @@ export const nesC = {
   language_id: 417,
   extensions: [
     ".nc",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for omnetpp-msg.
+ */
+export const omnetpp_msg = {
+  type: "programming",
+  color: "#a0e0a0",
+  tm_scope: "source.msg",
+  ace_mode: "text",
+  language_id: 664100008,
+  extensions: [
+    ".msg",
   ],
 } as const;
 
