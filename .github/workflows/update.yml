@@ -21,25 +21,25 @@ jobs:
     steps:
       - uses: actions/checkout@v4.2.2
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
+      - name: setup pnpm
+        uses: pnpm/action-setup@v4.0.0
 
-      - name: Setup node
+      - name: setup node
         uses: actions/setup-node@v4.1.0
         with:
           node-version: lts/*
 
-      - name: Install dependencies
+      - name: install dependencies
         run: pnpm install
 
-      - name: Download GitHub Languages
+      - name: download GitHub Languages
         run: |
           echo "" > .env
           pnpm run languages:download
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Create Pull Request
+      - name: create pull request
         uses: peter-evans/create-pull-request@v7.0.5
         if: ${{ github.event.inputs.dry-run != 'true' }}
         with:
