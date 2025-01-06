@@ -34,7 +34,7 @@ jobs:
       - name: install dependencies
         run: pnpm install
 
-      - name: download GitHub Languages
+      - name: download github languages
         run: |
           echo "" > .env
           pnpm run languages:download
