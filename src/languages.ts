@@ -443,6 +443,23 @@ export const AngelScript = {
 } as const;
 
 /**
+ * GitHub's language definition for Answer Set Programming.
+ */
+export const AnswerSetProgramming = {
+  type: "programming",
+  color: "#A9CC29",
+  tm_scope: "source.answersetprogramming",
+  ace_mode: "prolog",
+  language_id: 433009171,
+  extensions: [
+    ".lp",
+  ],
+  interpreters: [
+    "clingo",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for Ant Build System.
  */
 export const AntBuildSystem = {
@@ -512,6 +529,7 @@ export const Apex = {
   language_id: 17,
   extensions: [
     ".cls",
+    ".apex",
     ".trigger",
   ],
 } as const;
@@ -5651,6 +5669,22 @@ export const Just = {
 } as const;
 
 /**
+ * GitHub's language definition for KDL.
+ */
+export const KDL = {
+  type: "data",
+  color: "#ffb3b3",
+  tm_scope: "source.kdl",
+  ace_mode: "tcl",
+  codemirror_mode: "yacas",
+  codemirror_mime_type: "text/x-yacas",
+  language_id: 931123626,
+  extensions: [
+    ".kdl",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for KRL.
  */
 export const KRL = {
@@ -6093,6 +6127,19 @@ export const Limbo = {
   extensions: [
     ".b",
     ".m",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for Linear Programming.
+ */
+export const LinearProgramming = {
+  type: "programming",
+  tm_scope: "none",
+  ace_mode: "text",
+  language_id: 377204539,
+  extensions: [
+    ".lp",
   ],
 } as const;
 
@@ -6862,6 +6909,33 @@ export const MiniYAML = {
   extensions: [
     ".yaml",
     ".yml",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for MiniZinc.
+ */
+export const MiniZinc = {
+  type: "programming",
+  color: "#06a9e6",
+  tm_scope: "source.mzn",
+  ace_mode: "text",
+  language_id: 238874535,
+  extensions: [
+    ".mzn",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for MiniZinc Data.
+ */
+export const MiniZincData = {
+  type: "data",
+  tm_scope: "source.mzn",
+  ace_mode: "text",
+  language_id: 938193433,
+  extensions: [
+    ".dzn",
   ],
 } as const;
 
@@ -7687,6 +7761,40 @@ export const OCaml = {
     "ocaml",
     "ocamlrun",
     "ocamlscript",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for OMNeT++ MSG.
+ */
+export const OMNeTppMSG = {
+  type: "programming",
+  color: "#a0e0a0",
+  aliases: [
+    "omnetpp-msg",
+  ],
+  tm_scope: "source.msg",
+  ace_mode: "text",
+  language_id: 664100008,
+  extensions: [
+    ".msg",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for OMNeT++ NED.
+ */
+export const OMNeTppNED = {
+  type: "programming",
+  color: "#08607c",
+  aliases: [
+    "omnetpp-ned",
+  ],
+  tm_scope: "source.ned",
+  ace_mode: "text",
+  language_id: 924868392,
+  extensions: [
+    ".ned",
   ],
 } as const;
 
@@ -11090,6 +11198,20 @@ export const SuperCollider = {
 } as const;
 
 /**
+ * GitHub's language definition for Survex data.
+ */
+export const Survexdata = {
+  type: "data",
+  color: "#ffcc99",
+  tm_scope: "none",
+  ace_mode: "text",
+  language_id: 24470517,
+  extensions: [
+    ".svx",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for Svelte.
  */
 export const Svelte = {
@@ -12623,6 +12745,7 @@ export const XML = {
     ".glade",
     ".gml",
     ".gmx",
+    ".gpx",
     ".grxml",
     ".gst",
     ".hzp",
@@ -13314,6 +13437,23 @@ export const mcfunction = {
 } as const;
 
 /**
+ * GitHub's language definition for mdsvex.
+ */
+export const mdsvex = {
+  type: "markup",
+  color: "#5f9ea0",
+  tm_scope: "none",
+  ace_mode: "markdown",
+  codemirror_mode: "gfm",
+  codemirror_mime_type: "text/x-gfm",
+  wrap: true,
+  language_id: 566198445,
+  extensions: [
+    ".svx",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for mupad.
  */
 export const mupad = {
@@ -13357,34 +13497,6 @@ export const nesC = {
   language_id: 417,
   extensions: [
     ".nc",
-  ],
-} as const;
-
-/**
- * GitHub's language definition for omnetpp-msg.
- */
-export const omnetpp_msg = {
-  type: "programming",
-  color: "#a0e0a0",
-  tm_scope: "source.msg",
-  ace_mode: "text",
-  language_id: 664100008,
-  extensions: [
-    ".msg",
-  ],
-} as const;
-
-/**
- * GitHub's language definition for omnetpp-ned.
- */
-export const omnetpp_ned = {
-  type: "programming",
-  color: "#08607c",
-  tm_scope: "source.ned",
-  ace_mode: "text",
-  language_id: 924868392,
-  extensions: [
-    ".ned",
   ],
 } as const;
 
