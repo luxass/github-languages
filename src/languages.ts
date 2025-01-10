@@ -8171,6 +8171,21 @@ export const Org = {
 } as const;
 
 /**
+ * GitHub's language definition for OverpassQL.
+ */
+export const OverpassQL = {
+  type: "programming",
+  color: "#cce2aa",
+  tm_scope: "source.overpassql",
+  ace_mode: "text",
+  wrap: true,
+  language_id: 689079655,
+  extensions: [
+    ".overpassql",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for Ox.
  */
 export const Ox = {
