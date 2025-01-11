@@ -43,9 +43,7 @@ jobs:
 
             const languages = JSON.parse(fs.readFileSync("languages.json", "utf8"));
 
-            const languageKeys = Object.keys(languages);
-
-            fs.writeFileSync("languages-old.json", JSON.stringify(languageKeys, null, 2));
+            fs.writeFileSync("languages-old.json", JSON.stringify(languages, null, 2));
 
       - name: download github languages
         run: |
@@ -64,9 +62,12 @@ jobs:
             const oldLanguages = JSON.parse(fs.readFileSync("languages-old.json", "utf8"));
             const newLanguages = JSON.parse(fs.readFileSync("languages.json", "utf8"));
 
+            console.log(oldLanguages);
+            console.log(newLanguages);
+
             let markdown = "";
 
-            for (const language of newLanguages) {
+            for (const language of Object.keys(newLanguages)) {
               if (oldLanguages[language] == null) {
                 markdown += `### ${language}\n\n`;
                 markdown += "```json\n";
