@@ -76,7 +76,7 @@ jobs:
               }
             }
 
-            core.setOutput("result", markdown);
+            core.setOutput("better-result", markdown);
 
       - name: create pull request
         uses: peter-evans/create-pull-request@67ccf781d68cd99b580ae25a5c18a1cc84ffff1f # v7.0.6
@@ -93,7 +93,7 @@ jobs:
             <details>
             <summary>New Languages</summary><br/>
 
-            ${{ steps.generate-diff.outputs.result }}
+            ${{ steps.generate-diff.outputs.better-result }}
 
             <br/></details>
 
