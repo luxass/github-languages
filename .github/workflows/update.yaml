@@ -66,8 +66,8 @@ jobs:
 
             let markdown = "";
 
-            for (const language of oldLanguages) {
-              if (newLanguages[language] == null) {
+            for (const language of newLanguages) {
+              if (oldLanguages[language] == null) {
                 markdown += `### ${language}\n\n`;
                 markdown += "```json\n";
                 markdown += JSON.stringify(newLanguages[language], null, 2);
