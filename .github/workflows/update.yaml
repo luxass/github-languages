@@ -76,6 +76,8 @@ jobs:
               }
             }
 
+            // we can't just return the markdown, because it will be passed
+            // through the String constructor, making the entire content as stringified string.
             core.setOutput("better-result", markdown);
 
       - name: create pull request
