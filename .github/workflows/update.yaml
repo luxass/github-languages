@@ -62,6 +62,9 @@ jobs:
             const oldLanguages = JSON.parse(fs.readFileSync("languages-old.json", "utf8"));
             const newLanguages = JSON.parse(fs.readFileSync("languages.json", "utf8"));
 
+            console.log("OLD LANGUAGES LENGTH", Object.keys(oldLanguages).length);
+            console.log("NEW LANGUAGES LENGTH", Object.keys(newLanguages).length);
+
             let markdown = "";
 
             for (const language of Object.keys(newLanguages)) {
