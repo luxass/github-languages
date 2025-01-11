@@ -76,7 +76,7 @@ jobs:
               }
             }
 
-            return markdown;
+            core.setOutput("result", markdown);
 
       - name: create pull request
         uses: peter-evans/create-pull-request@67ccf781d68cd99b580ae25a5c18a1cc84ffff1f # v7.0.6
