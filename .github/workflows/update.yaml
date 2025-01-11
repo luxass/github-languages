@@ -62,8 +62,8 @@ jobs:
             const oldLanguages = JSON.parse(fs.readFileSync("languages-old.json", "utf8"));
             const newLanguages = JSON.parse(fs.readFileSync("languages.json", "utf8"));
 
-            console.log(oldLanguages);
-            console.log(newLanguages);
+            console.log("OLD LANGUAGES LENGTH", Object.keys(oldLanguages).length);
+            console.log("NEW LANGUAGES LENGTH", Object.keys(newLanguages).length);
 
             let markdown = "";
 
@@ -76,7 +76,9 @@ jobs:
               }
             }
 
-            core.setOutput("result", markdown);
+            // we can't just return the markdown, because it will be passed
+            // through the String constructor, making the entire content as stringified string.
+            core.setOutput("better-result", markdown);
 
       - name: create pull request
         uses: peter-evans/create-pull-request@67ccf781d68cd99b580ae25a5c18a1cc84ffff1f # v7.0.6
@@ -93,7 +95,7 @@ jobs:
             <details>
             <summary>New Languages</summary><br/>
 
-            ${{ steps.generate-diff.outputs.result }}
+            ${{ steps.generate-diff.outputs.better-result }}
 
             <br/></details>
 
