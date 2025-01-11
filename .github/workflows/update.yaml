@@ -11,7 +11,7 @@ on:
     - cron: "0 0 * * *"
 
 jobs:
-  update:
+  update-github-languages:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:
@@ -34,12 +34,48 @@ jobs:
       - name: install dependencies
         run: pnpm install
 
+      - name: old github languages
+        uses: actions/github-script@v7.0.1
+        id: old-github-languages
+        with:
+          script: |
+            const fs = require("fs");
+
+            const languages = JSON.parse(fs.readFileSync("languages.json", "utf8"));
+
+            const languageKeys = Object.keys(languages);
+
+            fs.writeFileSync("languages-old.json", JSON.stringify(languageKeys, null, 2));
+
       - name: download github languages
         run: |
           echo "" > .env
           pnpm run languages:download
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: generate diff
+        id: generate-diff
+        uses: actions/github-script@v7.0.1
+        with:
+          script: |
+            const fs = require("fs");
+
+            const oldLanguages = JSON.parse(fs.readFileSync("languages-old.json", "utf8"));
+            const newLanguages = JSON.parse(fs.readFileSync("languages.json", "utf8"));
+
+            let markdown = "";
+
+            for (const language of oldLanguages) {
+              if (newLanguages[language] == null) {
+                markdown += `### ${language}\n\n`;
+                markdown += "```json\n";
+                markdown += JSON.stringify(newLanguages[language], null, 2);
+                markdown += "\n```\n\n";
+              }
+            }
+
+            return markdown;
 
       - name: create pull request
         uses: peter-evans/create-pull-request@67ccf781d68cd99b580ae25a5c18a1cc84ffff1f # v7.0.6
@@ -53,10 +89,18 @@ jobs:
             I don't know what they changed, but I'm sure it's important.
             If you want you can go take a look yourself.
 
+            <details>
+            <summary>New Languages</summary><br/>
+
+            ${{ steps.generate-diff.outputs.result }}
+
+            <br/></details>
+
             I will be waiting for your approval 👋.
 
             This is an automated PR to update GitHub Languages.
           branch: update-github-languages
+          add-paths: languages.json,src/languages.ts
           base: main
           committer: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
           author: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
