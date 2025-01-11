@@ -65,7 +65,8 @@ jobs:
             console.log("OLD LANGUAGES LENGTH", Object.keys(oldLanguages).length);
             console.log("NEW LANGUAGES LENGTH", Object.keys(newLanguages).length);
 
-            let markdown = "";
+            let newLanguagesMarkdown = "";
+            let removedLanguagesMarkdown = "";
 
             for (const language of Object.keys(newLanguages)) {
               if (oldLanguages[language] == null) {
@@ -76,9 +77,19 @@ jobs:
               }
             }
 
+            for (const language of Object.keys(oldLanguages)) {
+              if (newLanguages[language] == null) {
+                markdown += `### ${language}\n\n`;
+                markdown += "```json\n";
+                markdown += JSON.stringify(oldLanguages[language], null, 2);
+                markdown += "\n```\n\n";
+              }
+            }
+
             // we can't just return the markdown, because it will be passed
             // through the String constructor, making the entire content as stringified string.
-            core.setOutput("better-result", markdown);
+            core.setOutput("result-new-languages", newLanguagesMarkdown);
+            core.setOutput("result-removed-languages", removedLanguagesMarkdown);
 
       - name: create pull request
         uses: peter-evans/create-pull-request@67ccf781d68cd99b580ae25a5c18a1cc84ffff1f # v7.0.6
@@ -95,7 +106,14 @@ jobs:
             <details>
             <summary>New Languages</summary><br/>
 
-            ${{ steps.generate-diff.outputs.better-result }}
+            ${{ steps.generate-diff.outputs.result-new-languages }}
+
+            <br/></details>
+
+            <details>
+            <summary>Removed Languages</summary><br/>
+
+            ${{ steps.generate-diff.outputs.result-removed-languages }}
 
             <br/></details>
 
