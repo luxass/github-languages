@@ -23,6 +23,7 @@ jobs:
       - name: setup node
         uses: actions/setup-node@39370e3970a6d050c480ffad4ff0ed4d3fdee5af # v4.1.0
         with:
+          registry-url: "https://registry.npmjs.org"
           node-version: lts/*
 
       - run: pnpx changelogithub
@@ -30,8 +31,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: install dependencies
-        run:
-          pnpm install
+        run: pnpm install
 
       - name: publish to npm
         run: |
@@ -44,4 +44,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: publish to jsr
-        run: npx jsr publish
+        run: npx jsr publish --allow-dirty
+
+      - name: print dirty files
+        run: git status --porcelain
