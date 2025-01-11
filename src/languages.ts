@@ -4,6 +4,35 @@
  */
 
 /**
+ * GitHub's language definition for 1C Enterprise.
+ */
+export const _1CEnterprise = {
+  type: "programming",
+  color: "#814CCC",
+  tm_scope: "source.bsl",
+  ace_mode: "text",
+  language_id: 0,
+  extensions: [
+    ".bsl",
+    ".os",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for 2-Dimensional Array.
+ */
+export const _2_DimensionalArray = {
+  type: "data",
+  color: "#38761D",
+  tm_scope: "source.2da",
+  ace_mode: "text",
+  language_id: 387204628,
+  extensions: [
+    ".2da",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for 4D.
  */
 export const _4D = {
