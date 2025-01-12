@@ -71,19 +71,19 @@ jobs:
 
             for (const language of Object.keys(newLanguages)) {
               if (oldLanguages[language] == null) {
-                markdown += `### ${language}\n\n`;
-                markdown += "```json\n";
-                markdown += JSON.stringify(newLanguages[language], null, 2);
-                markdown += "\n```\n\n";
+                newLanguagesMarkdown += `### ${language}\n\n`;
+                newLanguagesMarkdown += "```json\n";
+                newLanguagesMarkdown += JSON.stringify(newLanguages[language], null, 2);
+                newLanguagesMarkdown += "\n```\n\n";
               }
             }
 
             for (const language of Object.keys(oldLanguages)) {
               if (newLanguages[language] == null) {
-                markdown += `### ${language}\n\n`;
-                markdown += "```json\n";
-                markdown += JSON.stringify(oldLanguages[language], null, 2);
-                markdown += "\n```\n\n";
+                removedLanguagesMarkdown += `### ${language}\n\n`;
+                removedLanguagesMarkdown += "```json\n";
+                removedLanguagesMarkdown += JSON.stringify(oldLanguages[language], null, 2);
+                removedLanguagesMarkdown += "\n```\n\n";
               }
             }
 
