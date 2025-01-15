@@ -2,7 +2,7 @@ import fs from "node:fs";
 
 export async function generateOldLanguages({ core }) {
   try {
-    const languages = JSON.parse(fs.readFileSync("languages-old.json", "utf8"));
+    const languages = JSON.parse(fs.readFileSync("languages.json", "utf8"));
 
     fs.writeFileSync("languages-old.json", JSON.stringify(languages, null, 2));
   } catch (err) {
