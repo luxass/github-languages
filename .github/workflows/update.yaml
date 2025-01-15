@@ -41,7 +41,7 @@ jobs:
         with:
           script: |
             const { generateOldLanguages } = await import('${{ github.workspace }}/.github/scripts/update-languages.mjs')
-            await generateOldLanguages({ github, context })
+            await generateOldLanguages({ github, context, core })
 
       - name: download github languages
         run: |
