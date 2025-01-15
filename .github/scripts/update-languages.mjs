@@ -1,7 +1,6 @@
 import fs from "node:fs";
 
 export async function generateOldLanguages({ github, context }) {
-
   try {
     const languages = JSON.parse(fs.readFileSync("languages-old.json", "utf8"));
 
@@ -60,7 +59,6 @@ export async function generateDiff({ github, context, core }) {
 
     removedLanguagesMarkdown += "<br/></details>\n";
   }
-
 
   // we can't just return the markdown, because it will be passed
   // through the String constructor, making the entire content as stringified string.
