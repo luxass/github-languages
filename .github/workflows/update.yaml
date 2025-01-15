@@ -40,11 +40,8 @@ jobs:
         id: old-github-languages
         with:
           script: |
-            const fs = require("fs");
-
-            const languages = JSON.parse(fs.readFileSync("languages.json", "utf8"));
-
-            fs.writeFileSync("languages-old.json", JSON.stringify(languages, null, 2));
+            const { generateOldLanguages } = await import('${{ github.workspace }}/.github/scripts/update-languages.mjs')
+            await generateOldLanguages({ github, context })
 
       - name: download github languages
         run: |
@@ -58,39 +55,8 @@ jobs:
         uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea # v7.0.1
         with:
           script: |
-            const fs = require("fs");
-
-            const oldLanguages = JSON.parse(fs.readFileSync("languages-old.json", "utf8"));
-            const newLanguages = JSON.parse(fs.readFileSync("languages.json", "utf8"));
-
-            console.log("OLD LANGUAGES LENGTH", Object.keys(oldLanguages).length);
-            console.log("NEW LANGUAGES LENGTH", Object.keys(newLanguages).length);
-
-            let newLanguagesMarkdown = "";
-            let removedLanguagesMarkdown = "";
-
-            for (const language of Object.keys(newLanguages)) {
-              if (oldLanguages[language] == null) {
-                newLanguagesMarkdown += `### ${language}\n\n`;
-                newLanguagesMarkdown += "```json\n";
-                newLanguagesMarkdown += JSON.stringify(newLanguages[language], null, 2);
-                newLanguagesMarkdown += "\n```\n\n";
-              }
-            }
-
-            for (const language of Object.keys(oldLanguages)) {
-              if (newLanguages[language] == null) {
-                removedLanguagesMarkdown += `### ${language}\n\n`;
-                removedLanguagesMarkdown += "```json\n";
-                removedLanguagesMarkdown += JSON.stringify(oldLanguages[language], null, 2);
-                removedLanguagesMarkdown += "\n```\n\n";
-              }
-            }
-
-            // we can't just return the markdown, because it will be passed
-            // through the String constructor, making the entire content as stringified string.
-            core.setOutput("result-new-languages", newLanguagesMarkdown);
-            core.setOutput("result-removed-languages", removedLanguagesMarkdown);
+            const { generateDiff } = await import('${{ github.workspace }}/.github/scripts/update-languages.mjs')
+            await generateDiff({ github, context, core })
 
       - name: create pull request
         uses: peter-evans/create-pull-request@67ccf781d68cd99b580ae25a5c18a1cc84ffff1f # v7.0.6
@@ -104,19 +70,8 @@ jobs:
             I don't know what they changed, but I'm sure it's important.
             If you want you can go take a look yourself.
 
-            <details>
-            <summary>New Languages</summary><br/>
-
             ${{ steps.generate-diff.outputs.result-new-languages }}
-
-            <br/></details>
-
-            <details>
-            <summary>Removed Languages</summary><br/>
-
             ${{ steps.generate-diff.outputs.result-removed-languages }}
-
-            <br/></details>
 
             I will be waiting for your approval 👋.
 
