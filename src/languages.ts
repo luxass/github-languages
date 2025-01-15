@@ -502,7 +502,7 @@ export const ApacheConf = {
     "aconf",
     "apache",
   ],
-  tm_scope: "source.apache-config",
+  tm_scope: "source.apacheconf",
   ace_mode: "apache_conf",
   language_id: 16,
   extensions: [
@@ -12961,6 +12961,20 @@ export const XSLT = {
   extensions: [
     ".xslt",
     ".xsl",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for Xmake.
+ */
+export const Xmake = {
+  type: "programming",
+  color: "#22a079",
+  tm_scope: "source.xmake",
+  ace_mode: "text",
+  language_id: 225223071,
+  filenames: [
+    "xmake.lua",
   ],
 } as const;
 
