@@ -5285,6 +5285,20 @@ export const JSONiq = {
 } as const;
 
 /**
+ * GitHub's language definition for Jai.
+ */
+export const Jai = {
+  type: "programming",
+  color: "#ab8b4b",
+  tm_scope: "source.jai",
+  ace_mode: "text",
+  language_id: 70127133,
+  extensions: [
+    ".jai",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for Janet.
  */
 export const Janet = {

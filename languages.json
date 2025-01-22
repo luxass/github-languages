@@ -4100,6 +4100,16 @@
       ".jq"
     ]
   },
+  "Jai": {
+    "type": "programming",
+    "color": "#ab8b4b",
+    "tm_scope": "source.jai",
+    "ace_mode": "text",
+    "language_id": 70127133,
+    "extensions": [
+      ".jai"
+    ]
+  },
   "Janet": {
     "type": "programming",
     "color": "#0886a5",
