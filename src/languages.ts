@@ -4467,9 +4467,9 @@ export const HTMLpEEX = {
   group: "HTML",
   language_id: 149,
   extensions: [
-    ".eex",
-    ".html.heex",
-    ".html.leex",
+    ".html.eex",
+    ".heex",
+    ".leex",
   ],
 } as const;
 
