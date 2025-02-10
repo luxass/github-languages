@@ -1172,6 +1172,7 @@ export const C = {
     ".c",
     ".cats",
     ".h",
+    ".h.in",
     ".idc",
   ],
   interpreters: [
