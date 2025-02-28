@@ -483,7 +483,8 @@
       ".i",
       ".inc",
       ".nas",
-      ".nasm"
+      ".nasm",
+      ".s"
     ]
   },
   "Astro": {
@@ -3761,6 +3762,18 @@
       ".weechatlog"
     ]
   },
+  "ISPC": {
+    "type": "programming",
+    "color": "#2D68B1",
+    "tm_scope": "source.ispc",
+    "ace_mode": "c_cpp",
+    "codemirror_mode": "clike",
+    "codemirror_mime_type": "text/x-csrc",
+    "language_id": 327071,
+    "extensions": [
+      ".ispc"
+    ]
+  },
   "Idris": {
     "type": "programming",
     "color": "#b30000",
@@ -4024,7 +4037,7 @@
     "aliases": [
       "jsonc"
     ],
-    "tm_scope": "source.js",
+    "tm_scope": "source.json.comments",
     "ace_mode": "javascript",
     "codemirror_mode": "javascript",
     "codemirror_mime_type": "text/javascript",
@@ -4779,8 +4792,8 @@
     ]
   },
   "Linker Script": {
-    "type": "data",
-    "tm_scope": "none",
+    "type": "programming",
+    "tm_scope": "source.c.linker",
     "ace_mode": "text",
     "language_id": 202,
     "extensions": [
@@ -8419,6 +8432,16 @@
     "language_id": 987024632,
     "filenames": [
       "Singularity"
+    ]
+  },
+  "Slang": {
+    "type": "programming",
+    "color": "#1fbec9",
+    "tm_scope": "source.slang",
+    "ace_mode": "text",
+    "language_id": 239357863,
+    "extensions": [
+      ".slang"
     ]
   },
   "Slash": {

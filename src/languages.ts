@@ -635,6 +635,7 @@ export const Assembly = {
     ".inc",
     ".nas",
     ".nasm",
+    ".s",
   ],
 } as const;
 
@@ -4866,6 +4867,22 @@ export const IRClog = {
 } as const;
 
 /**
+ * GitHub's language definition for ISPC.
+ */
+export const ISPC = {
+  type: "programming",
+  color: "#2D68B1",
+  tm_scope: "source.ispc",
+  ace_mode: "c_cpp",
+  codemirror_mode: "clike",
+  codemirror_mime_type: "text/x-csrc",
+  language_id: 327071,
+  extensions: [
+    ".ispc",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for Idris.
  */
 export const Idris = {
@@ -5195,7 +5212,7 @@ export const JSONwithComments = {
   aliases: [
     "jsonc",
   ],
-  tm_scope: "source.js",
+  tm_scope: "source.json.comments",
   ace_mode: "javascript",
   codemirror_mode: "javascript",
   codemirror_mime_type: "text/javascript",
@@ -6162,8 +6179,8 @@ export const LinearProgramming = {
  * GitHub's language definition for Linker Script.
  */
 export const LinkerScript = {
-  type: "data",
-  tm_scope: "none",
+  type: "programming",
+  tm_scope: "source.c.linker",
   ace_mode: "text",
   language_id: 202,
   extensions: [
@@ -10822,6 +10839,20 @@ export const Singularity = {
   language_id: 987024632,
   filenames: [
     "Singularity",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for Slang.
+ */
+export const Slang = {
+  type: "programming",
+  color: "#1fbec9",
+  tm_scope: "source.slang",
+  ace_mode: "text",
+  language_id: 239357863,
+  extensions: [
+    ".slang",
   ],
 } as const;
 
