@@ -9182,6 +9182,19 @@
       ".toit"
     ]
   },
+  "Tree-sitter Query": {
+    "type": "programming",
+    "color": "#8ea64c",
+    "aliases": [
+      "tsq"
+    ],
+    "tm_scope": "source.scm",
+    "ace_mode": "text",
+    "language_id": 436081647,
+    "extensions": [
+      ".scm"
+    ]
+  },
   "Turing": {
     "type": "programming",
     "color": "#cf142b",

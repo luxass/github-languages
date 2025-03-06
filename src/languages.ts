@@ -11811,6 +11811,23 @@ export const Toit = {
 } as const;
 
 /**
+ * GitHub's language definition for Tree-sitter Query.
+ */
+export const Tree_sitterQuery = {
+  type: "programming",
+  color: "#8ea64c",
+  aliases: [
+    "tsq",
+  ],
+  tm_scope: "source.scm",
+  ace_mode: "text",
+  language_id: 436081647,
+  extensions: [
+    ".scm",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for Turing.
  */
 export const Turing = {
