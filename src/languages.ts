@@ -5195,6 +5195,7 @@ export const JSON = {
     ".tern-project",
     ".watchmanconfig",
     "MODULE.bazel.lock",
+    "Package.resolved",
     "Pipfile.lock",
     "bun.lock",
     "composer.lock",
