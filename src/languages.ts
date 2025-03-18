@@ -911,6 +911,19 @@ export const BibTeX = {
 } as const;
 
 /**
+ * GitHub's language definition for BibTeX Style.
+ */
+export const BibTeXStyle = {
+  type: "programming",
+  tm_scope: "source.bst",
+  ace_mode: "text",
+  language_id: 909569041,
+  extensions: [
+    ".bst",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for Bicep.
  */
 export const Bicep = {
