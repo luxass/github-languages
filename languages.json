@@ -694,6 +694,15 @@
       ".bibtex"
     ]
   },
+  "BibTeX Style": {
+    "type": "programming",
+    "tm_scope": "source.bst",
+    "ace_mode": "text",
+    "language_id": 909569041,
+    "extensions": [
+      ".bst"
+    ]
+  },
   "Bicep": {
     "type": "programming",
     "color": "#519aba",
