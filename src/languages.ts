@@ -5851,6 +5851,7 @@ export const KiCadSchematic = {
   language_id: 622447435,
   extensions: [
     ".kicad_sch",
+    ".kicad_sym",
     ".sch",
   ],
 } as const;
