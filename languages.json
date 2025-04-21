@@ -1603,17 +1603,6 @@
       ".cl"
     ]
   },
-  "Coq": {
-    "type": "programming",
-    "color": "#d0b68c",
-    "tm_scope": "source.coq",
-    "ace_mode": "text",
-    "language_id": 69,
-    "extensions": [
-      ".coq",
-      ".v"
-    ]
-  },
   "Cpp-ObjDump": {
     "type": "data",
     "aliases": [
@@ -4570,6 +4559,19 @@
     "language_id": 188,
     "extensions": [
       ".kit"
+    ]
+  },
+  "Koka": {
+    "type": "programming",
+    "color": "#215166",
+    "tm_scope": "source.koka",
+    "ace_mode": "text",
+    "language_id": 597930447,
+    "extensions": [
+      ".kk"
+    ],
+    "interpreters": [
+      "koka"
     ]
   },
   "Kotlin": {
@@ -7732,6 +7734,21 @@
       ".roc"
     ]
   },
+  "Rocq Prover": {
+    "type": "programming",
+    "color": "#d0b68c",
+    "aliases": [
+      "coq",
+      "rocq"
+    ],
+    "tm_scope": "source.coq",
+    "ace_mode": "text",
+    "language_id": 69,
+    "extensions": [
+      ".v",
+      ".coq"
+    ]
+  },
   "Roff": {
     "type": "markup",
     "color": "#ecdebe",
@@ -8160,6 +8177,16 @@
     "extensions": [
       ".sage",
       ".sagews"
+    ]
+  },
+  "Sail": {
+    "type": "programming",
+    "color": "#259dd5",
+    "tm_scope": "source.sail",
+    "ace_mode": "text",
+    "language_id": 1029438153,
+    "extensions": [
+      ".sail"
     ]
   },
   "SaltStack": {
