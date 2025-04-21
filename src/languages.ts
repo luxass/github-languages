@@ -2084,21 +2084,6 @@ export const Cool = {
 } as const;
 
 /**
- * GitHub's language definition for Coq.
- */
-export const Coq = {
-  type: "programming",
-  color: "#d0b68c",
-  tm_scope: "source.coq",
-  ace_mode: "text",
-  language_id: 69,
-  extensions: [
-    ".coq",
-    ".v",
-  ],
-} as const;
-
-/**
  * GitHub's language definition for Cpp-ObjDump.
  */
 export const Cpp_ObjDump = {
@@ -5881,6 +5866,23 @@ export const Kit = {
   language_id: 188,
   extensions: [
     ".kit",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for Koka.
+ */
+export const Koka = {
+  type: "programming",
+  color: "#215166",
+  tm_scope: "source.koka",
+  ace_mode: "text",
+  language_id: 597930447,
+  extensions: [
+    ".kk",
+  ],
+  interpreters: [
+    "koka",
   ],
 } as const;
 
@@ -9993,6 +9995,25 @@ export const Roc = {
 } as const;
 
 /**
+ * GitHub's language definition for Rocq Prover.
+ */
+export const RocqProver = {
+  type: "programming",
+  color: "#d0b68c",
+  aliases: [
+    "coq",
+    "rocq",
+  ],
+  tm_scope: "source.coq",
+  ace_mode: "text",
+  language_id: 69,
+  extensions: [
+    ".v",
+    ".coq",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for Roff.
  */
 export const Roff = {
@@ -10507,6 +10528,20 @@ export const Sage = {
   extensions: [
     ".sage",
     ".sagews",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for Sail.
+ */
+export const Sail = {
+  type: "programming",
+  color: "#259dd5",
+  tm_scope: "source.sail",
+  ace_mode: "text",
+  language_id: 1029438153,
+  extensions: [
+    ".sail",
   ],
 } as const;
 
