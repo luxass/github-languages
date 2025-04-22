@@ -4369,6 +4369,22 @@ export const HCL = {
 } as const;
 
 /**
+ * GitHub's language definition for HIP.
+ */
+export const HIP = {
+  type: "programming",
+  color: "#4F3A4F",
+  tm_scope: "source.c++",
+  ace_mode: "c_cpp",
+  codemirror_mode: "clike",
+  codemirror_mime_type: "text/x-c++src",
+  language_id: 674379998,
+  extensions: [
+    ".hip",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for HLSL.
  */
 export const HLSL = {
@@ -9234,6 +9250,7 @@ export const Python = {
     "py",
     "pypy",
     "pypy3",
+    "uv",
   ],
   filenames: [
     ".gclient",
@@ -10310,6 +10327,7 @@ export const SMT = {
   extensions: [
     ".smt2",
     ".smt",
+    ".z3",
   ],
   interpreters: [
     "boolector",
