@@ -6476,6 +6476,25 @@ export const M = {
 } as const;
 
 /**
+ * GitHub's language definition for M3U.
+ */
+export const M3U = {
+  type: "data",
+  color: "#179C7D",
+  aliases: [
+    "hls playlist",
+    "m3u playlist",
+  ],
+  tm_scope: "source.m3u",
+  ace_mode: "text",
+  language_id: 89638692,
+  extensions: [
+    ".m3u",
+    ".m3u8",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for M4.
  */
 export const M4 = {
