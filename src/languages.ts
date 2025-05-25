@@ -1172,6 +1172,20 @@ export const Browserslist = {
 } as const;
 
 /**
+ * GitHub's language definition for BuildStream.
+ */
+export const BuildStream = {
+  type: "data",
+  color: "#006bff",
+  tm_scope: "source.yaml",
+  ace_mode: "yaml",
+  language_id: 84359046,
+  extensions: [
+    ".bst",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for C.
  */
 export const C = {
@@ -2080,21 +2094,6 @@ export const Cool = {
   language_id: 68,
   extensions: [
     ".cl",
-  ],
-} as const;
-
-/**
- * GitHub's language definition for Coq.
- */
-export const Coq = {
-  type: "programming",
-  color: "#d0b68c",
-  tm_scope: "source.coq",
-  ace_mode: "text",
-  language_id: 69,
-  extensions: [
-    ".coq",
-    ".v",
   ],
 } as const;
 
@@ -4384,6 +4383,22 @@ export const HCL = {
 } as const;
 
 /**
+ * GitHub's language definition for HIP.
+ */
+export const HIP = {
+  type: "programming",
+  color: "#4F3A4F",
+  tm_scope: "source.c++",
+  ace_mode: "c_cpp",
+  codemirror_mode: "clike",
+  codemirror_mime_type: "text/x-c++src",
+  language_id: 674379998,
+  extensions: [
+    ".hip",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for HLSL.
  */
 export const HLSL = {
@@ -5885,6 +5900,23 @@ export const Kit = {
 } as const;
 
 /**
+ * GitHub's language definition for Koka.
+ */
+export const Koka = {
+  type: "programming",
+  color: "#215166",
+  tm_scope: "source.koka",
+  ace_mode: "text",
+  language_id: 597930447,
+  extensions: [
+    ".kk",
+  ],
+  interpreters: [
+    "koka",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for Kotlin.
  */
 export const Kotlin = {
@@ -6454,6 +6486,25 @@ export const M = {
   extensions: [
     ".mumps",
     ".m",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for M3U.
+ */
+export const M3U = {
+  type: "data",
+  color: "#179C7D",
+  aliases: [
+    "hls playlist",
+    "m3u playlist",
+  ],
+  tm_scope: "source.m3u",
+  ace_mode: "text",
+  language_id: 89638692,
+  extensions: [
+    ".m3u",
+    ".m3u8",
   ],
 } as const;
 
@@ -9232,6 +9283,7 @@ export const Python = {
     "py",
     "pypy",
     "pypy3",
+    "uv",
   ],
   filenames: [
     ".gclient",
@@ -9993,6 +10045,25 @@ export const Roc = {
 } as const;
 
 /**
+ * GitHub's language definition for Rocq Prover.
+ */
+export const RocqProver = {
+  type: "programming",
+  color: "#d0b68c",
+  aliases: [
+    "coq",
+    "rocq",
+  ],
+  tm_scope: "source.coq",
+  ace_mode: "text",
+  language_id: 69,
+  extensions: [
+    ".v",
+    ".coq",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for Roff.
  */
 export const Roff = {
@@ -10289,6 +10360,7 @@ export const SMT = {
   extensions: [
     ".smt2",
     ".smt",
+    ".z3",
   ],
   interpreters: [
     "boolector",
@@ -10507,6 +10579,20 @@ export const Sage = {
   extensions: [
     ".sage",
     ".sagews",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for Sail.
+ */
+export const Sail = {
+  type: "programming",
+  color: "#259dd5",
+  tm_scope: "source.sail",
+  ace_mode: "text",
+  language_id: 1029438153,
+  extensions: [
+    ".sail",
   ],
 } as const;
 
