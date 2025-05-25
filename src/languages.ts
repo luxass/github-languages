@@ -1172,6 +1172,20 @@ export const Browserslist = {
 } as const;
 
 /**
+ * GitHub's language definition for BuildStream.
+ */
+export const BuildStream = {
+  type: "data",
+  color: "#006bff",
+  tm_scope: "source.yaml",
+  ace_mode: "yaml",
+  language_id: 84359046,
+  extensions: [
+    ".bst",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for C.
  */
 export const C = {
