@@ -12484,7 +12484,7 @@ export const Vue = {
  */
 export const Vyper = {
   type: "programming",
-  color: "#2980b9",
+  color: "#9F4CF2",
   tm_scope: "source.vyper",
   ace_mode: "text",
   language_id: 1055641948,
