@@ -1,4 +1,4 @@
-import { defineConfig } from "tsup";
+import { defineConfig } from "tsdown";
 
 export default defineConfig(
   {
@@ -6,15 +6,11 @@ export default defineConfig(
       "./src/index.ts",
       "./src/languages.ts",
     ],
+    exports: true,
+    publint: true,
     format: ["cjs", "esm"],
     clean: true,
     dts: true,
     treeshake: true,
-    bundle: true,
-    outExtension(ctx) {
-      return {
-        js: ctx.format === "cjs" ? ".cjs" : ".mjs",
-      };
-    },
   },
 );

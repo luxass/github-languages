@@ -26,31 +26,18 @@
   ],
   "exports": {
     ".": {
-      "import": {
-        "types": "./dist/index.d.ts",
-        "default": "./dist/index.mjs"
-      },
-      "require": {
-        "types": "./dist/index.d.cts",
-        "default": "./dist/index.cjs"
-      }
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
     },
     "./languages": {
-      "import": {
-        "types": "./dist/languages.d.ts",
-        "default": "./dist/languages.mjs"
-      },
-      "require": {
-        "types": "./dist/languages.d.cts",
-        "default": "./dist/languages.cjs"
-      }
+      "import": "./dist/languages.js",
+      "require": "./dist/languages.cjs"
     },
-    "./json": "./languages.json",
     "./package.json": "./package.json"
   },
-  "main": "dist/index.cjs",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.cts",
   "files": [
     "dist",
     "languages.d.ts",
@@ -60,7 +47,7 @@
     "node": ">=20"
   },
   "scripts": {
-    "build": "tsup",
+    "build": "tsdown",
     "languages:download": "tsx --env-file=.env ./scripts/download.ts",
     "prepublishOnly": "pnpm run languages:download && pnpm run build",
     "lint": "eslint .",
@@ -73,7 +60,8 @@
     "eslint": "^9.22.0",
     "eslint-plugin-format": "^1.0.1",
     "js-yaml": "^4.1.0",
-    "tsup": "^8.4.0",
+    "publint": "^0.3.12",
+    "tsdown": "^0.12.5",
     "tsx": "^4.19.3",
     "typescript": "^5.8.2",
     "valibot": "^1.0.0"
