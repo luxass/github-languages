@@ -3748,6 +3748,7 @@
       ".cfg",
       ".cnf",
       ".dof",
+      ".frm",
       ".lektorproject",
       ".prefs",
       ".pro",
@@ -9258,6 +9259,19 @@
     "language_id": 356554395,
     "extensions": [
       ".toit"
+    ]
+  },
+  "Tor Config": {
+    "type": "data",
+    "color": "#59316b",
+    "aliases": [
+      "torrc"
+    ],
+    "tm_scope": "source.torrc",
+    "ace_mode": "apache_conf",
+    "language_id": 1016912802,
+    "filenames": [
+      "torrc"
     ]
   },
   "Tree-sitter Query": {

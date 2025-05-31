@@ -4855,6 +4855,7 @@ export const INI = {
     ".cfg",
     ".cnf",
     ".dof",
+    ".frm",
     ".lektorproject",
     ".prefs",
     ".pro",
@@ -11909,6 +11910,23 @@ export const Toit = {
   language_id: 356554395,
   extensions: [
     ".toit",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for Tor Config.
+ */
+export const TorConfig = {
+  type: "data",
+  color: "#59316b",
+  aliases: [
+    "torrc",
+  ],
+  tm_scope: "source.torrc",
+  ace_mode: "apache_conf",
+  language_id: 1016912802,
+  filenames: [
+    "torrc",
   ],
 } as const;
 
