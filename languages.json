@@ -278,6 +278,16 @@
       ".agda"
     ]
   },
+  "Aiken": {
+    "type": "programming",
+    "color": "#640ff8",
+    "tm_scope": "source.aiken",
+    "ace_mode": "text",
+    "language_id": 899409497,
+    "extensions": [
+      ".ak"
+    ]
+  },
   "Alloy": {
     "type": "programming",
     "color": "#64C800",
@@ -1460,6 +1470,16 @@
       "firestore.rules"
     ]
   },
+  "Clue": {
+    "type": "programming",
+    "color": "#0009b5",
+    "tm_scope": "source.clue",
+    "ace_mode": "text",
+    "language_id": 163763508,
+    "extensions": [
+      ".clue"
+    ]
+  },
   "CoNLL-U": {
     "type": "data",
     "aliases": [
@@ -1909,6 +1929,16 @@
     ],
     "interpreters": [
       "dart"
+    ]
+  },
+  "Daslang": {
+    "type": "programming",
+    "color": "#d3d3d3",
+    "tm_scope": "source.daslang",
+    "ace_mode": "text",
+    "language_id": 648759486,
+    "extensions": [
+      ".das"
     ]
   },
   "DataWeave": {
@@ -4752,6 +4782,17 @@
       ".lean"
     ]
   },
+  "Leo": {
+    "type": "programming",
+    "color": "#6814EC",
+    "tm_scope": "source.leo",
+    "ace_mode": "text",
+    "wrap": true,
+    "language_id": 916034822,
+    "extensions": [
+      ".leo"
+    ]
+  },
   "Less": {
     "type": "markup",
     "color": "#1d365d",
@@ -7567,7 +7608,8 @@
     "codemirror_mime_type": "text/x-rustsrc",
     "language_id": 501875647,
     "extensions": [
-      ".res"
+      ".res",
+      ".resi"
     ],
     "interpreters": [
       "ocaml"
@@ -9453,6 +9495,16 @@
       ".uc"
     ]
   },
+  "Untyped Plutus Core": {
+    "type": "programming",
+    "color": "#36adbd",
+    "tm_scope": "source.uplc",
+    "ace_mode": "text",
+    "language_id": 1061635506,
+    "extensions": [
+      ".uplc"
+    ]
+  },
   "UrWeb": {
     "type": "programming",
     "color": "#ccccee",
@@ -10105,6 +10157,7 @@
       ".scxml",
       ".sfproj",
       ".shproj",
+      ".slnx",
       ".srdf",
       ".storyboard",
       ".sublime-snippet",
@@ -10457,6 +10510,16 @@
       ".zimpl",
       ".zmpl",
       ".zpl"
+    ]
+  },
+  "Zmodel": {
+    "type": "data",
+    "color": "#ff7100",
+    "tm_scope": "source.zmodel",
+    "ace_mode": "text",
+    "language_id": 803760908,
+    "extensions": [
+      ".zmodel"
     ]
   },
   "cURL Config": {
