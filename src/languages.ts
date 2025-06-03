@@ -371,6 +371,20 @@ export const Agda = {
 } as const;
 
 /**
+ * GitHub's language definition for Aiken.
+ */
+export const Aiken = {
+  type: "programming",
+  color: "#640ff8",
+  tm_scope: "source.aiken",
+  ace_mode: "text",
+  language_id: 899409497,
+  extensions: [
+    ".ak",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for Alloy.
  */
 export const Alloy = {
@@ -1909,6 +1923,20 @@ export const CloudFirestoreSecurityRules = {
 } as const;
 
 /**
+ * GitHub's language definition for Clue.
+ */
+export const Clue = {
+  type: "programming",
+  color: "#0009b5",
+  tm_scope: "source.clue",
+  ace_mode: "text",
+  language_id: 163763508,
+  extensions: [
+    ".clue",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for CoNLL-U.
  */
 export const CoNLL_U = {
@@ -2484,6 +2512,20 @@ export const Dart = {
   ],
   interpreters: [
     "dart",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for Daslang.
+ */
+export const Daslang = {
+  type: "programming",
+  color: "#d3d3d3",
+  tm_scope: "source.daslang",
+  ace_mode: "text",
+  language_id: 648759486,
+  extensions: [
+    ".das",
   ],
 } as const;
 
@@ -6121,6 +6163,21 @@ export const Lean4 = {
   language_id: 455147478,
   extensions: [
     ".lean",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for Leo.
+ */
+export const Leo = {
+  type: "programming",
+  color: "#6814EC",
+  tm_scope: "source.leo",
+  ace_mode: "text",
+  wrap: true,
+  language_id: 916034822,
+  extensions: [
+    ".leo",
   ],
 } as const;
 
@@ -9771,6 +9828,7 @@ export const ReScript = {
   language_id: 501875647,
   extensions: [
     ".res",
+    ".resi",
   ],
   interpreters: [
     "ocaml",
@@ -12162,6 +12220,20 @@ export const UnrealScript = {
 } as const;
 
 /**
+ * GitHub's language definition for Untyped Plutus Core.
+ */
+export const UntypedPlutusCore = {
+  type: "programming",
+  color: "#36adbd",
+  tm_scope: "source.uplc",
+  ace_mode: "text",
+  language_id: 1061635506,
+  extensions: [
+    ".uplc",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for UrWeb.
  */
 export const UrWeb = {
@@ -12984,6 +13056,7 @@ export const XML = {
     ".scxml",
     ".sfproj",
     ".shproj",
+    ".slnx",
     ".srdf",
     ".storyboard",
     ".sublime-snippet",
@@ -13428,6 +13501,20 @@ export const Zimpl = {
     ".zimpl",
     ".zmpl",
     ".zpl",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for Zmodel.
+ */
+export const Zmodel = {
+  type: "data",
+  color: "#ff7100",
+  tm_scope: "source.zmodel",
+  ace_mode: "text",
+  language_id: 803760908,
+  extensions: [
+    ".zmodel",
   ],
 } as const;
 
