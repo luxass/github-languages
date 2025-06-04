@@ -2798,6 +2798,17 @@
       ".gd"
     ]
   },
+  "GDShader": {
+    "type": "programming",
+    "color": "#478CBF",
+    "tm_scope": "source.gdshader",
+    "ace_mode": "glsl",
+    "language_id": 694638086,
+    "extensions": [
+      ".gdshader",
+      ".gdshaderinc"
+    ]
+  },
   "GEDCOM": {
     "type": "data",
     "color": "#003058",
