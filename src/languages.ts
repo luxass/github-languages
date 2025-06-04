@@ -3643,6 +3643,21 @@ export const GDScript = {
 } as const;
 
 /**
+ * GitHub's language definition for GDShader.
+ */
+export const GDShader = {
+  type: "programming",
+  color: "#478CBF",
+  tm_scope: "source.gdshader",
+  ace_mode: "glsl",
+  language_id: 694638086,
+  extensions: [
+    ".gdshader",
+    ".gdshaderinc",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for GEDCOM.
  */
 export const GEDCOM = {
