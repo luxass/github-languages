@@ -12415,6 +12415,20 @@ export const VelocityTemplateLanguage = {
 } as const;
 
 /**
+ * GitHub's language definition for Vento.
+ */
+export const Vento = {
+  type: "markup",
+  color: "#ff0080",
+  tm_scope: "source.vento",
+  ace_mode: "text",
+  language_id: 757053899,
+  extensions: [
+    ".vto",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for Verilog.
  */
 export const Verilog = {

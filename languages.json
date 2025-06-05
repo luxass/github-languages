@@ -9646,6 +9646,16 @@
       ".vtl"
     ]
   },
+  "Vento": {
+    "type": "markup",
+    "color": "#ff0080",
+    "tm_scope": "source.vento",
+    "ace_mode": "text",
+    "language_id": 757053899,
+    "extensions": [
+      ".vto"
+    ]
+  },
   "Verilog": {
     "type": "programming",
     "color": "#b2b7f8",
