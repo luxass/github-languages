@@ -6186,7 +6186,7 @@ export const Lean4 = {
  */
 export const Leo = {
   type: "programming",
-  color: "#6814EC",
+  color: "#C4FFC2",
   tm_scope: "source.leo",
   ace_mode: "text",
   wrap: true,
