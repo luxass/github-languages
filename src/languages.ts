@@ -7672,6 +7672,20 @@ export const Nginx = {
 } as const;
 
 /**
+ * GitHub's language definition for Nickel.
+ */
+export const Nickel = {
+  type: "programming",
+  color: "#E0C3FC",
+  tm_scope: "source.nickel",
+  ace_mode: "text",
+  language_id: 1067292664,
+  extensions: [
+    ".ncl",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for Nim.
  */
 export const Nim = {
