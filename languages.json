@@ -5935,6 +5935,16 @@
       "nginx.conf"
     ]
   },
+  "Nickel": {
+    "type": "programming",
+    "color": "#E0C3FC",
+    "tm_scope": "source.nickel",
+    "ace_mode": "text",
+    "language_id": 1067292664,
+    "extensions": [
+      ".ncl"
+    ]
+  },
   "Nim": {
     "type": "programming",
     "color": "#ffc200",
