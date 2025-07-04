@@ -8267,7 +8267,9 @@
     "codemirror_mime_type": "text/x-c++src",
     "language_id": 1066250075,
     "extensions": [
-      ".i"
+      ".i",
+      ".swg",
+      ".swig"
     ]
   },
   "Sage": {
