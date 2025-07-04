@@ -10651,6 +10651,8 @@ export const SWIG = {
   language_id: 1066250075,
   extensions: [
     ".i",
+    ".swg",
+    ".swig",
   ],
 } as const;
 
