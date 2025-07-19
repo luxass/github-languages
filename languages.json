@@ -150,7 +150,7 @@
   "ASL": {
     "type": "programming",
     "tm_scope": "source.asl",
-    "ace_mode": "text",
+    "ace_mode": "asl",
     "language_id": 124996147,
     "extensions": [
       ".asl",
@@ -406,7 +406,7 @@
     "type": "programming",
     "color": "#1797c0",
     "tm_scope": "source.apex",
-    "ace_mode": "java",
+    "ace_mode": "apex",
     "codemirror_mode": "clike",
     "codemirror_mime_type": "text/x-java",
     "language_id": 17,
@@ -501,7 +501,7 @@
     "type": "markup",
     "color": "#ff5a03",
     "tm_scope": "source.astro",
-    "ace_mode": "html",
+    "ace_mode": "astro",
     "codemirror_mode": "jsx",
     "codemirror_mime_type": "text/jsx",
     "language_id": 578209015,
@@ -612,7 +612,7 @@
     "type": "programming",
     "color": "#ff0000",
     "tm_scope": "source.basic",
-    "ace_mode": "text",
+    "ace_mode": "basic",
     "language_id": 28923963,
     "extensions": [
       ".bas"
@@ -694,7 +694,7 @@
     "type": "markup",
     "color": "#778899",
     "tm_scope": "text.bibtex",
-    "ace_mode": "tex",
+    "ace_mode": "bibtex",
     "codemirror_mode": "stex",
     "codemirror_mime_type": "text/x-stex",
     "group": "TeX",
@@ -764,7 +764,7 @@
     "type": "markup",
     "color": "#f7523f",
     "tm_scope": "text.html.php.blade",
-    "ace_mode": "text",
+    "ace_mode": "php_laravel_blade",
     "language_id": 33,
     "extensions": [
       ".blade",
@@ -1121,7 +1121,7 @@
     "type": "data",
     "color": "#237346",
     "tm_scope": "none",
-    "ace_mode": "text",
+    "ace_mode": "csv",
     "language_id": 51,
     "extensions": [
       ".csv"
@@ -1154,7 +1154,7 @@
       "Cabal"
     ],
     "tm_scope": "source.cabal",
-    "ace_mode": "haskell",
+    "ace_mode": "haskell_cabal",
     "codemirror_mode": "haskell",
     "codemirror_mime_type": "text/x-haskell",
     "language_id": 677095381,
@@ -1663,7 +1663,7 @@
     "type": "programming",
     "color": "#000100",
     "tm_scope": "source.crystal",
-    "ace_mode": "ruby",
+    "ace_mode": "crystal",
     "codemirror_mode": "crystal",
     "codemirror_mime_type": "text/x-crystal",
     "language_id": 72,
@@ -1776,6 +1776,8 @@
     "color": "#34c0eb",
     "tm_scope": "source.cypher",
     "ace_mode": "text",
+    "codemirror_mode": "cypher",
+    "codemirror_mime_type": "application/x-cypher-query",
     "language_id": 850806976,
     "extensions": [
       ".cyp",
@@ -2161,6 +2163,8 @@
     "color": "#a91e50",
     "tm_scope": "text.html.js",
     "ace_mode": "ejs",
+    "codemirror_mode": "htmlembedded",
+    "codemirror_mime_type": "application/x-ejs",
     "language_id": 95,
     "extensions": [
       ".ejs",
@@ -2457,7 +2461,7 @@
       "fsharp"
     ],
     "tm_scope": "source.fsharp",
-    "ace_mode": "text",
+    "ace_mode": "fsharp",
     "codemirror_mode": "mllike",
     "codemirror_mime_type": "text/x-fsharp",
     "language_id": 105,
@@ -2642,7 +2646,7 @@
     "type": "programming",
     "color": "#4d41b1",
     "tm_scope": "source.fortran",
-    "ace_mode": "text",
+    "ace_mode": "fortran",
     "codemirror_mode": "fortran",
     "codemirror_mime_type": "text/x-fortran",
     "group": "Fortran",
@@ -2658,7 +2662,7 @@
     "type": "programming",
     "color": "#4d41b1",
     "tm_scope": "source.fortran.modern",
-    "ace_mode": "text",
+    "ace_mode": "fortran",
     "codemirror_mode": "fortran",
     "codemirror_mime_type": "text/x-fortran",
     "group": "Fortran",
@@ -3044,7 +3048,9 @@
       "cucumber"
     ],
     "tm_scope": "text.gherkin.feature",
-    "ace_mode": "text",
+    "ace_mode": "gherkin",
+    "codemirror_mode": "gherkin",
+    "codemirror_mime_type": "text/x-feature",
     "language_id": 76,
     "extensions": [
       ".feature",
@@ -3329,7 +3335,7 @@
     "type": "data",
     "color": "#e10098",
     "tm_scope": "source.graphql",
-    "ace_mode": "text",
+    "ace_mode": "graphqlschema",
     "language_id": 139,
     "extensions": [
       ".graphql",
@@ -3341,7 +3347,7 @@
     "type": "data",
     "color": "#2596be",
     "tm_scope": "source.dot",
-    "ace_mode": "text",
+    "ace_mode": "dot",
     "language_id": 140,
     "extensions": [
       ".dot",
@@ -3407,7 +3413,7 @@
       "terraform"
     ],
     "tm_scope": "source.hcl",
-    "ace_mode": "ruby",
+    "ace_mode": "terraform",
     "codemirror_mode": "ruby",
     "codemirror_mime_type": "text/x-ruby",
     "language_id": 144,
@@ -3487,7 +3493,7 @@
       "ecr"
     ],
     "tm_scope": "text.html.ecr",
-    "ace_mode": "text",
+    "ace_mode": "html_ruby",
     "codemirror_mode": "htmlmixed",
     "codemirror_mime_type": "text/html",
     "group": "HTML",
@@ -3505,7 +3511,7 @@
       "leex"
     ],
     "tm_scope": "text.html.elixir",
-    "ace_mode": "text",
+    "ace_mode": "html_elixir",
     "codemirror_mode": "htmlmixed",
     "codemirror_mime_type": "text/html",
     "group": "HTML",
@@ -3525,7 +3531,7 @@
       "html+ruby"
     ],
     "tm_scope": "text.html.erb",
-    "ace_mode": "text",
+    "ace_mode": "html_ruby",
     "codemirror_mode": "htmlembedded",
     "codemirror_mime_type": "application/x-erb",
     "group": "HTML",
@@ -3583,6 +3589,8 @@
     "color": "#f68712",
     "tm_scope": "source.hxml",
     "ace_mode": "text",
+    "codemirror_mode": "haxe",
+    "codemirror_mime_type": "text/x-hxml",
     "language_id": 786683730,
     "extensions": [
       ".hxml"
@@ -4146,7 +4154,7 @@
     "type": "data",
     "color": "#267CB9",
     "tm_scope": "source.js",
-    "ace_mode": "javascript",
+    "ace_mode": "json5",
     "codemirror_mode": "javascript",
     "codemirror_mime_type": "application/json",
     "language_id": 175,
@@ -4160,7 +4168,7 @@
     "tm_scope": "source.js",
     "ace_mode": "javascript",
     "codemirror_mode": "javascript",
-    "codemirror_mime_type": "application/json",
+    "codemirror_mime_type": "application/ld+json",
     "language_id": 176,
     "extensions": [
       ".jsonld"
@@ -4378,8 +4386,8 @@
     ],
     "tm_scope": "text.html.django",
     "ace_mode": "django",
-    "codemirror_mode": "django",
-    "codemirror_mime_type": "text/x-django",
+    "codemirror_mode": "jinja2",
+    "codemirror_mime_type": "text/jinja2",
     "language_id": 147,
     "extensions": [
       ".jinja",
@@ -4642,7 +4650,7 @@
     "type": "programming",
     "color": "#A97BFF",
     "tm_scope": "source.kotlin",
-    "ace_mode": "text",
+    "ace_mode": "kotlin",
     "codemirror_mode": "clike",
     "codemirror_mime_type": "text/x-kotlin",
     "language_id": 189,
@@ -4765,7 +4773,7 @@
     "type": "markup",
     "color": "#f2a542",
     "tm_scope": "text.html.smarty",
-    "ace_mode": "smarty",
+    "ace_mode": "latte",
     "codemirror_mode": "smarty",
     "codemirror_mime_type": "text/x-smarty",
     "language_id": 196,
@@ -4813,7 +4821,7 @@
     "tm_scope": "source.css.less",
     "ace_mode": "less",
     "codemirror_mode": "css",
-    "codemirror_mime_type": "text/css",
+    "codemirror_mime_type": "text/x-less",
     "language_id": 198,
     "extensions": [
       ".less"
@@ -5002,7 +5010,7 @@
     "type": "programming",
     "color": "#295b9a",
     "tm_scope": "source.logtalk",
-    "ace_mode": "text",
+    "ace_mode": "logtalk",
     "language_id": 210,
     "extensions": [
       ".lgt",
@@ -5796,7 +5804,7 @@
   "NSIS": {
     "type": "programming",
     "tm_scope": "source.nsis",
-    "ace_mode": "text",
+    "ace_mode": "nsis",
     "codemirror_mode": "nsis",
     "codemirror_mime_type": "text/x-nsis",
     "language_id": 242,
@@ -5922,7 +5930,7 @@
       "nginx configuration file"
     ],
     "tm_scope": "source.nginx",
-    "ace_mode": "text",
+    "ace_mode": "nginx",
     "codemirror_mode": "nginx",
     "codemirror_mime_type": "text/x-nginx-conf",
     "language_id": 248,
@@ -5949,7 +5957,7 @@
     "type": "programming",
     "color": "#ffc200",
     "tm_scope": "source.nim",
-    "ace_mode": "text",
+    "ace_mode": "nim",
     "language_id": 249,
     "extensions": [
       ".nim",
@@ -6246,7 +6254,7 @@
     "tm_scope": "source.objc++",
     "ace_mode": "objectivec",
     "codemirror_mode": "clike",
-    "codemirror_mime_type": "text/x-objectivec",
+    "codemirror_mime_type": "text/x-objectivec++",
     "language_id": 258,
     "extensions": [
       ".mm"
@@ -6276,7 +6284,7 @@
       "odin-lang"
     ],
     "tm_scope": "source.odin",
-    "ace_mode": "text",
+    "ace_mode": "odin",
     "language_id": 889244082,
     "extensions": [
       ".odin"
@@ -6574,7 +6582,7 @@
     "type": "programming",
     "color": "#dad8d8",
     "tm_scope": "none",
-    "ace_mode": "sql",
+    "ace_mode": "plsql",
     "codemirror_mode": "sql",
     "codemirror_mime_type": "text/x-plsql",
     "language_id": 273,
@@ -6823,7 +6831,9 @@
     "type": "programming",
     "color": "#fcd7de",
     "tm_scope": "source.pig_latin",
-    "ace_mode": "text",
+    "ace_mode": "pig",
+    "codemirror_mode": "pig",
+    "codemirror_mime_type": "text/x-pig",
     "language_id": 286,
     "extensions": [
       ".pig"
@@ -7023,7 +7033,7 @@
     "type": "data",
     "color": "#0c344b",
     "tm_scope": "source.prisma",
-    "ace_mode": "text",
+    "ace_mode": "prisma",
     "language_id": 499933428,
     "extensions": [
       ".prisma"
@@ -7156,7 +7166,7 @@
     "type": "programming",
     "color": "#302B6D",
     "tm_scope": "source.puppet",
-    "ace_mode": "text",
+    "ace_mode": "puppet",
     "codemirror_mode": "puppet",
     "codemirror_mime_type": "text/x-puppet",
     "language_id": 299,
@@ -7296,7 +7306,7 @@
     "type": "programming",
     "color": "#44a51c",
     "tm_scope": "source.qml",
-    "ace_mode": "text",
+    "ace_mode": "qml",
     "language_id": 305,
     "extensions": [
       ".qml",
@@ -7573,7 +7583,7 @@
       "perl-6"
     ],
     "tm_scope": "source.raku",
-    "ace_mode": "perl",
+    "ace_mode": "raku",
     "codemirror_mode": "perl",
     "codemirror_mime_type": "text/x-perl",
     "language_id": 283,
@@ -7710,7 +7720,7 @@
       "red/system"
     ],
     "tm_scope": "source.red",
-    "ace_mode": "text",
+    "ace_mode": "red",
     "language_id": 320,
     "extensions": [
       ".red",
@@ -7819,7 +7829,7 @@
     "type": "programming",
     "color": "#00c0b5",
     "tm_scope": "text.robot",
-    "ace_mode": "text",
+    "ace_mode": "robot",
     "language_id": 324,
     "extensions": [
       ".robot",
@@ -8128,7 +8138,7 @@
     "type": "data",
     "color": "#0C4597",
     "tm_scope": "source.sparql",
-    "ace_mode": "text",
+    "ace_mode": "sparql",
     "codemirror_mode": "sparql",
     "codemirror_mime_type": "application/sparql-query",
     "language_id": 331,
@@ -8251,7 +8261,7 @@
     "type": "data",
     "color": "#ff9900",
     "tm_scope": "text.xml.svg",
-    "ace_mode": "xml",
+    "ace_mode": "svg",
     "codemirror_mode": "xml",
     "codemirror_mime_type": "text/xml",
     "language_id": 337,
@@ -8612,7 +8622,7 @@
     "type": "markup",
     "color": "#2b2b2b",
     "tm_scope": "text.slim",
-    "ace_mode": "text",
+    "ace_mode": "slim",
     "codemirror_mode": "slim",
     "codemirror_mime_type": "text/x-slim",
     "language_id": 350,
@@ -8684,7 +8694,7 @@
     "type": "programming",
     "color": "#c44536",
     "tm_scope": "source.smithy",
-    "ace_mode": "text",
+    "ace_mode": "smithy",
     "codemirror_mode": "clike",
     "codemirror_mime_type": "text/x-csrc",
     "language_id": 1027892786,
@@ -8760,7 +8770,7 @@
     "tm_scope": "source.nut",
     "ace_mode": "c_cpp",
     "codemirror_mode": "clike",
-    "codemirror_mime_type": "text/x-c++src",
+    "codemirror_mime_type": "text/x-squirrel",
     "language_id": 355,
     "extensions": [
       ".nut"
@@ -8785,7 +8795,7 @@
     "tm_scope": "source.ml",
     "ace_mode": "text",
     "codemirror_mode": "mllike",
-    "codemirror_mime_type": "text/x-ocaml",
+    "codemirror_mime_type": "text/x-sml",
     "language_id": 357,
     "extensions": [
       ".ml",
@@ -8854,6 +8864,8 @@
     "color": "#ff6347",
     "tm_scope": "source.stylus",
     "ace_mode": "stylus",
+    "codemirror_mode": "stylus",
+    "codemirror_mime_type": "text/x-styl",
     "language_id": 359,
     "extensions": [
       ".styl"
@@ -8942,7 +8954,7 @@
     "type": "programming",
     "color": "#F05138",
     "tm_scope": "source.swift",
-    "ace_mode": "text",
+    "ace_mode": "swift",
     "codemirror_mode": "swift",
     "codemirror_mime_type": "text/x-swift",
     "language_id": 362,
@@ -9046,7 +9058,7 @@
       "tab-seperated values"
     ],
     "tm_scope": "source.generic-db",
-    "ace_mode": "text",
+    "ace_mode": "tsv",
     "language_id": 1035892117,
     "extensions": [
       ".tsv",
@@ -9057,9 +9069,9 @@
     "type": "programming",
     "color": "#3178c6",
     "tm_scope": "source.tsx",
-    "ace_mode": "javascript",
+    "ace_mode": "tsx",
     "codemirror_mode": "jsx",
-    "codemirror_mime_type": "text/jsx",
+    "codemirror_mime_type": "text/typescript-jsx",
     "group": "TypeScript",
     "language_id": 94901924,
     "extensions": [
@@ -9366,7 +9378,7 @@
   "Turtle": {
     "type": "data",
     "tm_scope": "source.turtle",
-    "ace_mode": "text",
+    "ace_mode": "turtle",
     "codemirror_mode": "turtle",
     "codemirror_mime_type": "text/turtle",
     "language_id": 376,
@@ -9580,7 +9592,7 @@
     "type": "programming",
     "color": "#15dcdc",
     "tm_scope": "source.vbnet",
-    "ace_mode": "text",
+    "ace_mode": "vbscript",
     "codemirror_mode": "vbscript",
     "codemirror_mime_type": "text/vbscript",
     "language_id": 408016005,
@@ -9800,7 +9812,9 @@
     "type": "markup",
     "color": "#41b883",
     "tm_scope": "source.vue",
-    "ace_mode": "html",
+    "ace_mode": "vue",
+    "codemirror_mode": "vue",
+    "codemirror_mime_type": "text/x-vue",
     "language_id": 391,
     "extensions": [
       ".vue"
@@ -9876,8 +9890,8 @@
     ],
     "tm_scope": "source.webassembly",
     "ace_mode": "lisp",
-    "codemirror_mode": "commonlisp",
-    "codemirror_mime_type": "text/x-common-lisp",
+    "codemirror_mode": "wast",
+    "codemirror_mime_type": "text/webassembly",
     "language_id": 956556503,
     "extensions": [
       ".wast",
@@ -9954,7 +9968,7 @@
       "wiki"
     ],
     "tm_scope": "text.html.mediawiki",
-    "ace_mode": "text",
+    "ace_mode": "mediawiki",
     "wrap": true,
     "language_id": 228,
     "extensions": [
@@ -10000,7 +10014,7 @@
     "type": "programming",
     "color": "#a23738",
     "tm_scope": "source.wollok",
-    "ace_mode": "text",
+    "ace_mode": "wollok",
     "language_id": 632745969,
     "extensions": [
       ".wlk"
@@ -10495,7 +10509,7 @@
       "bro"
     ],
     "tm_scope": "source.zeek",
-    "ace_mode": "text",
+    "ace_mode": "zeek",
     "language_id": 40,
     "extensions": [
       ".zeek",
@@ -10526,7 +10540,7 @@
     "type": "programming",
     "color": "#ec915c",
     "tm_scope": "source.zig",
-    "ace_mode": "text",
+    "ace_mode": "zig",
     "language_id": 646424281,
     "extensions": [
       ".zig",
@@ -10627,7 +10641,7 @@
     "tm_scope": "source.clojure",
     "ace_mode": "clojure",
     "codemirror_mode": "clojure",
-    "codemirror_mime_type": "text/x-clojure",
+    "codemirror_mime_type": "application/edn",
     "language_id": 414,
     "extensions": [
       ".edn"
@@ -10784,6 +10798,8 @@
     "color": "#0040cd",
     "tm_scope": "source.q",
     "ace_mode": "text",
+    "codemirror_mode": "q",
+    "codemirror_mime_type": "text/x-q",
     "language_id": 970539067,
     "extensions": [
       ".q"
@@ -10796,7 +10812,7 @@
       "rst"
     ],
     "tm_scope": "text.restructuredtext",
-    "ace_mode": "text",
+    "ace_mode": "rst",
     "codemirror_mode": "rst",
     "codemirror_mime_type": "text/x-rst",
     "wrap": true,
