@@ -45,4 +45,4 @@ jobs:
 
           npx bumpp $PATCH_VERSION --commit --tag --push --yes
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.AUTO_RELEASE_TOKEN }}
