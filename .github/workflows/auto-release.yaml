@@ -19,6 +19,7 @@ jobs:
         with:
           fetch-depth: 0
           # needed by the npx bumpp cmd to create a tag
+          token: ${{ secrets.AUTO_RELEASE_TOKEN }}
           persist-credentials: true
 
       - name: setup pnpm
