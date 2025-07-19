@@ -10,6 +10,16 @@
       ".os"
     ]
   },
+  "2-Dimensional Array": {
+    "type": "data",
+    "color": "#38761D",
+    "tm_scope": "source.2da",
+    "ace_mode": "text",
+    "language_id": 387204628,
+    "extensions": [
+      ".2da"
+    ]
+  },
   "4D": {
     "type": "programming",
     "color": "#004289",
