@@ -30,6 +30,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: build
+        run: pnpm build
+
       - name: install dependencies
         run: pnpm install
 
@@ -40,8 +43,6 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_CONFIG_PROVENANCE: true
-          # so prepublishOnly can run.
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: publish to jsr
         run: npx jsr publish --allow-dirty
