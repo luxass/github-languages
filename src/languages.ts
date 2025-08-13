@@ -12358,7 +12358,7 @@ export const VBScript = {
 export const VCL = {
   type: "programming",
   color: "#148AA8",
-  tm_scope: "source.varnish.vcl",
+  tm_scope: "source.vcl",
   ace_mode: "text",
   language_id: 384,
   extensions: [
