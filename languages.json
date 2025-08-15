@@ -1009,6 +1009,18 @@
       ".chs"
     ]
   },
+  "C3": {
+    "type": "programming",
+    "color": "#2563eb",
+    "tm_scope": "source.c3",
+    "ace_mode": "c_cpp",
+    "codemirror_mode": "clike",
+    "codemirror_mime_type": "text/x-csrc",
+    "language_id": 769248603,
+    "extensions": [
+      ".c3"
+    ]
+  },
   "CAP CDS": {
     "type": "programming",
     "color": "#0092d1",
@@ -7488,6 +7500,21 @@
     "language_id": 587855233,
     "extensions": [
       ".ron"
+    ]
+  },
+  "ROS Interface": {
+    "type": "data",
+    "color": "#22314e",
+    "aliases": [
+      "rosmsg"
+    ],
+    "tm_scope": "source.rosmsg",
+    "ace_mode": "text",
+    "language_id": 809230569,
+    "extensions": [
+      ".msg",
+      ".action",
+      ".srv"
     ]
   },
   "RPC": {

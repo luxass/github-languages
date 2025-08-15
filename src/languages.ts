@@ -1318,6 +1318,22 @@ export const C2hsHaskell = {
 } as const;
 
 /**
+ * GitHub's language definition for C3.
+ */
+export const C3 = {
+  type: "programming",
+  color: "#2563eb",
+  tm_scope: "source.c3",
+  ace_mode: "c_cpp",
+  codemirror_mode: "clike",
+  codemirror_mime_type: "text/x-csrc",
+  language_id: 769248603,
+  extensions: [
+    ".c3",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for CAP CDS.
  */
 export const CAPCDS = {
@@ -9675,6 +9691,25 @@ export const RON = {
   language_id: 587855233,
   extensions: [
     ".ron",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for ROS Interface.
+ */
+export const ROSInterface = {
+  type: "data",
+  color: "#22314e",
+  aliases: [
+    "rosmsg",
+  ],
+  tm_scope: "source.rosmsg",
+  ace_mode: "text",
+  language_id: 809230569,
+  extensions: [
+    ".msg",
+    ".action",
+    ".srv",
   ],
 } as const;
 
