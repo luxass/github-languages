@@ -2129,6 +2129,21 @@ export const ComponentPascal = {
 } as const;
 
 /**
+ * GitHub's language definition for Cooklang.
+ */
+export const Cooklang = {
+  type: "markup",
+  color: "#E15A29",
+  tm_scope: "source.cooklang",
+  ace_mode: "text",
+  wrap: true,
+  language_id: 788037493,
+  extensions: [
+    ".cook",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for Cool.
  */
 export const Cool = {
@@ -9518,6 +9533,20 @@ export const Quake = {
   filenames: [
     "m3makefile",
     "m3overrides",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for QuakeC.
+ */
+export const QuakeC = {
+  type: "programming",
+  color: "#975777",
+  tm_scope: "source.quakec",
+  ace_mode: "text",
+  language_id: 472308069,
+  extensions: [
+    ".qc",
   ],
 } as const;
 
