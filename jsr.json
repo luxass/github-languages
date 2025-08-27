@@ -1,6 +1,6 @@
 {
   "name": "@luxass/github-languages",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "exports": {
     ".": "./src/index.ts",
     "./languages": "./src/languages.ts",
