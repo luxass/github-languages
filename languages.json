@@ -2086,6 +2086,7 @@
       ".env.production",
       ".env.sample",
       ".env.staging",
+      ".env.template",
       ".env.test",
       ".env.testing"
     ]
@@ -9064,7 +9065,8 @@
     "codemirror_mime_type": "text/x-toml",
     "language_id": 365,
     "extensions": [
-      ".toml"
+      ".toml",
+      ".toml.example"
     ],
     "filenames": [
       "Cargo.lock",
