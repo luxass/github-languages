@@ -2717,6 +2717,7 @@ export const Dotenv = {
     ".env.production",
     ".env.sample",
     ".env.staging",
+    ".env.template",
     ".env.test",
     ".env.testing",
   ],
@@ -11676,6 +11677,7 @@ export const TOML = {
   language_id: 365,
   extensions: [
     ".toml",
+    ".toml.example",
   ],
   filenames: [
     "Cargo.lock",
