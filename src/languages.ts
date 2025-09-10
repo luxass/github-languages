@@ -3540,6 +3540,7 @@ export const FreeMarker = {
   language_id: 115,
   extensions: [
     ".ftl",
+    ".ftlh",
   ],
 } as const;
 
