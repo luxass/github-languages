@@ -2724,7 +2724,8 @@
     "ace_mode": "ftl",
     "language_id": 115,
     "extensions": [
-      ".ftl"
+      ".ftl",
+      ".ftlh"
     ]
   },
   "Frege": {
