@@ -1186,6 +1186,20 @@ export const Browserslist = {
 } as const;
 
 /**
+ * GitHub's language definition for Bru.
+ */
+export const Bru = {
+  type: "markup",
+  color: "#F4AA41",
+  tm_scope: "source.bru",
+  ace_mode: "text",
+  language_id: 906627898,
+  extensions: [
+    ".bru",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for BuildStream.
  */
 export const BuildStream = {
@@ -3412,6 +3426,20 @@ export const Filterscript = {
   language_id: 112,
   extensions: [
     ".fs",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for Flix.
+ */
+export const Flix = {
+  type: "programming",
+  color: "#d44a45",
+  tm_scope: "source.flix",
+  ace_mode: "flix",
+  language_id: 800935960,
+  extensions: [
+    ".flix",
   ],
 } as const;
 
@@ -5995,6 +6023,20 @@ export const Kit = {
   language_id: 188,
   extensions: [
     ".kit",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for KoLMafia ASH.
+ */
+export const KoLMafiaASH = {
+  type: "programming",
+  color: "#B9D9B9",
+  tm_scope: "source.ash",
+  ace_mode: "text",
+  language_id: 852099832,
+  extensions: [
+    ".ash",
   ],
 } as const;
 
