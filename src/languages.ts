@@ -6255,6 +6255,9 @@ export const Lean = {
  */
 export const Lean4 = {
   type: "programming",
+  aliases: [
+    "lean4",
+  ],
   tm_scope: "source.lean4",
   ace_mode: "text",
   group: "Lean",
