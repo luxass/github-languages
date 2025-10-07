@@ -454,6 +454,18 @@
       ".arc"
     ]
   },
+  "ArkTS": {
+    "type": "programming",
+    "color": "#0080ff",
+    "tm_scope": "source.ets",
+    "ace_mode": "typescript",
+    "codemirror_mode": "javascript",
+    "codemirror_mime_type": "application/typescript",
+    "language_id": 56341321,
+    "extensions": [
+      ".ets"
+    ]
+  },
   "AsciiDoc": {
     "type": "prose",
     "color": "#73a0c5",
@@ -3117,6 +3129,20 @@
       ".gitattributes"
     ]
   },
+  "Git Commit": {
+    "type": "data",
+    "color": "#F44D27",
+    "aliases": [
+      "commit"
+    ],
+    "tm_scope": "text.git-commit",
+    "ace_mode": "text",
+    "wrap": true,
+    "language_id": 131750475,
+    "filenames": [
+      "COMMIT_EDITMSG"
+    ]
+  },
   "Git Config": {
     "type": "data",
     "color": "#F44D27",
@@ -4678,7 +4704,7 @@
       ".kit"
     ]
   },
-  "KoLMafia ASH": {
+  "KoLmafia ASH": {
     "type": "programming",
     "color": "#B9D9B9",
     "tm_scope": "source.ash",
