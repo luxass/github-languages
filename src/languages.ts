@@ -599,6 +599,22 @@ export const Arc = {
 } as const;
 
 /**
+ * GitHub's language definition for ArkTS.
+ */
+export const ArkTS = {
+  type: "programming",
+  color: "#0080ff",
+  tm_scope: "source.ets",
+  ace_mode: "typescript",
+  codemirror_mode: "javascript",
+  codemirror_mime_type: "application/typescript",
+  language_id: 56341321,
+  extensions: [
+    ".ets",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for AsciiDoc.
  */
 export const AsciiDoc = {
@@ -4050,6 +4066,24 @@ export const GitAttributes = {
 } as const;
 
 /**
+ * GitHub's language definition for Git Commit.
+ */
+export const GitCommit = {
+  type: "data",
+  color: "#F44D27",
+  aliases: [
+    "commit",
+  ],
+  tm_scope: "text.git-commit",
+  ace_mode: "text",
+  wrap: true,
+  language_id: 131750475,
+  filenames: [
+    "COMMIT_EDITMSG",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for Git Config.
  */
 export const GitConfig = {
@@ -6027,9 +6061,9 @@ export const Kit = {
 } as const;
 
 /**
- * GitHub's language definition for KoLMafia ASH.
+ * GitHub's language definition for KoLmafia ASH.
  */
-export const KoLMafiaASH = {
+export const KoLmafiaASH = {
   type: "programming",
   color: "#B9D9B9",
   tm_scope: "source.ash",
