@@ -873,6 +873,10 @@ export const Batchfile = {
     ".bat",
     ".cmd",
   ],
+  filenames: [
+    "gradlew.bat",
+    "mvnw.cmd",
+  ],
 } as const;
 
 /**
@@ -1650,6 +1654,22 @@ export const CameLIGO = {
   language_id: 829207807,
   extensions: [
     ".mligo",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for Cangjie.
+ */
+export const Cangjie = {
+  type: "programming",
+  color: "#00868B",
+  tm_scope: "source.cj",
+  ace_mode: "swift",
+  codemirror_mode: "swift",
+  codemirror_mime_type: "text/x-swift",
+  language_id: 581895317,
+  extensions: [
+    ".cj",
   ],
 } as const;
 
@@ -11078,6 +11098,7 @@ export const Shell = {
     "kshrc",
     "login",
     "man",
+    "mvnw",
     "profile",
     "tmux.conf",
     "zlogin",
@@ -11975,6 +11996,25 @@ export const Tea = {
   language_id: 370,
   extensions: [
     ".tea",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for Teal.
+ */
+export const Teal = {
+  type: "programming",
+  color: "#00B1BC",
+  tm_scope: "source.teal",
+  ace_mode: "lua",
+  codemirror_mode: "lua",
+  codemirror_mime_type: "text/x-lua",
+  language_id: 719038619,
+  extensions: [
+    ".tl",
+  ],
+  interpreters: [
+    "tl",
   ],
 } as const;
 
