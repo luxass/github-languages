@@ -3816,6 +3816,16 @@
       "hosts.txt"
     ]
   },
+  "Hurl": {
+    "type": "programming",
+    "color": "#FF0288",
+    "tm_scope": "source.hurl",
+    "ace_mode": "text",
+    "language_id": 959040217,
+    "extensions": [
+      ".hurl"
+    ]
+  },
   "Hy": {
     "type": "programming",
     "color": "#7790B2",

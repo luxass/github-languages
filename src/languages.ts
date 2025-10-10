@@ -4949,6 +4949,20 @@ export const HostsFile = {
 } as const;
 
 /**
+ * GitHub's language definition for Hurl.
+ */
+export const Hurl = {
+  type: "programming",
+  color: "#FF0288",
+  tm_scope: "source.hurl",
+  ace_mode: "text",
+  language_id: 959040217,
+  extensions: [
+    ".hurl",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for Hy.
  */
 export const Hy = {
