@@ -1,6 +1,6 @@
 {
   "name": "@luxass/github-languages",
-  "version": "2.0.16",
+  "version": "2.0.17",
   "description": "GitHub's supported languages",
   "type": "module",
   "author": {
