@@ -5464,33 +5464,6 @@
       ".mask"
     ]
   },
-  "Mathematica": {
-    "type": "programming",
-    "color": "#dd1100",
-    "aliases": [
-      "mma",
-      "wolfram",
-      "wolfram language",
-      "wolfram lang",
-      "wl"
-    ],
-    "tm_scope": "source.mathematica",
-    "ace_mode": "text",
-    "codemirror_mode": "mathematica",
-    "codemirror_mime_type": "text/x-mathematica",
-    "language_id": 224,
-    "extensions": [
-      ".mathematica",
-      ".cdf",
-      ".m",
-      ".ma",
-      ".mt",
-      ".nb",
-      ".nbp",
-      ".wl",
-      ".wlt"
-    ]
-  },
   "Maven POM": {
     "type": "data",
     "tm_scope": "text.xml.pom",
@@ -6971,6 +6944,7 @@
     "language_id": 684385621,
     "filenames": [
       "requirements-dev.txt",
+      "requirements.lock.txt",
       "requirements.txt"
     ]
   },
@@ -10164,6 +10138,44 @@
     "language_id": 686821385,
     "extensions": [
       ".ws"
+    ]
+  },
+  "Wolfram Language": {
+    "type": "programming",
+    "color": "#dd1100",
+    "aliases": [
+      "mathematica",
+      "mma",
+      "wolfram",
+      "wolfram lang",
+      "wl"
+    ],
+    "tm_scope": "source.mathematica",
+    "ace_mode": "text",
+    "codemirror_mode": "mathematica",
+    "codemirror_mime_type": "text/x-mathematica",
+    "language_id": 224,
+    "extensions": [
+      ".mathematica",
+      ".cdf",
+      ".m",
+      ".ma",
+      ".mt",
+      ".nb",
+      ".nbp",
+      ".wl",
+      ".wls",
+      ".wlt"
+    ],
+    "interpreters": [
+      "wolfram",
+      "WolframKernel",
+      "wolframscript",
+      "math",
+      "MathKernel",
+      "MathematicaScript",
+      "WolframNB",
+      "Mathematica"
     ]
   },
   "Wollok": {
