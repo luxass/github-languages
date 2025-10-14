@@ -7045,37 +7045,6 @@ export const Mask = {
 } as const;
 
 /**
- * GitHub's language definition for Mathematica.
- */
-export const Mathematica = {
-  type: "programming",
-  color: "#dd1100",
-  aliases: [
-    "mma",
-    "wolfram",
-    "wolfram language",
-    "wolfram lang",
-    "wl",
-  ],
-  tm_scope: "source.mathematica",
-  ace_mode: "text",
-  codemirror_mode: "mathematica",
-  codemirror_mime_type: "text/x-mathematica",
-  language_id: 224,
-  extensions: [
-    ".mathematica",
-    ".cdf",
-    ".m",
-    ".ma",
-    ".mt",
-    ".nb",
-    ".nbp",
-    ".wl",
-    ".wlt",
-  ],
-} as const;
-
-/**
  * GitHub's language definition for Maven POM.
  */
 export const MavenPOM = {
@@ -9010,6 +8979,7 @@ export const PipRequirements = {
   language_id: 684385621,
   filenames: [
     "requirements-dev.txt",
+    "requirements.lock.txt",
     "requirements.txt",
   ],
 } as const;
@@ -13083,6 +13053,48 @@ export const WitcherScript = {
   language_id: 686821385,
   extensions: [
     ".ws",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for Wolfram Language.
+ */
+export const WolframLanguage = {
+  type: "programming",
+  color: "#dd1100",
+  aliases: [
+    "mathematica",
+    "mma",
+    "wolfram",
+    "wolfram lang",
+    "wl",
+  ],
+  tm_scope: "source.mathematica",
+  ace_mode: "text",
+  codemirror_mode: "mathematica",
+  codemirror_mime_type: "text/x-mathematica",
+  language_id: 224,
+  extensions: [
+    ".mathematica",
+    ".cdf",
+    ".m",
+    ".ma",
+    ".mt",
+    ".nb",
+    ".nbp",
+    ".wl",
+    ".wls",
+    ".wlt",
+  ],
+  interpreters: [
+    "wolfram",
+    "WolframKernel",
+    "wolframscript",
+    "math",
+    "MathKernel",
+    "MathematicaScript",
+    "WolframNB",
+    "Mathematica",
   ],
 } as const;
 
