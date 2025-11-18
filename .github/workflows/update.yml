@@ -140,8 +140,8 @@ jobs:
           NEW_LANGUAGES: ${{ steps.generate-diff.outputs.result-new-languages }}
           REMOVED_LANGUAGES: ${{ steps.generate-diff.outputs.result-removed-languages }}
         with:
-          commit-message: "$COMMIT_MESSAGE"
-          title: "$COMMIT_MESSAGE"
+          commit-message: $COMMIT_MESSAGE
+          title: $COMMIT_MESSAGE
           body: |
             I found some new changes in GitHub's Linguist Repository.
 

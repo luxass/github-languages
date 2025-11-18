@@ -48,7 +48,7 @@
   },
   "scripts": {
     "build": "tsdown",
-    "languages:download": "tsx --env-file=.env ./scripts/download.ts",
+    "languages:download": "node --env-file=.env ./scripts/download.ts",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit"
   },
@@ -59,7 +59,6 @@
     "eslint-plugin-format": "1.0.2",
     "publint": "0.3.15",
     "tsdown": "0.16.5",
-    "tsx": "4.20.6",
     "typescript": "5.9.3",
     "valibot": "1.1.0",
     "yaml": "2.8.1"
