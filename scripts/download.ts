@@ -4,9 +4,6 @@ import {
 } from "node:fs/promises";
 import process from "node:process";
 import {
-  load,
-} from "js-yaml";
-import {
   array,
   boolean,
   number,
@@ -16,6 +13,7 @@ import {
   record,
   string,
 } from "valibot";
+import YAML from "yaml";
 
 const LANGUAGES_SCHEMA = record(string(), object({
   type: string(),
@@ -58,7 +56,7 @@ async function run() {
     process.exit(1);
   }
 
-  const languages = await parseAsync(LANGUAGES_SCHEMA, await load(languagesText));
+  const languages = await parseAsync(LANGUAGES_SCHEMA, YAML.parse(languagesText));
 
   await writeFile("languages.json", JSON.stringify(languages, null, 2));
 
