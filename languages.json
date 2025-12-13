@@ -3310,6 +3310,26 @@
       "go.mod"
     ]
   },
+  "Go Template": {
+    "type": "markup",
+    "color": "#00ADD8",
+    "aliases": [
+      "gotmpl"
+    ],
+    "tm_scope": "source.go-template",
+    "ace_mode": "text",
+    "language_id": 247918769,
+    "extensions": [
+      ".gohtml",
+      ".gotmpl",
+      ".html.tmpl",
+      ".tmpl",
+      ".tpl"
+    ],
+    "filenames": [
+      "_helpers.tpl"
+    ]
+  },
   "Go Workspace": {
     "type": "data",
     "color": "#00ADD8",
@@ -4229,7 +4249,8 @@
       ".sublime-theme",
       ".sublime-workspace",
       ".sublime_metrics",
-      ".sublime_session"
+      ".sublime_session",
+      ".tsconfig.json"
     ],
     "filenames": [
       ".babelrc",
@@ -4238,6 +4259,7 @@
       ".jscsrc",
       ".jshintrc",
       ".jslintrc",
+      ".oxlintrc.json",
       ".swcrc",
       "api-extractor.json",
       "devcontainer.json",
@@ -4601,6 +4623,20 @@
       "justfile"
     ]
   },
+  "KCL": {
+    "type": "programming",
+    "color": "#7ABABF",
+    "tm_scope": "source.kcl",
+    "ace_mode": "text",
+    "language_id": 1052003890,
+    "extensions": [
+      ".k"
+    ],
+    "filenames": [
+      "kcl.mod",
+      "kcl.mod.lock"
+    ]
+  },
   "KDL": {
     "type": "data",
     "color": "#ffb3b3",
@@ -4611,6 +4647,16 @@
     "language_id": 931123626,
     "extensions": [
       ".kdl"
+    ]
+  },
+  "KFramework": {
+    "type": "programming",
+    "color": "#4195c5",
+    "tm_scope": "text.k",
+    "ace_mode": "text",
+    "language_id": 9479532,
+    "extensions": [
+      ".k"
     ]
   },
   "KRL": {
@@ -4846,6 +4892,16 @@
       ".lvproj",
       ".lvclass",
       ".lvlib"
+    ]
+  },
+  "Langium": {
+    "type": "programming",
+    "color": "#2c8c87",
+    "tm_scope": "source.langium",
+    "ace_mode": "text",
+    "language_id": 548603830,
+    "extensions": [
+      ".langium"
     ]
   },
   "Lark": {
@@ -5168,7 +5224,8 @@
       ".wlua"
     ],
     "interpreters": [
-      "lua"
+      "lua",
+      "luajit"
     ],
     "filenames": [
       ".luacheckrc"
@@ -6943,6 +7000,7 @@
     "ace_mode": "text",
     "language_id": 684385621,
     "filenames": [
+      "dev-requirements.txt",
       "requirements-dev.txt",
       "requirements.lock.txt",
       "requirements.txt"
@@ -7463,7 +7521,8 @@
     "codemirror_mime_type": "text/x-vb",
     "language_id": 593107205,
     "extensions": [
-      ".bas"
+      ".bas",
+      ".bi"
     ]
   },
   "R": {

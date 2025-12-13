@@ -20,7 +20,7 @@ jobs:
       pull-requests: write
     if: github.repository_owner == 'luxass'
     steps:
-      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
+      - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
         with:
           persist-credentials: false
 
@@ -28,7 +28,7 @@ jobs:
         uses: pnpm/action-setup@41ff72655975bd51cab0327fa583b6e92b6d3061 # v4.2.0
 
       - name: setup node
-        uses: actions/setup-node@2028fbc5c25fe9cf00d9f06a71cc4710d4507903 # v6.0.0
+        uses: actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f # v6.1.0
         with:
           node-version: lts/*
 
@@ -133,23 +133,23 @@ jobs:
           echo "title=$TITLE" >> "$GITHUB_OUTPUT"
 
       - name: create pull request
-        uses: peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e # v7.0.8
+        uses: peter-evans/create-pull-request@98357b18bf14b5342f975ff684046ec3b2a07725 # v8.0.0
         if: ${{ github.event.inputs.dry-run != 'true' }}
         env:
           COMMIT_MESSAGE: "${{ steps.pr-metadata.outputs.title || 'feat: updated github graphql schema' }}"
           NEW_LANGUAGES: ${{ steps.generate-diff.outputs.result-new-languages }}
           REMOVED_LANGUAGES: ${{ steps.generate-diff.outputs.result-removed-languages }}
         with:
-          commit-message: $COMMIT_MESSAGE
-          title: $COMMIT_MESSAGE
+          commit-message: ${{ env.COMMIT_MESSAGE }}
+          title: ${{ env.COMMIT_MESSAGE }}
           body: |
             I found some new changes in GitHub's Linguist Repository.
 
             I don't know what they changed, but I'm sure it's important.
             If you want you can go take a look yourself.
 
-            $NEW_LANGUAGES
-            $REMOVED_LANGUAGES
+            ${{ env.NEW_LANGUAGES }}
+            ${{ env.REMOVED_LANGUAGES }}
 
             I will be waiting for your approval 👋.
 
