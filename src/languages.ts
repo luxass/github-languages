@@ -4299,6 +4299,30 @@ export const GoModule = {
 } as const;
 
 /**
+ * GitHub's language definition for Go Template.
+ */
+export const GoTemplate = {
+  type: "markup",
+  color: "#00ADD8",
+  aliases: [
+    "gotmpl",
+  ],
+  tm_scope: "source.go-template",
+  ace_mode: "text",
+  language_id: 247918769,
+  extensions: [
+    ".gohtml",
+    ".gotmpl",
+    ".html.tmpl",
+    ".tmpl",
+    ".tpl",
+  ],
+  filenames: [
+    "_helpers.tpl",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for Go Workspace.
  */
 export const GoWorkspace = {
@@ -5461,6 +5485,7 @@ export const JSONwithComments = {
     ".sublime-workspace",
     ".sublime_metrics",
     ".sublime_session",
+    ".tsconfig.json",
   ],
   filenames: [
     ".babelrc",
@@ -5469,6 +5494,7 @@ export const JSONwithComments = {
     ".jscsrc",
     ".jshintrc",
     ".jslintrc",
+    ".oxlintrc.json",
     ".swcrc",
     "api-extractor.json",
     "devcontainer.json",
@@ -5926,6 +5952,24 @@ export const Just = {
 } as const;
 
 /**
+ * GitHub's language definition for KCL.
+ */
+export const KCL = {
+  type: "programming",
+  color: "#7ABABF",
+  tm_scope: "source.kcl",
+  ace_mode: "text",
+  language_id: 1052003890,
+  extensions: [
+    ".k",
+  ],
+  filenames: [
+    "kcl.mod",
+    "kcl.mod.lock",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for KDL.
  */
 export const KDL = {
@@ -5938,6 +5982,20 @@ export const KDL = {
   language_id: 931123626,
   extensions: [
     ".kdl",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for KFramework.
+ */
+export const KFramework = {
+  type: "programming",
+  color: "#4195c5",
+  tm_scope: "text.k",
+  ace_mode: "text",
+  language_id: 9479532,
+  extensions: [
+    ".k",
   ],
 } as const;
 
@@ -6249,6 +6307,20 @@ export const LabVIEW = {
     ".lvproj",
     ".lvclass",
     ".lvlib",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for Langium.
+ */
+export const Langium = {
+  type: "programming",
+  color: "#2c8c87",
+  tm_scope: "source.langium",
+  ace_mode: "text",
+  language_id: 548603830,
+  extensions: [
+    ".langium",
   ],
 } as const;
 
@@ -6672,6 +6744,7 @@ export const Lua = {
   ],
   interpreters: [
     "lua",
+    "luajit",
   ],
   filenames: [
     ".luacheckrc",
@@ -8978,6 +9051,7 @@ export const PipRequirements = {
   ace_mode: "text",
   language_id: 684385621,
   filenames: [
+    "dev-requirements.txt",
     "requirements-dev.txt",
     "requirements.lock.txt",
     "requirements.txt",
@@ -9655,6 +9729,7 @@ export const QuickBASIC = {
   language_id: 593107205,
   extensions: [
     ".bas",
+    ".bi",
   ],
 } as const;
 
