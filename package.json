@@ -8,7 +8,7 @@
     "email": "lucasnrgaard@gmail.com",
     "url": "https://luxass.dev"
   },
-  "packageManager": "pnpm@10.22.0",
+  "packageManager": "pnpm@10.26.2",
   "license": "MIT",
   "homepage": "https://github.com/luxass/github-languages",
   "repository": {
@@ -54,21 +54,21 @@
   },
   "devDependencies": {
     "@luxass/eslint-config": "6.0.3",
-    "@types/node": "22.18.0",
+    "@types/node": "22.19.3",
     "eslint": "9.39.1",
     "eslint-plugin-format": "1.0.2",
-    "publint": "0.3.15",
-    "tsdown": "0.16.5",
+    "publint": "0.3.16",
+    "tsdown": "0.18.3",
     "typescript": "5.9.3",
     "valibot": "1.2.0",
-    "yaml": "2.8.1"
+    "yaml": "2.8.2"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
       "esbuild"
     ],
     "overrides": {
-      "rolldown": "1.0.0-beta.50"
+      "rolldown": "1.0.0-beta.57"
     }
   }
 }
