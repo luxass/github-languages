@@ -139,6 +139,22 @@ export const AL = {
 } as const;
 
 /**
+ * GitHub's language definition for ALGOL.
+ */
+export const ALGOL = {
+  type: "programming",
+  color: "#D1E0DB",
+  tm_scope: "source.algol60",
+  ace_mode: "pascal",
+  codemirror_mode: "pascal",
+  codemirror_mime_type: "text/x-pascal",
+  language_id: 79217948,
+  extensions: [
+    ".alg",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for AMPL.
  */
 export const AMPL = {
@@ -599,22 +615,6 @@ export const Arc = {
 } as const;
 
 /**
- * GitHub's language definition for ArkTS.
- */
-export const ArkTS = {
-  type: "programming",
-  color: "#0080ff",
-  tm_scope: "source.ets",
-  ace_mode: "typescript",
-  codemirror_mode: "javascript",
-  codemirror_mime_type: "application/typescript",
-  language_id: 56341321,
-  extensions: [
-    ".ets",
-  ],
-} as const;
-
-/**
  * GitHub's language definition for AsciiDoc.
  */
 export const AsciiDoc = {
@@ -790,6 +790,20 @@ export const Awk = {
     "gawk",
     "mawk",
     "nawk",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for B (Formal Method).
+ */
+export const BFormalMethod = {
+  type: "programming",
+  color: "#8aa8c5",
+  tm_scope: "source.b",
+  ace_mode: "text",
+  language_id: 700792152,
+  extensions: [
+    ".mch",
   ],
 } as const;
 
@@ -1517,7 +1531,7 @@ export const CSS = {
 export const CSV = {
   type: "data",
   color: "#237346",
-  tm_scope: "none",
+  tm_scope: "source.csv",
   ace_mode: "csv",
   language_id: 51,
   extensions: [
@@ -4165,6 +4179,9 @@ export const Gleam = {
 export const GlimmerJS = {
   type: "programming",
   color: "#F5835F",
+  aliases: [
+    "gjs",
+  ],
   tm_scope: "source.gjs",
   ace_mode: "javascript",
   group: "JavaScript",
@@ -4180,6 +4197,9 @@ export const GlimmerJS = {
 export const GlimmerTS = {
   type: "programming",
   color: "#3178c6",
+  aliases: [
+    "gts",
+  ],
   tm_scope: "source.gts",
   ace_mode: "typescript",
   group: "TypeScript",
@@ -4568,6 +4588,7 @@ export const HCL = {
   color: "#844FBA",
   aliases: [
     "HashiCorp Configuration Language",
+    "opentofu",
     "terraform",
   ],
   tm_scope: "source.hcl",
@@ -4580,6 +4601,7 @@ export const HCL = {
     ".nomad",
     ".tf",
     ".tfvars",
+    ".tofu",
     ".workflow",
   ],
 } as const;
@@ -5554,6 +5576,20 @@ export const JSONiq = {
 } as const;
 
 /**
+ * GitHub's language definition for Jac.
+ */
+export const Jac = {
+  type: "programming",
+  color: "#FC792D",
+  tm_scope: "source.jac",
+  ace_mode: "text",
+  language_id: 235277043,
+  extensions: [
+    ".jac",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for Jai.
  */
 export const Jai = {
@@ -6307,6 +6343,20 @@ export const LabVIEW = {
     ".lvproj",
     ".lvclass",
     ".lvlib",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for Lambdapi.
+ */
+export const Lambdapi = {
+  type: "programming",
+  color: "#8027a3",
+  tm_scope: "source.lp",
+  ace_mode: "text",
+  language_id: 759240513,
+  extensions: [
+    ".lp",
   ],
 } as const;
 
@@ -9779,6 +9829,20 @@ export const RAML = {
 } as const;
 
 /**
+ * GitHub's language definition for RAScript.
+ */
+export const RAScript = {
+  type: "programming",
+  color: "#2C97FA",
+  tm_scope: "source.rascript",
+  ace_mode: "text",
+  language_id: 601118790,
+  extensions: [
+    ".rascript",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for RBS.
  */
 export const RBS = {
@@ -11109,7 +11173,9 @@ export const Shell = {
     ".command",
     ".fcgi",
     ".ksh",
+    ".sbatch",
     ".sh.in",
+    ".slurm",
     ".tmux",
     ".tool",
     ".trigger",
@@ -11692,6 +11758,23 @@ export const SuperCollider = {
 } as const;
 
 /**
+ * GitHub's language definition for SurrealQL.
+ */
+export const SurrealQL = {
+  type: "programming",
+  color: "#ff00a0",
+  aliases: [
+    "surql",
+  ],
+  tm_scope: "source.surrealql",
+  ace_mode: "text",
+  language_id: 735141027,
+  extensions: [
+    ".surql",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for Survex data.
  */
 export const Survexdata = {
@@ -11894,7 +11977,7 @@ export const TSV = {
   aliases: [
     "tab-seperated values",
   ],
-  tm_scope: "source.generic-db",
+  tm_scope: "source.tsv",
   ace_mode: "tsv",
   language_id: 1035892117,
   extensions: [
@@ -13396,6 +13479,7 @@ export const XML = {
     ".ps1xml",
     ".psc1",
     ".pt",
+    ".pubxml",
     ".qhelp",
     ".rdf",
     ".res",
