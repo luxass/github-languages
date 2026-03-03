@@ -586,6 +586,7 @@ export const AppleScript = {
   type: "programming",
   color: "#101F1F",
   aliases: [
+    "apples",
     "osascript",
   ],
   tm_scope: "source.applescript",
@@ -3201,6 +3202,8 @@ export const EmacsLisp = {
   type: "programming",
   color: "#c065db",
   aliases: [
+    "cask",
+    "eask",
     "elisp",
     "emacs",
   ],
@@ -3222,6 +3225,7 @@ export const EmacsLisp = {
     ".spacemacs",
     ".viper",
     "Cask",
+    "Eask",
     "Project.ede",
     "_emacs",
     "abbrev_defs",
@@ -7236,6 +7240,20 @@ export const Max = {
 } as const;
 
 /**
+ * GitHub's language definition for MeTTa.
+ */
+export const MeTTa = {
+  type: "programming",
+  color: "#6a5acd",
+  tm_scope: "source.metta",
+  ace_mode: "text",
+  language_id: 1037612668,
+  extensions: [
+    ".metta",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for Mercury.
  */
 export const Mercury = {
@@ -9614,6 +9632,8 @@ export const Python = {
   type: "programming",
   color: "#3572A5",
   aliases: [
+    "py",
+    "py3",
     "python3",
     "rusthon",
   ],
@@ -12036,6 +12056,9 @@ export const TSV = {
 export const TSX = {
   type: "programming",
   color: "#3178c6",
+  aliases: [
+    "typescriptreact",
+  ],
   tm_scope: "source.tsx",
   ace_mode: "tsx",
   codemirror_mode: "jsx",

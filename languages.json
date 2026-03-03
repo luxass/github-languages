@@ -443,6 +443,7 @@
     "type": "programming",
     "color": "#101F1F",
     "aliases": [
+      "apples",
       "osascript"
     ],
     "tm_scope": "source.applescript",
@@ -2454,6 +2455,8 @@
     "type": "programming",
     "color": "#c065db",
     "aliases": [
+      "cask",
+      "eask",
       "elisp",
       "emacs"
     ],
@@ -2475,6 +2478,7 @@
       ".spacemacs",
       ".viper",
       "Cask",
+      "Eask",
       "Project.ede",
       "_emacs",
       "abbrev_defs"
@@ -5611,6 +5615,16 @@
       ".pat"
     ]
   },
+  "MeTTa": {
+    "type": "programming",
+    "color": "#6a5acd",
+    "tm_scope": "source.metta",
+    "ace_mode": "text",
+    "language_id": 1037612668,
+    "extensions": [
+      ".metta"
+    ]
+  },
   "Mercury": {
     "type": "programming",
     "color": "#ff2b2b",
@@ -7423,6 +7437,8 @@
     "type": "programming",
     "color": "#3572A5",
     "aliases": [
+      "py",
+      "py3",
       "python3",
       "rusthon"
     ],
@@ -9337,6 +9353,9 @@
   "TSX": {
     "type": "programming",
     "color": "#3178c6",
+    "aliases": [
+      "typescriptreact"
+    ],
     "tm_scope": "source.tsx",
     "ace_mode": "tsx",
     "codemirror_mode": "jsx",
