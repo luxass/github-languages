@@ -3498,6 +3498,20 @@ export const Filterscript = {
 } as const;
 
 /**
+ * GitHub's language definition for FlatBuffers.
+ */
+export const FlatBuffers = {
+  type: "data",
+  color: "#ed284a",
+  tm_scope: "source.flatbuffers",
+  ace_mode: "text",
+  language_id: 577640576,
+  extensions: [
+    ".fbs",
+  ],
+} as const;
+
+/**
  * GitHub's language definition for Flix.
  */
 export const Flix = {
@@ -6632,6 +6646,20 @@ export const Liquid = {
   language_id: 204,
   extensions: [
     ".liquid",
+  ],
+} as const;
+
+/**
+ * GitHub's language definition for Liquidsoap.
+ */
+export const Liquidsoap = {
+  type: "programming",
+  color: "#990066",
+  tm_scope: "source.liquidsoap",
+  ace_mode: "text",
+  language_id: 614641732,
+  extensions: [
+    ".liq",
   ],
 } as const;
 
