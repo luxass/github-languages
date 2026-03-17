@@ -7368,7 +7368,8 @@
     "extensions": [
       ".textproto",
       ".pbt",
-      ".pbtxt"
+      ".pbtxt",
+      ".txtpb"
     ]
   },
   "Public Key": {
@@ -10529,6 +10530,7 @@
       ".grxml",
       ".gst",
       ".hzp",
+      ".icls",
       ".iml",
       ".ivy",
       ".jelly",

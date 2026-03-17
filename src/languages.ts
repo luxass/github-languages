@@ -9540,6 +9540,7 @@ export const ProtocolBufferTextFormat = {
     ".textproto",
     ".pbt",
     ".pbtxt",
+    ".txtpb",
   ],
 } as const;
 
@@ -13548,6 +13549,7 @@ export const XML = {
     ".grxml",
     ".gst",
     ".hzp",
+    ".icls",
     ".iml",
     ".ivy",
     ".jelly",
