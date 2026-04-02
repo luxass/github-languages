@@ -2,28 +2,35 @@
   "name": "@luxass/github-languages",
   "version": "2.1.5",
   "description": "GitHub's supported languages",
-  "type": "module",
+  "keywords": [
+    "github",
+    "github languages",
+    "languages",
+    "linguist"
+  ],
+  "homepage": "https://github.com/luxass/github-languages",
+  "bugs": {
+    "url": "https://github.com/luxass/github-languages/issues"
+  },
+  "license": "MIT",
   "author": {
     "name": "Lucas Nørgård",
     "email": "lucasnrgaard@gmail.com",
     "url": "https://luxass.dev"
   },
-  "packageManager": "pnpm@10.33.0",
-  "license": "MIT",
-  "homepage": "https://github.com/luxass/github-languages",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/luxass/github-languages.git"
   },
-  "bugs": {
-    "url": "https://github.com/luxass/github-languages/issues"
-  },
-  "keywords": [
-    "languages",
-    "linguist",
-    "github",
-    "github languages"
+  "files": [
+    "dist",
+    "languages.d.ts",
+    "languages.json"
   ],
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.cts",
   "exports": {
     ".": {
       "import": "./dist/index.mjs",
@@ -34,17 +41,6 @@
       "require": "./dist/languages.cjs"
     },
     "./package.json": "./package.json"
-  },
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.cts",
-  "files": [
-    "dist",
-    "languages.d.ts",
-    "languages.json"
-  ],
-  "engines": {
-    "node": ">=22"
   },
   "scripts": {
     "build": "tsdown",
@@ -65,5 +61,9 @@
     "typescript": "catalog:dev",
     "valibot": "catalog:dev",
     "yaml": "catalog:dev"
-  }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "pnpm@10.33.0"
 }

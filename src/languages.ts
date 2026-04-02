@@ -12,10 +12,7 @@ export const _1CEnterprise = {
   tm_scope: "source.bsl",
   ace_mode: "text",
   language_id: 0,
-  extensions: [
-    ".bsl",
-    ".os",
-  ],
+  extensions: [".bsl", ".os"],
 } as const;
 
 /**
@@ -27,9 +24,7 @@ export const _2_DimensionalArray = {
   tm_scope: "source.2da",
   ace_mode: "text",
   language_id: 387204628,
-  extensions: [
-    ".2da",
-  ],
+  extensions: [".2da"],
 } as const;
 
 /**
@@ -41,9 +36,7 @@ export const _4D = {
   tm_scope: "source.4dm",
   ace_mode: "text",
   language_id: 577529595,
-  extensions: [
-    ".4dm",
-  ],
+  extensions: [".4dm"],
 } as const;
 
 /**
@@ -55,9 +48,7 @@ export const ABAP = {
   tm_scope: "source.abap",
   ace_mode: "abap",
   language_id: 1,
-  extensions: [
-    ".abap",
-  ],
+  extensions: [".abap"],
 } as const;
 
 /**
@@ -69,9 +60,7 @@ export const ABAPCDS = {
   tm_scope: "source.abapcds",
   ace_mode: "text",
   language_id: 452681853,
-  extensions: [
-    ".asddls",
-  ],
+  extensions: [".asddls"],
 } as const;
 
 /**
@@ -82,9 +71,7 @@ export const ABNF = {
   tm_scope: "source.abnf",
   ace_mode: "text",
   language_id: 429,
-  extensions: [
-    ".abnf",
-  ],
+  extensions: [".abnf"],
 } as const;
 
 /**
@@ -93,18 +80,13 @@ export const ABNF = {
 export const AGSScript = {
   type: "programming",
   color: "#B9D9FF",
-  aliases: [
-    "ags",
-  ],
+  aliases: ["ags"],
   tm_scope: "source.c++",
   ace_mode: "c_cpp",
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-c++src",
   language_id: 2,
-  extensions: [
-    ".asc",
-    ".ash",
-  ],
+  extensions: [".asc", ".ash"],
 } as const;
 
 /**
@@ -116,12 +98,8 @@ export const AIDL = {
   tm_scope: "source.aidl",
   ace_mode: "text",
   language_id: 451700185,
-  extensions: [
-    ".aidl",
-  ],
-  interpreters: [
-    "aidl",
-  ],
+  extensions: [".aidl"],
+  interpreters: ["aidl"],
 } as const;
 
 /**
@@ -133,9 +111,7 @@ export const AL = {
   tm_scope: "source.al",
   ace_mode: "text",
   language_id: 658971832,
-  extensions: [
-    ".al",
-  ],
+  extensions: [".al"],
 } as const;
 
 /**
@@ -149,9 +125,7 @@ export const ALGOL = {
   codemirror_mode: "pascal",
   codemirror_mime_type: "text/x-pascal",
   language_id: 79217948,
-  extensions: [
-    ".alg",
-  ],
+  extensions: [".alg"],
 } as const;
 
 /**
@@ -163,10 +137,7 @@ export const AMPL = {
   tm_scope: "source.ampl",
   ace_mode: "text",
   language_id: 3,
-  extensions: [
-    ".ampl",
-    ".mod",
-  ],
+  extensions: [".ampl", ".mod"],
 } as const;
 
 /**
@@ -178,9 +149,7 @@ export const ANTLR = {
   tm_scope: "source.antlr",
   ace_mode: "text",
   language_id: 4,
-  extensions: [
-    ".g4",
-  ],
+  extensions: [".g4"],
 } as const;
 
 /**
@@ -192,9 +161,7 @@ export const APIBlueprint = {
   tm_scope: "text.html.markdown.source.gfm.apib",
   ace_mode: "markdown",
   language_id: 5,
-  extensions: [
-    ".apib",
-  ],
+  extensions: [".apib"],
 } as const;
 
 /**
@@ -208,15 +175,8 @@ export const APL = {
   codemirror_mode: "apl",
   codemirror_mime_type: "text/apl",
   language_id: 6,
-  extensions: [
-    ".apl",
-    ".dyalog",
-  ],
-  interpreters: [
-    "apl",
-    "aplx",
-    "dyalog",
-  ],
+  extensions: [".apl", ".dyalog"],
+  interpreters: ["apl", "aplx", "dyalog"],
 } as const;
 
 /**
@@ -227,10 +187,7 @@ export const ASL = {
   tm_scope: "source.asl",
   ace_mode: "asl",
   language_id: 124996147,
-  extensions: [
-    ".asl",
-    ".dsl",
-  ],
+  extensions: [".asl", ".dsl"],
 } as const;
 
 /**
@@ -243,10 +200,7 @@ export const ASN1 = {
   codemirror_mode: "asn.1",
   codemirror_mime_type: "text/x-ttcn-asn",
   language_id: 7,
-  extensions: [
-    ".asn",
-    ".asn1",
-  ],
+  extensions: [".asn", ".asn1"],
 } as const;
 
 /**
@@ -255,23 +209,13 @@ export const ASN1 = {
 export const ASPNET = {
   type: "programming",
   color: "#9400ff",
-  aliases: [
-    "aspx",
-    "aspx-vb",
-  ],
+  aliases: ["aspx", "aspx-vb"],
   tm_scope: "text.html.asp",
   ace_mode: "text",
   codemirror_mode: "htmlembedded",
   codemirror_mime_type: "application/x-aspx",
   language_id: 564186416,
-  extensions: [
-    ".asax",
-    ".ascx",
-    ".ashx",
-    ".asmx",
-    ".aspx",
-    ".axd",
-  ],
+  extensions: [".asax", ".ascx", ".ashx", ".asmx", ".aspx", ".axd"],
 } as const;
 
 /**
@@ -280,17 +224,11 @@ export const ASPNET = {
 export const ATS = {
   type: "programming",
   color: "#1ac620",
-  aliases: [
-    "ats2",
-  ],
+  aliases: ["ats2"],
   tm_scope: "source.ats",
   ace_mode: "ocaml",
   language_id: 9,
-  extensions: [
-    ".dats",
-    ".hats",
-    ".sats",
-  ],
+  extensions: [".dats", ".hats", ".sats"],
 } as const;
 
 /**
@@ -299,17 +237,11 @@ export const ATS = {
 export const ActionScript = {
   type: "programming",
   color: "#882B0F",
-  aliases: [
-    "actionscript 3",
-    "actionscript3",
-    "as3",
-  ],
+  aliases: ["actionscript 3", "actionscript3", "as3"],
   tm_scope: "source.actionscript.3",
   ace_mode: "actionscript",
   language_id: 10,
-  extensions: [
-    ".as",
-  ],
+  extensions: [".as"],
 } as const;
 
 /**
@@ -318,18 +250,11 @@ export const ActionScript = {
 export const Ada = {
   type: "programming",
   color: "#02f88c",
-  aliases: [
-    "ada95",
-    "ada2005",
-  ],
+  aliases: ["ada95", "ada2005"],
   tm_scope: "source.ada",
   ace_mode: "ada",
   language_id: 11,
-  extensions: [
-    ".adb",
-    ".ada",
-    ".ads",
-  ],
+  extensions: [".adb", ".ada", ".ads"],
 } as const;
 
 /**
@@ -338,18 +263,11 @@ export const Ada = {
 export const AdblockFilterList = {
   type: "data",
   color: "#800000",
-  aliases: [
-    "ad block filters",
-    "ad block",
-    "adb",
-    "adblock",
-  ],
+  aliases: ["ad block filters", "ad block", "adb", "adblock"],
   tm_scope: "text.adblock",
   ace_mode: "text",
   language_id: 884614762,
-  extensions: [
-    ".txt",
-  ],
+  extensions: [".txt"],
 } as const;
 
 /**
@@ -358,18 +276,11 @@ export const AdblockFilterList = {
 export const AdobeFontMetrics = {
   type: "data",
   color: "#fa0f00",
-  aliases: [
-    "acfm",
-    "adobe composite font metrics",
-    "adobe multiple font metrics",
-    "amfm",
-  ],
+  aliases: ["acfm", "adobe composite font metrics", "adobe multiple font metrics", "amfm"],
   tm_scope: "source.afm",
   ace_mode: "text",
   language_id: 147198098,
-  extensions: [
-    ".afm",
-  ],
+  extensions: [".afm"],
 } as const;
 
 /**
@@ -381,9 +292,7 @@ export const Agda = {
   tm_scope: "source.agda",
   ace_mode: "text",
   language_id: 12,
-  extensions: [
-    ".agda",
-  ],
+  extensions: [".agda"],
 } as const;
 
 /**
@@ -395,9 +304,7 @@ export const Aiken = {
   tm_scope: "source.aiken",
   ace_mode: "text",
   language_id: 899409497,
-  extensions: [
-    ".ak",
-  ],
+  extensions: [".ak"],
 } as const;
 
 /**
@@ -409,9 +316,7 @@ export const Alloy = {
   tm_scope: "source.alloy",
   ace_mode: "text",
   language_id: 13,
-  extensions: [
-    ".als",
-  ],
+  extensions: [".als"],
 } as const;
 
 /**
@@ -420,19 +325,14 @@ export const Alloy = {
 export const AlpineAbuild = {
   type: "programming",
   color: "#0D597F",
-  aliases: [
-    "abuild",
-    "apkbuild",
-  ],
+  aliases: ["abuild", "apkbuild"],
   tm_scope: "source.shell",
   ace_mode: "sh",
   codemirror_mode: "shell",
   codemirror_mime_type: "text/x-sh",
   group: "Shell",
   language_id: 14,
-  filenames: [
-    "APKBUILD",
-  ],
+  filenames: ["APKBUILD"],
 } as const;
 
 /**
@@ -441,18 +341,11 @@ export const AlpineAbuild = {
 export const AltiumDesigner = {
   type: "data",
   color: "#A89663",
-  aliases: [
-    "altium",
-  ],
+  aliases: ["altium"],
   tm_scope: "source.ini",
   ace_mode: "ini",
   language_id: 187772328,
-  extensions: [
-    ".OutJob",
-    ".PcbDoc",
-    ".PrjPCB",
-    ".SchDoc",
-  ],
+  extensions: [".OutJob", ".PcbDoc", ".PrjPCB", ".SchDoc"],
 } as const;
 
 /**
@@ -466,10 +359,7 @@ export const AngelScript = {
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-c++src",
   language_id: 389477596,
-  extensions: [
-    ".as",
-    ".angelscript",
-  ],
+  extensions: [".as", ".angelscript"],
 } as const;
 
 /**
@@ -481,12 +371,8 @@ export const AnswerSetProgramming = {
   tm_scope: "source.answersetprogramming",
   ace_mode: "prolog",
   language_id: 433009171,
-  extensions: [
-    ".lp",
-  ],
-  interpreters: [
-    "clingo",
-  ],
+  extensions: [".lp"],
+  interpreters: ["clingo"],
 } as const;
 
 /**
@@ -500,10 +386,7 @@ export const AntBuildSystem = {
   codemirror_mode: "xml",
   codemirror_mime_type: "application/xml",
   language_id: 15,
-  filenames: [
-    "ant.xml",
-    "build.xml",
-  ],
+  filenames: ["ant.xml", "build.xml"],
 } as const;
 
 /**
@@ -515,11 +398,7 @@ export const Antlers = {
   tm_scope: "text.html.statamic",
   ace_mode: "text",
   language_id: 1067292663,
-  extensions: [
-    ".antlers.html",
-    ".antlers.php",
-    ".antlers.xml",
-  ],
+  extensions: [".antlers.html", ".antlers.php", ".antlers.xml"],
 } as const;
 
 /**
@@ -528,22 +407,12 @@ export const Antlers = {
 export const ApacheConf = {
   type: "data",
   color: "#d12127",
-  aliases: [
-    "aconf",
-    "apache",
-  ],
+  aliases: ["aconf", "apache"],
   tm_scope: "source.apacheconf",
   ace_mode: "apache_conf",
   language_id: 16,
-  extensions: [
-    ".apacheconf",
-    ".vhost",
-  ],
-  filenames: [
-    ".htaccess",
-    "apache2.conf",
-    "httpd.conf",
-  ],
+  extensions: [".apacheconf", ".vhost"],
+  filenames: [".htaccess", "apache2.conf", "httpd.conf"],
 } as const;
 
 /**
@@ -557,11 +426,7 @@ export const Apex = {
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-java",
   language_id: 17,
-  extensions: [
-    ".cls",
-    ".apex",
-    ".trigger",
-  ],
+  extensions: [".cls", ".apex", ".trigger"],
 } as const;
 
 /**
@@ -574,9 +439,7 @@ export const ApolloGuidanceComputer = {
   ace_mode: "assembly_x86",
   group: "Assembly",
   language_id: 18,
-  extensions: [
-    ".agc",
-  ],
+  extensions: [".agc"],
 } as const;
 
 /**
@@ -585,20 +448,12 @@ export const ApolloGuidanceComputer = {
 export const AppleScript = {
   type: "programming",
   color: "#101F1F",
-  aliases: [
-    "apples",
-    "osascript",
-  ],
+  aliases: ["apples", "osascript"],
   tm_scope: "source.applescript",
   ace_mode: "applescript",
   language_id: 19,
-  extensions: [
-    ".applescript",
-    ".scpt",
-  ],
-  interpreters: [
-    "osascript",
-  ],
+  extensions: [".applescript", ".scpt"],
+  interpreters: ["osascript"],
 } as const;
 
 /**
@@ -610,9 +465,7 @@ export const Arc = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 20,
-  extensions: [
-    ".arc",
-  ],
+  extensions: [".arc"],
 } as const;
 
 /**
@@ -625,11 +478,7 @@ export const AsciiDoc = {
   ace_mode: "asciidoc",
   wrap: true,
   language_id: 22,
-  extensions: [
-    ".asciidoc",
-    ".adoc",
-    ".asc",
-  ],
+  extensions: [".asciidoc", ".adoc", ".asc"],
 } as const;
 
 /**
@@ -641,9 +490,7 @@ export const AspectJ = {
   tm_scope: "source.aspectj",
   ace_mode: "text",
   language_id: 23,
-  extensions: [
-    ".aj",
-  ],
+  extensions: [".aj"],
 } as const;
 
 /**
@@ -652,22 +499,11 @@ export const AspectJ = {
 export const Assembly = {
   type: "programming",
   color: "#6E4C13",
-  aliases: [
-    "asm",
-    "nasm",
-  ],
+  aliases: ["asm", "nasm"],
   tm_scope: "source.assembly",
   ace_mode: "assembly_x86",
   language_id: 24,
-  extensions: [
-    ".asm",
-    ".a51",
-    ".i",
-    ".inc",
-    ".nas",
-    ".nasm",
-    ".s",
-  ],
+  extensions: [".asm", ".a51", ".i", ".inc", ".nas", ".nasm", ".s"],
 } as const;
 
 /**
@@ -681,9 +517,7 @@ export const Astro = {
   codemirror_mode: "jsx",
   codemirror_mime_type: "text/jsx",
   language_id: 578209015,
-  extensions: [
-    ".astro",
-  ],
+  extensions: [".astro"],
 } as const;
 
 /**
@@ -697,12 +531,8 @@ export const Asymptote = {
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-kotlin",
   language_id: 591605007,
-  extensions: [
-    ".asy",
-  ],
-  interpreters: [
-    "asy",
-  ],
+  extensions: [".asy"],
+  interpreters: ["asy"],
 } as const;
 
 /**
@@ -714,9 +544,7 @@ export const Augeas = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 25,
-  extensions: [
-    ".aug",
-  ],
+  extensions: [".aug"],
 } as const;
 
 /**
@@ -725,16 +553,11 @@ export const Augeas = {
 export const AutoHotkey = {
   type: "programming",
   color: "#6594b9",
-  aliases: [
-    "ahk",
-  ],
+  aliases: ["ahk"],
   tm_scope: "source.ahk",
   ace_mode: "autohotkey",
   language_id: 26,
-  extensions: [
-    ".ahk",
-    ".ahkl",
-  ],
+  extensions: [".ahk", ".ahkl"],
 } as const;
 
 /**
@@ -743,17 +566,11 @@ export const AutoHotkey = {
 export const AutoIt = {
   type: "programming",
   color: "#1C3552",
-  aliases: [
-    "au3",
-    "AutoIt3",
-    "AutoItScript",
-  ],
+  aliases: ["au3", "AutoIt3", "AutoItScript"],
   tm_scope: "source.autoit",
   ace_mode: "autohotkey",
   language_id: 27,
-  extensions: [
-    ".au3",
-  ],
+  extensions: [".au3"],
 } as const;
 
 /**
@@ -765,9 +582,7 @@ export const AvroIDL = {
   tm_scope: "source.avro",
   ace_mode: "text",
   language_id: 785497837,
-  extensions: [
-    ".avdl",
-  ],
+  extensions: [".avdl"],
 } as const;
 
 /**
@@ -779,19 +594,8 @@ export const Awk = {
   tm_scope: "source.awk",
   ace_mode: "text",
   language_id: 28,
-  extensions: [
-    ".awk",
-    ".auk",
-    ".gawk",
-    ".mawk",
-    ".nawk",
-  ],
-  interpreters: [
-    "awk",
-    "gawk",
-    "mawk",
-    "nawk",
-  ],
+  extensions: [".awk", ".auk", ".gawk", ".mawk", ".nawk"],
+  interpreters: ["awk", "gawk", "mawk", "nawk"],
 } as const;
 
 /**
@@ -803,9 +607,7 @@ export const BFormalMethod = {
   tm_scope: "source.b",
   ace_mode: "text",
   language_id: 700792152,
-  extensions: [
-    ".mch",
-  ],
+  extensions: [".mch"],
 } as const;
 
 /**
@@ -814,17 +616,13 @@ export const BFormalMethod = {
 export const B4X = {
   type: "programming",
   color: "#00e4ff",
-  aliases: [
-    "basic for android",
-  ],
+  aliases: ["basic for android"],
   tm_scope: "source.vba",
   ace_mode: "text",
   codemirror_mode: "vb",
   codemirror_mime_type: "text/x-vb",
   language_id: 96642275,
-  extensions: [
-    ".bas",
-  ],
+  extensions: [".bas"],
 } as const;
 
 /**
@@ -836,9 +634,7 @@ export const BASIC = {
   tm_scope: "source.basic",
   ace_mode: "basic",
   language_id: 28923963,
-  extensions: [
-    ".bas",
-  ],
+  extensions: [".bas"],
 } as const;
 
 /**
@@ -850,9 +646,7 @@ export const BQN = {
   tm_scope: "source.bqn",
   ace_mode: "text",
   language_id: 330386870,
-  extensions: [
-    ".bqn",
-  ],
+  extensions: [".bqn"],
 } as const;
 
 /**
@@ -864,9 +658,7 @@ export const Ballerina = {
   tm_scope: "source.ballerina",
   ace_mode: "text",
   language_id: 720859680,
-  extensions: [
-    ".bal",
-  ],
+  extensions: [".bal"],
 } as const;
 
 /**
@@ -875,23 +667,12 @@ export const Ballerina = {
 export const Batchfile = {
   type: "programming",
   color: "#C1F12E",
-  aliases: [
-    "bat",
-    "batch",
-    "dosbatch",
-    "winbatch",
-  ],
+  aliases: ["bat", "batch", "dosbatch", "winbatch"],
   tm_scope: "source.batchfile",
   ace_mode: "batchfile",
   language_id: 29,
-  extensions: [
-    ".bat",
-    ".cmd",
-  ],
-  filenames: [
-    "gradlew.bat",
-    "mvnw.cmd",
-  ],
+  extensions: [".bat", ".cmd"],
+  filenames: ["gradlew.bat", "mvnw.cmd"],
 } as const;
 
 /**
@@ -905,9 +686,7 @@ export const Beef = {
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-csharp",
   language_id: 545626333,
-  extensions: [
-    ".bf",
-  ],
+  extensions: [".bf"],
 } as const;
 
 /**
@@ -918,10 +697,7 @@ export const Befunge = {
   tm_scope: "source.befunge",
   ace_mode: "text",
   language_id: 30,
-  extensions: [
-    ".befunge",
-    ".bf",
-  ],
+  extensions: [".befunge", ".bf"],
 } as const;
 
 /**
@@ -930,15 +706,11 @@ export const Befunge = {
 export const Berry = {
   type: "programming",
   color: "#15A13C",
-  aliases: [
-    "be",
-  ],
+  aliases: ["be"],
   tm_scope: "source.berry",
   ace_mode: "text",
   language_id: 121855308,
-  extensions: [
-    ".be",
-  ],
+  extensions: [".be"],
 } as const;
 
 /**
@@ -953,10 +725,7 @@ export const BibTeX = {
   codemirror_mime_type: "text/x-stex",
   group: "TeX",
   language_id: 982188347,
-  extensions: [
-    ".bib",
-    ".bibtex",
-  ],
+  extensions: [".bib", ".bibtex"],
 } as const;
 
 /**
@@ -967,9 +736,7 @@ export const BibTeXStyle = {
   tm_scope: "source.bst",
   ace_mode: "text",
   language_id: 909569041,
-  extensions: [
-    ".bst",
-  ],
+  extensions: [".bst"],
 } as const;
 
 /**
@@ -981,10 +748,7 @@ export const Bicep = {
   tm_scope: "source.bicep",
   ace_mode: "text",
   language_id: 321200902,
-  extensions: [
-    ".bicep",
-    ".bicepparam",
-  ],
+  extensions: [".bicep", ".bicepparam"],
 } as const;
 
 /**
@@ -998,9 +762,7 @@ export const Bikeshed = {
   codemirror_mode: "htmlmixed",
   codemirror_mime_type: "text/html",
   language_id: 1055528081,
-  extensions: [
-    ".bs",
-  ],
+  extensions: [".bs"],
 } as const;
 
 /**
@@ -1013,9 +775,7 @@ export const Bison = {
   ace_mode: "text",
   group: "Yacc",
   language_id: 31,
-  extensions: [
-    ".bison",
-  ],
+  extensions: [".bison"],
 } as const;
 
 /**
@@ -1027,12 +787,7 @@ export const BitBake = {
   tm_scope: "source.bb",
   ace_mode: "text",
   language_id: 32,
-  extensions: [
-    ".bb",
-    ".bbappend",
-    ".bbclass",
-    ".inc",
-  ],
+  extensions: [".bb", ".bbappend", ".bbclass", ".inc"],
 } as const;
 
 /**
@@ -1044,10 +799,7 @@ export const Blade = {
   tm_scope: "text.html.php.blade",
   ace_mode: "php_laravel_blade",
   language_id: 33,
-  extensions: [
-    ".blade",
-    ".blade.php",
-  ],
+  extensions: [".blade", ".blade.php"],
 } as const;
 
 /**
@@ -1056,19 +808,11 @@ export const Blade = {
 export const BlitzBasic = {
   type: "programming",
   color: "#00FFAE",
-  aliases: [
-    "b3d",
-    "blitz3d",
-    "blitzplus",
-    "bplus",
-  ],
+  aliases: ["b3d", "blitz3d", "blitzplus", "bplus"],
   tm_scope: "source.blitzmax",
   ace_mode: "text",
   language_id: 34,
-  extensions: [
-    ".bb",
-    ".decls",
-  ],
+  extensions: [".bb", ".decls"],
 } as const;
 
 /**
@@ -1077,15 +821,11 @@ export const BlitzBasic = {
 export const BlitzMax = {
   type: "programming",
   color: "#cd6400",
-  aliases: [
-    "bmax",
-  ],
+  aliases: ["bmax"],
   tm_scope: "source.blitzmax",
   ace_mode: "text",
   language_id: 35,
-  extensions: [
-    ".bmx",
-  ],
+  extensions: [".bmx"],
 } as const;
 
 /**
@@ -1094,18 +834,13 @@ export const BlitzMax = {
 export const Bluespec = {
   type: "programming",
   color: "#12223c",
-  aliases: [
-    "bluespec bsv",
-    "bsv",
-  ],
+  aliases: ["bluespec bsv", "bsv"],
   tm_scope: "source.bsv",
   ace_mode: "verilog",
   codemirror_mode: "verilog",
   codemirror_mime_type: "text/x-systemverilog",
   language_id: 36,
-  extensions: [
-    ".bsv",
-  ],
+  extensions: [".bsv"],
 } as const;
 
 /**
@@ -1114,19 +849,14 @@ export const Bluespec = {
 export const BluespecBH = {
   type: "programming",
   color: "#12223c",
-  aliases: [
-    "bh",
-    "bluespec classic",
-  ],
+  aliases: ["bh", "bluespec classic"],
   tm_scope: "source.bh",
   ace_mode: "haskell",
   codemirror_mode: "haskell",
   codemirror_mime_type: "text/x-haskell",
   group: "Bluespec",
   language_id: 641580358,
-  extensions: [
-    ".bs",
-  ],
+  extensions: [".bs"],
 } as const;
 
 /**
@@ -1138,9 +868,7 @@ export const Boo = {
   tm_scope: "source.boo",
   ace_mode: "text",
   language_id: 37,
-  extensions: [
-    ".boo",
-  ],
+  extensions: [".boo"],
 } as const;
 
 /**
@@ -1152,12 +880,8 @@ export const Boogie = {
   tm_scope: "source.boogie",
   ace_mode: "text",
   language_id: 955017407,
-  extensions: [
-    ".bpl",
-  ],
-  interpreters: [
-    "boogie",
-  ],
+  extensions: [".bpl"],
+  interpreters: ["boogie"],
 } as const;
 
 /**
@@ -1171,10 +895,7 @@ export const Brainfuck = {
   codemirror_mode: "brainfuck",
   codemirror_mime_type: "text/x-brainfuck",
   language_id: 38,
-  extensions: [
-    ".b",
-    ".bf",
-  ],
+  extensions: [".b", ".bf"],
 } as const;
 
 /**
@@ -1186,9 +907,7 @@ export const BrighterScript = {
   tm_scope: "source.brs",
   ace_mode: "text",
   language_id: 943571030,
-  extensions: [
-    ".bs",
-  ],
+  extensions: [".bs"],
 } as const;
 
 /**
@@ -1200,9 +919,7 @@ export const Brightscript = {
   tm_scope: "source.brs",
   ace_mode: "text",
   language_id: 39,
-  extensions: [
-    ".brs",
-  ],
+  extensions: [".brs"],
 } as const;
 
 /**
@@ -1214,10 +931,7 @@ export const Browserslist = {
   tm_scope: "text.browserslist",
   ace_mode: "text",
   language_id: 153503348,
-  filenames: [
-    ".browserslistrc",
-    "browserslist",
-  ],
+  filenames: [".browserslistrc", "browserslist"],
 } as const;
 
 /**
@@ -1229,9 +943,7 @@ export const Bru = {
   tm_scope: "source.bru",
   ace_mode: "text",
   language_id: 906627898,
-  extensions: [
-    ".bru",
-  ],
+  extensions: [".bru"],
 } as const;
 
 /**
@@ -1243,9 +955,7 @@ export const BuildStream = {
   tm_scope: "source.yaml",
   ace_mode: "yaml",
   language_id: 84359046,
-  extensions: [
-    ".bst",
-  ],
+  extensions: [".bst"],
 } as const;
 
 /**
@@ -1259,16 +969,8 @@ export const C = {
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-csrc",
   language_id: 41,
-  extensions: [
-    ".c",
-    ".cats",
-    ".h",
-    ".h.in",
-    ".idc",
-  ],
-  interpreters: [
-    "tcc",
-  ],
+  extensions: [".c", ".cats", ".h", ".h.in", ".idc"],
+  interpreters: ["tcc"],
 } as const;
 
 /**
@@ -1277,23 +979,13 @@ export const C = {
 export const Csharp = {
   type: "programming",
   color: "#178600",
-  aliases: [
-    "csharp",
-    "cake",
-    "cakescript",
-  ],
+  aliases: ["csharp", "cake", "cakescript"],
   tm_scope: "source.cs",
   ace_mode: "csharp",
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-csharp",
   language_id: 42,
-  extensions: [
-    ".cs",
-    ".cake",
-    ".cs.pp",
-    ".csx",
-    ".linq",
-  ],
+  extensions: [".cs", ".cake", ".cs.pp", ".csx", ".linq"],
 } as const;
 
 /**
@@ -1302,9 +994,7 @@ export const Csharp = {
 export const Cpp = {
   type: "programming",
   color: "#f34b7d",
-  aliases: [
-    "cpp",
-  ],
+  aliases: ["cpp"],
   tm_scope: "source.c++",
   ace_mode: "c_cpp",
   codemirror_mode: "clike",
@@ -1342,9 +1032,7 @@ export const C_ObjDump = {
   tm_scope: "objdump.x86asm",
   ace_mode: "assembly_x86",
   language_id: 44,
-  extensions: [
-    ".c-objdump",
-  ],
+  extensions: [".c-objdump"],
 } as const;
 
 /**
@@ -1352,18 +1040,14 @@ export const C_ObjDump = {
  */
 export const C2hsHaskell = {
   type: "programming",
-  aliases: [
-    "c2hs",
-  ],
+  aliases: ["c2hs"],
   tm_scope: "source.haskell",
   ace_mode: "haskell",
   codemirror_mode: "haskell",
   codemirror_mime_type: "text/x-haskell",
   group: "Haskell",
   language_id: 45,
-  extensions: [
-    ".chs",
-  ],
+  extensions: [".chs"],
 } as const;
 
 /**
@@ -1377,9 +1061,7 @@ export const C3 = {
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-csrc",
   language_id: 769248603,
-  extensions: [
-    ".c3",
-  ],
+  extensions: [".c3"],
 } as const;
 
 /**
@@ -1388,15 +1070,11 @@ export const C3 = {
 export const CAPCDS = {
   type: "programming",
   color: "#0092d1",
-  aliases: [
-    "cds",
-  ],
+  aliases: ["cds"],
   tm_scope: "source.cds",
   ace_mode: "text",
   language_id: 390788699,
-  extensions: [
-    ".cds",
-  ],
+  extensions: [".cds"],
 } as const;
 
 /**
@@ -1407,9 +1085,7 @@ export const CIL = {
   tm_scope: "source.cil",
   ace_mode: "text",
   language_id: 29176339,
-  extensions: [
-    ".cil",
-  ],
+  extensions: [".cil"],
 } as const;
 
 /**
@@ -1421,9 +1097,7 @@ export const CLIPS = {
   tm_scope: "source.clips",
   ace_mode: "text",
   language_id: 46,
-  extensions: [
-    ".clp",
-  ],
+  extensions: [".clp"],
 } as const;
 
 /**
@@ -1437,13 +1111,8 @@ export const CMake = {
   codemirror_mode: "cmake",
   codemirror_mime_type: "text/x-cmake",
   language_id: 47,
-  extensions: [
-    ".cmake",
-    ".cmake.in",
-  ],
-  filenames: [
-    "CMakeLists.txt",
-  ],
+  extensions: [".cmake", ".cmake.in"],
+  filenames: ["CMakeLists.txt"],
 } as const;
 
 /**
@@ -1456,13 +1125,7 @@ export const COBOL = {
   codemirror_mode: "cobol",
   codemirror_mime_type: "text/x-cobol",
   language_id: 48,
-  extensions: [
-    ".cob",
-    ".cbl",
-    ".ccp",
-    ".cobol",
-    ".cpy",
-  ],
+  extensions: [".cob", ".cbl", ".ccp", ".cobol", ".cpy"],
 } as const;
 
 /**
@@ -1473,9 +1136,7 @@ export const CODEOWNERS = {
   tm_scope: "text.codeowners",
   ace_mode: "gitignore",
   language_id: 321684729,
-  filenames: [
-    "CODEOWNERS",
-  ],
+  filenames: ["CODEOWNERS"],
 } as const;
 
 /**
@@ -1489,9 +1150,7 @@ export const COLLADA = {
   codemirror_mode: "xml",
   codemirror_mime_type: "text/xml",
   language_id: 49,
-  extensions: [
-    ".dae",
-  ],
+  extensions: [".dae"],
 } as const;
 
 /**
@@ -1503,9 +1162,7 @@ export const CQL = {
   tm_scope: "source.cql",
   ace_mode: "text",
   language_id: 71155397,
-  extensions: [
-    ".cql",
-  ],
+  extensions: [".cql"],
 } as const;
 
 /**
@@ -1519,9 +1176,7 @@ export const CSON = {
   codemirror_mode: "coffeescript",
   codemirror_mime_type: "text/x-coffeescript",
   language_id: 424,
-  extensions: [
-    ".cson",
-  ],
+  extensions: [".cson"],
 } as const;
 
 /**
@@ -1535,9 +1190,7 @@ export const CSS = {
   codemirror_mode: "css",
   codemirror_mime_type: "text/css",
   language_id: 50,
-  extensions: [
-    ".css",
-  ],
+  extensions: [".css"],
 } as const;
 
 /**
@@ -1549,9 +1202,7 @@ export const CSV = {
   tm_scope: "source.csv",
   ace_mode: "csv",
   language_id: 51,
-  extensions: [
-    ".csv",
-  ],
+  extensions: [".csv"],
 } as const;
 
 /**
@@ -1563,9 +1214,7 @@ export const CUE = {
   tm_scope: "source.cue",
   ace_mode: "text",
   language_id: 356063509,
-  extensions: [
-    ".cue",
-  ],
+  extensions: [".cue"],
 } as const;
 
 /**
@@ -1577,9 +1226,7 @@ export const CWeb = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 657332628,
-  extensions: [
-    ".w",
-  ],
+  extensions: [".w"],
 } as const;
 
 /**
@@ -1588,21 +1235,14 @@ export const CWeb = {
 export const CabalConfig = {
   type: "data",
   color: "#483465",
-  aliases: [
-    "Cabal",
-  ],
+  aliases: ["Cabal"],
   tm_scope: "source.cabal",
   ace_mode: "haskell_cabal",
   codemirror_mode: "haskell",
   codemirror_mime_type: "text/x-haskell",
   language_id: 677095381,
-  extensions: [
-    ".cabal",
-  ],
-  filenames: [
-    "cabal.config",
-    "cabal.project",
-  ],
+  extensions: [".cabal"],
+  filenames: ["cabal.config", "cabal.project"],
 } as const;
 
 /**
@@ -1611,18 +1251,12 @@ export const CabalConfig = {
 export const Caddyfile = {
   type: "data",
   color: "#22b638",
-  aliases: [
-    "Caddy",
-  ],
+  aliases: ["Caddy"],
   tm_scope: "source.Caddyfile",
   ace_mode: "text",
   language_id: 615465151,
-  extensions: [
-    ".caddyfile",
-  ],
-  filenames: [
-    "Caddyfile",
-  ],
+  extensions: [".caddyfile"],
+  filenames: ["Caddyfile"],
 } as const;
 
 /**
@@ -1634,9 +1268,7 @@ export const Cadence = {
   tm_scope: "source.cadence",
   ace_mode: "text",
   language_id: 270184138,
-  extensions: [
-    ".cdc",
-  ],
+  extensions: [".cdc"],
 } as const;
 
 /**
@@ -1649,9 +1281,7 @@ export const Cairo = {
   ace_mode: "text",
   group: "Cairo",
   language_id: 620599567,
-  extensions: [
-    ".cairo",
-  ],
+  extensions: [".cairo"],
 } as const;
 
 /**
@@ -1664,9 +1294,7 @@ export const CairoZero = {
   ace_mode: "text",
   group: "Cairo",
   language_id: 891399890,
-  extensions: [
-    ".cairo",
-  ],
+  extensions: [".cairo"],
 } as const;
 
 /**
@@ -1681,9 +1309,7 @@ export const CameLIGO = {
   codemirror_mime_type: "text/x-ocaml",
   group: "LigoLANG",
   language_id: 829207807,
-  extensions: [
-    ".mligo",
-  ],
+  extensions: [".mligo"],
 } as const;
 
 /**
@@ -1697,9 +1323,7 @@ export const Cangjie = {
   codemirror_mode: "swift",
   codemirror_mime_type: "text/x-swift",
   language_id: 581895317,
-  extensions: [
-    ".cj",
-  ],
+  extensions: [".cj"],
 } as const;
 
 /**
@@ -1711,9 +1335,7 @@ export const CapnProto = {
   tm_scope: "source.capnp",
   ace_mode: "text",
   language_id: 52,
-  extensions: [
-    ".capnp",
-  ],
+  extensions: [".capnp"],
 } as const;
 
 /**
@@ -1727,9 +1349,7 @@ export const Carbon = {
   codemirror_mode: "go",
   codemirror_mime_type: "text/x-go",
   language_id: 55627273,
-  extensions: [
-    ".carbon",
-  ],
+  extensions: [".carbon"],
 } as const;
 
 /**
@@ -1737,15 +1357,11 @@ export const Carbon = {
  */
 export const CartoCSS = {
   type: "programming",
-  aliases: [
-    "Carto",
-  ],
+  aliases: ["Carto"],
   tm_scope: "source.css.mss",
   ace_mode: "text",
   language_id: 53,
-  extensions: [
-    ".mss",
-  ],
+  extensions: [".mss"],
 } as const;
 
 /**
@@ -1757,9 +1373,7 @@ export const Ceylon = {
   tm_scope: "source.ceylon",
   ace_mode: "text",
   language_id: 54,
-  extensions: [
-    ".ceylon",
-  ],
+  extensions: [".ceylon"],
 } as const;
 
 /**
@@ -1768,15 +1382,11 @@ export const Ceylon = {
 export const Chapel = {
   type: "programming",
   color: "#8dc63f",
-  aliases: [
-    "chpl",
-  ],
+  aliases: ["chpl"],
   tm_scope: "source.chapel",
   ace_mode: "text",
   language_id: 55,
-  extensions: [
-    ".chpl",
-  ],
+  extensions: [".chpl"],
 } as const;
 
 /**
@@ -1787,9 +1397,7 @@ export const Charity = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 56,
-  extensions: [
-    ".ch",
-  ],
+  extensions: [".ch"],
 } as const;
 
 /**
@@ -1797,13 +1405,7 @@ export const Charity = {
  */
 export const Checksums = {
   type: "data",
-  aliases: [
-    "checksum",
-    "hash",
-    "hashes",
-    "sum",
-    "sums",
-  ],
+  aliases: ["checksum", "hash", "hashes", "sum", "sums"],
   tm_scope: "text.checksums",
   ace_mode: "text",
   language_id: 372063053,
@@ -1844,9 +1446,7 @@ export const ChucK = {
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-java",
   language_id: 57,
-  extensions: [
-    ".ck",
-  ],
+  extensions: [".ck"],
 } as const;
 
 /**
@@ -1858,9 +1458,7 @@ export const Circom = {
   tm_scope: "source.circom",
   ace_mode: "text",
   language_id: 1042332086,
-  extensions: [
-    ".circom",
-  ],
+  extensions: [".circom"],
 } as const;
 
 /**
@@ -1872,9 +1470,7 @@ export const Cirru = {
   tm_scope: "source.cirru",
   ace_mode: "cirru",
   language_id: 58,
-  extensions: [
-    ".cirru",
-  ],
+  extensions: [".cirru"],
 } as const;
 
 /**
@@ -1886,9 +1482,7 @@ export const Clarion = {
   tm_scope: "source.clarion",
   ace_mode: "text",
   language_id: 59,
-  extensions: [
-    ".clw",
-  ],
+  extensions: [".clw"],
 } as const;
 
 /**
@@ -1900,9 +1494,7 @@ export const Clarity = {
   tm_scope: "source.clar",
   ace_mode: "lisp",
   language_id: 91493841,
-  extensions: [
-    ".clar",
-  ],
+  extensions: [".clar"],
 } as const;
 
 /**
@@ -1911,15 +1503,11 @@ export const Clarity = {
 export const ClassicASP = {
   type: "programming",
   color: "#6a40fd",
-  aliases: [
-    "asp",
-  ],
+  aliases: ["asp"],
   tm_scope: "text.html.asp",
   ace_mode: "text",
   language_id: 8,
-  extensions: [
-    ".asp",
-  ],
+  extensions: [".asp"],
 } as const;
 
 /**
@@ -1931,10 +1519,7 @@ export const Clean = {
   tm_scope: "source.clean",
   ace_mode: "text",
   language_id: 60,
-  extensions: [
-    ".icl",
-    ".dcl",
-  ],
+  extensions: [".icl", ".dcl"],
 } as const;
 
 /**
@@ -1946,9 +1531,7 @@ export const Click = {
   tm_scope: "source.click",
   ace_mode: "text",
   language_id: 61,
-  extensions: [
-    ".click",
-  ],
+  extensions: [".click"],
 } as const;
 
 /**
@@ -1974,12 +1557,8 @@ export const Clojure = {
     ".cljx",
     ".hic",
   ],
-  interpreters: [
-    "bb",
-  ],
-  filenames: [
-    "riemann.config",
-  ],
+  interpreters: ["bb"],
+  filenames: ["riemann.config"],
 } as const;
 
 /**
@@ -1988,17 +1567,13 @@ export const Clojure = {
 export const ClosureTemplates = {
   type: "markup",
   color: "#0d948f",
-  aliases: [
-    "soy",
-  ],
+  aliases: ["soy"],
   tm_scope: "text.html.soy",
   ace_mode: "soy_template",
   codemirror_mode: "soy",
   codemirror_mime_type: "text/x-soy",
   language_id: 357046146,
-  extensions: [
-    ".soy",
-  ],
+  extensions: [".soy"],
 } as const;
 
 /**
@@ -2012,9 +1587,7 @@ export const CloudFirestoreSecurityRules = {
   codemirror_mode: "css",
   codemirror_mime_type: "text/css",
   language_id: 407996372,
-  filenames: [
-    "firestore.rules",
-  ],
+  filenames: ["firestore.rules"],
 } as const;
 
 /**
@@ -2026,9 +1599,7 @@ export const Clue = {
   tm_scope: "source.clue",
   ace_mode: "text",
   language_id: 163763508,
-  extensions: [
-    ".clue",
-  ],
+  extensions: [".clue"],
 } as const;
 
 /**
@@ -2036,17 +1607,11 @@ export const Clue = {
  */
 export const CoNLL_U = {
   type: "data",
-  aliases: [
-    "CoNLL",
-    "CoNLL-X",
-  ],
+  aliases: ["CoNLL", "CoNLL-X"],
   tm_scope: "text.conllu",
   ace_mode: "text",
   language_id: 421026389,
-  extensions: [
-    ".conllu",
-    ".conll",
-  ],
+  extensions: [".conllu", ".conll"],
 } as const;
 
 /**
@@ -2055,16 +1620,11 @@ export const CoNLL_U = {
 export const CodeQL = {
   type: "programming",
   color: "#140f46",
-  aliases: [
-    "ql",
-  ],
+  aliases: ["ql"],
   tm_scope: "source.ql",
   ace_mode: "text",
   language_id: 424259634,
-  extensions: [
-    ".ql",
-    ".qll",
-  ],
+  extensions: [".ql", ".qll"],
 } as const;
 
 /**
@@ -2073,28 +1633,15 @@ export const CodeQL = {
 export const CoffeeScript = {
   type: "programming",
   color: "#244776",
-  aliases: [
-    "coffee",
-    "coffee-script",
-  ],
+  aliases: ["coffee", "coffee-script"],
   tm_scope: "source.coffee",
   ace_mode: "coffee",
   codemirror_mode: "coffeescript",
   codemirror_mime_type: "text/x-coffeescript",
   language_id: 63,
-  extensions: [
-    ".coffee",
-    "._coffee",
-    ".cake",
-    ".cjsx",
-    ".iced",
-  ],
-  interpreters: [
-    "coffee",
-  ],
-  filenames: [
-    "Cakefile",
-  ],
+  extensions: [".coffee", "._coffee", ".cake", ".cjsx", ".iced"],
+  interpreters: ["coffee"],
+  filenames: ["Cakefile"],
 } as const;
 
 /**
@@ -2103,18 +1650,11 @@ export const CoffeeScript = {
 export const ColdFusion = {
   type: "programming",
   color: "#ed2cd6",
-  aliases: [
-    "cfm",
-    "cfml",
-    "coldfusion html",
-  ],
+  aliases: ["cfm", "cfml", "coldfusion html"],
   tm_scope: "text.html.cfm",
   ace_mode: "coldfusion",
   language_id: 64,
-  extensions: [
-    ".cfm",
-    ".cfml",
-  ],
+  extensions: [".cfm", ".cfml"],
 } as const;
 
 /**
@@ -2123,16 +1663,12 @@ export const ColdFusion = {
 export const ColdFusionCFC = {
   type: "programming",
   color: "#ed2cd6",
-  aliases: [
-    "cfc",
-  ],
+  aliases: ["cfc"],
   tm_scope: "source.cfscript",
   ace_mode: "coldfusion",
   group: "ColdFusion",
   language_id: 65,
-  extensions: [
-    ".cfc",
-  ],
+  extensions: [".cfc"],
 } as const;
 
 /**
@@ -2141,31 +1677,14 @@ export const ColdFusionCFC = {
 export const CommonLisp = {
   type: "programming",
   color: "#3fb68b",
-  aliases: [
-    "lisp",
-  ],
+  aliases: ["lisp"],
   tm_scope: "source.commonlisp",
   ace_mode: "lisp",
   codemirror_mode: "commonlisp",
   codemirror_mime_type: "text/x-common-lisp",
   language_id: 66,
-  extensions: [
-    ".lisp",
-    ".asd",
-    ".cl",
-    ".l",
-    ".lsp",
-    ".ny",
-    ".podsl",
-    ".sexp",
-  ],
-  interpreters: [
-    "lisp",
-    "sbcl",
-    "ccl",
-    "clisp",
-    "ecl",
-  ],
+  extensions: [".lisp", ".asd", ".cl", ".l", ".lsp", ".ny", ".podsl", ".sexp"],
+  interpreters: ["lisp", "sbcl", "ccl", "clisp", "ecl"],
 } as const;
 
 /**
@@ -2174,20 +1693,14 @@ export const CommonLisp = {
 export const CommonWorkflowLanguage = {
   type: "programming",
   color: "#B5314C",
-  aliases: [
-    "cwl",
-  ],
+  aliases: ["cwl"],
   tm_scope: "source.cwl",
   ace_mode: "yaml",
   codemirror_mode: "yaml",
   codemirror_mime_type: "text/x-yaml",
   language_id: 988547172,
-  extensions: [
-    ".cwl",
-  ],
-  interpreters: [
-    "cwl-runner",
-  ],
+  extensions: [".cwl"],
+  interpreters: ["cwl-runner"],
 } as const;
 
 /**
@@ -2201,10 +1714,7 @@ export const ComponentPascal = {
   codemirror_mode: "pascal",
   codemirror_mime_type: "text/x-pascal",
   language_id: 67,
-  extensions: [
-    ".cp",
-    ".cps",
-  ],
+  extensions: [".cp", ".cps"],
 } as const;
 
 /**
@@ -2217,9 +1727,7 @@ export const Cooklang = {
   ace_mode: "text",
   wrap: true,
   language_id: 788037493,
-  extensions: [
-    ".cook",
-  ],
+  extensions: [".cook"],
 } as const;
 
 /**
@@ -2230,9 +1738,7 @@ export const Cool = {
   tm_scope: "source.cool",
   ace_mode: "text",
   language_id: 68,
-  extensions: [
-    ".cl",
-  ],
+  extensions: [".cl"],
 } as const;
 
 /**
@@ -2240,19 +1746,11 @@ export const Cool = {
  */
 export const Cpp_ObjDump = {
   type: "data",
-  aliases: [
-    "c++-objdump",
-  ],
+  aliases: ["c++-objdump"],
   tm_scope: "objdump.x86asm",
   ace_mode: "assembly_x86",
   language_id: 70,
-  extensions: [
-    ".cppobjdump",
-    ".c++-objdump",
-    ".c++objdump",
-    ".cpp-objdump",
-    ".cxx-objdump",
-  ],
+  extensions: [".cppobjdump", ".c++-objdump", ".c++objdump", ".cpp-objdump", ".cxx-objdump"],
 } as const;
 
 /**
@@ -2264,9 +1762,7 @@ export const Creole = {
   ace_mode: "text",
   wrap: true,
   language_id: 71,
-  extensions: [
-    ".creole",
-  ],
+  extensions: [".creole"],
 } as const;
 
 /**
@@ -2280,12 +1776,8 @@ export const Crystal = {
   codemirror_mode: "crystal",
   codemirror_mime_type: "text/x-crystal",
   language_id: 72,
-  extensions: [
-    ".cr",
-  ],
-  interpreters: [
-    "crystal",
-  ],
+  extensions: [".cr"],
+  interpreters: ["crystal"],
 } as const;
 
 /**
@@ -2294,16 +1786,11 @@ export const Crystal = {
 export const Csound = {
   type: "programming",
   color: "#1a1a1a",
-  aliases: [
-    "csound-orc",
-  ],
+  aliases: ["csound-orc"],
   tm_scope: "source.csound",
   ace_mode: "csound_orchestra",
   language_id: 73,
-  extensions: [
-    ".orc",
-    ".udo",
-  ],
+  extensions: [".orc", ".udo"],
 } as const;
 
 /**
@@ -2312,15 +1799,11 @@ export const Csound = {
 export const CsoundDocument = {
   type: "programming",
   color: "#1a1a1a",
-  aliases: [
-    "csound-csd",
-  ],
+  aliases: ["csound-csd"],
   tm_scope: "source.csound-document",
   ace_mode: "csound_document",
   language_id: 74,
-  extensions: [
-    ".csd",
-  ],
+  extensions: [".csd"],
 } as const;
 
 /**
@@ -2329,15 +1812,11 @@ export const CsoundDocument = {
 export const CsoundScore = {
   type: "programming",
   color: "#1a1a1a",
-  aliases: [
-    "csound-sco",
-  ],
+  aliases: ["csound-sco"],
   tm_scope: "source.csound-score",
   ace_mode: "csound_score",
   language_id: 75,
-  extensions: [
-    ".sco",
-  ],
+  extensions: [".sco"],
 } as const;
 
 /**
@@ -2351,10 +1830,7 @@ export const Cuda = {
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-c++src",
   language_id: 77,
-  extensions: [
-    ".cu",
-    ".cuh",
-  ],
+  extensions: [".cu", ".cuh"],
 } as const;
 
 /**
@@ -2365,9 +1841,7 @@ export const CueSheet = {
   tm_scope: "source.cuesheet",
   ace_mode: "text",
   language_id: 942714150,
-  extensions: [
-    ".cue",
-  ],
+  extensions: [".cue"],
 } as const;
 
 /**
@@ -2379,9 +1853,7 @@ export const Curry = {
   tm_scope: "source.curry",
   ace_mode: "haskell",
   language_id: 439829048,
-  extensions: [
-    ".curry",
-  ],
+  extensions: [".curry"],
 } as const;
 
 /**
@@ -2394,9 +1866,7 @@ export const Cycript = {
   codemirror_mode: "javascript",
   codemirror_mime_type: "text/javascript",
   language_id: 78,
-  extensions: [
-    ".cy",
-  ],
+  extensions: [".cy"],
 } as const;
 
 /**
@@ -2409,12 +1879,8 @@ export const Cylc = {
   ace_mode: "ini",
   group: "INI",
   language_id: 476447814,
-  extensions: [
-    ".cylc",
-  ],
-  filenames: [
-    "suite.rc",
-  ],
+  extensions: [".cylc"],
+  filenames: ["suite.rc"],
 } as const;
 
 /**
@@ -2428,10 +1894,7 @@ export const Cypher = {
   codemirror_mode: "cypher",
   codemirror_mime_type: "application/x-cypher-query",
   language_id: 850806976,
-  extensions: [
-    ".cyp",
-    ".cypher",
-  ],
+  extensions: [".cyp", ".cypher"],
 } as const;
 
 /**
@@ -2440,19 +1903,13 @@ export const Cypher = {
 export const Cython = {
   type: "programming",
   color: "#fedf5b",
-  aliases: [
-    "pyrex",
-  ],
+  aliases: ["pyrex"],
   tm_scope: "source.cython",
   ace_mode: "text",
   codemirror_mode: "python",
   codemirror_mime_type: "text/x-cython",
   language_id: 79,
-  extensions: [
-    ".pyx",
-    ".pxd",
-    ".pxi",
-  ],
+  extensions: [".pyx", ".pxd", ".pxi"],
 } as const;
 
 /**
@@ -2461,18 +1918,13 @@ export const Cython = {
 export const D = {
   type: "programming",
   color: "#ba595e",
-  aliases: [
-    "Dlang",
-  ],
+  aliases: ["Dlang"],
   tm_scope: "source.d",
   ace_mode: "d",
   codemirror_mode: "d",
   codemirror_mime_type: "text/x-d",
   language_id: 80,
-  extensions: [
-    ".d",
-    ".di",
-  ],
+  extensions: [".d", ".di"],
 } as const;
 
 /**
@@ -2483,9 +1935,7 @@ export const D_ObjDump = {
   tm_scope: "objdump.x86asm",
   ace_mode: "assembly_x86",
   language_id: 81,
-  extensions: [
-    ".d-objdump",
-  ],
+  extensions: [".d-objdump"],
 } as const;
 
 /**
@@ -2494,15 +1944,11 @@ export const D_ObjDump = {
 export const D2 = {
   type: "markup",
   color: "#526ee8",
-  aliases: [
-    "d2lang",
-  ],
+  aliases: ["d2lang"],
   tm_scope: "source.d2",
   ace_mode: "text",
   language_id: 37531557,
-  extensions: [
-    ".d2",
-  ],
+  extensions: [".d2"],
 } as const;
 
 /**
@@ -2510,15 +1956,11 @@ export const D2 = {
  */
 export const DIGITALCommandLanguage = {
   type: "programming",
-  aliases: [
-    "dcl",
-  ],
+  aliases: ["dcl"],
   tm_scope: "none",
   ace_mode: "text",
   language_id: 82,
-  extensions: [
-    ".com",
-  ],
+  extensions: [".com"],
 } as const;
 
 /**
@@ -2527,15 +1969,11 @@ export const DIGITALCommandLanguage = {
 export const DM = {
   type: "programming",
   color: "#447265",
-  aliases: [
-    "byond",
-  ],
+  aliases: ["byond"],
   tm_scope: "source.dm",
   ace_mode: "c_cpp",
   language_id: 83,
-  extensions: [
-    ".dm",
-  ],
+  extensions: [".dm"],
 } as const;
 
 /**
@@ -2546,10 +1984,7 @@ export const DNSZone = {
   tm_scope: "text.zone_file",
   ace_mode: "text",
   language_id: 84,
-  extensions: [
-    ".zone",
-    ".arpa",
-  ],
+  extensions: [".zone", ".arpa"],
 } as const;
 
 /**
@@ -2557,20 +1992,14 @@ export const DNSZone = {
  */
 export const DTrace = {
   type: "programming",
-  aliases: [
-    "dtrace-script",
-  ],
+  aliases: ["dtrace-script"],
   tm_scope: "source.c",
   ace_mode: "c_cpp",
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-csrc",
   language_id: 85,
-  extensions: [
-    ".d",
-  ],
-  interpreters: [
-    "dtrace",
-  ],
+  extensions: [".d"],
+  interpreters: ["dtrace"],
 } as const;
 
 /**
@@ -2582,12 +2011,8 @@ export const Dafny = {
   tm_scope: "text.dfy.dafny",
   ace_mode: "text",
   language_id: 969323346,
-  extensions: [
-    ".dfy",
-  ],
-  interpreters: [
-    "dafny",
-  ],
+  extensions: [".dfy"],
+  interpreters: ["dafny"],
 } as const;
 
 /**
@@ -2596,16 +2021,11 @@ export const Dafny = {
 export const DarcsPatch = {
   type: "data",
   color: "#8eff23",
-  aliases: [
-    "dpatch",
-  ],
+  aliases: ["dpatch"],
   tm_scope: "none",
   ace_mode: "text",
   language_id: 86,
-  extensions: [
-    ".darcspatch",
-    ".dpatch",
-  ],
+  extensions: [".darcspatch", ".dpatch"],
 } as const;
 
 /**
@@ -2619,12 +2039,8 @@ export const Dart = {
   codemirror_mode: "dart",
   codemirror_mime_type: "application/dart",
   language_id: 87,
-  extensions: [
-    ".dart",
-  ],
-  interpreters: [
-    "dart",
-  ],
+  extensions: [".dart"],
+  interpreters: ["dart"],
 } as const;
 
 /**
@@ -2636,9 +2052,7 @@ export const Daslang = {
   tm_scope: "source.daslang",
   ace_mode: "text",
   language_id: 648759486,
-  extensions: [
-    ".das",
-  ],
+  extensions: [".das"],
 } as const;
 
 /**
@@ -2650,9 +2064,7 @@ export const DataWeave = {
   tm_scope: "source.data-weave",
   ace_mode: "text",
   language_id: 974514097,
-  extensions: [
-    ".dwl",
-  ],
+  extensions: [".dwl"],
 } as const;
 
 /**
@@ -2664,9 +2076,7 @@ export const DebianPackageControlFile = {
   tm_scope: "source.deb-control",
   ace_mode: "text",
   language_id: 527438264,
-  extensions: [
-    ".dsc",
-  ],
+  extensions: [".dsc"],
 } as const;
 
 /**
@@ -2680,9 +2090,7 @@ export const DenizenScript = {
   codemirror_mode: "yaml",
   codemirror_mime_type: "text/x-yaml",
   language_id: 435000929,
-  extensions: [
-    ".dsc",
-  ],
+  extensions: [".dsc"],
 } as const;
 
 /**
@@ -2696,9 +2104,7 @@ export const Dhall = {
   codemirror_mode: "haskell",
   codemirror_mime_type: "text/x-haskell",
   language_id: 793969321,
-  extensions: [
-    ".dhall",
-  ],
+  extensions: [".dhall"],
 } as const;
 
 /**
@@ -2706,18 +2112,13 @@ export const Dhall = {
  */
 export const Diff = {
   type: "data",
-  aliases: [
-    "udiff",
-  ],
+  aliases: ["udiff"],
   tm_scope: "source.diff",
   ace_mode: "diff",
   codemirror_mode: "diff",
   codemirror_mime_type: "text/x-diff",
   language_id: 88,
-  extensions: [
-    ".diff",
-    ".patch",
-  ],
+  extensions: [".diff", ".patch"],
 } as const;
 
 /**
@@ -2729,9 +2130,7 @@ export const DirectX3DFile = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 201049282,
-  extensions: [
-    ".x",
-  ],
+  extensions: [".x"],
 } as const;
 
 /**
@@ -2740,22 +2139,14 @@ export const DirectX3DFile = {
 export const Dockerfile = {
   type: "programming",
   color: "#384d54",
-  aliases: [
-    "Containerfile",
-  ],
+  aliases: ["Containerfile"],
   tm_scope: "source.dockerfile",
   ace_mode: "dockerfile",
   codemirror_mode: "dockerfile",
   codemirror_mime_type: "text/x-dockerfile",
   language_id: 89,
-  extensions: [
-    ".dockerfile",
-    ".containerfile",
-  ],
-  filenames: [
-    "Containerfile",
-    "Dockerfile",
-  ],
+  extensions: [".dockerfile", ".containerfile"],
+  filenames: ["Containerfile", "Dockerfile"],
 } as const;
 
 /**
@@ -2767,9 +2158,7 @@ export const Dogescript = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 90,
-  extensions: [
-    ".djs",
-  ],
+  extensions: [".djs"],
 } as const;
 
 /**
@@ -2781,9 +2170,7 @@ export const Dotenv = {
   tm_scope: "source.dotenv",
   ace_mode: "text",
   language_id: 111148035,
-  extensions: [
-    ".env",
-  ],
+  extensions: [".env"],
   filenames: [
     ".env",
     ".env.ci",
@@ -2811,9 +2198,7 @@ export const Dune = {
   tm_scope: "source.dune",
   ace_mode: "lisp",
   language_id: 754574151,
-  filenames: [
-    "dune-project",
-  ],
+  filenames: ["dune-project"],
 } as const;
 
 /**
@@ -2827,12 +2212,7 @@ export const Dylan = {
   codemirror_mode: "dylan",
   codemirror_mime_type: "text/x-dylan",
   language_id: 91,
-  extensions: [
-    ".dylan",
-    ".dyl",
-    ".intr",
-    ".lid",
-  ],
+  extensions: [".dylan", ".dyl", ".intr", ".lid"],
 } as const;
 
 /**
@@ -2844,12 +2224,8 @@ export const E = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 92,
-  extensions: [
-    ".e",
-  ],
-  interpreters: [
-    "rune",
-  ],
+  extensions: [".e"],
+  interpreters: ["rune"],
 } as const;
 
 /**
@@ -2857,21 +2233,13 @@ export const E = {
  */
 export const E_mail = {
   type: "data",
-  aliases: [
-    "email",
-    "eml",
-    "mail",
-    "mbox",
-  ],
+  aliases: ["email", "eml", "mail", "mbox"],
   tm_scope: "text.eml.basic",
   ace_mode: "text",
   codemirror_mode: "mbox",
   codemirror_mime_type: "application/mbox",
   language_id: 529653389,
-  extensions: [
-    ".eml",
-    ".mbox",
-  ],
+  extensions: [".eml", ".mbox"],
 } as const;
 
 /**
@@ -2884,9 +2252,7 @@ export const EBNF = {
   codemirror_mode: "ebnf",
   codemirror_mime_type: "text/x-ebnf",
   language_id: 430,
-  extensions: [
-    ".ebnf",
-  ],
+  extensions: [".ebnf"],
 } as const;
 
 /**
@@ -2900,10 +2266,7 @@ export const ECL = {
   codemirror_mode: "ecl",
   codemirror_mime_type: "text/x-ecl",
   language_id: 93,
-  extensions: [
-    ".ecl",
-    ".eclxml",
-  ],
+  extensions: [".ecl", ".eclxml"],
 } as const;
 
 /**
@@ -2916,9 +2279,7 @@ export const ECLiPSe = {
   ace_mode: "prolog",
   group: "Prolog",
   language_id: 94,
-  extensions: [
-    ".ecl",
-  ],
+  extensions: [".ecl"],
 } as const;
 
 /**
@@ -2932,12 +2293,7 @@ export const EJS = {
   codemirror_mode: "htmlembedded",
   codemirror_mime_type: "application/x-ejs",
   language_id: 95,
-  extensions: [
-    ".ejs",
-    ".ect",
-    ".ejs.t",
-    ".jst",
-  ],
+  extensions: [".ejs", ".ect", ".ejs.t", ".jst"],
 } as const;
 
 /**
@@ -2951,9 +2307,7 @@ export const EQ = {
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-csharp",
   language_id: 96,
-  extensions: [
-    ".eq",
-  ],
+  extensions: [".eq"],
 } as const;
 
 /**
@@ -2966,10 +2320,7 @@ export const Eagle = {
   codemirror_mode: "xml",
   codemirror_mime_type: "text/xml",
   language_id: 97,
-  extensions: [
-    ".sch",
-    ".brd",
-  ],
+  extensions: [".sch", ".brd"],
 } as const;
 
 /**
@@ -2978,15 +2329,11 @@ export const Eagle = {
 export const Earthly = {
   type: "programming",
   color: "#2af0ff",
-  aliases: [
-    "Earthfile",
-  ],
+  aliases: ["Earthfile"],
   tm_scope: "source.earthfile",
   ace_mode: "text",
   language_id: 963512632,
-  filenames: [
-    "Earthfile",
-  ],
+  filenames: ["Earthfile"],
 } as const;
 
 /**
@@ -3001,9 +2348,7 @@ export const Easybuild = {
   codemirror_mime_type: "text/x-python",
   group: "Python",
   language_id: 342840477,
-  extensions: [
-    ".eb",
-  ],
+  extensions: [".eb"],
 } as const;
 
 /**
@@ -3018,9 +2363,7 @@ export const EcereProjects = {
   codemirror_mime_type: "application/json",
   group: "JavaScript",
   language_id: 98,
-  extensions: [
-    ".epj",
-  ],
+  extensions: [".epj"],
 } as const;
 
 /**
@@ -3029,18 +2372,14 @@ export const EcereProjects = {
 export const Ecmarkup = {
   type: "markup",
   color: "#eb8131",
-  aliases: [
-    "ecmarkdown",
-  ],
+  aliases: ["ecmarkdown"],
   tm_scope: "text.html.ecmarkup",
   ace_mode: "html",
   codemirror_mode: "htmlmixed",
   codemirror_mime_type: "text/html",
   group: "HTML",
   language_id: 844766630,
-  extensions: [
-    ".html",
-  ],
+  extensions: [".html"],
 } as const;
 
 /**
@@ -3052,9 +2391,7 @@ export const Edge = {
   tm_scope: "text.html.edge",
   ace_mode: "html",
   language_id: 460509620,
-  extensions: [
-    ".edge",
-  ],
+  extensions: [".edge"],
 } as const;
 
 /**
@@ -3063,16 +2400,11 @@ export const Edge = {
 export const EdgeQL = {
   type: "programming",
   color: "#31A7FF",
-  aliases: [
-    "esdl",
-  ],
+  aliases: ["esdl"],
   tm_scope: "source.edgeql",
   ace_mode: "text",
   language_id: 925235833,
-  extensions: [
-    ".edgeql",
-    ".esdl",
-  ],
+  extensions: [".edgeql", ".esdl"],
 } as const;
 
 /**
@@ -3081,21 +2413,15 @@ export const EdgeQL = {
 export const EditorConfig = {
   type: "data",
   color: "#fff1f2",
-  aliases: [
-    "editor-config",
-  ],
+  aliases: ["editor-config"],
   tm_scope: "source.editorconfig",
   ace_mode: "ini",
   codemirror_mode: "properties",
   codemirror_mime_type: "text/x-properties",
   group: "INI",
   language_id: 96139566,
-  extensions: [
-    ".editorconfig",
-  ],
-  filenames: [
-    ".editorconfig",
-  ],
+  extensions: [".editorconfig"],
+  filenames: [".editorconfig"],
 } as const;
 
 /**
@@ -3108,9 +2434,7 @@ export const EdjeDataCollection = {
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-c++src",
   language_id: 342840478,
-  extensions: [
-    ".edc",
-  ],
+  extensions: [".edc"],
 } as const;
 
 /**
@@ -3124,9 +2448,7 @@ export const Eiffel = {
   codemirror_mode: "eiffel",
   codemirror_mime_type: "text/x-eiffel",
   language_id: 99,
-  extensions: [
-    ".e",
-  ],
+  extensions: [".e"],
 } as const;
 
 /**
@@ -3138,16 +2460,9 @@ export const Elixir = {
   tm_scope: "source.elixir",
   ace_mode: "elixir",
   language_id: 100,
-  extensions: [
-    ".ex",
-    ".exs",
-  ],
-  interpreters: [
-    "elixir",
-  ],
-  filenames: [
-    "mix.lock",
-  ],
+  extensions: [".ex", ".exs"],
+  interpreters: ["elixir"],
+  filenames: ["mix.lock"],
 } as const;
 
 /**
@@ -3161,9 +2476,7 @@ export const Elm = {
   codemirror_mode: "elm",
   codemirror_mime_type: "text/x-elm",
   language_id: 101,
-  extensions: [
-    ".elm",
-  ],
+  extensions: [".elm"],
 } as const;
 
 /**
@@ -3175,12 +2488,8 @@ export const Elvish = {
   tm_scope: "source.elvish",
   ace_mode: "text",
   language_id: 570996448,
-  extensions: [
-    ".elv",
-  ],
-  interpreters: [
-    "elvish",
-  ],
+  extensions: [".elv"],
+  interpreters: ["elvish"],
 } as const;
 
 /**
@@ -3201,22 +2510,13 @@ export const ElvishTranscript = {
 export const EmacsLisp = {
   type: "programming",
   color: "#c065db",
-  aliases: [
-    "cask",
-    "eask",
-    "elisp",
-    "emacs",
-  ],
+  aliases: ["cask", "eask", "elisp", "emacs"],
   tm_scope: "source.emacs.lisp",
   ace_mode: "lisp",
   codemirror_mode: "commonlisp",
   codemirror_mime_type: "text/x-common-lisp",
   language_id: 102,
-  extensions: [
-    ".el",
-    ".emacs",
-    ".emacs.desktop",
-  ],
+  extensions: [".el", ".emacs", ".emacs.desktop"],
   filenames: [
     ".abbrev_defs",
     ".emacs",
@@ -3243,10 +2543,7 @@ export const EmberScript = {
   codemirror_mode: "coffeescript",
   codemirror_mime_type: "text/x-coffeescript",
   language_id: 103,
-  extensions: [
-    ".em",
-    ".emberscript",
-  ],
+  extensions: [".em", ".emberscript"],
 } as const;
 
 /**
@@ -3260,25 +2557,9 @@ export const Erlang = {
   codemirror_mode: "erlang",
   codemirror_mime_type: "text/x-erlang",
   language_id: 104,
-  extensions: [
-    ".erl",
-    ".app",
-    ".app.src",
-    ".es",
-    ".escript",
-    ".hrl",
-    ".xrl",
-    ".yrl",
-  ],
-  interpreters: [
-    "escript",
-  ],
-  filenames: [
-    "Emakefile",
-    "rebar.config",
-    "rebar.config.lock",
-    "rebar.lock",
-  ],
+  extensions: [".erl", ".app", ".app.src", ".es", ".escript", ".hrl", ".xrl", ".yrl"],
+  interpreters: ["escript"],
+  filenames: ["Emakefile", "rebar.config", "rebar.config.lock", "rebar.lock"],
 } as const;
 
 /**
@@ -3290,14 +2571,8 @@ export const Euphoria = {
   tm_scope: "source.euphoria",
   ace_mode: "text",
   language_id: 880693982,
-  extensions: [
-    ".e",
-    ".ex",
-  ],
-  interpreters: [
-    "eui",
-    "euiw",
-  ],
+  extensions: [".e", ".ex"],
+  interpreters: ["eui", "euiw"],
 } as const;
 
 /**
@@ -3306,19 +2581,13 @@ export const Euphoria = {
 export const Fsharp = {
   type: "programming",
   color: "#b845fc",
-  aliases: [
-    "fsharp",
-  ],
+  aliases: ["fsharp"],
   tm_scope: "source.fsharp",
   ace_mode: "fsharp",
   codemirror_mode: "mllike",
   codemirror_mime_type: "text/x-fsharp",
   language_id: 105,
-  extensions: [
-    ".fs",
-    ".fsi",
-    ".fsx",
-  ],
+  extensions: [".fs", ".fsi", ".fsx"],
 } as const;
 
 /**
@@ -3327,16 +2596,11 @@ export const Fsharp = {
 export const Fstar = {
   type: "programming",
   color: "#572e30",
-  aliases: [
-    "fstar",
-  ],
+  aliases: ["fstar"],
   tm_scope: "source.fstar",
   ace_mode: "text",
   language_id: 336943375,
-  extensions: [
-    ".fst",
-    ".fsti",
-  ],
+  extensions: [".fst", ".fsti"],
   fs_name: "Fstar",
 } as const;
 
@@ -3346,15 +2610,11 @@ export const Fstar = {
 export const FIGletFont = {
   type: "data",
   color: "#FFDDBB",
-  aliases: [
-    "FIGfont",
-  ],
+  aliases: ["FIGfont"],
   tm_scope: "source.figfont",
   ace_mode: "text",
   language_id: 686129783,
-  extensions: [
-    ".flf",
-  ],
+  extensions: [".flf"],
 } as const;
 
 /**
@@ -3366,9 +2626,7 @@ export const FIRRTL = {
   tm_scope: "source.firrtl",
   ace_mode: "text",
   language_id: 906694254,
-  extensions: [
-    ".fir",
-  ],
+  extensions: [".fir"],
 } as const;
 
 /**
@@ -3380,10 +2638,7 @@ export const FLUX = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 106,
-  extensions: [
-    ".fx",
-    ".flux",
-  ],
+  extensions: [".fx", ".flux"],
 } as const;
 
 /**
@@ -3397,13 +2652,8 @@ export const Factor = {
   codemirror_mode: "factor",
   codemirror_mime_type: "text/x-factor",
   language_id: 108,
-  extensions: [
-    ".factor",
-  ],
-  filenames: [
-    ".factor-boot-rc",
-    ".factor-rc",
-  ],
+  extensions: [".factor"],
+  filenames: [".factor-boot-rc", ".factor-rc"],
 } as const;
 
 /**
@@ -3415,13 +2665,8 @@ export const Fancy = {
   tm_scope: "source.fancy",
   ace_mode: "text",
   language_id: 109,
-  extensions: [
-    ".fy",
-    ".fancypack",
-  ],
-  filenames: [
-    "Fakefile",
-  ],
+  extensions: [".fy", ".fancypack"],
+  filenames: ["Fakefile"],
 } as const;
 
 /**
@@ -3433,9 +2678,7 @@ export const Fantom = {
   tm_scope: "source.fan",
   ace_mode: "text",
   language_id: 110,
-  extensions: [
-    ".fan",
-  ],
+  extensions: [".fan"],
 } as const;
 
 /**
@@ -3447,9 +2690,7 @@ export const Faust = {
   tm_scope: "source.faust",
   ace_mode: "text",
   language_id: 622529198,
-  extensions: [
-    ".dsp",
-  ],
+  extensions: [".dsp"],
 } as const;
 
 /**
@@ -3461,12 +2702,8 @@ export const Fennel = {
   tm_scope: "source.fnl",
   ace_mode: "text",
   language_id: 239946126,
-  extensions: [
-    ".fnl",
-  ],
-  interpreters: [
-    "fennel",
-  ],
+  extensions: [".fnl"],
+  interpreters: ["fennel"],
 } as const;
 
 /**
@@ -3478,9 +2715,7 @@ export const FilebenchWML = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 111,
-  extensions: [
-    ".f",
-  ],
+  extensions: [".f"],
 } as const;
 
 /**
@@ -3492,9 +2727,7 @@ export const Filterscript = {
   ace_mode: "text",
   group: "RenderScript",
   language_id: 112,
-  extensions: [
-    ".fs",
-  ],
+  extensions: [".fs"],
 } as const;
 
 /**
@@ -3506,9 +2739,7 @@ export const FlatBuffers = {
   tm_scope: "source.flatbuffers",
   ace_mode: "text",
   language_id: 577640576,
-  extensions: [
-    ".fbs",
-  ],
+  extensions: [".fbs"],
 } as const;
 
 /**
@@ -3520,9 +2751,7 @@ export const Flix = {
   tm_scope: "source.flix",
   ace_mode: "flix",
   language_id: 800935960,
-  extensions: [
-    ".flix",
-  ],
+  extensions: [".flix"],
 } as const;
 
 /**
@@ -3534,9 +2763,7 @@ export const Fluent = {
   tm_scope: "source.ftl",
   ace_mode: "text",
   language_id: 206353404,
-  extensions: [
-    ".ftl",
-  ],
+  extensions: [".ftl"],
 } as const;
 
 /**
@@ -3547,10 +2774,7 @@ export const Formatted = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 113,
-  extensions: [
-    ".for",
-    ".eam.fs",
-  ],
+  extensions: [".for", ".eam.fs"],
 } as const;
 
 /**
@@ -3564,16 +2788,7 @@ export const Forth = {
   codemirror_mode: "forth",
   codemirror_mime_type: "text/x-forth",
   language_id: 114,
-  extensions: [
-    ".fth",
-    ".4th",
-    ".f",
-    ".for",
-    ".forth",
-    ".fr",
-    ".frt",
-    ".fs",
-  ],
+  extensions: [".fth", ".4th", ".f", ".for", ".forth", ".fr", ".frt", ".fs"],
 } as const;
 
 /**
@@ -3588,12 +2803,7 @@ export const Fortran = {
   codemirror_mime_type: "text/x-fortran",
   group: "Fortran",
   language_id: 107,
-  extensions: [
-    ".f",
-    ".f77",
-    ".for",
-    ".fpp",
-  ],
+  extensions: [".f", ".f77", ".for", ".fpp"],
 } as const;
 
 /**
@@ -3608,12 +2818,7 @@ export const FortranFreeForm = {
   codemirror_mime_type: "text/x-fortran",
   group: "Fortran",
   language_id: 761352333,
-  extensions: [
-    ".f90",
-    ".f03",
-    ".f08",
-    ".f95",
-  ],
+  extensions: [".f90", ".f03", ".f08", ".f95"],
 } as const;
 
 /**
@@ -3622,18 +2827,13 @@ export const FortranFreeForm = {
 export const FreeBASIC = {
   type: "programming",
   color: "#141AC9",
-  aliases: [
-    "fb",
-  ],
+  aliases: ["fb"],
   tm_scope: "source.vbnet",
   ace_mode: "text",
   codemirror_mode: "vb",
   codemirror_mime_type: "text/x-vb",
   language_id: 472896659,
-  extensions: [
-    ".bi",
-    ".bas",
-  ],
+  extensions: [".bi", ".bas"],
 } as const;
 
 /**
@@ -3642,16 +2842,11 @@ export const FreeBASIC = {
 export const FreeMarker = {
   type: "programming",
   color: "#0050b2",
-  aliases: [
-    "ftl",
-  ],
+  aliases: ["ftl"],
   tm_scope: "text.html.ftl",
   ace_mode: "ftl",
   language_id: 115,
-  extensions: [
-    ".ftl",
-    ".ftlh",
-  ],
+  extensions: [".ftl", ".ftlh"],
 } as const;
 
 /**
@@ -3663,9 +2858,7 @@ export const Frege = {
   tm_scope: "source.haskell",
   ace_mode: "haskell",
   language_id: 116,
-  extensions: [
-    ".fr",
-  ],
+  extensions: [".fr"],
 } as const;
 
 /**
@@ -3677,9 +2870,7 @@ export const Futhark = {
   tm_scope: "source.futhark",
   ace_mode: "text",
   language_id: 97358117,
-  extensions: [
-    ".fut",
-  ],
+  extensions: [".fut"],
 } as const;
 
 /**
@@ -3691,12 +2882,7 @@ export const G_code = {
   tm_scope: "source.gcode",
   ace_mode: "gcode",
   language_id: 117,
-  extensions: [
-    ".g",
-    ".cnc",
-    ".gco",
-    ".gcode",
-  ],
+  extensions: [".g", ".cnc", ".gco", ".gcode"],
 } as const;
 
 /**
@@ -3708,9 +2894,7 @@ export const GAML = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 290345951,
-  extensions: [
-    ".gaml",
-  ],
+  extensions: [".gaml"],
 } as const;
 
 /**
@@ -3722,9 +2906,7 @@ export const GAMS = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 118,
-  extensions: [
-    ".gms",
-  ],
+  extensions: [".gms"],
 } as const;
 
 /**
@@ -3736,13 +2918,7 @@ export const GAP = {
   tm_scope: "source.gap",
   ace_mode: "text",
   language_id: 119,
-  extensions: [
-    ".g",
-    ".gap",
-    ".gd",
-    ".gi",
-    ".tst",
-  ],
+  extensions: [".g", ".gap", ".gd", ".gi", ".tst"],
 } as const;
 
 /**
@@ -3756,9 +2932,7 @@ export const GCCMachineDescription = {
   codemirror_mode: "commonlisp",
   codemirror_mime_type: "text/x-common-lisp",
   language_id: 121,
-  extensions: [
-    ".md",
-  ],
+  extensions: [".md"],
 } as const;
 
 /**
@@ -3769,10 +2943,7 @@ export const GDB = {
   tm_scope: "source.gdb",
   ace_mode: "text",
   language_id: 122,
-  extensions: [
-    ".gdb",
-    ".gdbinit",
-  ],
+  extensions: [".gdb", ".gdbinit"],
 } as const;
 
 /**
@@ -3784,9 +2955,7 @@ export const GDScript = {
   tm_scope: "source.gdscript",
   ace_mode: "text",
   language_id: 123,
-  extensions: [
-    ".gd",
-  ],
+  extensions: [".gd"],
 } as const;
 
 /**
@@ -3798,10 +2967,7 @@ export const GDShader = {
   tm_scope: "source.gdshader",
   ace_mode: "glsl",
   language_id: 694638086,
-  extensions: [
-    ".gdshader",
-    ".gdshaderinc",
-  ],
+  extensions: [".gdshader", ".gdshaderinc"],
 } as const;
 
 /**
@@ -3813,9 +2979,7 @@ export const GEDCOM = {
   tm_scope: "source.gedcom",
   ace_mode: "text",
   language_id: 459577965,
-  extensions: [
-    ".ged",
-  ],
+  extensions: [".ged"],
 } as const;
 
 /**
@@ -3864,16 +3028,9 @@ export const GN = {
   codemirror_mode: "python",
   codemirror_mime_type: "text/x-python",
   language_id: 302957008,
-  extensions: [
-    ".gn",
-    ".gni",
-  ],
-  interpreters: [
-    "gn",
-  ],
-  filenames: [
-    ".gn",
-  ],
+  extensions: [".gn", ".gni"],
+  interpreters: ["gn"],
+  filenames: [".gn"],
 } as const;
 
 /**
@@ -3887,11 +3044,7 @@ export const GSC = {
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-csrc",
   language_id: 257856279,
-  extensions: [
-    ".gsc",
-    ".csc",
-    ".gsh",
-  ],
+  extensions: [".gsc", ".csc", ".gsh"],
 } as const;
 
 /**
@@ -3905,9 +3058,7 @@ export const GameMakerLanguage = {
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-c++src",
   language_id: 125,
-  extensions: [
-    ".gml",
-  ],
+  extensions: [".gml"],
 } as const;
 
 /**
@@ -3919,9 +3070,7 @@ export const Gemfilelock = {
   tm_scope: "source.gemfile-lock",
   ace_mode: "text",
   language_id: 907065713,
-  filenames: [
-    "Gemfile.lock",
-  ],
+  filenames: ["Gemfile.lock"],
   searchable: false,
 } as const;
 
@@ -3931,16 +3080,12 @@ export const Gemfilelock = {
 export const Gemini = {
   type: "prose",
   color: "#ff6900",
-  aliases: [
-    "gemtext",
-  ],
+  aliases: ["gemtext"],
   tm_scope: "source.gemini",
   ace_mode: "text",
   wrap: true,
   language_id: 310828396,
-  extensions: [
-    ".gmi",
-  ],
+  extensions: [".gmi"],
 } as const;
 
 /**
@@ -3952,9 +3097,7 @@ export const Genero4gl = {
   tm_scope: "source.genero-4gl",
   ace_mode: "text",
   language_id: 986054050,
-  extensions: [
-    ".4gl",
-  ],
+  extensions: [".4gl"],
 } as const;
 
 /**
@@ -3966,9 +3109,7 @@ export const Generoper = {
   tm_scope: "source.genero-per",
   ace_mode: "text",
   language_id: 902995658,
-  extensions: [
-    ".per",
-  ],
+  extensions: [".per"],
 } as const;
 
 /**
@@ -3980,9 +3121,7 @@ export const Genie = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 792408528,
-  extensions: [
-    ".gs",
-  ],
+  extensions: [".gs"],
 } as const;
 
 /**
@@ -3991,18 +3130,13 @@ export const Genie = {
 export const Genshi = {
   type: "programming",
   color: "#951531",
-  aliases: [
-    "xml+genshi",
-    "xml+kid",
-  ],
+  aliases: ["xml+genshi", "xml+kid"],
   tm_scope: "text.xml.genshi",
   ace_mode: "xml",
   codemirror_mode: "xml",
   codemirror_mime_type: "text/xml",
   language_id: 126,
-  extensions: [
-    ".kid",
-  ],
+  extensions: [".kid"],
 } as const;
 
 /**
@@ -4017,9 +3151,7 @@ export const GentooEbuild = {
   codemirror_mime_type: "text/x-sh",
   group: "Shell",
   language_id: 127,
-  extensions: [
-    ".ebuild",
-  ],
+  extensions: [".ebuild"],
 } as const;
 
 /**
@@ -4034,9 +3166,7 @@ export const GentooEclass = {
   codemirror_mime_type: "text/x-sh",
   group: "Shell",
   language_id: 128,
-  extensions: [
-    ".eclass",
-  ],
+  extensions: [".eclass"],
 } as const;
 
 /**
@@ -4045,9 +3175,7 @@ export const GentooEclass = {
 export const GerberImage = {
   type: "data",
   color: "#d20b00",
-  aliases: [
-    "rs-274x",
-  ],
+  aliases: ["rs-274x"],
   tm_scope: "source.gerber",
   ace_mode: "text",
   language_id: 404627610,
@@ -4069,10 +3197,7 @@ export const GerberImage = {
     ".ncl",
     ".sol",
   ],
-  interpreters: [
-    "gerbv",
-    "gerbview",
-  ],
+  interpreters: ["gerbv", "gerbview"],
 } as const;
 
 /**
@@ -4080,16 +3205,11 @@ export const GerberImage = {
  */
 export const GettextCatalog = {
   type: "prose",
-  aliases: [
-    "pot",
-  ],
+  aliases: ["pot"],
   tm_scope: "source.po",
   ace_mode: "text",
   language_id: 129,
-  extensions: [
-    ".po",
-    ".pot",
-  ],
+  extensions: [".po", ".pot"],
 } as const;
 
 /**
@@ -4098,18 +3218,13 @@ export const GettextCatalog = {
 export const Gherkin = {
   type: "programming",
   color: "#5B2063",
-  aliases: [
-    "cucumber",
-  ],
+  aliases: ["cucumber"],
   tm_scope: "text.gherkin.feature",
   ace_mode: "gherkin",
   codemirror_mode: "gherkin",
   codemirror_mime_type: "text/x-feature",
   language_id: 76,
-  extensions: [
-    ".feature",
-    ".story",
-  ],
+  extensions: [".feature", ".story"],
 } as const;
 
 /**
@@ -4118,17 +3233,13 @@ export const Gherkin = {
 export const GitAttributes = {
   type: "data",
   color: "#F44D27",
-  aliases: [
-    "gitattributes",
-  ],
+  aliases: ["gitattributes"],
   tm_scope: "source.gitattributes",
   ace_mode: "gitignore",
   codemirror_mode: "shell",
   codemirror_mime_type: "text/x-sh",
   language_id: 956324166,
-  filenames: [
-    ".gitattributes",
-  ],
+  filenames: [".gitattributes"],
 } as const;
 
 /**
@@ -4137,16 +3248,12 @@ export const GitAttributes = {
 export const GitCommit = {
   type: "data",
   color: "#F44D27",
-  aliases: [
-    "commit",
-  ],
+  aliases: ["commit"],
   tm_scope: "text.git-commit",
   ace_mode: "text",
   wrap: true,
   language_id: 131750475,
-  filenames: [
-    "COMMIT_EDITMSG",
-  ],
+  filenames: ["COMMIT_EDITMSG"],
 } as const;
 
 /**
@@ -4155,23 +3262,15 @@ export const GitCommit = {
 export const GitConfig = {
   type: "data",
   color: "#F44D27",
-  aliases: [
-    "gitconfig",
-    "gitmodules",
-  ],
+  aliases: ["gitconfig", "gitmodules"],
   tm_scope: "source.gitconfig",
   ace_mode: "ini",
   codemirror_mode: "properties",
   codemirror_mime_type: "text/x-properties",
   group: "INI",
   language_id: 807968997,
-  extensions: [
-    ".gitconfig",
-  ],
-  filenames: [
-    ".gitconfig",
-    ".gitmodules",
-  ],
+  extensions: [".gitconfig"],
+  filenames: [".gitconfig", ".gitmodules"],
 } as const;
 
 /**
@@ -4180,15 +3279,11 @@ export const GitConfig = {
 export const GitRevisionList = {
   type: "data",
   color: "#F44D27",
-  aliases: [
-    "Git Blame Ignore Revs",
-  ],
+  aliases: ["Git Blame Ignore Revs"],
   tm_scope: "source.git-revlist",
   ace_mode: "text",
   language_id: 461881235,
-  filenames: [
-    ".git-blame-ignore-revs",
-  ],
+  filenames: [".git-blame-ignore-revs"],
 } as const;
 
 /**
@@ -4200,9 +3295,7 @@ export const Gleam = {
   tm_scope: "source.gleam",
   ace_mode: "text",
   language_id: 1054258749,
-  extensions: [
-    ".gleam",
-  ],
+  extensions: [".gleam"],
 } as const;
 
 /**
@@ -4211,16 +3304,12 @@ export const Gleam = {
 export const GlimmerJS = {
   type: "programming",
   color: "#F5835F",
-  aliases: [
-    "gjs",
-  ],
+  aliases: ["gjs"],
   tm_scope: "source.gjs",
   ace_mode: "javascript",
   group: "JavaScript",
   language_id: 5523150,
-  extensions: [
-    ".gjs",
-  ],
+  extensions: [".gjs"],
 } as const;
 
 /**
@@ -4229,16 +3318,12 @@ export const GlimmerJS = {
 export const GlimmerTS = {
   type: "programming",
   color: "#3178c6",
-  aliases: [
-    "gts",
-  ],
+  aliases: ["gts"],
   tm_scope: "source.gts",
   ace_mode: "typescript",
   group: "TypeScript",
   language_id: 95110458,
-  extensions: [
-    ".gts",
-  ],
+  extensions: [".gts"],
 } as const;
 
 /**
@@ -4252,9 +3337,7 @@ export const Glyph = {
   codemirror_mode: "tcl",
   codemirror_mime_type: "text/x-tcl",
   language_id: 130,
-  extensions: [
-    ".glf",
-  ],
+  extensions: [".glf"],
 } as const;
 
 /**
@@ -4265,9 +3348,7 @@ export const GlyphBitmapDistributionFormat = {
   tm_scope: "source.bdf",
   ace_mode: "text",
   language_id: 997665271,
-  extensions: [
-    ".bdf",
-  ],
+  extensions: [".bdf"],
 } as const;
 
 /**
@@ -4279,17 +3360,8 @@ export const Gnuplot = {
   tm_scope: "source.gnuplot",
   ace_mode: "text",
   language_id: 131,
-  extensions: [
-    ".gp",
-    ".gnu",
-    ".gnuplot",
-    ".p",
-    ".plot",
-    ".plt",
-  ],
-  interpreters: [
-    "gnuplot",
-  ],
+  extensions: [".gp", ".gnu", ".gnuplot", ".p", ".plot", ".plt"],
+  interpreters: ["gnuplot"],
 } as const;
 
 /**
@@ -4298,17 +3370,13 @@ export const Gnuplot = {
 export const Go = {
   type: "programming",
   color: "#00ADD8",
-  aliases: [
-    "golang",
-  ],
+  aliases: ["golang"],
   tm_scope: "source.go",
   ace_mode: "golang",
   codemirror_mode: "go",
   codemirror_mime_type: "text/x-go",
   language_id: 132,
-  extensions: [
-    ".go",
-  ],
+  extensions: [".go"],
 } as const;
 
 /**
@@ -4317,19 +3385,11 @@ export const Go = {
 export const GoChecksums = {
   type: "data",
   color: "#00ADD8",
-  aliases: [
-    "go.sum",
-    "go sum",
-    "go.work.sum",
-    "go work sum",
-  ],
+  aliases: ["go.sum", "go sum", "go.work.sum", "go work sum"],
   tm_scope: "go.sum",
   ace_mode: "text",
   language_id: 1054391671,
-  filenames: [
-    "go.sum",
-    "go.work.sum",
-  ],
+  filenames: ["go.sum", "go.work.sum"],
 } as const;
 
 /**
@@ -4338,16 +3398,11 @@ export const GoChecksums = {
 export const GoModule = {
   type: "data",
   color: "#00ADD8",
-  aliases: [
-    "go.mod",
-    "go mod",
-  ],
+  aliases: ["go.mod", "go mod"],
   tm_scope: "go.mod",
   ace_mode: "text",
   language_id: 947461016,
-  filenames: [
-    "go.mod",
-  ],
+  filenames: ["go.mod"],
 } as const;
 
 /**
@@ -4356,22 +3411,12 @@ export const GoModule = {
 export const GoTemplate = {
   type: "markup",
   color: "#00ADD8",
-  aliases: [
-    "gotmpl",
-  ],
+  aliases: ["gotmpl"],
   tm_scope: "source.go-template",
   ace_mode: "text",
   language_id: 247918769,
-  extensions: [
-    ".gohtml",
-    ".gotmpl",
-    ".html.tmpl",
-    ".tmpl",
-    ".tpl",
-  ],
-  filenames: [
-    "_helpers.tpl",
-  ],
+  extensions: [".gohtml", ".gotmpl", ".html.tmpl", ".tmpl", ".tpl"],
+  filenames: ["_helpers.tpl"],
 } as const;
 
 /**
@@ -4380,16 +3425,11 @@ export const GoTemplate = {
 export const GoWorkspace = {
   type: "data",
   color: "#00ADD8",
-  aliases: [
-    "go.work",
-    "go work",
-  ],
+  aliases: ["go.work", "go work"],
   tm_scope: "go.mod",
   ace_mode: "text",
   language_id: 934546256,
-  filenames: [
-    "go.work",
-  ],
+  filenames: ["go.work"],
 } as const;
 
 /**
@@ -4401,15 +3441,8 @@ export const GodotResource = {
   tm_scope: "source.gdresource",
   ace_mode: "text",
   language_id: 738107771,
-  extensions: [
-    ".gdnlib",
-    ".gdns",
-    ".tres",
-    ".tscn",
-  ],
-  filenames: [
-    "project.godot",
-  ],
+  extensions: [".gdnlib", ".gdns", ".tres", ".tscn"],
+  filenames: ["project.godot"],
 } as const;
 
 /**
@@ -4421,9 +3454,7 @@ export const Golo = {
   tm_scope: "source.golo",
   ace_mode: "text",
   language_id: 133,
-  extensions: [
-    ".golo",
-  ],
+  extensions: [".golo"],
 } as const;
 
 /**
@@ -4435,12 +3466,7 @@ export const Gosu = {
   tm_scope: "source.gosu.2",
   ace_mode: "text",
   language_id: 134,
-  extensions: [
-    ".gs",
-    ".gst",
-    ".gsx",
-    ".vark",
-  ],
+  extensions: [".gs", ".gst", ".gsx", ".vark"],
 } as const;
 
 /**
@@ -4452,9 +3478,7 @@ export const Grace = {
   tm_scope: "source.grace",
   ace_mode: "text",
   language_id: 135,
-  extensions: [
-    ".grace",
-  ],
+  extensions: [".grace"],
 } as const;
 
 /**
@@ -4466,9 +3490,7 @@ export const Gradle = {
   tm_scope: "source.groovy.gradle",
   ace_mode: "text",
   language_id: 136,
-  extensions: [
-    ".gradle",
-  ],
+  extensions: [".gradle"],
 } as const;
 
 /**
@@ -4481,9 +3503,7 @@ export const GradleKotlinDSL = {
   ace_mode: "text",
   group: "Gradle",
   language_id: 432600901,
-  extensions: [
-    ".gradle.kts",
-  ],
+  extensions: [".gradle.kts"],
 } as const;
 
 /**
@@ -4492,17 +3512,13 @@ export const GradleKotlinDSL = {
 export const GrammaticalFramework = {
   type: "programming",
   color: "#ff0000",
-  aliases: [
-    "gf",
-  ],
+  aliases: ["gf"],
   tm_scope: "source.gf",
   ace_mode: "haskell",
   codemirror_mode: "haskell",
   codemirror_mime_type: "text/x-haskell",
   language_id: 137,
-  extensions: [
-    ".gf",
-  ],
+  extensions: [".gf"],
 } as const;
 
 /**
@@ -4513,9 +3529,7 @@ export const GraphModelingLanguage = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 138,
-  extensions: [
-    ".gml",
-  ],
+  extensions: [".gml"],
 } as const;
 
 /**
@@ -4527,11 +3541,7 @@ export const GraphQL = {
   tm_scope: "source.graphql",
   ace_mode: "graphqlschema",
   language_id: 139,
-  extensions: [
-    ".graphql",
-    ".gql",
-    ".graphqls",
-  ],
+  extensions: [".graphql", ".gql", ".graphqls"],
 } as const;
 
 /**
@@ -4543,10 +3553,7 @@ export const GraphvizDOT = {
   tm_scope: "source.dot",
   ace_mode: "dot",
   language_id: 140,
-  extensions: [
-    ".dot",
-    ".gv",
-  ],
+  extensions: [".dot", ".gv"],
 } as const;
 
 /**
@@ -4560,18 +3567,9 @@ export const Groovy = {
   codemirror_mode: "groovy",
   codemirror_mime_type: "text/x-groovy",
   language_id: 142,
-  extensions: [
-    ".groovy",
-    ".grt",
-    ".gtpl",
-    ".gvy",
-  ],
-  interpreters: [
-    "groovy",
-  ],
-  filenames: [
-    "Jenkinsfile",
-  ],
+  extensions: [".groovy", ".grt", ".gtpl", ".gvy"],
+  interpreters: ["groovy"],
+  filenames: ["Jenkinsfile"],
 } as const;
 
 /**
@@ -4580,19 +3578,14 @@ export const Groovy = {
 export const GroovyServerPages = {
   type: "programming",
   color: "#4298b8",
-  aliases: [
-    "gsp",
-    "java server page",
-  ],
+  aliases: ["gsp", "java server page"],
   tm_scope: "text.html.jsp",
   ace_mode: "jsp",
   codemirror_mode: "htmlembedded",
   codemirror_mime_type: "application/x-jsp",
   group: "Groovy",
   language_id: 143,
-  extensions: [
-    ".gsp",
-  ],
+  extensions: [".gsp"],
 } as const;
 
 /**
@@ -4604,12 +3597,8 @@ export const HAProxy = {
   tm_scope: "source.haproxy-config",
   ace_mode: "text",
   language_id: 366607477,
-  extensions: [
-    ".cfg",
-  ],
-  filenames: [
-    "haproxy.cfg",
-  ],
+  extensions: [".cfg"],
+  filenames: ["haproxy.cfg"],
 } as const;
 
 /**
@@ -4618,24 +3607,13 @@ export const HAProxy = {
 export const HCL = {
   type: "programming",
   color: "#844FBA",
-  aliases: [
-    "HashiCorp Configuration Language",
-    "opentofu",
-    "terraform",
-  ],
+  aliases: ["HashiCorp Configuration Language", "opentofu", "terraform"],
   tm_scope: "source.hcl",
   ace_mode: "terraform",
   codemirror_mode: "ruby",
   codemirror_mime_type: "text/x-ruby",
   language_id: 144,
-  extensions: [
-    ".hcl",
-    ".nomad",
-    ".tf",
-    ".tfvars",
-    ".tofu",
-    ".workflow",
-  ],
+  extensions: [".hcl", ".nomad", ".tf", ".tfvars", ".tofu", ".workflow"],
 } as const;
 
 /**
@@ -4649,9 +3627,7 @@ export const HIP = {
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-c++src",
   language_id: 674379998,
-  extensions: [
-    ".hip",
-  ],
+  extensions: [".hip"],
 } as const;
 
 /**
@@ -4663,13 +3639,7 @@ export const HLSL = {
   tm_scope: "source.hlsl",
   ace_mode: "text",
   language_id: 145,
-  extensions: [
-    ".hlsl",
-    ".cginc",
-    ".fx",
-    ".fxh",
-    ".hlsli",
-  ],
+  extensions: [".hlsl", ".cginc", ".fx", ".fxh", ".hlsli"],
 } as const;
 
 /**
@@ -4681,13 +3651,8 @@ export const HOCON = {
   tm_scope: "source.hocon",
   ace_mode: "text",
   language_id: 679725279,
-  extensions: [
-    ".hocon",
-  ],
-  filenames: [
-    ".scalafix.conf",
-    ".scalafmt.conf",
-  ],
+  extensions: [".hocon"],
+  filenames: [".scalafix.conf", ".scalafmt.conf"],
 } as const;
 
 /**
@@ -4696,23 +3661,13 @@ export const HOCON = {
 export const HTML = {
   type: "markup",
   color: "#e34c26",
-  aliases: [
-    "xhtml",
-  ],
+  aliases: ["xhtml"],
   tm_scope: "text.html.basic",
   ace_mode: "html",
   codemirror_mode: "htmlmixed",
   codemirror_mime_type: "text/html",
   language_id: 146,
-  extensions: [
-    ".html",
-    ".hta",
-    ".htm",
-    ".html.hl",
-    ".inc",
-    ".xht",
-    ".xhtml",
-  ],
+  extensions: [".html", ".hta", ".htm", ".html.hl", ".inc", ".xht", ".xhtml"],
 } as const;
 
 /**
@@ -4721,18 +3676,14 @@ export const HTML = {
 export const HTMLpECR = {
   type: "markup",
   color: "#2e1052",
-  aliases: [
-    "ecr",
-  ],
+  aliases: ["ecr"],
   tm_scope: "text.html.ecr",
   ace_mode: "html_ruby",
   codemirror_mode: "htmlmixed",
   codemirror_mime_type: "text/html",
   group: "HTML",
   language_id: 148,
-  extensions: [
-    ".ecr",
-  ],
+  extensions: [".ecr"],
 } as const;
 
 /**
@@ -4741,22 +3692,14 @@ export const HTMLpECR = {
 export const HTMLpEEX = {
   type: "markup",
   color: "#6e4a7e",
-  aliases: [
-    "eex",
-    "heex",
-    "leex",
-  ],
+  aliases: ["eex", "heex", "leex"],
   tm_scope: "text.html.elixir",
   ace_mode: "html_elixir",
   codemirror_mode: "htmlmixed",
   codemirror_mime_type: "text/html",
   group: "HTML",
   language_id: 149,
-  extensions: [
-    ".html.eex",
-    ".heex",
-    ".leex",
-  ],
+  extensions: [".html.eex", ".heex", ".leex"],
 } as const;
 
 /**
@@ -4765,22 +3708,14 @@ export const HTMLpEEX = {
 export const HTMLpERB = {
   type: "markup",
   color: "#701516",
-  aliases: [
-    "erb",
-    "rhtml",
-    "html+ruby",
-  ],
+  aliases: ["erb", "rhtml", "html+ruby"],
   tm_scope: "text.html.erb",
   ace_mode: "html_ruby",
   codemirror_mode: "htmlembedded",
   codemirror_mime_type: "application/x-erb",
   group: "HTML",
   language_id: 150,
-  extensions: [
-    ".erb",
-    ".erb.deface",
-    ".rhtml",
-  ],
+  extensions: [".erb", ".erb.deface", ".rhtml"],
 } as const;
 
 /**
@@ -4795,9 +3730,7 @@ export const HTMLpPHP = {
   codemirror_mime_type: "application/x-httpd-php",
   group: "HTML",
   language_id: 151,
-  extensions: [
-    ".phtml",
-  ],
+  extensions: [".phtml"],
 } as const;
 
 /**
@@ -4806,19 +3739,14 @@ export const HTMLpPHP = {
 export const HTMLpRazor = {
   type: "markup",
   color: "#512be4",
-  aliases: [
-    "razor",
-  ],
+  aliases: ["razor"],
   tm_scope: "text.html.cshtml",
   ace_mode: "razor",
   codemirror_mode: "htmlmixed",
   codemirror_mime_type: "text/html",
   group: "HTML",
   language_id: 479039817,
-  extensions: [
-    ".cshtml",
-    ".razor",
-  ],
+  extensions: [".cshtml", ".razor"],
 } as const;
 
 /**
@@ -4832,9 +3760,7 @@ export const HTTP = {
   codemirror_mode: "http",
   codemirror_mime_type: "message/http",
   language_id: 152,
-  extensions: [
-    ".http",
-  ],
+  extensions: [".http"],
 } as const;
 
 /**
@@ -4848,9 +3774,7 @@ export const HXML = {
   codemirror_mode: "haxe",
   codemirror_mime_type: "text/x-hxml",
   language_id: 786683730,
-  extensions: [
-    ".hxml",
-  ],
+  extensions: [".hxml"],
 } as const;
 
 /**
@@ -4864,12 +3788,7 @@ export const Hack = {
   codemirror_mode: "php",
   codemirror_mime_type: "application/x-httpd-php",
   language_id: 153,
-  extensions: [
-    ".hack",
-    ".hh",
-    ".hhi",
-    ".php",
-  ],
+  extensions: [".hack", ".hh", ".hhi", ".php"],
 } as const;
 
 /**
@@ -4883,10 +3802,7 @@ export const Haml = {
   codemirror_mode: "haml",
   codemirror_mime_type: "text/x-haml",
   language_id: 154,
-  extensions: [
-    ".haml",
-    ".haml.deface",
-  ],
+  extensions: [".haml", ".haml.deface"],
 } as const;
 
 /**
@@ -4895,17 +3811,11 @@ export const Haml = {
 export const Handlebars = {
   type: "markup",
   color: "#f7931e",
-  aliases: [
-    "hbs",
-    "htmlbars",
-  ],
+  aliases: ["hbs", "htmlbars"],
   tm_scope: "text.html.handlebars",
   ace_mode: "handlebars",
   language_id: 155,
-  extensions: [
-    ".handlebars",
-    ".hbs",
-  ],
+  extensions: [".handlebars", ".hbs"],
 } as const;
 
 /**
@@ -4917,9 +3827,7 @@ export const Harbour = {
   tm_scope: "source.harbour",
   ace_mode: "text",
   language_id: 156,
-  extensions: [
-    ".hb",
-  ],
+  extensions: [".hb"],
 } as const;
 
 /**
@@ -4931,9 +3839,7 @@ export const Hare = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 463518941,
-  extensions: [
-    ".ha",
-  ],
+  extensions: [".ha"],
 } as const;
 
 /**
@@ -4947,16 +3853,8 @@ export const Haskell = {
   codemirror_mode: "haskell",
   codemirror_mime_type: "text/x-haskell",
   language_id: 157,
-  extensions: [
-    ".hs",
-    ".hs-boot",
-    ".hsc",
-  ],
-  interpreters: [
-    "runghc",
-    "runhaskell",
-    "runhugs",
-  ],
+  extensions: [".hs", ".hs-boot", ".hsc"],
+  interpreters: ["runghc", "runhaskell", "runhugs"],
 } as const;
 
 /**
@@ -4970,10 +3868,7 @@ export const Haxe = {
   codemirror_mode: "haxe",
   codemirror_mime_type: "text/x-haxe",
   language_id: 158,
-  extensions: [
-    ".hx",
-    ".hxsl",
-  ],
+  extensions: [".hx", ".hxsl"],
 } as const;
 
 /**
@@ -4985,10 +3880,7 @@ export const HiveQL = {
   tm_scope: "source.hql",
   ace_mode: "sql",
   language_id: 931814087,
-  extensions: [
-    ".q",
-    ".hql",
-  ],
+  extensions: [".q", ".hql"],
 } as const;
 
 /**
@@ -5002,9 +3894,7 @@ export const HolyC = {
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-csrc",
   language_id: 928121743,
-  extensions: [
-    ".hc",
-  ],
+  extensions: [".hc"],
 } as const;
 
 /**
@@ -5013,17 +3903,11 @@ export const HolyC = {
 export const HostsFile = {
   type: "data",
   color: "#308888",
-  aliases: [
-    "hosts",
-  ],
+  aliases: ["hosts"],
   tm_scope: "source.hosts",
   ace_mode: "text",
   language_id: 231021894,
-  filenames: [
-    "HOSTS",
-    "hosts",
-    "hosts.txt",
-  ],
+  filenames: ["HOSTS", "hosts", "hosts.txt"],
 } as const;
 
 /**
@@ -5035,9 +3919,7 @@ export const Hurl = {
   tm_scope: "source.hurl",
   ace_mode: "text",
   language_id: 959040217,
-  extensions: [
-    ".hurl",
-  ],
+  extensions: [".hurl"],
 } as const;
 
 /**
@@ -5046,18 +3928,12 @@ export const Hurl = {
 export const Hy = {
   type: "programming",
   color: "#7790B2",
-  aliases: [
-    "hylang",
-  ],
+  aliases: ["hylang"],
   tm_scope: "source.hy",
   ace_mode: "text",
   language_id: 159,
-  extensions: [
-    ".hy",
-  ],
-  interpreters: [
-    "hy",
-  ],
+  extensions: [".hy"],
+  interpreters: ["hy"],
 } as const;
 
 /**
@@ -5068,9 +3944,7 @@ export const HyPhy = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 160,
-  extensions: [
-    ".bf",
-  ],
+  extensions: [".bf"],
 } as const;
 
 /**
@@ -5084,10 +3958,7 @@ export const IDL = {
   codemirror_mode: "idl",
   codemirror_mime_type: "text/x-idl",
   language_id: 161,
-  extensions: [
-    ".pro",
-    ".dlm",
-  ],
+  extensions: [".pro", ".dlm"],
 } as const;
 
 /**
@@ -5096,16 +3967,11 @@ export const IDL = {
 export const IGORPro = {
   type: "programming",
   color: "#0000cc",
-  aliases: [
-    "igor",
-    "igorpro",
-  ],
+  aliases: ["igor", "igorpro"],
   tm_scope: "source.igor",
   ace_mode: "text",
   language_id: 162,
-  extensions: [
-    ".ipf",
-  ],
+  extensions: [".ipf"],
 } as const;
 
 /**
@@ -5114,9 +3980,7 @@ export const IGORPro = {
 export const INI = {
   type: "data",
   color: "#d1dbe0",
-  aliases: [
-    "dosini",
-  ],
+  aliases: ["dosini"],
   tm_scope: "source.ini",
   ace_mode: "ini",
   codemirror_mode: "properties",
@@ -5152,19 +4016,13 @@ export const INI = {
  */
 export const IRClog = {
   type: "data",
-  aliases: [
-    "irc",
-    "irc logs",
-  ],
+  aliases: ["irc", "irc logs"],
   tm_scope: "none",
   ace_mode: "text",
   codemirror_mode: "mirc",
   codemirror_mime_type: "text/mirc",
   language_id: 164,
-  extensions: [
-    ".irclog",
-    ".weechatlog",
-  ],
+  extensions: [".irclog", ".weechatlog"],
 } as const;
 
 /**
@@ -5178,9 +4036,7 @@ export const ISPC = {
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-csrc",
   language_id: 327071,
-  extensions: [
-    ".ispc",
-  ],
+  extensions: [".ispc"],
 } as const;
 
 /**
@@ -5192,10 +4048,7 @@ export const Idris = {
   tm_scope: "source.idris",
   ace_mode: "text",
   language_id: 165,
-  extensions: [
-    ".idr",
-    ".lidr",
-  ],
+  extensions: [".idr", ".lidr"],
 } as const;
 
 /**
@@ -5204,19 +4057,13 @@ export const Idris = {
 export const IgnoreList = {
   type: "data",
   color: "#000000",
-  aliases: [
-    "ignore",
-    "gitignore",
-    "git-ignore",
-  ],
+  aliases: ["ignore", "gitignore", "git-ignore"],
   tm_scope: "source.gitignore",
   ace_mode: "gitignore",
   codemirror_mode: "shell",
   codemirror_mime_type: "text/x-sh",
   language_id: 74444240,
-  extensions: [
-    ".gitignore",
-  ],
+  extensions: [".gitignore"],
   filenames: [
     ".atomignore",
     ".babelignore",
@@ -5247,15 +4094,11 @@ export const IgnoreList = {
 export const ImageJMacro = {
   type: "programming",
   color: "#99AAFF",
-  aliases: [
-    "ijm",
-  ],
+  aliases: ["ijm"],
   tm_scope: "none",
   ace_mode: "text",
   language_id: 575143428,
-  extensions: [
-    ".ijm",
-  ],
+  extensions: [".ijm"],
 } as const;
 
 /**
@@ -5267,9 +4110,7 @@ export const Imba = {
   tm_scope: "source.imba",
   ace_mode: "text",
   language_id: 1057618448,
-  extensions: [
-    ".imba",
-  ],
+  extensions: [".imba"],
 } as const;
 
 /**
@@ -5277,18 +4118,12 @@ export const Imba = {
  */
 export const Inform7 = {
   type: "programming",
-  aliases: [
-    "i7",
-    "inform7",
-  ],
+  aliases: ["i7", "inform7"],
   tm_scope: "source.inform7",
   ace_mode: "text",
   wrap: true,
   language_id: 166,
-  extensions: [
-    ".ni",
-    ".i7x",
-  ],
+  extensions: [".ni", ".i7x"],
 } as const;
 
 /**
@@ -5300,9 +4135,7 @@ export const Ink = {
   ace_mode: "text",
   wrap: true,
   language_id: 838252715,
-  extensions: [
-    ".ink",
-  ],
+  extensions: [".ink"],
 } as const;
 
 /**
@@ -5314,10 +4147,7 @@ export const InnoSetup = {
   tm_scope: "source.inno",
   ace_mode: "text",
   language_id: 167,
-  extensions: [
-    ".iss",
-    ".isl",
-  ],
+  extensions: [".iss", ".isl"],
 } as const;
 
 /**
@@ -5329,12 +4159,8 @@ export const Io = {
   tm_scope: "source.io",
   ace_mode: "io",
   language_id: 168,
-  extensions: [
-    ".io",
-  ],
-  interpreters: [
-    "io",
-  ],
+  extensions: [".io"],
+  interpreters: ["io"],
 } as const;
 
 /**
@@ -5346,12 +4172,8 @@ export const Ioke = {
   tm_scope: "source.ioke",
   ace_mode: "text",
   language_id: 169,
-  extensions: [
-    ".ik",
-  ],
-  interpreters: [
-    "ioke",
-  ],
+  extensions: [".ik"],
+  interpreters: ["ioke"],
 } as const;
 
 /**
@@ -5363,9 +4185,7 @@ export const Isabelle = {
   tm_scope: "source.isabelle.theory",
   ace_mode: "text",
   language_id: 170,
-  extensions: [
-    ".thy",
-  ],
+  extensions: [".thy"],
 } as const;
 
 /**
@@ -5378,9 +4198,7 @@ export const IsabelleROOT = {
   ace_mode: "text",
   group: "Isabelle",
   language_id: 171,
-  filenames: [
-    "ROOT",
-  ],
+  filenames: ["ROOT"],
 } as const;
 
 /**
@@ -5392,12 +4210,8 @@ export const J = {
   tm_scope: "source.j",
   ace_mode: "text",
   language_id: 172,
-  extensions: [
-    ".ijs",
-  ],
-  interpreters: [
-    "jconsole",
-  ],
+  extensions: [".ijs"],
+  interpreters: ["jconsole"],
 } as const;
 
 /**
@@ -5409,9 +4223,7 @@ export const JARManifest = {
   tm_scope: "source.yaml",
   ace_mode: "text",
   language_id: 447261135,
-  filenames: [
-    "MANIFEST.MF",
-  ],
+  filenames: ["MANIFEST.MF"],
 } as const;
 
 /**
@@ -5423,9 +4235,7 @@ export const JCL = {
   tm_scope: "source.jcl",
   ace_mode: "text",
   language_id: 316620079,
-  extensions: [
-    ".jcl",
-  ],
+  extensions: [".jcl"],
 } as const;
 
 /**
@@ -5438,10 +4248,7 @@ export const JFlex = {
   ace_mode: "text",
   group: "Lex",
   language_id: 173,
-  extensions: [
-    ".flex",
-    ".jflex",
-  ],
+  extensions: [".flex", ".jflex"],
 } as const;
 
 /**
@@ -5450,12 +4257,7 @@ export const JFlex = {
 export const JSON = {
   type: "data",
   color: "#292929",
-  aliases: [
-    "geojson",
-    "jsonl",
-    "sarif",
-    "topojson",
-  ],
+  aliases: ["geojson", "jsonl", "sarif", "topojson"],
   tm_scope: "source.json",
   ace_mode: "json",
   codemirror_mode: "javascript",
@@ -5512,9 +4314,7 @@ export const JSON = {
 export const JSONwithComments = {
   type: "data",
   color: "#292929",
-  aliases: [
-    "jsonc",
-  ],
+  aliases: ["jsonc"],
   tm_scope: "source.json.comments",
   ace_mode: "javascript",
   codemirror_mode: "javascript",
@@ -5570,9 +4370,7 @@ export const JSON5 = {
   codemirror_mode: "javascript",
   codemirror_mime_type: "application/json",
   language_id: 175,
-  extensions: [
-    ".json5",
-  ],
+  extensions: [".json5"],
 } as const;
 
 /**
@@ -5586,9 +4384,7 @@ export const JSONLD = {
   codemirror_mode: "javascript",
   codemirror_mime_type: "application/ld+json",
   language_id: 176,
-  extensions: [
-    ".jsonld",
-  ],
+  extensions: [".jsonld"],
 } as const;
 
 /**
@@ -5602,9 +4398,7 @@ export const JSONiq = {
   codemirror_mode: "javascript",
   codemirror_mime_type: "application/json",
   language_id: 177,
-  extensions: [
-    ".jq",
-  ],
+  extensions: [".jq"],
 } as const;
 
 /**
@@ -5616,9 +4410,7 @@ export const Jac = {
   tm_scope: "source.jac",
   ace_mode: "text",
   language_id: 235277043,
-  extensions: [
-    ".jac",
-  ],
+  extensions: [".jac"],
 } as const;
 
 /**
@@ -5630,9 +4422,7 @@ export const Jai = {
   tm_scope: "source.jai",
   ace_mode: "text",
   language_id: 70127133,
-  extensions: [
-    ".jai",
-  ],
+  extensions: [".jai"],
 } as const;
 
 /**
@@ -5646,12 +4436,8 @@ export const Janet = {
   codemirror_mode: "scheme",
   codemirror_mime_type: "text/x-scheme",
   language_id: 1028705371,
-  extensions: [
-    ".janet",
-  ],
-  interpreters: [
-    "janet",
-  ],
+  extensions: [".janet"],
+  interpreters: ["janet"],
 } as const;
 
 /**
@@ -5663,9 +4449,7 @@ export const Jasmin = {
   tm_scope: "source.jasmin",
   ace_mode: "java",
   language_id: 180,
-  extensions: [
-    ".j",
-  ],
+  extensions: [".j"],
 } as const;
 
 /**
@@ -5679,11 +4463,7 @@ export const Java = {
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-java",
   language_id: 181,
-  extensions: [
-    ".java",
-    ".jav",
-    ".jsh",
-  ],
+  extensions: [".java", ".jav", ".jsh"],
 } as const;
 
 /**
@@ -5697,9 +4477,7 @@ export const JavaProperties = {
   codemirror_mode: "properties",
   codemirror_mime_type: "text/x-properties",
   language_id: 519377561,
-  extensions: [
-    ".properties",
-  ],
+  extensions: [".properties"],
 } as const;
 
 /**
@@ -5708,19 +4486,14 @@ export const JavaProperties = {
 export const JavaServerPages = {
   type: "programming",
   color: "#2A6277",
-  aliases: [
-    "jsp",
-  ],
+  aliases: ["jsp"],
   tm_scope: "text.html.jsp",
   ace_mode: "jsp",
   codemirror_mode: "htmlembedded",
   codemirror_mime_type: "application/x-jsp",
   group: "Java",
   language_id: 182,
-  extensions: [
-    ".jsp",
-    ".tag",
-  ],
+  extensions: [".jsp", ".tag"],
 } as const;
 
 /**
@@ -5729,16 +4502,12 @@ export const JavaServerPages = {
 export const JavaTemplateEngine = {
   type: "programming",
   color: "#2A6277",
-  aliases: [
-    "jte",
-  ],
+  aliases: ["jte"],
   tm_scope: "text.html.jte",
   ace_mode: "text",
   group: "Java",
   language_id: 599494012,
-  extensions: [
-    ".jte",
-  ],
+  extensions: [".jte"],
 } as const;
 
 /**
@@ -5747,10 +4516,7 @@ export const JavaTemplateEngine = {
 export const JavaScript = {
   type: "programming",
   color: "#f1e05a",
-  aliases: [
-    "js",
-    "node",
-  ],
+  aliases: ["js", "node"],
   tm_scope: "source.js",
   ace_mode: "javascript",
   codemirror_mode: "javascript",
@@ -5783,21 +4549,8 @@ export const JavaScript = {
     ".xsjs",
     ".xsjslib",
   ],
-  interpreters: [
-    "chakra",
-    "d8",
-    "gjs",
-    "js",
-    "node",
-    "nodejs",
-    "qjs",
-    "rhino",
-    "v8",
-    "v8-shell",
-  ],
-  filenames: [
-    "Jakefile",
-  ],
+  interpreters: ["chakra", "d8", "gjs", "js", "node", "nodejs", "qjs", "rhino", "v8", "v8-shell"],
+  filenames: ["Jakefile"],
 } as const;
 
 /**
@@ -5812,9 +4565,7 @@ export const JavaScriptpERB = {
   codemirror_mime_type: "application/javascript",
   group: "JavaScript",
   language_id: 914318960,
-  extensions: [
-    ".js.erb",
-  ],
+  extensions: [".js.erb"],
 } as const;
 
 /**
@@ -5828,9 +4579,7 @@ export const JestSnapshot = {
   codemirror_mode: "javascript",
   codemirror_mime_type: "application/javascript",
   language_id: 774635084,
-  extensions: [
-    ".snap",
-  ],
+  extensions: [".snap"],
 } as const;
 
 /**
@@ -5839,19 +4588,13 @@ export const JestSnapshot = {
 export const JetBrainsMPS = {
   type: "programming",
   color: "#21D789",
-  aliases: [
-    "mps",
-  ],
+  aliases: ["mps"],
   tm_scope: "none",
   ace_mode: "xml",
   codemirror_mode: "xml",
   codemirror_mime_type: "text/xml",
   language_id: 465165328,
-  extensions: [
-    ".mps",
-    ".mpl",
-    ".msd",
-  ],
+  extensions: [".mps", ".mpl", ".msd"],
 } as const;
 
 /**
@@ -5860,22 +4603,13 @@ export const JetBrainsMPS = {
 export const Jinja = {
   type: "markup",
   color: "#a52a22",
-  aliases: [
-    "django",
-    "html+django",
-    "html+jinja",
-    "htmldjango",
-  ],
+  aliases: ["django", "html+django", "html+jinja", "htmldjango"],
   tm_scope: "text.html.django",
   ace_mode: "django",
   codemirror_mode: "jinja2",
   codemirror_mime_type: "text/jinja2",
   language_id: 147,
-  extensions: [
-    ".jinja",
-    ".j2",
-    ".jinja2",
-  ],
+  extensions: [".jinja", ".j2", ".jinja2"],
 } as const;
 
 /**
@@ -5888,9 +4622,7 @@ export const Jison = {
   ace_mode: "text",
   group: "Yacc",
   language_id: 284531423,
-  extensions: [
-    ".jison",
-  ],
+  extensions: [".jison"],
 } as const;
 
 /**
@@ -5903,9 +4635,7 @@ export const JisonLex = {
   ace_mode: "text",
   group: "Lex",
   language_id: 406395330,
-  extensions: [
-    ".jisonlex",
-  ],
+  extensions: [".jisonlex"],
 } as const;
 
 /**
@@ -5917,13 +4647,8 @@ export const Jolie = {
   tm_scope: "source.jolie",
   ace_mode: "text",
   language_id: 998078858,
-  extensions: [
-    ".ol",
-    ".iol",
-  ],
-  interpreters: [
-    "jolie",
-  ],
+  extensions: [".ol", ".iol"],
+  interpreters: ["jolie"],
 } as const;
 
 /**
@@ -5935,10 +4660,7 @@ export const Jsonnet = {
   tm_scope: "source.jsonnet",
   ace_mode: "text",
   language_id: 664885656,
-  extensions: [
-    ".jsonnet",
-    ".libsonnet",
-  ],
+  extensions: [".jsonnet", ".libsonnet"],
 } as const;
 
 /**
@@ -5952,12 +4674,8 @@ export const Julia = {
   codemirror_mode: "julia",
   codemirror_mime_type: "text/x-julia",
   language_id: 184,
-  extensions: [
-    ".jl",
-  ],
-  interpreters: [
-    "julia",
-  ],
+  extensions: [".jl"],
+  interpreters: ["julia"],
 } as const;
 
 /**
@@ -5978,20 +4696,14 @@ export const JuliaREPL = {
 export const JupyterNotebook = {
   type: "markup",
   color: "#DA5B0B",
-  aliases: [
-    "IPython Notebook",
-  ],
+  aliases: ["IPython Notebook"],
   tm_scope: "source.json",
   ace_mode: "json",
   codemirror_mode: "javascript",
   codemirror_mime_type: "application/json",
   language_id: 185,
-  extensions: [
-    ".ipynb",
-  ],
-  filenames: [
-    "Notebook",
-  ],
+  extensions: [".ipynb"],
+  filenames: ["Notebook"],
 } as const;
 
 /**
@@ -6000,23 +4712,12 @@ export const JupyterNotebook = {
 export const Just = {
   type: "programming",
   color: "#384d54",
-  aliases: [
-    "Justfile",
-  ],
+  aliases: ["Justfile"],
   tm_scope: "source.just",
   ace_mode: "text",
   language_id: 128447695,
-  extensions: [
-    ".just",
-  ],
-  filenames: [
-    ".JUSTFILE",
-    ".Justfile",
-    ".justfile",
-    "JUSTFILE",
-    "Justfile",
-    "justfile",
-  ],
+  extensions: [".just"],
+  filenames: [".JUSTFILE", ".Justfile", ".justfile", "JUSTFILE", "Justfile", "justfile"],
 } as const;
 
 /**
@@ -6028,13 +4729,8 @@ export const KCL = {
   tm_scope: "source.kcl",
   ace_mode: "text",
   language_id: 1052003890,
-  extensions: [
-    ".k",
-  ],
-  filenames: [
-    "kcl.mod",
-    "kcl.mod.lock",
-  ],
+  extensions: [".k"],
+  filenames: ["kcl.mod", "kcl.mod.lock"],
 } as const;
 
 /**
@@ -6048,9 +4744,7 @@ export const KDL = {
   codemirror_mode: "yacas",
   codemirror_mime_type: "text/x-yacas",
   language_id: 931123626,
-  extensions: [
-    ".kdl",
-  ],
+  extensions: [".kdl"],
 } as const;
 
 /**
@@ -6062,9 +4756,7 @@ export const KFramework = {
   tm_scope: "text.k",
   ace_mode: "text",
   language_id: 9479532,
-  extensions: [
-    ".k",
-  ],
+  extensions: [".k"],
 } as const;
 
 /**
@@ -6076,9 +4768,7 @@ export const KRL = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 186,
-  extensions: [
-    ".krl",
-  ],
+  extensions: [".krl"],
 } as const;
 
 /**
@@ -6087,17 +4777,13 @@ export const KRL = {
 export const KaitaiStruct = {
   type: "programming",
   color: "#773b37",
-  aliases: [
-    "ksy",
-  ],
+  aliases: ["ksy"],
   tm_scope: "source.yaml",
   ace_mode: "yaml",
   codemirror_mode: "yaml",
   codemirror_mime_type: "text/x-yaml",
   language_id: 818804755,
-  extensions: [
-    ".ksy",
-  ],
+  extensions: [".ksy"],
 } as const;
 
 /**
@@ -6106,19 +4792,12 @@ export const KaitaiStruct = {
 export const KakouneScript = {
   type: "programming",
   color: "#6f8042",
-  aliases: [
-    "kak",
-    "kakscript",
-  ],
+  aliases: ["kak", "kakscript"],
   tm_scope: "source.kakscript",
   ace_mode: "text",
   language_id: 603336474,
-  extensions: [
-    ".kak",
-  ],
-  filenames: [
-    "kakrc",
-  ],
+  extensions: [".kak"],
+  filenames: ["kakrc"],
 } as const;
 
 /**
@@ -6130,9 +4809,7 @@ export const KerboScript = {
   tm_scope: "source.kerboscript",
   ace_mode: "text",
   language_id: 59716426,
-  extensions: [
-    ".ks",
-  ],
+  extensions: [".ks"],
 } as const;
 
 /**
@@ -6141,22 +4818,14 @@ export const KerboScript = {
 export const KiCadLayout = {
   type: "data",
   color: "#2f4aab",
-  aliases: [
-    "pcbnew",
-  ],
+  aliases: ["pcbnew"],
   tm_scope: "source.pcb.sexp",
   ace_mode: "lisp",
   codemirror_mode: "commonlisp",
   codemirror_mime_type: "text/x-common-lisp",
   language_id: 187,
-  extensions: [
-    ".kicad_pcb",
-    ".kicad_mod",
-    ".kicad_wks",
-  ],
-  filenames: [
-    "fp-lib-table",
-  ],
+  extensions: [".kicad_pcb", ".kicad_mod", ".kicad_wks"],
+  filenames: ["fp-lib-table"],
 } as const;
 
 /**
@@ -6168,9 +4837,7 @@ export const KiCadLegacyLayout = {
   tm_scope: "source.pcb.board",
   ace_mode: "text",
   language_id: 140848857,
-  extensions: [
-    ".brd",
-  ],
+  extensions: [".brd"],
 } as const;
 
 /**
@@ -6179,17 +4846,11 @@ export const KiCadLegacyLayout = {
 export const KiCadSchematic = {
   type: "data",
   color: "#2f4aab",
-  aliases: [
-    "eeschema schematic",
-  ],
+  aliases: ["eeschema schematic"],
   tm_scope: "source.pcb.schematic",
   ace_mode: "text",
   language_id: 622447435,
-  extensions: [
-    ".kicad_sch",
-    ".kicad_sym",
-    ".sch",
-  ],
+  extensions: [".kicad_sch", ".kicad_sym", ".sch"],
 } as const;
 
 /**
@@ -6200,9 +4861,7 @@ export const Kickstart = {
   tm_scope: "source.kickstart",
   ace_mode: "text",
   language_id: 692635484,
-  extensions: [
-    ".ks",
-  ],
+  extensions: [".ks"],
 } as const;
 
 /**
@@ -6215,9 +4874,7 @@ export const Kit = {
   codemirror_mode: "htmlmixed",
   codemirror_mime_type: "text/html",
   language_id: 188,
-  extensions: [
-    ".kit",
-  ],
+  extensions: [".kit"],
 } as const;
 
 /**
@@ -6229,9 +4886,7 @@ export const KoLmafiaASH = {
   tm_scope: "source.ash",
   ace_mode: "text",
   language_id: 852099832,
-  extensions: [
-    ".ash",
-  ],
+  extensions: [".ash"],
 } as const;
 
 /**
@@ -6243,12 +4898,8 @@ export const Koka = {
   tm_scope: "source.koka",
   ace_mode: "text",
   language_id: 597930447,
-  extensions: [
-    ".kk",
-  ],
-  interpreters: [
-    "koka",
-  ],
+  extensions: [".kk"],
+  interpreters: ["koka"],
 } as const;
 
 /**
@@ -6262,11 +4913,7 @@ export const Kotlin = {
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-kotlin",
   language_id: 189,
-  extensions: [
-    ".kt",
-    ".ktm",
-    ".kts",
-  ],
+  extensions: [".kt", ".ktm", ".kts"],
 } as const;
 
 /**
@@ -6277,10 +4924,7 @@ export const Kusto = {
   tm_scope: "source.kusto",
   ace_mode: "text",
   language_id: 225697190,
-  extensions: [
-    ".csl",
-    ".kql",
-  ],
+  extensions: [".csl", ".kql"],
 } as const;
 
 /**
@@ -6294,9 +4938,7 @@ export const LFE = {
   codemirror_mode: "commonlisp",
   codemirror_mime_type: "text/x-common-lisp",
   language_id: 190,
-  extensions: [
-    ".lfe",
-  ],
+  extensions: [".lfe"],
 } as const;
 
 /**
@@ -6308,9 +4950,7 @@ export const LLVM = {
   tm_scope: "source.llvm",
   ace_mode: "text",
   language_id: 191,
-  extensions: [
-    ".ll",
-  ],
+  extensions: [".ll"],
 } as const;
 
 /**
@@ -6322,9 +4962,7 @@ export const LOLCODE = {
   tm_scope: "source.lolcode",
   ace_mode: "text",
   language_id: 192,
-  extensions: [
-    ".lol",
-  ],
+  extensions: [".lol"],
 } as const;
 
 /**
@@ -6336,13 +4974,8 @@ export const LSL = {
   tm_scope: "source.lsl",
   ace_mode: "lsl",
   language_id: 193,
-  extensions: [
-    ".lsl",
-    ".lslp",
-  ],
-  interpreters: [
-    "lsl",
-  ],
+  extensions: [".lsl", ".lslp"],
+  interpreters: ["lsl"],
 } as const;
 
 /**
@@ -6355,9 +4988,7 @@ export const LTspiceSymbol = {
   codemirror_mode: "spreadsheet",
   codemirror_mime_type: "text/x-spreadsheet",
   language_id: 1013566805,
-  extensions: [
-    ".asy",
-  ],
+  extensions: [".asy"],
 } as const;
 
 /**
@@ -6371,11 +5002,7 @@ export const LabVIEW = {
   codemirror_mode: "xml",
   codemirror_mime_type: "text/xml",
   language_id: 194,
-  extensions: [
-    ".lvproj",
-    ".lvclass",
-    ".lvlib",
-  ],
+  extensions: [".lvproj", ".lvclass", ".lvlib"],
 } as const;
 
 /**
@@ -6387,9 +5014,7 @@ export const Lambdapi = {
   tm_scope: "source.lp",
   ace_mode: "text",
   language_id: 759240513,
-  extensions: [
-    ".lp",
-  ],
+  extensions: [".lp"],
 } as const;
 
 /**
@@ -6401,9 +5026,7 @@ export const Langium = {
   tm_scope: "source.langium",
   ace_mode: "text",
   language_id: 548603830,
-  extensions: [
-    ".langium",
-  ],
+  extensions: [".langium"],
 } as const;
 
 /**
@@ -6417,9 +5040,7 @@ export const Lark = {
   codemirror_mode: "ebnf",
   codemirror_mime_type: "text/x-ebnf",
   language_id: 758480799,
-  extensions: [
-    ".lark",
-  ],
+  extensions: [".lark"],
 } as const;
 
 /**
@@ -6428,18 +5049,11 @@ export const Lark = {
 export const Lasso = {
   type: "programming",
   color: "#999999",
-  aliases: [
-    "lassoscript",
-  ],
+  aliases: ["lassoscript"],
   tm_scope: "file.lasso",
   ace_mode: "text",
   language_id: 195,
-  extensions: [
-    ".lasso",
-    ".las",
-    ".lasso8",
-    ".lasso9",
-  ],
+  extensions: [".lasso", ".las", ".lasso8", ".lasso9"],
 } as const;
 
 /**
@@ -6453,9 +5067,7 @@ export const Latte = {
   codemirror_mode: "smarty",
   codemirror_mime_type: "text/x-smarty",
   language_id: 196,
-  extensions: [
-    ".latte",
-  ],
+  extensions: [".latte"],
 } as const;
 
 /**
@@ -6466,10 +5078,7 @@ export const Lean = {
   tm_scope: "source.lean",
   ace_mode: "text",
   language_id: 197,
-  extensions: [
-    ".lean",
-    ".hlean",
-  ],
+  extensions: [".lean", ".hlean"],
 } as const;
 
 /**
@@ -6477,16 +5086,12 @@ export const Lean = {
  */
 export const Lean4 = {
   type: "programming",
-  aliases: [
-    "lean4",
-  ],
+  aliases: ["lean4"],
   tm_scope: "source.lean4",
   ace_mode: "text",
   group: "Lean",
   language_id: 455147478,
-  extensions: [
-    ".lean",
-  ],
+  extensions: [".lean"],
 } as const;
 
 /**
@@ -6499,9 +5104,7 @@ export const Leo = {
   ace_mode: "text",
   wrap: true,
   language_id: 916034822,
-  extensions: [
-    ".leo",
-  ],
+  extensions: [".leo"],
 } as const;
 
 /**
@@ -6510,17 +5113,13 @@ export const Leo = {
 export const Less = {
   type: "markup",
   color: "#1d365d",
-  aliases: [
-    "less-css",
-  ],
+  aliases: ["less-css"],
   tm_scope: "source.css.less",
   ace_mode: "less",
   codemirror_mode: "css",
   codemirror_mime_type: "text/x-less",
   language_id: 198,
-  extensions: [
-    ".less",
-  ],
+  extensions: [".less"],
 } as const;
 
 /**
@@ -6529,20 +5128,12 @@ export const Less = {
 export const Lex = {
   type: "programming",
   color: "#DBCA00",
-  aliases: [
-    "flex",
-  ],
+  aliases: ["flex"],
   tm_scope: "source.lex",
   ace_mode: "text",
   language_id: 199,
-  extensions: [
-    ".l",
-    ".lex",
-  ],
-  filenames: [
-    "Lexer.x",
-    "lexer.x",
-  ],
+  extensions: [".l", ".lex"],
+  filenames: ["Lexer.x", "lexer.x"],
 } as const;
 
 /**
@@ -6557,9 +5148,7 @@ export const LigoLANG = {
   codemirror_mime_type: "text/x-pascal",
   group: "LigoLANG",
   language_id: 1040646257,
-  extensions: [
-    ".ligo",
-  ],
+  extensions: [".ligo"],
 } as const;
 
 /**
@@ -6571,10 +5160,7 @@ export const LilyPond = {
   tm_scope: "source.lilypond",
   ace_mode: "text",
   language_id: 200,
-  extensions: [
-    ".ly",
-    ".ily",
-  ],
+  extensions: [".ly", ".ily"],
 } as const;
 
 /**
@@ -6585,10 +5171,7 @@ export const Limbo = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 201,
-  extensions: [
-    ".b",
-    ".m",
-  ],
+  extensions: [".b", ".m"],
 } as const;
 
 /**
@@ -6599,9 +5182,7 @@ export const LinearProgramming = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 377204539,
-  extensions: [
-    ".lp",
-  ],
+  extensions: [".lp"],
 } as const;
 
 /**
@@ -6612,14 +5193,8 @@ export const LinkerScript = {
   tm_scope: "source.c.linker",
   ace_mode: "text",
   language_id: 202,
-  extensions: [
-    ".ld",
-    ".lds",
-    ".x",
-  ],
-  filenames: [
-    "ld.script",
-  ],
+  extensions: [".ld", ".lds", ".x"],
+  filenames: ["ld.script"],
 } as const;
 
 /**
@@ -6630,9 +5205,7 @@ export const LinuxKernelModule = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 203,
-  extensions: [
-    ".mod",
-  ],
+  extensions: [".mod"],
 } as const;
 
 /**
@@ -6644,9 +5217,7 @@ export const Liquid = {
   tm_scope: "text.html.liquid",
   ace_mode: "liquid",
   language_id: 204,
-  extensions: [
-    ".liquid",
-  ],
+  extensions: [".liquid"],
 } as const;
 
 /**
@@ -6658,9 +5229,7 @@ export const Liquidsoap = {
   tm_scope: "source.liquidsoap",
   ace_mode: "text",
   language_id: 614641732,
-  extensions: [
-    ".liq",
-  ],
+  extensions: [".liq"],
 } as const;
 
 /**
@@ -6673,9 +5242,7 @@ export const LiterateAgda = {
   ace_mode: "text",
   group: "Agda",
   language_id: 205,
-  extensions: [
-    ".lagda",
-  ],
+  extensions: [".lagda"],
 } as const;
 
 /**
@@ -6684,18 +5251,13 @@ export const LiterateAgda = {
 export const LiterateCoffeeScript = {
   type: "programming",
   color: "#244776",
-  aliases: [
-    "litcoffee",
-  ],
+  aliases: ["litcoffee"],
   tm_scope: "source.litcoffee",
   ace_mode: "text",
   wrap: true,
   group: "CoffeeScript",
   language_id: 206,
-  extensions: [
-    ".litcoffee",
-    ".coffee.md",
-  ],
+  extensions: [".litcoffee", ".coffee.md"],
 } as const;
 
 /**
@@ -6704,19 +5266,14 @@ export const LiterateCoffeeScript = {
 export const LiterateHaskell = {
   type: "programming",
   color: "#5e5086",
-  aliases: [
-    "lhaskell",
-    "lhs",
-  ],
+  aliases: ["lhaskell", "lhs"],
   tm_scope: "text.tex.latex.haskell",
   ace_mode: "text",
   codemirror_mode: "haskell-literate",
   codemirror_mime_type: "text/x-literate-haskell",
   group: "Haskell",
   language_id: 207,
-  extensions: [
-    ".lhs",
-  ],
+  extensions: [".lhs"],
 } as const;
 
 /**
@@ -6728,9 +5285,7 @@ export const LiveCodeScript = {
   tm_scope: "source.livecodescript",
   ace_mode: "text",
   language_id: 891017,
-  extensions: [
-    ".livecodescript",
-  ],
+  extensions: [".livecodescript"],
 } as const;
 
 /**
@@ -6739,22 +5294,14 @@ export const LiveCodeScript = {
 export const LiveScript = {
   type: "programming",
   color: "#499886",
-  aliases: [
-    "live-script",
-    "ls",
-  ],
+  aliases: ["live-script", "ls"],
   tm_scope: "source.livescript",
   ace_mode: "livescript",
   codemirror_mode: "livescript",
   codemirror_mime_type: "text/x-livescript",
   language_id: 208,
-  extensions: [
-    ".ls",
-    "._ls",
-  ],
-  filenames: [
-    "Slakefile",
-  ],
+  extensions: [".ls", "._ls"],
+  filenames: ["Slakefile"],
 } as const;
 
 /**
@@ -6765,11 +5312,7 @@ export const Logos = {
   tm_scope: "source.logos",
   ace_mode: "text",
   language_id: 209,
-  extensions: [
-    ".xm",
-    ".x",
-    ".xi",
-  ],
+  extensions: [".xm", ".x", ".xi"],
 } as const;
 
 /**
@@ -6781,10 +5324,7 @@ export const Logtalk = {
   tm_scope: "source.logtalk",
   ace_mode: "logtalk",
   language_id: 210,
-  extensions: [
-    ".lgt",
-    ".logtalk",
-  ],
+  extensions: [".lgt", ".logtalk"],
 } as const;
 
 /**
@@ -6798,10 +5338,7 @@ export const LookML = {
   codemirror_mode: "yaml",
   codemirror_mime_type: "text/x-yaml",
   language_id: 211,
-  extensions: [
-    ".lkml",
-    ".lookml",
-  ],
+  extensions: [".lkml", ".lookml"],
 } as const;
 
 /**
@@ -6812,9 +5349,7 @@ export const LoomScript = {
   tm_scope: "source.loomscript",
   ace_mode: "text",
   language_id: 212,
-  extensions: [
-    ".ls",
-  ],
+  extensions: [".ls"],
 } as const;
 
 /**
@@ -6828,23 +5363,9 @@ export const Lua = {
   codemirror_mode: "lua",
   codemirror_mime_type: "text/x-lua",
   language_id: 213,
-  extensions: [
-    ".lua",
-    ".fcgi",
-    ".nse",
-    ".p8",
-    ".pd_lua",
-    ".rbxs",
-    ".rockspec",
-    ".wlua",
-  ],
-  interpreters: [
-    "lua",
-    "luajit",
-  ],
-  filenames: [
-    ".luacheckrc",
-  ],
+  extensions: [".lua", ".fcgi", ".nse", ".p8", ".pd_lua", ".rbxs", ".rockspec", ".wlua"],
+  interpreters: ["lua", "luajit"],
+  filenames: [".luacheckrc"],
 } as const;
 
 /**
@@ -6858,12 +5379,8 @@ export const Luau = {
   codemirror_mode: "lua",
   codemirror_mime_type: "text/x-lua",
   language_id: 365050359,
-  extensions: [
-    ".luau",
-  ],
-  interpreters: [
-    "luau",
-  ],
+  extensions: [".luau"],
+  interpreters: ["luau"],
 } as const;
 
 /**
@@ -6871,18 +5388,13 @@ export const Luau = {
  */
 export const M = {
   type: "programming",
-  aliases: [
-    "mumps",
-  ],
+  aliases: ["mumps"],
   tm_scope: "none",
   ace_mode: "text",
   codemirror_mode: "mumps",
   codemirror_mime_type: "text/x-mumps",
   language_id: 214,
-  extensions: [
-    ".mumps",
-    ".m",
-  ],
+  extensions: [".mumps", ".m"],
 } as const;
 
 /**
@@ -6891,17 +5403,11 @@ export const M = {
 export const M3U = {
   type: "data",
   color: "#179C7D",
-  aliases: [
-    "hls playlist",
-    "m3u playlist",
-  ],
+  aliases: ["hls playlist", "m3u playlist"],
   tm_scope: "source.m3u",
   ace_mode: "text",
   language_id: 89638692,
-  extensions: [
-    ".m3u",
-    ".m3u8",
-  ],
+  extensions: [".m3u", ".m3u8"],
 } as const;
 
 /**
@@ -6912,10 +5418,7 @@ export const M4 = {
   tm_scope: "source.m4",
   ace_mode: "text",
   language_id: 215,
-  extensions: [
-    ".m4",
-    ".mc",
-  ],
+  extensions: [".m4", ".mc"],
 } as const;
 
 /**
@@ -6923,19 +5426,13 @@ export const M4 = {
  */
 export const M4Sugar = {
   type: "programming",
-  aliases: [
-    "autoconf",
-  ],
+  aliases: ["autoconf"],
   tm_scope: "source.m4",
   ace_mode: "text",
   group: "M4",
   language_id: 216,
-  extensions: [
-    ".m4",
-  ],
-  filenames: [
-    "configure.ac",
-  ],
+  extensions: [".m4"],
+  filenames: ["configure.ac"],
 } as const;
 
 /**
@@ -6944,18 +5441,13 @@ export const M4Sugar = {
 export const MATLAB = {
   type: "programming",
   color: "#e16737",
-  aliases: [
-    "octave",
-  ],
+  aliases: ["octave"],
   tm_scope: "source.matlab",
   ace_mode: "matlab",
   codemirror_mode: "octave",
   codemirror_mime_type: "text/x-octave",
   language_id: 225,
-  extensions: [
-    ".matlab",
-    ".m",
-  ],
+  extensions: [".matlab", ".m"],
 } as const;
 
 /**
@@ -6967,10 +5459,7 @@ export const MAXScript = {
   tm_scope: "source.maxscript",
   ace_mode: "text",
   language_id: 217,
-  extensions: [
-    ".ms",
-    ".mcr",
-  ],
+  extensions: [".ms", ".mcr"],
 } as const;
 
 /**
@@ -6985,9 +5474,7 @@ export const MDX = {
   codemirror_mime_type: "text/x-gfm",
   wrap: true,
   language_id: 512838272,
-  extensions: [
-    ".mdx",
-  ],
+  extensions: [".mdx"],
 } as const;
 
 /**
@@ -6999,9 +5486,7 @@ export const MLIR = {
   tm_scope: "source.mlir",
   ace_mode: "text",
   language_id: 448253929,
-  extensions: [
-    ".mlir",
-  ],
+  extensions: [".mlir"],
 } as const;
 
 /**
@@ -7013,10 +5498,7 @@ export const MQL4 = {
   tm_scope: "source.mql5",
   ace_mode: "c_cpp",
   language_id: 426,
-  extensions: [
-    ".mq4",
-    ".mqh",
-  ],
+  extensions: [".mq4", ".mqh"],
 } as const;
 
 /**
@@ -7028,10 +5510,7 @@ export const MQL5 = {
   tm_scope: "source.mql5",
   ace_mode: "c_cpp",
   language_id: 427,
-  extensions: [
-    ".mq5",
-    ".mqh",
-  ],
+  extensions: [".mq5", ".mqh"],
 } as const;
 
 /**
@@ -7045,9 +5524,7 @@ export const MTML = {
   codemirror_mode: "htmlmixed",
   codemirror_mime_type: "text/html",
   language_id: 218,
-  extensions: [
-    ".mtml",
-  ],
+  extensions: [".mtml"],
 } as const;
 
 /**
@@ -7061,10 +5538,7 @@ export const MUF = {
   codemirror_mime_type: "text/x-forth",
   group: "Forth",
   language_id: 219,
-  extensions: [
-    ".muf",
-    ".m",
-  ],
+  extensions: [".muf", ".m"],
 } as const;
 
 /**
@@ -7073,18 +5547,12 @@ export const MUF = {
 export const Macaulay2 = {
   type: "programming",
   color: "#d8ffff",
-  aliases: [
-    "m2",
-  ],
+  aliases: ["m2"],
   tm_scope: "source.m2",
   ace_mode: "text",
   language_id: 34167825,
-  extensions: [
-    ".m2",
-  ],
-  interpreters: [
-    "M2",
-  ],
+  extensions: [".m2"],
+  interpreters: ["M2"],
 } as const;
 
 /**
@@ -7093,27 +5561,14 @@ export const Macaulay2 = {
 export const Makefile = {
   type: "programming",
   color: "#427819",
-  aliases: [
-    "bsdmake",
-    "make",
-    "mf",
-  ],
+  aliases: ["bsdmake", "make", "mf"],
   tm_scope: "source.makefile",
   ace_mode: "makefile",
   codemirror_mode: "cmake",
   codemirror_mime_type: "text/x-cmake",
   language_id: 220,
-  extensions: [
-    ".mak",
-    ".d",
-    ".make",
-    ".makefile",
-    ".mk",
-    ".mkfile",
-  ],
-  interpreters: [
-    "make",
-  ],
+  extensions: [".mak", ".d", ".make", ".makefile", ".mk", ".mkfile"],
+  interpreters: ["make"],
   filenames: [
     "BSDmakefile",
     "GNUmakefile",
@@ -7140,10 +5595,7 @@ export const Mako = {
   tm_scope: "text.html.mako",
   ace_mode: "text",
   language_id: 221,
-  extensions: [
-    ".mako",
-    ".mao",
-  ],
+  extensions: [".mako", ".mao"],
 } as const;
 
 /**
@@ -7152,10 +5604,7 @@ export const Mako = {
 export const Markdown = {
   type: "prose",
   color: "#083fa1",
-  aliases: [
-    "md",
-    "pandoc",
-  ],
+  aliases: ["md", "pandoc"],
   tm_scope: "text.md",
   ace_mode: "markdown",
   codemirror_mode: "gfm",
@@ -7175,9 +5624,7 @@ export const Markdown = {
     ".scd",
     ".workbook",
   ],
-  filenames: [
-    "contents.lr",
-  ],
+  filenames: ["contents.lr"],
 } as const;
 
 /**
@@ -7186,17 +5633,13 @@ export const Markdown = {
 export const Marko = {
   type: "markup",
   color: "#42bff2",
-  aliases: [
-    "markojs",
-  ],
+  aliases: ["markojs"],
   tm_scope: "text.marko",
   ace_mode: "text",
   codemirror_mode: "htmlmixed",
   codemirror_mime_type: "text/html",
   language_id: 932782397,
-  extensions: [
-    ".marko",
-  ],
+  extensions: [".marko"],
 } as const;
 
 /**
@@ -7208,9 +5651,7 @@ export const Mask = {
   tm_scope: "source.mask",
   ace_mode: "mask",
   language_id: 223,
-  extensions: [
-    ".mask",
-  ],
+  extensions: [".mask"],
 } as const;
 
 /**
@@ -7222,9 +5663,7 @@ export const MathematicalProgrammingSystem = {
   tm_scope: "text.source.mps",
   ace_mode: "text",
   language_id: 429002699,
-  extensions: [
-    ".mps",
-  ],
+  extensions: [".mps"],
 } as const;
 
 /**
@@ -7238,9 +5677,7 @@ export const MavenPOM = {
   codemirror_mime_type: "text/xml",
   group: "XML",
   language_id: 226,
-  filenames: [
-    "pom.xml",
-  ],
+  filenames: ["pom.xml"],
 } as const;
 
 /**
@@ -7249,22 +5686,13 @@ export const MavenPOM = {
 export const Max = {
   type: "programming",
   color: "#c4a79c",
-  aliases: [
-    "max/msp",
-    "maxmsp",
-  ],
+  aliases: ["max/msp", "maxmsp"],
   tm_scope: "source.json",
   ace_mode: "json",
   codemirror_mode: "javascript",
   codemirror_mime_type: "application/json",
   language_id: 227,
-  extensions: [
-    ".maxpat",
-    ".maxhelp",
-    ".maxproj",
-    ".mxt",
-    ".pat",
-  ],
+  extensions: [".maxpat", ".maxhelp", ".maxproj", ".mxt", ".pat"],
 } as const;
 
 /**
@@ -7276,9 +5704,7 @@ export const MeTTa = {
   tm_scope: "source.metta",
   ace_mode: "text",
   language_id: 1037612668,
-  extensions: [
-    ".metta",
-  ],
+  extensions: [".metta"],
 } as const;
 
 /**
@@ -7290,13 +5716,8 @@ export const Mercury = {
   tm_scope: "source.mercury",
   ace_mode: "prolog",
   language_id: 229,
-  extensions: [
-    ".m",
-    ".moo",
-  ],
-  interpreters: [
-    "mmi",
-  ],
+  extensions: [".m", ".moo"],
+  interpreters: ["mmi"],
 } as const;
 
 /**
@@ -7305,16 +5726,11 @@ export const Mercury = {
 export const Mermaid = {
   type: "markup",
   color: "#ff3670",
-  aliases: [
-    "mermaid example",
-  ],
+  aliases: ["mermaid example"],
   tm_scope: "source.mermaid",
   ace_mode: "text",
   language_id: 385992043,
-  extensions: [
-    ".mmd",
-    ".mermaid",
-  ],
+  extensions: [".mmd", ".mermaid"],
 } as const;
 
 /**
@@ -7326,10 +5742,7 @@ export const Meson = {
   tm_scope: "source.meson",
   ace_mode: "text",
   language_id: 799141244,
-  filenames: [
-    "meson.build",
-    "meson_options.txt",
-  ],
+  filenames: ["meson.build", "meson_options.txt"],
 } as const;
 
 /**
@@ -7343,9 +5756,7 @@ export const Metal = {
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-c++src",
   language_id: 230,
-  extensions: [
-    ".metal",
-  ],
+  extensions: [".metal"],
 } as const;
 
 /**
@@ -7356,9 +5767,7 @@ export const MicrosoftDeveloperStudioProject = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 800983837,
-  extensions: [
-    ".dsp",
-  ],
+  extensions: [".dsp"],
 } as const;
 
 /**
@@ -7369,9 +5778,7 @@ export const MicrosoftVisualStudioSolution = {
   tm_scope: "source.solution",
   ace_mode: "text",
   language_id: 849523096,
-  extensions: [
-    ".sln",
-  ],
+  extensions: [".sln"],
 } as const;
 
 /**
@@ -7382,9 +5789,7 @@ export const MiniD = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 231,
-  extensions: [
-    ".minid",
-  ],
+  extensions: [".minid"],
 } as const;
 
 /**
@@ -7398,10 +5803,7 @@ export const MiniYAML = {
   codemirror_mode: "yaml",
   codemirror_mime_type: "text/x-yaml",
   language_id: 4896465,
-  extensions: [
-    ".yaml",
-    ".yml",
-  ],
+  extensions: [".yaml", ".yml"],
 } as const;
 
 /**
@@ -7413,9 +5815,7 @@ export const MiniZinc = {
   tm_scope: "source.mzn",
   ace_mode: "text",
   language_id: 238874535,
-  extensions: [
-    ".mzn",
-  ],
+  extensions: [".mzn"],
 } as const;
 
 /**
@@ -7426,9 +5826,7 @@ export const MiniZincData = {
   tm_scope: "source.mzn",
   ace_mode: "text",
   language_id: 938193433,
-  extensions: [
-    ".dzn",
-  ],
+  extensions: [".dzn"],
 } as const;
 
 /**
@@ -7440,9 +5838,7 @@ export const Mint = {
   tm_scope: "source.mint",
   ace_mode: "text",
   language_id: 968740319,
-  extensions: [
-    ".mint",
-  ],
+  extensions: [".mint"],
 } as const;
 
 /**
@@ -7456,11 +5852,7 @@ export const Mirah = {
   codemirror_mode: "ruby",
   codemirror_mime_type: "text/x-ruby",
   language_id: 232,
-  extensions: [
-    ".druby",
-    ".duby",
-    ".mirah",
-  ],
+  extensions: [".druby", ".duby", ".mirah"],
 } as const;
 
 /**
@@ -7474,9 +5866,7 @@ export const Modelica = {
   codemirror_mode: "modelica",
   codemirror_mime_type: "text/x-modelica",
   language_id: 233,
-  extensions: [
-    ".mo",
-  ],
+  extensions: [".mo"],
 } as const;
 
 /**
@@ -7488,9 +5878,7 @@ export const Modula_2 = {
   tm_scope: "source.modula2",
   ace_mode: "text",
   language_id: 234,
-  extensions: [
-    ".mod",
-  ],
+  extensions: [".mod"],
 } as const;
 
 /**
@@ -7502,12 +5890,7 @@ export const Modula_3 = {
   tm_scope: "source.modula-3",
   ace_mode: "text",
   language_id: 564743864,
-  extensions: [
-    ".i3",
-    ".ig",
-    ".m3",
-    ".mg",
-  ],
+  extensions: [".i3", ".ig", ".m3", ".mg"],
 } as const;
 
 /**
@@ -7518,14 +5901,8 @@ export const ModuleManagementSystem = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 235,
-  extensions: [
-    ".mms",
-    ".mmk",
-  ],
-  filenames: [
-    "descrip.mmk",
-    "descrip.mms",
-  ],
+  extensions: [".mms", ".mmk"],
+  filenames: ["descrip.mmk", "descrip.mms"],
 } as const;
 
 /**
@@ -7539,9 +5916,7 @@ export const Mojo = {
   codemirror_mode: "python",
   codemirror_mime_type: "text/x-python",
   language_id: 1045019587,
-  extensions: [
-    ".mojo",
-  ],
+  extensions: [".mojo"],
 } as const;
 
 /**
@@ -7552,10 +5927,7 @@ export const Monkey = {
   tm_scope: "source.monkey",
   ace_mode: "text",
   language_id: 236,
-  extensions: [
-    ".monkey",
-    ".monkey2",
-  ],
+  extensions: [".monkey", ".monkey2"],
 } as const;
 
 /**
@@ -7569,9 +5941,7 @@ export const MonkeyC = {
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-csrc",
   language_id: 231751931,
-  extensions: [
-    ".mc",
-  ],
+  extensions: [".mc"],
 } as const;
 
 /**
@@ -7582,9 +5952,7 @@ export const Moocode = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 237,
-  extensions: [
-    ".moo",
-  ],
+  extensions: [".moo"],
 } as const;
 
 /**
@@ -7596,9 +5964,7 @@ export const MoonBit = {
   tm_scope: "source.moonbit",
   ace_mode: "text",
   language_id: 181453007,
-  extensions: [
-    ".mbt",
-  ],
+  extensions: [".mbt"],
 } as const;
 
 /**
@@ -7610,12 +5976,8 @@ export const MoonScript = {
   tm_scope: "source.moonscript",
   ace_mode: "text",
   language_id: 238,
-  extensions: [
-    ".moon",
-  ],
-  interpreters: [
-    "moon",
-  ],
+  extensions: [".moon"],
+  interpreters: ["moon"],
 } as const;
 
 /**
@@ -7627,9 +5989,7 @@ export const Motoko = {
   tm_scope: "source.mo",
   ace_mode: "text",
   language_id: 202937027,
-  extensions: [
-    ".mo",
-  ],
+  extensions: [".mo"],
 } as const;
 
 /**
@@ -7638,20 +5998,12 @@ export const Motoko = {
 export const Motorola68KAssembly = {
   type: "programming",
   color: "#005daa",
-  aliases: [
-    "m68k",
-  ],
+  aliases: ["m68k"],
   tm_scope: "source.m68k",
   ace_mode: "assembly_x86",
   group: "Assembly",
   language_id: 477582706,
-  extensions: [
-    ".asm",
-    ".i",
-    ".inc",
-    ".s",
-    ".x68",
-  ],
+  extensions: [".asm", ".i", ".inc", ".s", ".x68"],
 } as const;
 
 /**
@@ -7663,9 +6015,7 @@ export const Move = {
   tm_scope: "source.move",
   ace_mode: "text",
   language_id: 638334599,
-  extensions: [
-    ".move",
-  ],
+  extensions: [".move"],
 } as const;
 
 /**
@@ -7673,17 +6023,12 @@ export const Move = {
  */
 export const Muse = {
   type: "prose",
-  aliases: [
-    "amusewiki",
-    "emacs muse",
-  ],
+  aliases: ["amusewiki", "emacs muse"],
   tm_scope: "text.muse",
   ace_mode: "text",
   wrap: true,
   language_id: 474864066,
-  extensions: [
-    ".muse",
-  ],
+  extensions: [".muse"],
 } as const;
 
 /**
@@ -7697,9 +6042,7 @@ export const Mustache = {
   codemirror_mode: "smarty",
   codemirror_mime_type: "text/x-smarty",
   language_id: 638334590,
-  extensions: [
-    ".mustache",
-  ],
+  extensions: [".mustache"],
 } as const;
 
 /**
@@ -7710,9 +6053,7 @@ export const Myghty = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 239,
-  extensions: [
-    ".myt",
-  ],
+  extensions: [".myt"],
 } as const;
 
 /**
@@ -7723,10 +6064,7 @@ export const NASL = {
   tm_scope: "source.nasl",
   ace_mode: "text",
   language_id: 171666519,
-  extensions: [
-    ".nasl",
-    ".inc",
-  ],
+  extensions: [".nasl", ".inc"],
 } as const;
 
 /**
@@ -7738,9 +6076,7 @@ export const NCL = {
   tm_scope: "source.ncl",
   ace_mode: "text",
   language_id: 240,
-  extensions: [
-    ".ncl",
-  ],
+  extensions: [".ncl"],
 } as const;
 
 /**
@@ -7748,16 +6084,11 @@ export const NCL = {
  */
 export const NEON = {
   type: "data",
-  aliases: [
-    "nette object notation",
-    "ne-on",
-  ],
+  aliases: ["nette object notation", "ne-on"],
   tm_scope: "source.neon",
   ace_mode: "text",
   language_id: 481192983,
-  extensions: [
-    ".neon",
-  ],
+  extensions: [".neon"],
 } as const;
 
 /**
@@ -7768,9 +6099,7 @@ export const NL = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 241,
-  extensions: [
-    ".nl",
-  ],
+  extensions: [".nl"],
 } as const;
 
 /**
@@ -7782,9 +6111,7 @@ export const NMODL = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 136456478,
-  extensions: [
-    ".mod",
-  ],
+  extensions: [".mod"],
 } as const;
 
 /**
@@ -7793,16 +6120,12 @@ export const NMODL = {
 export const NPMConfig = {
   type: "data",
   color: "#cb3837",
-  aliases: [
-    "npmrc",
-  ],
+  aliases: ["npmrc"],
   tm_scope: "source.ini.npmrc",
   ace_mode: "text",
   group: "INI",
   language_id: 685022663,
-  filenames: [
-    ".npmrc",
-  ],
+  filenames: [".npmrc"],
 } as const;
 
 /**
@@ -7815,10 +6138,7 @@ export const NSIS = {
   codemirror_mode: "nsis",
   codemirror_mime_type: "text/x-nsis",
   language_id: 242,
-  extensions: [
-    ".nsi",
-    ".nsh",
-  ],
+  extensions: [".nsi", ".nsh"],
 } as const;
 
 /**
@@ -7832,9 +6152,7 @@ export const NWScript = {
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-csrc",
   language_id: 731233819,
-  extensions: [
-    ".nss",
-  ],
+  extensions: [".nss"],
 } as const;
 
 /**
@@ -7846,9 +6164,7 @@ export const Nasal = {
   tm_scope: "source.nasal",
   ace_mode: "nasal",
   language_id: 178322513,
-  extensions: [
-    ".nas",
-  ],
+  extensions: [".nas"],
 } as const;
 
 /**
@@ -7860,10 +6176,7 @@ export const Nearley = {
   tm_scope: "source.ne",
   ace_mode: "text",
   language_id: 521429430,
-  extensions: [
-    ".ne",
-    ".nearley",
-  ],
+  extensions: [".ne", ".nearley"],
 } as const;
 
 /**
@@ -7875,9 +6188,7 @@ export const Nemerle = {
   tm_scope: "source.nemerle",
   ace_mode: "text",
   language_id: 243,
-  extensions: [
-    ".n",
-  ],
+  extensions: [".n"],
 } as const;
 
 /**
@@ -7889,10 +6200,7 @@ export const NetLinx = {
   tm_scope: "source.netlinx",
   ace_mode: "text",
   language_id: 244,
-  extensions: [
-    ".axs",
-    ".axi",
-  ],
+  extensions: [".axs", ".axi"],
 } as const;
 
 /**
@@ -7904,10 +6212,7 @@ export const NetLinxpERB = {
   tm_scope: "source.netlinx.erb",
   ace_mode: "text",
   language_id: 245,
-  extensions: [
-    ".axs.erb",
-    ".axi.erb",
-  ],
+  extensions: [".axs.erb", ".axi.erb"],
 } as const;
 
 /**
@@ -7921,9 +6226,7 @@ export const NetLogo = {
   codemirror_mode: "commonlisp",
   codemirror_mime_type: "text/x-common-lisp",
   language_id: 246,
-  extensions: [
-    ".nlogo",
-  ],
+  extensions: [".nlogo"],
 } as const;
 
 /**
@@ -7937,14 +6240,8 @@ export const NewLisp = {
   codemirror_mode: "commonlisp",
   codemirror_mime_type: "text/x-common-lisp",
   language_id: 247,
-  extensions: [
-    ".nl",
-    ".lisp",
-    ".lsp",
-  ],
-  interpreters: [
-    "newlisp",
-  ],
+  extensions: [".nl", ".lisp", ".lsp"],
+  interpreters: ["newlisp"],
 } as const;
 
 /**
@@ -7956,15 +6253,9 @@ export const Nextflow = {
   tm_scope: "source.nextflow",
   ace_mode: "groovy",
   language_id: 506780613,
-  extensions: [
-    ".nf",
-  ],
-  interpreters: [
-    "nextflow",
-  ],
-  filenames: [
-    "nextflow.config",
-  ],
+  extensions: [".nf"],
+  interpreters: ["nextflow"],
+  filenames: ["nextflow.config"],
 } as const;
 
 /**
@@ -7973,22 +6264,14 @@ export const Nextflow = {
 export const Nginx = {
   type: "data",
   color: "#009639",
-  aliases: [
-    "nginx configuration file",
-  ],
+  aliases: ["nginx configuration file"],
   tm_scope: "source.nginx",
   ace_mode: "nginx",
   codemirror_mode: "nginx",
   codemirror_mime_type: "text/x-nginx-conf",
   language_id: 248,
-  extensions: [
-    ".nginx",
-    ".nginxconf",
-    ".vhost",
-  ],
-  filenames: [
-    "nginx.conf",
-  ],
+  extensions: [".nginx", ".nginxconf", ".vhost"],
+  filenames: ["nginx.conf"],
 } as const;
 
 /**
@@ -8000,9 +6283,7 @@ export const Nickel = {
   tm_scope: "source.nickel",
   ace_mode: "text",
   language_id: 1067292664,
-  extensions: [
-    ".ncl",
-  ],
+  extensions: [".ncl"],
 } as const;
 
 /**
@@ -8014,16 +6295,8 @@ export const Nim = {
   tm_scope: "source.nim",
   ace_mode: "nim",
   language_id: 249,
-  extensions: [
-    ".nim",
-    ".nim.cfg",
-    ".nimble",
-    ".nimrod",
-    ".nims",
-  ],
-  filenames: [
-    "nim.cfg",
-  ],
+  extensions: [".nim", ".nim.cfg", ".nimble", ".nimrod", ".nims"],
+  filenames: ["nim.cfg"],
 } as const;
 
 /**
@@ -8034,9 +6307,7 @@ export const Ninja = {
   tm_scope: "source.ninja",
   ace_mode: "text",
   language_id: 250,
-  extensions: [
-    ".ninja",
-  ],
+  extensions: [".ninja"],
 } as const;
 
 /**
@@ -8048,9 +6319,7 @@ export const Nit = {
   tm_scope: "source.nit",
   ace_mode: "text",
   language_id: 251,
-  extensions: [
-    ".nit",
-  ],
+  extensions: [".nit"],
 } as const;
 
 /**
@@ -8059,15 +6328,11 @@ export const Nit = {
 export const Nix = {
   type: "programming",
   color: "#7e7eff",
-  aliases: [
-    "nixos",
-  ],
+  aliases: ["nixos"],
   tm_scope: "source.nix",
   ace_mode: "nix",
   language_id: 252,
-  extensions: [
-    ".nix",
-  ],
+  extensions: [".nix"],
 } as const;
 
 /**
@@ -8076,17 +6341,13 @@ export const Nix = {
 export const Noir = {
   type: "programming",
   color: "#2f1f49",
-  aliases: [
-    "nargo",
-  ],
+  aliases: ["nargo"],
   tm_scope: "source.nr",
   ace_mode: "rust",
   codemirror_mode: "rust",
   codemirror_mime_type: "text/x-rustsrc",
   language_id: 813068465,
-  extensions: [
-    ".nr",
-  ],
+  extensions: [".nr"],
 } as const;
 
 /**
@@ -8095,23 +6356,15 @@ export const Noir = {
 export const Nu = {
   type: "programming",
   color: "#c9df40",
-  aliases: [
-    "nush",
-  ],
+  aliases: ["nush"],
   tm_scope: "source.nu",
   ace_mode: "scheme",
   codemirror_mode: "scheme",
   codemirror_mime_type: "text/x-scheme",
   language_id: 253,
-  extensions: [
-    ".nu",
-  ],
-  interpreters: [
-    "nush",
-  ],
-  filenames: [
-    "Nukefile",
-  ],
+  extensions: [".nu"],
+  interpreters: ["nush"],
+  filenames: ["Nukefile"],
 } as const;
 
 /**
@@ -8126,11 +6379,7 @@ export const NumPy = {
   codemirror_mime_type: "text/x-python",
   group: "Python",
   language_id: 254,
-  extensions: [
-    ".numpy",
-    ".numpyw",
-    ".numsc",
-  ],
+  extensions: [".numpy", ".numpyw", ".numsc"],
 } as const;
 
 /**
@@ -8139,15 +6388,11 @@ export const NumPy = {
 export const Nunjucks = {
   type: "markup",
   color: "#3d8137",
-  aliases: [
-    "njk",
-  ],
+  aliases: ["njk"],
   tm_scope: "text.html.nunjucks",
   ace_mode: "nunjucks",
   language_id: 461856962,
-  extensions: [
-    ".njk",
-  ],
+  extensions: [".njk"],
 } as const;
 
 /**
@@ -8156,21 +6401,14 @@ export const Nunjucks = {
 export const Nushell = {
   type: "programming",
   color: "#4E9906",
-  aliases: [
-    "nu-script",
-    "nushell-script",
-  ],
+  aliases: ["nu-script", "nushell-script"],
   tm_scope: "source.nushell",
   ace_mode: "sh",
   codemirror_mode: "shell",
   codemirror_mime_type: "text/x-sh",
   language_id: 446573572,
-  extensions: [
-    ".nu",
-  ],
-  interpreters: [
-    "nu",
-  ],
+  extensions: [".nu"],
+  interpreters: ["nu"],
 } as const;
 
 /**
@@ -8185,9 +6423,7 @@ export const OASv2_json = {
   codemirror_mime_type: "application/json",
   group: "OpenAPI Specification v2",
   language_id: 834374816,
-  extensions: [
-    ".json",
-  ],
+  extensions: [".json"],
 } as const;
 
 /**
@@ -8202,10 +6438,7 @@ export const OASv2_yaml = {
   codemirror_mime_type: "text/x-yaml",
   group: "OpenAPI Specification v2",
   language_id: 105187618,
-  extensions: [
-    ".yaml",
-    ".yml",
-  ],
+  extensions: [".yaml", ".yml"],
 } as const;
 
 /**
@@ -8220,9 +6453,7 @@ export const OASv3_json = {
   codemirror_mime_type: "application/json",
   group: "OpenAPI Specification v3",
   language_id: 980062566,
-  extensions: [
-    ".json",
-  ],
+  extensions: [".json"],
 } as const;
 
 /**
@@ -8237,10 +6468,7 @@ export const OASv3_yaml = {
   codemirror_mime_type: "text/x-yaml",
   group: "OpenAPI Specification v3",
   language_id: 51239111,
-  extensions: [
-    ".yaml",
-    ".yml",
-  ],
+  extensions: [".yaml", ".yml"],
 } as const;
 
 /**
@@ -8254,20 +6482,8 @@ export const OCaml = {
   codemirror_mode: "mllike",
   codemirror_mime_type: "text/x-ocaml",
   language_id: 255,
-  extensions: [
-    ".ml",
-    ".eliom",
-    ".eliomi",
-    ".ml4",
-    ".mli",
-    ".mll",
-    ".mly",
-  ],
-  interpreters: [
-    "ocaml",
-    "ocamlrun",
-    "ocamlscript",
-  ],
+  extensions: [".ml", ".eliom", ".eliomi", ".ml4", ".mli", ".mll", ".mly"],
+  interpreters: ["ocaml", "ocamlrun", "ocamlscript"],
 } as const;
 
 /**
@@ -8276,15 +6492,11 @@ export const OCaml = {
 export const OMNeTppMSG = {
   type: "programming",
   color: "#a0e0a0",
-  aliases: [
-    "omnetpp-msg",
-  ],
+  aliases: ["omnetpp-msg"],
   tm_scope: "source.msg",
   ace_mode: "text",
   language_id: 664100008,
-  extensions: [
-    ".msg",
-  ],
+  extensions: [".msg"],
 } as const;
 
 /**
@@ -8293,15 +6505,11 @@ export const OMNeTppMSG = {
 export const OMNeTppNED = {
   type: "programming",
   color: "#08607c",
-  aliases: [
-    "omnetpp-ned",
-  ],
+  aliases: ["omnetpp-ned"],
   tm_scope: "source.ned",
   ace_mode: "text",
   language_id: 924868392,
-  extensions: [
-    ".ned",
-  ],
+  extensions: [".ned"],
 } as const;
 
 /**
@@ -8312,9 +6520,7 @@ export const Oberon = {
   tm_scope: "source.modula2",
   ace_mode: "text",
   language_id: 677210597,
-  extensions: [
-    ".ob2",
-  ],
+  extensions: [".ob2"],
 } as const;
 
 /**
@@ -8325,9 +6531,7 @@ export const ObjDump = {
   tm_scope: "objdump.x86asm",
   ace_mode: "assembly_x86",
   language_id: 256,
-  extensions: [
-    ".objdump",
-  ],
+  extensions: [".objdump"],
 } as const;
 
 /**
@@ -8338,9 +6542,7 @@ export const ObjectDataInstanceNotation = {
   tm_scope: "source.odin-ehr",
   ace_mode: "text",
   language_id: 985227236,
-  extensions: [
-    ".odin",
-  ],
+  extensions: [".odin"],
 } as const;
 
 /**
@@ -8352,9 +6554,7 @@ export const ObjectScript = {
   tm_scope: "source.objectscript",
   ace_mode: "text",
   language_id: 202735509,
-  extensions: [
-    ".cls",
-  ],
+  extensions: [".cls"],
 } as const;
 
 /**
@@ -8363,20 +6563,13 @@ export const ObjectScript = {
 export const Objective_C = {
   type: "programming",
   color: "#438eff",
-  aliases: [
-    "obj-c",
-    "objc",
-    "objectivec",
-  ],
+  aliases: ["obj-c", "objc", "objectivec"],
   tm_scope: "source.objc",
   ace_mode: "objectivec",
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-objectivec",
   language_id: 257,
-  extensions: [
-    ".m",
-    ".h",
-  ],
+  extensions: [".m", ".h"],
 } as const;
 
 /**
@@ -8385,19 +6578,13 @@ export const Objective_C = {
 export const Objective_Cpp = {
   type: "programming",
   color: "#6866fb",
-  aliases: [
-    "obj-c++",
-    "objc++",
-    "objectivec++",
-  ],
+  aliases: ["obj-c++", "objc++", "objectivec++"],
   tm_scope: "source.objc++",
   ace_mode: "objectivec",
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-objectivec++",
   language_id: 258,
-  extensions: [
-    ".mm",
-  ],
+  extensions: [".mm"],
 } as const;
 
 /**
@@ -8406,18 +6593,11 @@ export const Objective_Cpp = {
 export const Objective_J = {
   type: "programming",
   color: "#ff0c5a",
-  aliases: [
-    "obj-j",
-    "objectivej",
-    "objj",
-  ],
+  aliases: ["obj-j", "objectivej", "objj"],
   tm_scope: "source.js.objj",
   ace_mode: "text",
   language_id: 259,
-  extensions: [
-    ".j",
-    ".sj",
-  ],
+  extensions: [".j", ".sj"],
 } as const;
 
 /**
@@ -8426,16 +6606,11 @@ export const Objective_J = {
 export const Odin = {
   type: "programming",
   color: "#60AFFE",
-  aliases: [
-    "odinlang",
-    "odin-lang",
-  ],
+  aliases: ["odinlang", "odin-lang"],
   tm_scope: "source.odin",
   ace_mode: "odin",
   language_id: 889244082,
-  extensions: [
-    ".odin",
-  ],
+  extensions: [".odin"],
 } as const;
 
 /**
@@ -8447,9 +6622,7 @@ export const Omgrofl = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 260,
-  extensions: [
-    ".omgrofl",
-  ],
+  extensions: [".omgrofl"],
 } as const;
 
 /**
@@ -8460,9 +6633,7 @@ export const Opa = {
   tm_scope: "source.opa",
   ace_mode: "text",
   language_id: 261,
-  extensions: [
-    ".opa",
-  ],
+  extensions: [".opa"],
 } as const;
 
 /**
@@ -8474,9 +6645,7 @@ export const Opal = {
   tm_scope: "source.opal",
   ace_mode: "text",
   language_id: 262,
-  extensions: [
-    ".opal",
-  ],
+  extensions: [".opal"],
 } as const;
 
 /**
@@ -8488,9 +6657,7 @@ export const OpenPolicyAgent = {
   tm_scope: "source.rego",
   ace_mode: "text",
   language_id: 840483232,
-  extensions: [
-    ".rego",
-  ],
+  extensions: [".rego"],
 } as const;
 
 /**
@@ -8499,9 +6666,7 @@ export const OpenPolicyAgent = {
 export const OpenAPISpecificationv2 = {
   type: "data",
   color: "#85ea2d",
-  aliases: [
-    "oasv2",
-  ],
+  aliases: ["oasv2"],
   tm_scope: "none",
   ace_mode: "text",
   language_id: 848295328,
@@ -8513,9 +6678,7 @@ export const OpenAPISpecificationv2 = {
 export const OpenAPISpecificationv3 = {
   type: "data",
   color: "#85ea2d",
-  aliases: [
-    "oasv3",
-  ],
+  aliases: ["oasv3"],
   tm_scope: "none",
   ace_mode: "text",
   language_id: 557959099,
@@ -8533,10 +6696,7 @@ export const OpenCL = {
   codemirror_mime_type: "text/x-csrc",
   group: "C",
   language_id: 263,
-  extensions: [
-    ".cl",
-    ".opencl",
-  ],
+  extensions: [".cl", ".opencl"],
 } as const;
 
 /**
@@ -8545,19 +6705,11 @@ export const OpenCL = {
 export const OpenEdgeABL = {
   type: "programming",
   color: "#5ce600",
-  aliases: [
-    "progress",
-    "openedge",
-    "abl",
-  ],
+  aliases: ["progress", "openedge", "abl"],
   tm_scope: "source.abl",
   ace_mode: "text",
   language_id: 264,
-  extensions: [
-    ".p",
-    ".cls",
-    ".w",
-  ],
+  extensions: [".p", ".cls", ".w"],
 } as const;
 
 /**
@@ -8569,9 +6721,7 @@ export const OpenQASM = {
   tm_scope: "source.qasm",
   ace_mode: "text",
   language_id: 153739399,
-  extensions: [
-    ".qasm",
-  ],
+  extensions: [".qasm"],
 } as const;
 
 /**
@@ -8579,18 +6729,14 @@ export const OpenQASM = {
  */
 export const OpenRCrunscript = {
   type: "programming",
-  aliases: [
-    "openrc",
-  ],
+  aliases: ["openrc"],
   tm_scope: "source.shell",
   ace_mode: "sh",
   codemirror_mode: "shell",
   codemirror_mime_type: "text/x-sh",
   group: "Shell",
   language_id: 265,
-  interpreters: [
-    "openrc-run",
-  ],
+  interpreters: ["openrc-run"],
 } as const;
 
 /**
@@ -8602,9 +6748,7 @@ export const OpenSCAD = {
   tm_scope: "source.scad",
   ace_mode: "scad",
   language_id: 266,
-  extensions: [
-    ".scad",
-  ],
+  extensions: [".scad"],
 } as const;
 
 /**
@@ -8615,10 +6759,7 @@ export const OpenStepPropertyList = {
   tm_scope: "source.plist",
   ace_mode: "text",
   language_id: 598917541,
-  extensions: [
-    ".plist",
-    ".glyphs",
-  ],
+  extensions: [".plist", ".glyphs"],
 } as const;
 
 /**
@@ -8626,15 +6767,11 @@ export const OpenStepPropertyList = {
  */
 export const OpenTypeFeatureFile = {
   type: "data",
-  aliases: [
-    "AFDKO",
-  ],
+  aliases: ["AFDKO"],
   tm_scope: "source.opentype",
   ace_mode: "text",
   language_id: 374317347,
-  extensions: [
-    ".fea",
-  ],
+  extensions: [".fea"],
 } as const;
 
 /**
@@ -8643,22 +6780,13 @@ export const OpenTypeFeatureFile = {
 export const OptionList = {
   type: "data",
   color: "#476732",
-  aliases: [
-    "opts",
-    "ackrc",
-  ],
+  aliases: ["opts", "ackrc"],
   tm_scope: "source.opts",
   ace_mode: "sh",
   codemirror_mode: "shell",
   codemirror_mime_type: "text/x-sh",
   language_id: 723589315,
-  filenames: [
-    ".ackrc",
-    ".rspec",
-    ".yardopts",
-    "ackrc",
-    "mocha.opts",
-  ],
+  filenames: [".ackrc", ".rspec", ".yardopts", "ackrc", "mocha.opts"],
 } as const;
 
 /**
@@ -8671,9 +6799,7 @@ export const Org = {
   ace_mode: "text",
   wrap: true,
   language_id: 267,
-  extensions: [
-    ".org",
-  ],
+  extensions: [".org"],
 } as const;
 
 /**
@@ -8686,9 +6812,7 @@ export const OverpassQL = {
   ace_mode: "text",
   wrap: true,
   language_id: 689079655,
-  extensions: [
-    ".overpassql",
-  ],
+  extensions: [".overpassql"],
 } as const;
 
 /**
@@ -8699,11 +6823,7 @@ export const Ox = {
   tm_scope: "source.ox",
   ace_mode: "text",
   language_id: 268,
-  extensions: [
-    ".ox",
-    ".oxh",
-    ".oxo",
-  ],
+  extensions: [".ox", ".oxh", ".oxo"],
 } as const;
 
 /**
@@ -8715,9 +6835,7 @@ export const Oxygene = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 269,
-  extensions: [
-    ".oxygene",
-  ],
+  extensions: [".oxygene"],
 } as const;
 
 /**
@@ -8731,9 +6849,7 @@ export const Oz = {
   codemirror_mode: "oz",
   codemirror_mime_type: "text/x-oz",
   language_id: 270,
-  extensions: [
-    ".oz",
-  ],
+  extensions: [".oz"],
 } as const;
 
 /**
@@ -8745,9 +6861,7 @@ export const P4 = {
   tm_scope: "source.p4",
   ace_mode: "text",
   language_id: 348895984,
-  extensions: [
-    ".p4",
-  ],
+  extensions: [".p4"],
 } as const;
 
 /**
@@ -8759,9 +6873,7 @@ export const PDDL = {
   tm_scope: "source.pddl",
   ace_mode: "text",
   language_id: 736235603,
-  extensions: [
-    ".pddl",
-  ],
+  extensions: [".pddl"],
 } as const;
 
 /**
@@ -8775,10 +6887,7 @@ export const PEGjs = {
   codemirror_mode: "javascript",
   codemirror_mime_type: "text/javascript",
   language_id: 81442128,
-  extensions: [
-    ".pegjs",
-    ".peggy",
-  ],
+  extensions: [".pegjs", ".peggy"],
 } as const;
 
 /**
@@ -8787,35 +6896,15 @@ export const PEGjs = {
 export const PHP = {
   type: "programming",
   color: "#4F5D95",
-  aliases: [
-    "inc",
-  ],
+  aliases: ["inc"],
   tm_scope: "text.html.php",
   ace_mode: "php",
   codemirror_mode: "php",
   codemirror_mime_type: "application/x-httpd-php",
   language_id: 272,
-  extensions: [
-    ".php",
-    ".aw",
-    ".ctp",
-    ".fcgi",
-    ".inc",
-    ".php3",
-    ".php4",
-    ".php5",
-    ".phps",
-    ".phpt",
-  ],
-  interpreters: [
-    "php",
-  ],
-  filenames: [
-    ".php",
-    ".php_cs",
-    ".php_cs.dist",
-    "Phakefile",
-  ],
+  extensions: [".php", ".aw", ".ctp", ".fcgi", ".inc", ".php3", ".php4", ".php5", ".phps", ".phpt"],
+  interpreters: ["php"],
+  filenames: [".php", ".php_cs", ".php_cs.dist", "Phakefile"],
 } as const;
 
 /**
@@ -8860,10 +6949,7 @@ export const PLpgSQL = {
   codemirror_mode: "sql",
   codemirror_mime_type: "text/x-sql",
   language_id: 274,
-  extensions: [
-    ".pgsql",
-    ".sql",
-  ],
+  extensions: [".pgsql", ".sql"],
 } as const;
 
 /**
@@ -8872,17 +6958,11 @@ export const PLpgSQL = {
 export const POV_RaySDL = {
   type: "programming",
   color: "#6bac65",
-  aliases: [
-    "pov-ray",
-    "povray",
-  ],
+  aliases: ["pov-ray", "povray"],
   tm_scope: "source.pov-ray sdl",
   ace_mode: "text",
   language_id: 275,
-  extensions: [
-    ".pov",
-    ".inc",
-  ],
+  extensions: [".pov", ".inc"],
 } as const;
 
 /**
@@ -8894,9 +6974,7 @@ export const Pact = {
   tm_scope: "source.pact",
   ace_mode: "text",
   language_id: 756774415,
-  extensions: [
-    ".pact",
-  ],
+  extensions: [".pact"],
 } as const;
 
 /**
@@ -8908,9 +6986,7 @@ export const Pan = {
   tm_scope: "source.pan",
   ace_mode: "text",
   language_id: 276,
-  extensions: [
-    ".pan",
-  ],
+  extensions: [".pan"],
 } as const;
 
 /**
@@ -8922,9 +6998,7 @@ export const Papyrus = {
   tm_scope: "source.papyrus.skyrim",
   ace_mode: "text",
   language_id: 277,
-  extensions: [
-    ".psc",
-  ],
+  extensions: [".psc"],
 } as const;
 
 /**
@@ -8936,9 +7010,7 @@ export const Parrot = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 278,
-  extensions: [
-    ".parrot",
-  ],
+  extensions: [".parrot"],
 } as const;
 
 /**
@@ -8946,19 +7018,13 @@ export const Parrot = {
  */
 export const ParrotAssembly = {
   type: "programming",
-  aliases: [
-    "pasm",
-  ],
+  aliases: ["pasm"],
   tm_scope: "none",
   ace_mode: "text",
   group: "Parrot",
   language_id: 279,
-  extensions: [
-    ".pasm",
-  ],
-  interpreters: [
-    "parrot",
-  ],
+  extensions: [".pasm"],
+  interpreters: ["parrot"],
 } as const;
 
 /**
@@ -8966,19 +7032,13 @@ export const ParrotAssembly = {
  */
 export const ParrotInternalRepresentation = {
   type: "programming",
-  aliases: [
-    "pir",
-  ],
+  aliases: ["pir"],
   tm_scope: "source.parrot.pir",
   ace_mode: "text",
   group: "Parrot",
   language_id: 280,
-  extensions: [
-    ".pir",
-  ],
-  interpreters: [
-    "parrot",
-  ],
+  extensions: [".pir"],
+  interpreters: ["parrot"],
 } as const;
 
 /**
@@ -8987,27 +7047,14 @@ export const ParrotInternalRepresentation = {
 export const Pascal = {
   type: "programming",
   color: "#E3F171",
-  aliases: [
-    "delphi",
-    "objectpascal",
-  ],
+  aliases: ["delphi", "objectpascal"],
   tm_scope: "source.pascal",
   ace_mode: "pascal",
   codemirror_mode: "pascal",
   codemirror_mime_type: "text/x-pascal",
   language_id: 281,
-  extensions: [
-    ".pas",
-    ".dfm",
-    ".dpr",
-    ".inc",
-    ".lpr",
-    ".pascal",
-    ".pp",
-  ],
-  interpreters: [
-    "instantfpc",
-  ],
+  extensions: [".pas", ".dfm", ".dpr", ".inc", ".lpr", ".pascal", ".pp"],
+  interpreters: ["instantfpc"],
 } as const;
 
 /**
@@ -9019,11 +7066,7 @@ export const Pawn = {
   tm_scope: "source.pawn",
   ace_mode: "text",
   language_id: 271,
-  extensions: [
-    ".pwn",
-    ".inc",
-    ".sma",
-  ],
+  extensions: [".pwn", ".inc", ".sma"],
 } as const;
 
 /**
@@ -9035,9 +7078,7 @@ export const Pep8 = {
   tm_scope: "source.pep8",
   ace_mode: "text",
   language_id: 840372442,
-  extensions: [
-    ".pep",
-  ],
+  extensions: [".pep"],
 } as const;
 
 /**
@@ -9046,38 +7087,15 @@ export const Pep8 = {
 export const Perl = {
   type: "programming",
   color: "#0298c3",
-  aliases: [
-    "cperl",
-  ],
+  aliases: ["cperl"],
   tm_scope: "source.perl",
   ace_mode: "perl",
   codemirror_mode: "perl",
   codemirror_mime_type: "text/x-perl",
   language_id: 282,
-  extensions: [
-    ".pl",
-    ".al",
-    ".cgi",
-    ".fcgi",
-    ".perl",
-    ".ph",
-    ".plx",
-    ".pm",
-    ".psgi",
-    ".t",
-  ],
-  interpreters: [
-    "cperl",
-    "perl",
-  ],
-  filenames: [
-    ".latexmkrc",
-    "Makefile.PL",
-    "Rexfile",
-    "ack",
-    "cpanfile",
-    "latexmkrc",
-  ],
+  extensions: [".pl", ".al", ".cgi", ".fcgi", ".perl", ".ph", ".plx", ".pm", ".psgi", ".t"],
+  interpreters: ["cperl", "perl"],
+  filenames: [".latexmkrc", "Makefile.PL", "Rexfile", "ack", "cpanfile", "latexmkrc"],
 } as const;
 
 /**
@@ -9085,19 +7103,14 @@ export const Perl = {
  */
 export const Pic = {
   type: "markup",
-  aliases: [
-    "pikchr",
-  ],
+  aliases: ["pikchr"],
   tm_scope: "source.pic",
   ace_mode: "text",
   codemirror_mode: "troff",
   codemirror_mime_type: "text/troff",
   group: "Roff",
   language_id: 425,
-  extensions: [
-    ".pic",
-    ".chem",
-  ],
+  extensions: [".pic", ".chem"],
 } as const;
 
 /**
@@ -9108,9 +7121,7 @@ export const Pickle = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 284,
-  extensions: [
-    ".pkl",
-  ],
+  extensions: [".pkl"],
 } as const;
 
 /**
@@ -9122,13 +7133,8 @@ export const PicoLisp = {
   tm_scope: "source.lisp",
   ace_mode: "lisp",
   language_id: 285,
-  extensions: [
-    ".l",
-  ],
-  interpreters: [
-    "picolisp",
-    "pil",
-  ],
+  extensions: [".l"],
+  interpreters: ["picolisp", "pil"],
 } as const;
 
 /**
@@ -9142,9 +7148,7 @@ export const PigLatin = {
   codemirror_mode: "pig",
   codemirror_mime_type: "text/x-pig",
   language_id: 286,
-  extensions: [
-    ".pig",
-  ],
+  extensions: [".pig"],
 } as const;
 
 /**
@@ -9156,13 +7160,8 @@ export const Pike = {
   tm_scope: "source.pike",
   ace_mode: "text",
   language_id: 287,
-  extensions: [
-    ".pike",
-    ".pmod",
-  ],
-  interpreters: [
-    "pike",
-  ],
+  extensions: [".pike", ".pmod"],
+  interpreters: ["pike"],
 } as const;
 
 /**
@@ -9191,12 +7190,8 @@ export const Pkl = {
   tm_scope: "source.pkl",
   ace_mode: "text",
   language_id: 288822799,
-  extensions: [
-    ".pkl",
-  ],
-  interpreters: [
-    "pkl",
-  ],
+  extensions: [".pkl"],
+  interpreters: ["pkl"],
 } as const;
 
 /**
@@ -9208,11 +7203,7 @@ export const PlantUML = {
   tm_scope: "source.wsd",
   ace_mode: "text",
   language_id: 833504686,
-  extensions: [
-    ".puml",
-    ".iuml",
-    ".plantuml",
-  ],
+  extensions: [".puml", ".iuml", ".plantuml"],
 } as const;
 
 /**
@@ -9226,12 +7217,8 @@ export const Pod = {
   codemirror_mime_type: "text/x-perl",
   wrap: true,
   language_id: 288,
-  extensions: [
-    ".pod",
-  ],
-  interpreters: [
-    "perl",
-  ],
+  extensions: [".pod"],
+  interpreters: ["perl"],
 } as const;
 
 /**
@@ -9243,13 +7230,8 @@ export const Pod6 = {
   ace_mode: "perl",
   wrap: true,
   language_id: 155357471,
-  extensions: [
-    ".pod",
-    ".pod6",
-  ],
-  interpreters: [
-    "perl6",
-  ],
+  extensions: [".pod", ".pod6"],
+  interpreters: ["perl6"],
 } as const;
 
 /**
@@ -9261,9 +7243,7 @@ export const PogoScript = {
   tm_scope: "source.pogoscript",
   ace_mode: "text",
   language_id: 289,
-  extensions: [
-    ".pogo",
-  ],
+  extensions: [".pogo"],
 } as const;
 
 /**
@@ -9275,9 +7255,7 @@ export const Polar = {
   tm_scope: "source.polar",
   ace_mode: "text",
   language_id: 839112914,
-  extensions: [
-    ".polar",
-  ],
+  extensions: [".polar"],
 } as const;
 
 /**
@@ -9288,9 +7266,7 @@ export const Pony = {
   tm_scope: "source.pony",
   ace_mode: "text",
   language_id: 290,
-  extensions: [
-    ".pony",
-  ],
+  extensions: [".pony"],
 } as const;
 
 /**
@@ -9302,9 +7278,7 @@ export const Portugol = {
   tm_scope: "source.portugol",
   ace_mode: "text",
   language_id: 832391833,
-  extensions: [
-    ".por",
-  ],
+  extensions: [".por"],
 } as const;
 
 /**
@@ -9317,10 +7291,7 @@ export const PostCSS = {
   ace_mode: "text",
   group: "CSS",
   language_id: 262764437,
-  extensions: [
-    ".pcss",
-    ".postcss",
-  ],
+  extensions: [".pcss", ".postcss"],
 } as const;
 
 /**
@@ -9329,18 +7300,11 @@ export const PostCSS = {
 export const PostScript = {
   type: "markup",
   color: "#da291c",
-  aliases: [
-    "postscr",
-  ],
+  aliases: ["postscr"],
   tm_scope: "source.postscript",
   ace_mode: "text",
   language_id: 291,
-  extensions: [
-    ".ps",
-    ".eps",
-    ".epsi",
-    ".pfa",
-  ],
+  extensions: [".ps", ".eps", ".epsi", ".pfa"],
 } as const;
 
 /**
@@ -9352,12 +7316,7 @@ export const PowerBuilder = {
   tm_scope: "source.powerbuilder",
   ace_mode: "text",
   language_id: 292,
-  extensions: [
-    ".pbt",
-    ".sra",
-    ".sru",
-    ".srw",
-  ],
+  extensions: [".pbt", ".sra", ".sru", ".srw"],
 } as const;
 
 /**
@@ -9366,23 +7325,14 @@ export const PowerBuilder = {
 export const PowerShell = {
   type: "programming",
   color: "#012456",
-  aliases: [
-    "posh",
-    "pwsh",
-  ],
+  aliases: ["posh", "pwsh"],
   tm_scope: "source.powershell",
   ace_mode: "powershell",
   codemirror_mode: "powershell",
   codemirror_mime_type: "application/x-powershell",
   language_id: 293,
-  extensions: [
-    ".ps1",
-    ".psd1",
-    ".psm1",
-  ],
-  interpreters: [
-    "pwsh",
-  ],
+  extensions: [".ps1", ".psd1", ".psm1"],
+  interpreters: ["pwsh"],
 } as const;
 
 /**
@@ -9394,9 +7344,7 @@ export const Praat = {
   tm_scope: "source.praat",
   ace_mode: "praat",
   language_id: 106029007,
-  extensions: [
-    ".praat",
-  ],
+  extensions: [".praat"],
 } as const;
 
 /**
@@ -9408,9 +7356,7 @@ export const Prisma = {
   tm_scope: "source.prisma",
   ace_mode: "prisma",
   language_id: 499933428,
-  extensions: [
-    ".prisma",
-  ],
+  extensions: [".prisma"],
 } as const;
 
 /**
@@ -9422,9 +7368,7 @@ export const Processing = {
   tm_scope: "source.processing",
   ace_mode: "text",
   language_id: 294,
-  extensions: [
-    ".pde",
-  ],
+  extensions: [".pde"],
 } as const;
 
 /**
@@ -9436,9 +7380,7 @@ export const Procfile = {
   tm_scope: "source.procfile",
   ace_mode: "batchfile",
   language_id: 305313959,
-  filenames: [
-    "Procfile",
-  ],
+  filenames: ["Procfile"],
 } as const;
 
 /**
@@ -9449,9 +7391,7 @@ export const Proguard = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 716513858,
-  extensions: [
-    ".pro",
-  ],
+  extensions: [".pro"],
 } as const;
 
 /**
@@ -9463,17 +7403,8 @@ export const Prolog = {
   tm_scope: "source.prolog",
   ace_mode: "prolog",
   language_id: 295,
-  extensions: [
-    ".pl",
-    ".plt",
-    ".pro",
-    ".prolog",
-    ".yap",
-  ],
-  interpreters: [
-    "swipl",
-    "yap",
-  ],
+  extensions: [".pl", ".plt", ".pro", ".prolog", ".yap"],
+  interpreters: ["swipl", "yap"],
 } as const;
 
 /**
@@ -9485,9 +7416,7 @@ export const Promela = {
   tm_scope: "source.promela",
   ace_mode: "text",
   language_id: 441858312,
-  extensions: [
-    ".pml",
-  ],
+  extensions: [".pml"],
 } as const;
 
 /**
@@ -9499,9 +7428,7 @@ export const PropellerSpin = {
   tm_scope: "source.spin",
   ace_mode: "text",
   language_id: 296,
-  extensions: [
-    ".spin",
-  ],
+  extensions: [".spin"],
 } as const;
 
 /**
@@ -9509,19 +7436,13 @@ export const PropellerSpin = {
  */
 export const ProtocolBuffer = {
   type: "data",
-  aliases: [
-    "proto",
-    "protobuf",
-    "Protocol Buffers",
-  ],
+  aliases: ["proto", "protobuf", "Protocol Buffers"],
   tm_scope: "source.proto",
   ace_mode: "protobuf",
   codemirror_mode: "protobuf",
   codemirror_mime_type: "text/x-protobuf",
   language_id: 297,
-  extensions: [
-    ".proto",
-  ],
+  extensions: [".proto"],
 } as const;
 
 /**
@@ -9529,19 +7450,11 @@ export const ProtocolBuffer = {
  */
 export const ProtocolBufferTextFormat = {
   type: "data",
-  aliases: [
-    "text proto",
-    "protobuf text format",
-  ],
+  aliases: ["text proto", "protobuf text format"],
   tm_scope: "source.textproto",
   ace_mode: "text",
   language_id: 436568854,
-  extensions: [
-    ".textproto",
-    ".pbt",
-    ".pbtxt",
-    ".txtpb",
-  ],
+  extensions: [".textproto", ".pbt", ".pbtxt", ".txtpb"],
 } as const;
 
 /**
@@ -9554,10 +7467,7 @@ export const PublicKey = {
   codemirror_mode: "asciiarmor",
   codemirror_mime_type: "application/pgp",
   language_id: 298,
-  extensions: [
-    ".asc",
-    ".pub",
-  ],
+  extensions: [".asc", ".pub"],
 } as const;
 
 /**
@@ -9571,10 +7481,7 @@ export const Pug = {
   codemirror_mode: "pug",
   codemirror_mime_type: "text/x-pug",
   language_id: 179,
-  extensions: [
-    ".jade",
-    ".pug",
-  ],
+  extensions: [".jade", ".pug"],
 } as const;
 
 /**
@@ -9588,12 +7495,8 @@ export const Puppet = {
   codemirror_mode: "puppet",
   codemirror_mime_type: "text/x-puppet",
   language_id: 299,
-  extensions: [
-    ".pp",
-  ],
-  filenames: [
-    "Modulefile",
-  ],
+  extensions: [".pp"],
+  filenames: ["Modulefile"],
 } as const;
 
 /**
@@ -9604,9 +7507,7 @@ export const PureData = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 300,
-  extensions: [
-    ".pd",
-  ],
+  extensions: [".pd"],
 } as const;
 
 /**
@@ -9618,10 +7519,7 @@ export const PureBasic = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 301,
-  extensions: [
-    ".pb",
-    ".pbi",
-  ],
+  extensions: [".pb", ".pbi"],
 } as const;
 
 /**
@@ -9635,9 +7533,7 @@ export const PureScript = {
   codemirror_mode: "haskell",
   codemirror_mime_type: "text/x-haskell",
   language_id: 302,
-  extensions: [
-    ".purs",
-  ],
+  extensions: [".purs"],
 } as const;
 
 /**
@@ -9649,9 +7545,7 @@ export const Pyret = {
   tm_scope: "source.arr",
   ace_mode: "python",
   language_id: 252961827,
-  extensions: [
-    ".arr",
-  ],
+  extensions: [".arr"],
 } as const;
 
 /**
@@ -9660,12 +7554,7 @@ export const Pyret = {
 export const Python = {
   type: "programming",
   color: "#3572A5",
-  aliases: [
-    "py",
-    "py3",
-    "python3",
-    "rusthon",
-  ],
+  aliases: ["py", "py3", "python3", "rusthon"],
   tm_scope: "source.python",
   ace_mode: "python",
   codemirror_mode: "python",
@@ -9690,22 +7579,8 @@ export const Python = {
     ".wsgi",
     ".xpy",
   ],
-  interpreters: [
-    "python",
-    "python2",
-    "python3",
-    "py",
-    "pypy",
-    "pypy3",
-    "uv",
-  ],
-  filenames: [
-    ".gclient",
-    "DEPS",
-    "SConscript",
-    "SConstruct",
-    "wscript",
-  ],
+  interpreters: ["python", "python2", "python3", "py", "pypy", "pypy3", "uv"],
+  filenames: [".gclient", "DEPS", "SConscript", "SConstruct", "wscript"],
 } as const;
 
 /**
@@ -9714,9 +7589,7 @@ export const Python = {
 export const Pythonconsole = {
   type: "programming",
   color: "#3572A5",
-  aliases: [
-    "pycon",
-  ],
+  aliases: ["pycon"],
   tm_scope: "text.python.console",
   ace_mode: "text",
   group: "Python",
@@ -9733,9 +7606,7 @@ export const Pythontraceback = {
   ace_mode: "text",
   group: "Python",
   language_id: 304,
-  extensions: [
-    ".pytb",
-  ],
+  extensions: [".pytb"],
 } as const;
 
 /**
@@ -9744,15 +7615,11 @@ export const Pythontraceback = {
 export const Qsharp = {
   type: "programming",
   color: "#fed659",
-  aliases: [
-    "qsharp",
-  ],
+  aliases: ["qsharp"],
   tm_scope: "source.qsharp",
   ace_mode: "text",
   language_id: 697448245,
-  extensions: [
-    ".qs",
-  ],
+  extensions: [".qs"],
 } as const;
 
 /**
@@ -9764,10 +7631,7 @@ export const QML = {
   tm_scope: "source.qml",
   ace_mode: "qml",
   language_id: 305,
-  extensions: [
-    ".qml",
-    ".qbs",
-  ],
+  extensions: [".qml", ".qbs"],
 } as const;
 
 /**
@@ -9778,13 +7642,8 @@ export const QMake = {
   tm_scope: "source.qmake",
   ace_mode: "text",
   language_id: 306,
-  extensions: [
-    ".pro",
-    ".pri",
-  ],
-  interpreters: [
-    "qmake",
-  ],
+  extensions: [".pro", ".pri"],
+  interpreters: ["qmake"],
 } as const;
 
 /**
@@ -9798,13 +7657,8 @@ export const QtScript = {
   codemirror_mode: "javascript",
   codemirror_mime_type: "text/javascript",
   language_id: 558193693,
-  extensions: [
-    ".qs",
-  ],
-  filenames: [
-    "installscript.qs",
-    "toolchain_installscript.qs",
-  ],
+  extensions: [".qs"],
+  filenames: ["installscript.qs", "toolchain_installscript.qs"],
 } as const;
 
 /**
@@ -9816,10 +7670,7 @@ export const Quake = {
   tm_scope: "source.quake",
   ace_mode: "text",
   language_id: 375265331,
-  filenames: [
-    "m3makefile",
-    "m3overrides",
-  ],
+  filenames: ["m3makefile", "m3overrides"],
 } as const;
 
 /**
@@ -9831,9 +7682,7 @@ export const QuakeC = {
   tm_scope: "source.quakec",
   ace_mode: "text",
   language_id: 472308069,
-  extensions: [
-    ".qc",
-  ],
+  extensions: [".qc"],
 } as const;
 
 /**
@@ -9842,22 +7691,13 @@ export const QuakeC = {
 export const QuickBASIC = {
   type: "programming",
   color: "#008080",
-  aliases: [
-    "qb",
-    "qbasic",
-    "qb64",
-    "classic qbasic",
-    "classic quickbasic",
-  ],
+  aliases: ["qb", "qbasic", "qb64", "classic qbasic", "classic quickbasic"],
   tm_scope: "source.QB64",
   ace_mode: "text",
   codemirror_mode: "vb",
   codemirror_mime_type: "text/x-vb",
   language_id: 593107205,
-  extensions: [
-    ".bas",
-    ".bi",
-  ],
+  extensions: [".bas", ".bi"],
 } as const;
 
 /**
@@ -9866,27 +7706,15 @@ export const QuickBASIC = {
 export const R = {
   type: "programming",
   color: "#198CE7",
-  aliases: [
-    "Rscript",
-    "splus",
-  ],
+  aliases: ["Rscript", "splus"],
   tm_scope: "source.r",
   ace_mode: "r",
   codemirror_mode: "r",
   codemirror_mime_type: "text/x-rsrc",
   language_id: 307,
-  extensions: [
-    ".r",
-    ".rd",
-    ".rsx",
-  ],
-  interpreters: [
-    "Rscript",
-  ],
-  filenames: [
-    ".Rprofile",
-    "expr-dist",
-  ],
+  extensions: [".r", ".rd", ".rsx"],
+  interpreters: ["Rscript"],
+  filenames: [".Rprofile", "expr-dist"],
 } as const;
 
 /**
@@ -9900,9 +7728,7 @@ export const RAML = {
   codemirror_mode: "yaml",
   codemirror_mime_type: "text/x-yaml",
   language_id: 308,
-  extensions: [
-    ".raml",
-  ],
+  extensions: [".raml"],
 } as const;
 
 /**
@@ -9914,9 +7740,7 @@ export const RAScript = {
   tm_scope: "source.rascript",
   ace_mode: "text",
   language_id: 601118790,
-  extensions: [
-    ".rascript",
-  ],
+  extensions: [".rascript"],
 } as const;
 
 /**
@@ -9931,9 +7755,7 @@ export const RBS = {
   codemirror_mime_type: "text/x-ruby",
   group: "Ruby",
   language_id: 899227493,
-  extensions: [
-    ".rbs",
-  ],
+  extensions: [".rbs"],
 } as const;
 
 /**
@@ -9946,9 +7768,7 @@ export const RDoc = {
   ace_mode: "rdoc",
   wrap: true,
   language_id: 309,
-  extensions: [
-    ".rdoc",
-  ],
+  extensions: [".rdoc"],
 } as const;
 
 /**
@@ -9959,14 +7779,7 @@ export const REALbasic = {
   tm_scope: "source.vbnet",
   ace_mode: "text",
   language_id: 310,
-  extensions: [
-    ".rbbas",
-    ".rbfrm",
-    ".rbmnu",
-    ".rbres",
-    ".rbtbar",
-    ".rbuistate",
-  ],
+  extensions: [".rbbas", ".rbfrm", ".rbmnu", ".rbres", ".rbtbar", ".rbuistate"],
 } as const;
 
 /**
@@ -9975,21 +7788,12 @@ export const REALbasic = {
 export const REXX = {
   type: "programming",
   color: "#d90e09",
-  aliases: [
-    "arexx",
-  ],
+  aliases: ["arexx"],
   tm_scope: "source.rexx",
   ace_mode: "text",
   language_id: 311,
-  extensions: [
-    ".rexx",
-    ".pprx",
-    ".rex",
-  ],
-  interpreters: [
-    "regina",
-    "rexx",
-  ],
+  extensions: [".rexx", ".pprx", ".rex"],
+  interpreters: ["regina", "rexx"],
 } as const;
 
 /**
@@ -10004,10 +7808,7 @@ export const RMarkdown = {
   codemirror_mime_type: "text/x-gfm",
   wrap: true,
   language_id: 313,
-  extensions: [
-    ".qmd",
-    ".rmd",
-  ],
+  extensions: [".qmd", ".rmd"],
 } as const;
 
 /**
@@ -10019,9 +7820,7 @@ export const RON = {
   tm_scope: "source.ron",
   ace_mode: "rust",
   language_id: 587855233,
-  extensions: [
-    ".ron",
-  ],
+  extensions: [".ron"],
 } as const;
 
 /**
@@ -10030,17 +7829,11 @@ export const RON = {
 export const ROSInterface = {
   type: "data",
   color: "#22314e",
-  aliases: [
-    "rosmsg",
-  ],
+  aliases: ["rosmsg"],
   tm_scope: "source.rosmsg",
   ace_mode: "text",
   language_id: 809230569,
-  extensions: [
-    ".msg",
-    ".action",
-    ".srv",
-  ],
+  extensions: [".msg", ".action", ".srv"],
 } as const;
 
 /**
@@ -10048,17 +7841,11 @@ export const ROSInterface = {
  */
 export const RPC = {
   type: "programming",
-  aliases: [
-    "rpcgen",
-    "oncrpc",
-    "xdr",
-  ],
+  aliases: ["rpcgen", "oncrpc", "xdr"],
   tm_scope: "source.c",
   ace_mode: "c_cpp",
   language_id: 1031374237,
-  extensions: [
-    ".x",
-  ],
+  extensions: [".x"],
 } as const;
 
 /**
@@ -10067,17 +7854,11 @@ export const RPC = {
 export const RPGLE = {
   type: "programming",
   color: "#2BDE21",
-  aliases: [
-    "ile rpg",
-    "sqlrpgle",
-  ],
+  aliases: ["ile rpg", "sqlrpgle"],
   tm_scope: "source.rpgle",
   ace_mode: "text",
   language_id: 609977990,
-  extensions: [
-    ".rpgle",
-    ".sqlrpgle",
-  ],
+  extensions: [".rpgle", ".sqlrpgle"],
 } as const;
 
 /**
@@ -10085,17 +7866,13 @@ export const RPGLE = {
  */
 export const RPMSpec = {
   type: "data",
-  aliases: [
-    "specfile",
-  ],
+  aliases: ["specfile"],
   tm_scope: "source.rpm-spec",
   ace_mode: "text",
   codemirror_mode: "rpm",
   codemirror_mime_type: "text/x-rpm-spec",
   language_id: 314,
-  extensions: [
-    ".spec",
-  ],
+  extensions: [".spec"],
 } as const;
 
 /**
@@ -10108,10 +7885,7 @@ export const RUNOFF = {
   ace_mode: "text",
   wrap: true,
   language_id: 315,
-  extensions: [
-    ".rnh",
-    ".rno",
-  ],
+  extensions: [".rnh", ".rno"],
 } as const;
 
 /**
@@ -10123,15 +7897,8 @@ export const Racket = {
   tm_scope: "source.racket",
   ace_mode: "lisp",
   language_id: 316,
-  extensions: [
-    ".rkt",
-    ".rktd",
-    ".rktl",
-    ".scrbl",
-  ],
-  interpreters: [
-    "racket",
-  ],
+  extensions: [".rkt", ".rktd", ".rktl", ".scrbl"],
+  interpreters: ["racket"],
 } as const;
 
 /**
@@ -10140,16 +7907,11 @@ export const Racket = {
 export const Ragel = {
   type: "programming",
   color: "#9d5200",
-  aliases: [
-    "ragel-rb",
-    "ragel-ruby",
-  ],
+  aliases: ["ragel-rb", "ragel-ruby"],
   tm_scope: "none",
   ace_mode: "text",
   language_id: 317,
-  extensions: [
-    ".rl",
-  ],
+  extensions: [".rl"],
 } as const;
 
 /**
@@ -10158,10 +7920,7 @@ export const Ragel = {
 export const Raku = {
   type: "programming",
   color: "#0000fb",
-  aliases: [
-    "perl6",
-    "perl-6",
-  ],
+  aliases: ["perl6", "perl-6"],
   tm_scope: "source.raku",
   ace_mode: "raku",
   codemirror_mode: "perl",
@@ -10182,11 +7941,7 @@ export const Raku = {
     ".rakumod",
     ".t",
   ],
-  interpreters: [
-    "perl6",
-    "raku",
-    "rakudo",
-  ],
+  interpreters: ["perl6", "raku", "rakudo"],
 } as const;
 
 /**
@@ -10198,9 +7953,7 @@ export const Rascal = {
   tm_scope: "source.rascal",
   ace_mode: "text",
   language_id: 173616037,
-  extensions: [
-    ".rsc",
-  ],
+  extensions: [".rsc"],
 } as const;
 
 /**
@@ -10208,15 +7961,11 @@ export const Rascal = {
  */
 export const Rawtokendata = {
   type: "data",
-  aliases: [
-    "raw",
-  ],
+  aliases: ["raw"],
   tm_scope: "none",
   ace_mode: "text",
   language_id: 318,
-  extensions: [
-    ".raw",
-  ],
+  extensions: [".raw"],
 } as const;
 
 /**
@@ -10230,13 +7979,8 @@ export const ReScript = {
   codemirror_mode: "rust",
   codemirror_mime_type: "text/x-rustsrc",
   language_id: 501875647,
-  extensions: [
-    ".res",
-    ".resi",
-  ],
-  interpreters: [
-    "ocaml",
-  ],
+  extensions: [".res", ".resi"],
+  interpreters: ["ocaml"],
 } as const;
 
 /**
@@ -10244,18 +7988,12 @@ export const ReScript = {
  */
 export const ReadlineConfig = {
   type: "data",
-  aliases: [
-    "inputrc",
-    "readline",
-  ],
+  aliases: ["inputrc", "readline"],
   tm_scope: "source.inputrc",
   ace_mode: "text",
   group: "INI",
   language_id: 538732839,
-  filenames: [
-    ".inputrc",
-    "inputrc",
-  ],
+  filenames: [".inputrc", "inputrc"],
 } as const;
 
 /**
@@ -10269,10 +8007,7 @@ export const Reason = {
   codemirror_mode: "rust",
   codemirror_mime_type: "text/x-rustsrc",
   language_id: 869538413,
-  extensions: [
-    ".re",
-    ".rei",
-  ],
+  extensions: [".re", ".rei"],
 } as const;
 
 /**
@@ -10287,9 +8022,7 @@ export const ReasonLIGO = {
   codemirror_mime_type: "text/x-rustsrc",
   group: "LigoLANG",
   language_id: 319002153,
-  extensions: [
-    ".religo",
-  ],
+  extensions: [".religo"],
 } as const;
 
 /**
@@ -10301,13 +8034,7 @@ export const Rebol = {
   tm_scope: "source.rebol",
   ace_mode: "text",
   language_id: 319,
-  extensions: [
-    ".reb",
-    ".r",
-    ".r2",
-    ".r3",
-    ".rebol",
-  ],
+  extensions: [".reb", ".r", ".r2", ".r3", ".rebol"],
 } as const;
 
 /**
@@ -10321,9 +8048,7 @@ export const RecordJar = {
   codemirror_mode: "properties",
   codemirror_mime_type: "text/x-properties",
   language_id: 865765202,
-  filenames: [
-    "language-subtag-registry.txt",
-  ],
+  filenames: ["language-subtag-registry.txt"],
 } as const;
 
 /**
@@ -10332,16 +8057,11 @@ export const RecordJar = {
 export const Red = {
   type: "programming",
   color: "#f50000",
-  aliases: [
-    "red/system",
-  ],
+  aliases: ["red/system"],
   tm_scope: "source.red",
   ace_mode: "red",
   language_id: 320,
-  extensions: [
-    ".red",
-    ".reds",
-  ],
+  extensions: [".red", ".reds"],
 } as const;
 
 /**
@@ -10352,9 +8072,7 @@ export const Redcode = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 321,
-  extensions: [
-    ".cw",
-  ],
+  extensions: [".cw"],
 } as const;
 
 /**
@@ -10362,15 +8080,11 @@ export const Redcode = {
  */
 export const RedirectRules = {
   type: "data",
-  aliases: [
-    "redirects",
-  ],
+  aliases: ["redirects"],
   tm_scope: "source.redirects",
   ace_mode: "text",
   language_id: 1020148948,
-  filenames: [
-    "_redirects",
-  ],
+  filenames: ["_redirects"],
 } as const;
 
 /**
@@ -10379,17 +8093,11 @@ export const RedirectRules = {
 export const RegularExpression = {
   type: "data",
   color: "#009a00",
-  aliases: [
-    "regexp",
-    "regex",
-  ],
+  aliases: ["regexp", "regex"],
   tm_scope: "source.regexp",
   ace_mode: "text",
   language_id: 363378884,
-  extensions: [
-    ".regexp",
-    ".regex",
-  ],
+  extensions: [".regexp", ".regex"],
 } as const;
 
 /**
@@ -10398,15 +8106,11 @@ export const RegularExpression = {
 export const RenPy = {
   type: "programming",
   color: "#ff7f7f",
-  aliases: [
-    "renpy",
-  ],
+  aliases: ["renpy"],
   tm_scope: "source.renpy",
   ace_mode: "python",
   language_id: 322,
-  extensions: [
-    ".rpy",
-  ],
+  extensions: [".rpy"],
 } as const;
 
 /**
@@ -10417,10 +8121,7 @@ export const RenderScript = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 323,
-  extensions: [
-    ".rs",
-    ".rsh",
-  ],
+  extensions: [".rs", ".rsh"],
 } as const;
 
 /**
@@ -10432,9 +8133,7 @@ export const Rez = {
   tm_scope: "source.rez",
   ace_mode: "text",
   language_id: 498022874,
-  extensions: [
-    ".r",
-  ],
+  extensions: [".r"],
 } as const;
 
 /**
@@ -10445,9 +8144,7 @@ export const RichTextFormat = {
   tm_scope: "text.rtf",
   ace_mode: "text",
   language_id: 51601661,
-  extensions: [
-    ".rtf",
-  ],
+  extensions: [".rtf"],
 } as const;
 
 /**
@@ -10459,9 +8156,7 @@ export const Ring = {
   tm_scope: "source.ring",
   ace_mode: "text",
   language_id: 431,
-  extensions: [
-    ".ring",
-  ],
+  extensions: [".ring"],
 } as const;
 
 /**
@@ -10473,9 +8168,7 @@ export const Riot = {
   tm_scope: "text.html.riot",
   ace_mode: "html",
   language_id: 878396783,
-  extensions: [
-    ".riot",
-  ],
+  extensions: [".riot"],
 } as const;
 
 /**
@@ -10487,10 +8180,7 @@ export const RobotFramework = {
   tm_scope: "text.robot",
   ace_mode: "robot",
   language_id: 324,
-  extensions: [
-    ".robot",
-    ".resource",
-  ],
+  extensions: [".robot", ".resource"],
 } as const;
 
 /**
@@ -10502,9 +8192,7 @@ export const Roc = {
   tm_scope: "source.roc",
   ace_mode: "text",
   language_id: 440182480,
-  extensions: [
-    ".roc",
-  ],
+  extensions: [".roc"],
 } as const;
 
 /**
@@ -10513,17 +8201,11 @@ export const Roc = {
 export const RocqProver = {
   type: "programming",
   color: "#d0b68c",
-  aliases: [
-    "coq",
-    "rocq",
-  ],
+  aliases: ["coq", "rocq"],
   tm_scope: "source.coq",
   ace_mode: "text",
   language_id: 69,
-  extensions: [
-    ".v",
-    ".coq",
-  ],
+  extensions: [".v", ".coq"],
 } as const;
 
 /**
@@ -10532,16 +8214,7 @@ export const RocqProver = {
 export const Roff = {
   type: "markup",
   color: "#ecdebe",
-  aliases: [
-    "groff",
-    "man",
-    "manpage",
-    "man page",
-    "man-page",
-    "mdoc",
-    "nroff",
-    "troff",
-  ],
+  aliases: ["groff", "man", "manpage", "man page", "man-page", "mdoc", "nroff", "troff"],
   tm_scope: "text.roff",
   ace_mode: "text",
   codemirror_mode: "troff",
@@ -10578,13 +8251,7 @@ export const Roff = {
     ".rno",
     ".tmac",
   ],
-  filenames: [
-    "eqnrc",
-    "mmn",
-    "mmt",
-    "troffrc",
-    "troffrc-end",
-  ],
+  filenames: ["eqnrc", "mmn", "mmt", "troffrc", "troffrc-end"],
 } as const;
 
 /**
@@ -10635,9 +8302,7 @@ export const Rouge = {
   codemirror_mode: "clojure",
   codemirror_mime_type: "text/x-clojure",
   language_id: 325,
-  extensions: [
-    ".rg",
-  ],
+  extensions: [".rg"],
 } as const;
 
 /**
@@ -10649,12 +8314,8 @@ export const RouterOSScript = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 592853203,
-  extensions: [
-    ".rsc",
-  ],
-  interpreters: [
-    "RouterOS",
-  ],
+  extensions: [".rsc"],
+  interpreters: ["RouterOS"],
 } as const;
 
 /**
@@ -10663,13 +8324,7 @@ export const RouterOSScript = {
 export const Ruby = {
   type: "programming",
   color: "#701516",
-  aliases: [
-    "jruby",
-    "macruby",
-    "rake",
-    "rb",
-    "rbx",
-  ],
+  aliases: ["jruby", "macruby", "rake", "rb", "rbx"],
   tm_scope: "source.ruby",
   ace_mode: "ruby",
   codemirror_mode: "ruby",
@@ -10699,13 +8354,7 @@ export const Ruby = {
     ".thor",
     ".watchr",
   ],
-  interpreters: [
-    "ruby",
-    "macruby",
-    "rake",
-    "jruby",
-    "rbx",
-  ],
+  interpreters: ["ruby", "macruby", "rake", "jruby", "rbx"],
   filenames: [
     ".irbrc",
     ".pryrc",
@@ -10739,21 +8388,14 @@ export const Ruby = {
 export const Rust = {
   type: "programming",
   color: "#dea584",
-  aliases: [
-    "rs",
-  ],
+  aliases: ["rs"],
   tm_scope: "source.rust",
   ace_mode: "rust",
   codemirror_mode: "rust",
   codemirror_mime_type: "text/x-rustsrc",
   language_id: 327,
-  extensions: [
-    ".rs",
-    ".rs.in",
-  ],
-  interpreters: [
-    "rust-script",
-  ],
+  extensions: [".rs", ".rs.in"],
+  interpreters: ["rust-script"],
 } as const;
 
 /**
@@ -10767,9 +8409,7 @@ export const SAS = {
   codemirror_mode: "sas",
   codemirror_mime_type: "text/x-sas",
   language_id: 328,
-  extensions: [
-    ".sas",
-  ],
+  extensions: [".sas"],
 } as const;
 
 /**
@@ -10783,9 +8423,7 @@ export const SCSS = {
   codemirror_mode: "css",
   codemirror_mime_type: "text/x-scss",
   language_id: 329,
-  extensions: [
-    ".scss",
-  ],
+  extensions: [".scss"],
 } as const;
 
 /**
@@ -10793,16 +8431,11 @@ export const SCSS = {
  */
 export const SELinuxPolicy = {
   type: "data",
-  aliases: [
-    "SELinux Kernel Policy Language",
-    "sepolicy",
-  ],
+  aliases: ["SELinux Kernel Policy Language", "sepolicy"],
   tm_scope: "source.sepolicy",
   ace_mode: "text",
   language_id: 880010326,
-  extensions: [
-    ".te",
-  ],
+  extensions: [".te"],
   filenames: [
     "file_contexts",
     "genfs_contexts",
@@ -10820,11 +8453,7 @@ export const SMT = {
   tm_scope: "source.smt",
   ace_mode: "text",
   language_id: 330,
-  extensions: [
-    ".smt2",
-    ".smt",
-    ".z3",
-  ],
+  extensions: [".smt2", ".smt", ".z3"],
   interpreters: [
     "boolector",
     "cvc4",
@@ -10850,10 +8479,7 @@ export const SPARQL = {
   codemirror_mode: "sparql",
   codemirror_mime_type: "application/sparql-query",
   language_id: 331,
-  extensions: [
-    ".sparql",
-    ".rq",
-  ],
+  extensions: [".sparql", ".rq"],
 } as const;
 
 /**
@@ -10865,10 +8491,7 @@ export const SQF = {
   tm_scope: "source.sqf",
   ace_mode: "text",
   language_id: 332,
-  extensions: [
-    ".sqf",
-    ".hqf",
-  ],
+  extensions: [".sqf", ".hqf"],
 } as const;
 
 /**
@@ -10882,16 +8505,7 @@ export const SQL = {
   codemirror_mode: "sql",
   codemirror_mime_type: "text/x-sql",
   language_id: 333,
-  extensions: [
-    ".sql",
-    ".ddl",
-    ".inc",
-    ".mysql",
-    ".prc",
-    ".tab",
-    ".udf",
-    ".viw",
-  ],
+  extensions: [".sql", ".ddl", ".inc", ".mysql", ".prc", ".tab", ".udf", ".viw"],
 } as const;
 
 /**
@@ -10905,10 +8519,7 @@ export const SQLPL = {
   codemirror_mode: "sql",
   codemirror_mime_type: "text/x-sql",
   language_id: 334,
-  extensions: [
-    ".sql",
-    ".db2",
-  ],
+  extensions: [".sql", ".db2"],
 } as const;
 
 /**
@@ -10922,9 +8533,7 @@ export const SRecodeTemplate = {
   codemirror_mode: "commonlisp",
   codemirror_mime_type: "text/x-common-lisp",
   language_id: 335,
-  extensions: [
-    ".srt",
-  ],
+  extensions: [".srt"],
 } as const;
 
 /**
@@ -10932,12 +8541,7 @@ export const SRecodeTemplate = {
  */
 export const SSHConfig = {
   type: "data",
-  aliases: [
-    "sshconfig",
-    "sshdconfig",
-    "ssh_config",
-    "sshd_config",
-  ],
+  aliases: ["sshconfig", "sshdconfig", "ssh_config", "sshd_config"],
   tm_scope: "source.ssh-config",
   ace_mode: "text",
   group: "INI",
@@ -10960,9 +8564,7 @@ export const STAR = {
   tm_scope: "source.star",
   ace_mode: "text",
   language_id: 424510560,
-  extensions: [
-    ".star",
-  ],
+  extensions: [".star"],
 } as const;
 
 /**
@@ -10971,16 +8573,11 @@ export const STAR = {
 export const STL = {
   type: "data",
   color: "#373b5e",
-  aliases: [
-    "ascii stl",
-    "stla",
-  ],
+  aliases: ["ascii stl", "stla"],
   tm_scope: "source.stl",
   ace_mode: "text",
   language_id: 455361735,
-  extensions: [
-    ".stl",
-  ],
+  extensions: [".stl"],
 } as const;
 
 /**
@@ -10992,9 +8589,7 @@ export const STON = {
   ace_mode: "text",
   group: "Smalltalk",
   language_id: 336,
-  extensions: [
-    ".ston",
-  ],
+  extensions: [".ston"],
 } as const;
 
 /**
@@ -11008,9 +8603,7 @@ export const SVG = {
   codemirror_mode: "xml",
   codemirror_mime_type: "text/xml",
   language_id: 337,
-  extensions: [
-    ".svg",
-  ],
+  extensions: [".svg"],
 } as const;
 
 /**
@@ -11023,11 +8616,7 @@ export const SWIG = {
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-c++src",
   language_id: 1066250075,
-  extensions: [
-    ".i",
-    ".swg",
-    ".swig",
-  ],
+  extensions: [".i", ".swg", ".swig"],
 } as const;
 
 /**
@@ -11040,10 +8629,7 @@ export const Sage = {
   codemirror_mode: "python",
   codemirror_mime_type: "text/x-python",
   language_id: 338,
-  extensions: [
-    ".sage",
-    ".sagews",
-  ],
+  extensions: [".sage", ".sagews"],
 } as const;
 
 /**
@@ -11055,9 +8641,7 @@ export const Sail = {
   tm_scope: "source.sail",
   ace_mode: "text",
   language_id: 1029438153,
-  extensions: [
-    ".sail",
-  ],
+  extensions: [".sail"],
 } as const;
 
 /**
@@ -11066,18 +8650,13 @@ export const Sail = {
 export const SaltStack = {
   type: "programming",
   color: "#646464",
-  aliases: [
-    "saltstate",
-    "salt",
-  ],
+  aliases: ["saltstate", "salt"],
   tm_scope: "source.yaml.salt",
   ace_mode: "yaml",
   codemirror_mode: "yaml",
   codemirror_mime_type: "text/x-yaml",
   language_id: 339,
-  extensions: [
-    ".sls",
-  ],
+  extensions: [".sls"],
 } as const;
 
 /**
@@ -11091,9 +8670,7 @@ export const Sass = {
   codemirror_mode: "sass",
   codemirror_mime_type: "text/x-sass",
   language_id: 340,
-  extensions: [
-    ".sass",
-  ],
+  extensions: [".sass"],
 } as const;
 
 /**
@@ -11107,15 +8684,8 @@ export const Scala = {
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-scala",
   language_id: 341,
-  extensions: [
-    ".scala",
-    ".kojo",
-    ".sbt",
-    ".sc",
-  ],
-  interpreters: [
-    "scala",
-  ],
+  extensions: [".scala", ".kojo", ".sbt", ".sc"],
+  interpreters: ["scala"],
 } as const;
 
 /**
@@ -11127,9 +8697,7 @@ export const Scaml = {
   tm_scope: "source.scaml",
   ace_mode: "text",
   language_id: 342,
-  extensions: [
-    ".scaml",
-  ],
+  extensions: [".scaml"],
 } as const;
 
 /**
@@ -11141,12 +8709,8 @@ export const Scenic = {
   tm_scope: "source.scenic",
   ace_mode: "text",
   language_id: 619814037,
-  extensions: [
-    ".scenic",
-  ],
-  interpreters: [
-    "scenic",
-  ],
+  extensions: [".scenic"],
+  interpreters: ["scenic"],
 } as const;
 
 /**
@@ -11160,23 +8724,8 @@ export const Scheme = {
   codemirror_mode: "scheme",
   codemirror_mime_type: "text/x-scheme",
   language_id: 343,
-  extensions: [
-    ".scm",
-    ".sch",
-    ".sld",
-    ".sls",
-    ".sps",
-    ".ss",
-  ],
-  interpreters: [
-    "scheme",
-    "guile",
-    "bigloo",
-    "chicken",
-    "csi",
-    "gosh",
-    "r6rs",
-  ],
+  extensions: [".scm", ".sch", ".sld", ".sls", ".sps", ".ss"],
+  interpreters: ["scheme", "guile", "bigloo", "chicken", "csi", "gosh", "r6rs"],
 } as const;
 
 /**
@@ -11188,11 +8737,7 @@ export const Scilab = {
   tm_scope: "source.scilab",
   ace_mode: "text",
   language_id: 344,
-  extensions: [
-    ".sci",
-    ".sce",
-    ".tst",
-  ],
+  extensions: [".sci", ".sce", ".tst"],
 } as const;
 
 /**
@@ -11204,9 +8749,7 @@ export const Self = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 345,
-  extensions: [
-    ".self",
-  ],
+  extensions: [".self"],
 } as const;
 
 /**
@@ -11218,9 +8761,7 @@ export const ShaderLab = {
   tm_scope: "source.shaderlab",
   ace_mode: "text",
   language_id: 664257356,
-  extensions: [
-    ".shader",
-  ],
+  extensions: [".shader"],
 } as const;
 
 /**
@@ -11229,13 +8770,7 @@ export const ShaderLab = {
 export const Shell = {
   type: "programming",
   color: "#89e051",
-  aliases: [
-    "sh",
-    "shell-script",
-    "bash",
-    "zsh",
-    "envrc",
-  ],
+  aliases: ["sh", "shell-script", "bash", "zsh", "envrc"],
   tm_scope: "source.shell",
   ace_mode: "sh",
   codemirror_mode: "shell",
@@ -11258,17 +8793,7 @@ export const Shell = {
     ".zsh",
     ".zsh-theme",
   ],
-  interpreters: [
-    "ash",
-    "bash",
-    "dash",
-    "ksh",
-    "mksh",
-    "pdksh",
-    "rc",
-    "sh",
-    "zsh",
-  ],
+  interpreters: ["ash", "bash", "dash", "ksh", "mksh", "pdksh", "rc", "sh", "zsh"],
   filenames: [
     ".bash_aliases",
     ".bash_functions",
@@ -11320,17 +8845,13 @@ export const Shell = {
 export const ShellCheckConfig = {
   type: "data",
   color: "#cecfcb",
-  aliases: [
-    "shellcheckrc",
-  ],
+  aliases: ["shellcheckrc"],
   tm_scope: "source.shellcheckrc",
   ace_mode: "ini",
   codemirror_mode: "properties",
   codemirror_mime_type: "text/x-properties",
   language_id: 687511714,
-  filenames: [
-    ".shellcheckrc",
-  ],
+  filenames: [".shellcheckrc"],
 } as const;
 
 /**
@@ -11338,18 +8859,13 @@ export const ShellCheckConfig = {
  */
 export const ShellSession = {
   type: "programming",
-  aliases: [
-    "bash session",
-    "console",
-  ],
+  aliases: ["bash session", "console"],
   tm_scope: "text.shell-session",
   ace_mode: "sh",
   codemirror_mode: "shell",
   codemirror_mime_type: "text/x-sh",
   language_id: 347,
-  extensions: [
-    ".sh-session",
-  ],
+  extensions: [".sh-session"],
 } as const;
 
 /**
@@ -11361,9 +8877,7 @@ export const Shen = {
   tm_scope: "source.shen",
   ace_mode: "text",
   language_id: 348,
-  extensions: [
-    ".shen",
-  ],
+  extensions: [".shen"],
 } as const;
 
 /**
@@ -11376,9 +8890,7 @@ export const Sieve = {
   codemirror_mode: "sieve",
   codemirror_mime_type: "application/sieve",
   language_id: 208976687,
-  extensions: [
-    ".sieve",
-  ],
+  extensions: [".sieve"],
 } as const;
 
 /**
@@ -11387,18 +8899,14 @@ export const Sieve = {
 export const SimpleFileVerification = {
   type: "data",
   color: "#C9BFED",
-  aliases: [
-    "sfv",
-  ],
+  aliases: ["sfv"],
   tm_scope: "source.sfv",
   ace_mode: "ini",
   codemirror_mode: "properties",
   codemirror_mime_type: "text/x-properties",
   group: "Checksums",
   language_id: 735623761,
-  extensions: [
-    ".sfv",
-  ],
+  extensions: [".sfv"],
 } as const;
 
 /**
@@ -11410,9 +8918,7 @@ export const Singularity = {
   tm_scope: "source.singularity",
   ace_mode: "text",
   language_id: 987024632,
-  filenames: [
-    "Singularity",
-  ],
+  filenames: ["Singularity"],
 } as const;
 
 /**
@@ -11424,9 +8930,7 @@ export const Slang = {
   tm_scope: "source.slang",
   ace_mode: "text",
   language_id: 239357863,
-  extensions: [
-    ".slang",
-  ],
+  extensions: [".slang"],
 } as const;
 
 /**
@@ -11438,9 +8942,7 @@ export const Slash = {
   tm_scope: "text.html.slash",
   ace_mode: "text",
   language_id: 349,
-  extensions: [
-    ".sl",
-  ],
+  extensions: [".sl"],
 } as const;
 
 /**
@@ -11452,9 +8954,7 @@ export const Slice = {
   tm_scope: "source.ice",
   ace_mode: "text",
   language_id: 894641667,
-  extensions: [
-    ".ice",
-  ],
+  extensions: [".ice"],
 } as const;
 
 /**
@@ -11468,9 +8968,7 @@ export const Slim = {
   codemirror_mode: "slim",
   codemirror_mime_type: "text/x-slim",
   language_id: 350,
-  extensions: [
-    ".slim",
-  ],
+  extensions: [".slim"],
 } as const;
 
 /**
@@ -11482,9 +8980,7 @@ export const Slint = {
   tm_scope: "source.slint",
   ace_mode: "text",
   language_id: 119900149,
-  extensions: [
-    ".slint",
-  ],
+  extensions: [".slint"],
 } as const;
 
 /**
@@ -11493,15 +8989,11 @@ export const Slint = {
 export const SmPL = {
   type: "programming",
   color: "#c94949",
-  aliases: [
-    "coccinelle",
-  ],
+  aliases: ["coccinelle"],
   tm_scope: "source.smpl",
   ace_mode: "text",
   language_id: 164123055,
-  extensions: [
-    ".cocci",
-  ],
+  extensions: [".cocci"],
 } as const;
 
 /**
@@ -11512,9 +9004,7 @@ export const Smali = {
   tm_scope: "source.smali",
   ace_mode: "text",
   language_id: 351,
-  extensions: [
-    ".smali",
-  ],
+  extensions: [".smali"],
 } as const;
 
 /**
@@ -11523,18 +9013,13 @@ export const Smali = {
 export const Smalltalk = {
   type: "programming",
   color: "#596706",
-  aliases: [
-    "squeak",
-  ],
+  aliases: ["squeak"],
   tm_scope: "source.smalltalk",
   ace_mode: "text",
   codemirror_mode: "smalltalk",
   codemirror_mime_type: "text/x-stsrc",
   language_id: 352,
-  extensions: [
-    ".st",
-    ".cs",
-  ],
+  extensions: [".st", ".cs"],
 } as const;
 
 /**
@@ -11548,9 +9033,7 @@ export const Smarty = {
   codemirror_mode: "smarty",
   codemirror_mime_type: "text/x-smarty",
   language_id: 353,
-  extensions: [
-    ".tpl",
-  ],
+  extensions: [".tpl"],
 } as const;
 
 /**
@@ -11564,9 +9047,7 @@ export const Smithy = {
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-csrc",
   language_id: 1027892786,
-  extensions: [
-    ".smithy",
-  ],
+  extensions: [".smithy"],
 } as const;
 
 /**
@@ -11575,22 +9056,15 @@ export const Smithy = {
 export const Snakemake = {
   type: "programming",
   color: "#419179",
-  aliases: [
-    "snakefile",
-  ],
+  aliases: ["snakefile"],
   tm_scope: "source.python",
   ace_mode: "python",
   codemirror_mode: "python",
   codemirror_mime_type: "text/x-python",
   group: "Python",
   language_id: 151241392,
-  extensions: [
-    ".smk",
-    ".snakefile",
-  ],
-  filenames: [
-    "Snakefile",
-  ],
+  extensions: [".smk", ".snakefile"],
+  filenames: ["Snakefile"],
 } as const;
 
 /**
@@ -11602,9 +9076,7 @@ export const Solidity = {
   tm_scope: "source.solidity",
   ace_mode: "text",
   language_id: 237469032,
-  extensions: [
-    ".sol",
-  ],
+  extensions: [".sol"],
 } as const;
 
 /**
@@ -11615,9 +9087,7 @@ export const Soong = {
   tm_scope: "source.bp",
   ace_mode: "text",
   language_id: 222900098,
-  filenames: [
-    "Android.bp",
-  ],
+  filenames: ["Android.bp"],
 } as const;
 
 /**
@@ -11626,16 +9096,11 @@ export const Soong = {
 export const SourcePawn = {
   type: "programming",
   color: "#f69e1d",
-  aliases: [
-    "sourcemod",
-  ],
+  aliases: ["sourcemod"],
   tm_scope: "source.sourcepawn",
   ace_mode: "text",
   language_id: 354,
-  extensions: [
-    ".sp",
-    ".inc",
-  ],
+  extensions: [".sp", ".inc"],
 } as const;
 
 /**
@@ -11646,9 +9111,7 @@ export const SplineFontDatabase = {
   tm_scope: "text.sfd",
   ace_mode: "yaml",
   language_id: 767169629,
-  extensions: [
-    ".sfd",
-  ],
+  extensions: [".sfd"],
 } as const;
 
 /**
@@ -11662,9 +9125,7 @@ export const Squirrel = {
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-squirrel",
   language_id: 355,
-  extensions: [
-    ".nut",
-  ],
+  extensions: [".nut"],
 } as const;
 
 /**
@@ -11676,9 +9137,7 @@ export const Stan = {
   tm_scope: "source.stan",
   ace_mode: "text",
   language_id: 356,
-  extensions: [
-    ".stan",
-  ],
+  extensions: [".stan"],
 } as const;
 
 /**
@@ -11687,20 +9146,13 @@ export const Stan = {
 export const StandardML = {
   type: "programming",
   color: "#dc566d",
-  aliases: [
-    "sml",
-  ],
+  aliases: ["sml"],
   tm_scope: "source.ml",
   ace_mode: "text",
   codemirror_mode: "mllike",
   codemirror_mime_type: "text/x-sml",
   language_id: 357,
-  extensions: [
-    ".ml",
-    ".fun",
-    ".sig",
-    ".sml",
-  ],
+  extensions: [".ml", ".fun", ".sig", ".sml"],
 } as const;
 
 /**
@@ -11709,19 +9161,13 @@ export const StandardML = {
 export const Starlark = {
   type: "programming",
   color: "#76d275",
-  aliases: [
-    "bazel",
-    "bzl",
-  ],
+  aliases: ["bazel", "bzl"],
   tm_scope: "source.python",
   ace_mode: "python",
   codemirror_mode: "python",
   codemirror_mime_type: "text/x-python",
   language_id: 960266174,
-  extensions: [
-    ".bzl",
-    ".star",
-  ],
+  extensions: [".bzl", ".star"],
   filenames: [
     "BUCK",
     "BUILD",
@@ -11743,15 +9189,7 @@ export const Stata = {
   tm_scope: "source.stata",
   ace_mode: "text",
   language_id: 358,
-  extensions: [
-    ".do",
-    ".ado",
-    ".doh",
-    ".ihlp",
-    ".mata",
-    ".matah",
-    ".sthlp",
-  ],
+  extensions: [".do", ".ado", ".doh", ".ihlp", ".mata", ".matah", ".sthlp"],
 } as const;
 
 /**
@@ -11765,9 +9203,7 @@ export const StringTemplate = {
   codemirror_mode: "htmlmixed",
   codemirror_mime_type: "text/html",
   language_id: 89855901,
-  extensions: [
-    ".st",
-  ],
+  extensions: [".st"],
 } as const;
 
 /**
@@ -11781,9 +9217,7 @@ export const Stylus = {
   codemirror_mode: "stylus",
   codemirror_mime_type: "text/x-styl",
   language_id: 359,
-  extensions: [
-    ".styl",
-  ],
+  extensions: [".styl"],
 } as const;
 
 /**
@@ -11795,9 +9229,7 @@ export const SubRipText = {
   tm_scope: "text.srt",
   ace_mode: "text",
   language_id: 360,
-  extensions: [
-    ".srt",
-  ],
+  extensions: [".srt"],
 } as const;
 
 /**
@@ -11809,9 +9241,7 @@ export const SugarSS = {
   tm_scope: "source.css.postcss.sugarss",
   ace_mode: "text",
   language_id: 826404698,
-  extensions: [
-    ".sss",
-  ],
+  extensions: [".sss"],
 } as const;
 
 /**
@@ -11823,14 +9253,8 @@ export const SuperCollider = {
   tm_scope: "source.supercollider",
   ace_mode: "text",
   language_id: 361,
-  extensions: [
-    ".sc",
-    ".scd",
-  ],
-  interpreters: [
-    "sclang",
-    "scsynth",
-  ],
+  extensions: [".sc", ".scd"],
+  interpreters: ["sclang", "scsynth"],
 } as const;
 
 /**
@@ -11839,15 +9263,11 @@ export const SuperCollider = {
 export const SurrealQL = {
   type: "programming",
   color: "#ff00a0",
-  aliases: [
-    "surql",
-  ],
+  aliases: ["surql"],
   tm_scope: "source.surrealql",
   ace_mode: "text",
   language_id: 735141027,
-  extensions: [
-    ".surql",
-  ],
+  extensions: [".surql"],
 } as const;
 
 /**
@@ -11859,9 +9279,7 @@ export const Survexdata = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 24470517,
-  extensions: [
-    ".svx",
-  ],
+  extensions: [".svx"],
 } as const;
 
 /**
@@ -11875,9 +9293,7 @@ export const Svelte = {
   codemirror_mode: "htmlmixed",
   codemirror_mime_type: "text/html",
   language_id: 928734530,
-  extensions: [
-    ".svelte",
-  ],
+  extensions: [".svelte"],
 } as const;
 
 /**
@@ -11891,9 +9307,7 @@ export const Sway = {
   codemirror_mode: "rust",
   codemirror_mime_type: "text/x-rustsrc",
   language_id: 271471144,
-  extensions: [
-    ".sw",
-  ],
+  extensions: [".sw"],
 } as const;
 
 /**
@@ -11905,9 +9319,7 @@ export const Sweave = {
   tm_scope: "text.tex.latex.sweave",
   ace_mode: "tex",
   language_id: 558779190,
-  extensions: [
-    ".rnw",
-  ],
+  extensions: [".rnw"],
 } as const;
 
 /**
@@ -11921,9 +9333,7 @@ export const Swift = {
   codemirror_mode: "swift",
   codemirror_mime_type: "text/x-swift",
   language_id: 362,
-  extensions: [
-    ".swift",
-  ],
+  extensions: [".swift"],
 } as const;
 
 /**
@@ -11937,11 +9347,7 @@ export const SystemVerilog = {
   codemirror_mode: "verilog",
   codemirror_mime_type: "text/x-systemverilog",
   language_id: 363,
-  extensions: [
-    ".sv",
-    ".svh",
-    ".vh",
-  ],
+  extensions: [".sv", ".svh", ".vh"],
 } as const;
 
 /**
@@ -11953,10 +9359,7 @@ export const TIProgram = {
   tm_scope: "source.8xp",
   ace_mode: "text",
   language_id: 422,
-  extensions: [
-    ".8xp",
-    ".8xp.txt",
-  ],
+  extensions: [".8xp", ".8xp.txt"],
 } as const;
 
 /**
@@ -11968,9 +9371,7 @@ export const TL_Verilog = {
   tm_scope: "source.tlverilog",
   ace_mode: "verilog",
   language_id: 118656070,
-  extensions: [
-    ".tlv",
-  ],
+  extensions: [".tlv"],
 } as const;
 
 /**
@@ -11982,9 +9383,7 @@ export const TLA = {
   tm_scope: "source.tla",
   ace_mode: "text",
   language_id: 364,
-  extensions: [
-    ".tla",
-  ],
+  extensions: [".tla"],
 } as const;
 
 /**
@@ -11993,15 +9392,11 @@ export const TLA = {
 export const TMDL = {
   type: "data",
   color: "#f0c913",
-  aliases: [
-    "Tabular Model Definition Language",
-  ],
+  aliases: ["Tabular Model Definition Language"],
   tm_scope: "source.tmdl",
   ace_mode: "text",
   language_id: 769162295,
-  extensions: [
-    ".tmdl",
-  ],
+  extensions: [".tmdl"],
 } as const;
 
 /**
@@ -12015,10 +9410,7 @@ export const TOML = {
   codemirror_mode: "toml",
   codemirror_mime_type: "text/x-toml",
   language_id: 365,
-  extensions: [
-    ".toml",
-    ".toml.example",
-  ],
+  extensions: [".toml", ".toml.example"],
   filenames: [
     "Cargo.lock",
     "Cargo.toml.orig",
@@ -12035,16 +9427,11 @@ export const TOML = {
  */
 export const TSPLIBdata = {
   type: "data",
-  aliases: [
-    "travelling salesman problem",
-    "traveling salesman problem",
-  ],
+  aliases: ["travelling salesman problem", "traveling salesman problem"],
   tm_scope: "none",
   ace_mode: "text",
   language_id: 89289301,
-  extensions: [
-    ".tsp",
-  ],
+  extensions: [".tsp"],
 } as const;
 
 /**
@@ -12056,9 +9443,7 @@ export const TSQL = {
   tm_scope: "source.tsql",
   ace_mode: "sql",
   language_id: 918334941,
-  extensions: [
-    ".sql",
-  ],
+  extensions: [".sql"],
 } as const;
 
 /**
@@ -12067,16 +9452,11 @@ export const TSQL = {
 export const TSV = {
   type: "data",
   color: "#237346",
-  aliases: [
-    "tab-seperated values",
-  ],
+  aliases: ["tab-seperated values"],
   tm_scope: "source.tsv",
   ace_mode: "tsv",
   language_id: 1035892117,
-  extensions: [
-    ".tsv",
-    ".vcf",
-  ],
+  extensions: [".tsv", ".vcf"],
 } as const;
 
 /**
@@ -12085,18 +9465,14 @@ export const TSV = {
 export const TSX = {
   type: "programming",
   color: "#3178c6",
-  aliases: [
-    "typescriptreact",
-  ],
+  aliases: ["typescriptreact"],
   tm_scope: "source.tsx",
   ace_mode: "tsx",
   codemirror_mode: "jsx",
   codemirror_mime_type: "text/typescript-jsx",
   group: "TypeScript",
   language_id: 94901924,
-  extensions: [
-    ".tsx",
-  ],
+  extensions: [".tsx"],
 } as const;
 
 /**
@@ -12108,9 +9484,7 @@ export const TXL = {
   tm_scope: "source.txl",
   ace_mode: "text",
   language_id: 366,
-  extensions: [
-    ".txl",
-  ],
+  extensions: [".txl"],
 } as const;
 
 /**
@@ -12122,9 +9496,7 @@ export const Tact = {
   tm_scope: "source.tact",
   ace_mode: "text",
   language_id: 606708469,
-  extensions: [
-    ".tact",
-  ],
+  extensions: [".tact"],
 } as const;
 
 /**
@@ -12136,9 +9508,7 @@ export const Talon = {
   tm_scope: "source.talon",
   ace_mode: "text",
   language_id: 959889508,
-  extensions: [
-    ".talon",
-  ],
+  extensions: [".talon"],
 } as const;
 
 /**
@@ -12147,31 +9517,15 @@ export const Talon = {
 export const Tcl = {
   type: "programming",
   color: "#e4cc98",
-  aliases: [
-    "sdc",
-    "xdc",
-  ],
+  aliases: ["sdc", "xdc"],
   tm_scope: "source.tcl",
   ace_mode: "tcl",
   codemirror_mode: "tcl",
   codemirror_mime_type: "text/x-tcl",
   language_id: 367,
-  extensions: [
-    ".tcl",
-    ".adp",
-    ".sdc",
-    ".tcl.in",
-    ".tm",
-    ".xdc",
-  ],
-  interpreters: [
-    "tclsh",
-    "wish",
-  ],
-  filenames: [
-    "owh",
-    "starfield",
-  ],
+  extensions: [".tcl", ".adp", ".sdc", ".tcl.in", ".tm", ".xdc"],
+  interpreters: ["tclsh", "wish"],
+  filenames: ["owh", "starfield"],
 } as const;
 
 /**
@@ -12185,14 +9539,8 @@ export const Tcsh = {
   codemirror_mime_type: "text/x-sh",
   group: "Shell",
   language_id: 368,
-  extensions: [
-    ".tcsh",
-    ".csh",
-  ],
-  interpreters: [
-    "tcsh",
-    "csh",
-  ],
+  extensions: [".tcsh", ".csh"],
+  interpreters: ["tcsh", "csh"],
 } as const;
 
 /**
@@ -12201,9 +9549,7 @@ export const Tcsh = {
 export const TeX = {
   type: "markup",
   color: "#3D6117",
-  aliases: [
-    "latex",
-  ],
+  aliases: ["latex"],
   tm_scope: "text.tex.latex",
   ace_mode: "tex",
   codemirror_mode: "stex",
@@ -12236,9 +9582,7 @@ export const Tea = {
   tm_scope: "source.tea",
   ace_mode: "text",
   language_id: 370,
-  extensions: [
-    ".tea",
-  ],
+  extensions: [".tea"],
 } as const;
 
 /**
@@ -12252,12 +9596,8 @@ export const Teal = {
   codemirror_mode: "lua",
   codemirror_mime_type: "text/x-lua",
   language_id: 719038619,
-  extensions: [
-    ".tl",
-  ],
-  interpreters: [
-    "tl",
-  ],
+  extensions: [".tl"],
+  interpreters: ["tl"],
 } as const;
 
 /**
@@ -12271,12 +9611,8 @@ export const Terra = {
   codemirror_mode: "lua",
   codemirror_mime_type: "text/x-lua",
   language_id: 371,
-  extensions: [
-    ".t",
-  ],
-  interpreters: [
-    "lua",
-  ],
+  extensions: [".t"],
+  interpreters: ["lua"],
 } as const;
 
 /**
@@ -12291,9 +9627,7 @@ export const TerraformTemplate = {
   codemirror_mime_type: "text/x-ruby",
   group: "HCL",
   language_id: 856832701,
-  extensions: [
-    ".tftpl",
-  ],
+  extensions: [".tftpl"],
 } as const;
 
 /**
@@ -12305,14 +9639,8 @@ export const Texinfo = {
   ace_mode: "text",
   wrap: true,
   language_id: 988020015,
-  extensions: [
-    ".texinfo",
-    ".texi",
-    ".txi",
-  ],
-  interpreters: [
-    "makeinfo",
-  ],
+  extensions: [".texinfo", ".texi", ".txi"],
+  interpreters: ["makeinfo"],
 } as const;
 
 /**
@@ -12320,21 +9648,12 @@ export const Texinfo = {
  */
 export const Text = {
   type: "prose",
-  aliases: [
-    "fundamental",
-    "plain text",
-  ],
+  aliases: ["fundamental", "plain text"],
   tm_scope: "none",
   ace_mode: "text",
   wrap: true,
   language_id: 372,
-  extensions: [
-    ".txt",
-    ".fr",
-    ".nb",
-    ".ncl",
-    ".no",
-  ],
+  extensions: [".txt", ".fr", ".nb", ".ncl", ".no"],
   filenames: [
     "CITATION",
     "CITATIONS",
@@ -12373,9 +9692,7 @@ export const TextGrid = {
   tm_scope: "source.textgrid",
   ace_mode: "text",
   language_id: 965696054,
-  extensions: [
-    ".TextGrid",
-  ],
+  extensions: [".TextGrid"],
 } as const;
 
 /**
@@ -12384,17 +9701,13 @@ export const TextGrid = {
 export const TextMateProperties = {
   type: "data",
   color: "#df66e4",
-  aliases: [
-    "tm-properties",
-  ],
+  aliases: ["tm-properties"],
   tm_scope: "source.tm-properties",
   ace_mode: "properties",
   codemirror_mode: "properties",
   codemirror_mime_type: "text/x-properties",
   language_id: 981795023,
-  filenames: [
-    ".tm_properties",
-  ],
+  filenames: [".tm_properties"],
 } as const;
 
 /**
@@ -12409,9 +9722,7 @@ export const Textile = {
   codemirror_mime_type: "text/x-textile",
   wrap: true,
   language_id: 373,
-  extensions: [
-    ".textile",
-  ],
+  extensions: [".textile"],
 } as const;
 
 /**
@@ -12423,9 +9734,7 @@ export const Thrift = {
   tm_scope: "source.thrift",
   ace_mode: "text",
   language_id: 374,
-  extensions: [
-    ".thrift",
-  ],
+  extensions: [".thrift"],
 } as const;
 
 /**
@@ -12437,9 +9746,7 @@ export const Toit = {
   tm_scope: "source.toit",
   ace_mode: "text",
   language_id: 356554395,
-  extensions: [
-    ".toit",
-  ],
+  extensions: [".toit"],
 } as const;
 
 /**
@@ -12448,15 +9755,11 @@ export const Toit = {
 export const TorConfig = {
   type: "data",
   color: "#59316b",
-  aliases: [
-    "torrc",
-  ],
+  aliases: ["torrc"],
   tm_scope: "source.torrc",
   ace_mode: "apache_conf",
   language_id: 1016912802,
-  filenames: [
-    "torrc",
-  ],
+  filenames: ["torrc"],
 } as const;
 
 /**
@@ -12465,15 +9768,11 @@ export const TorConfig = {
 export const Tree_sitterQuery = {
   type: "programming",
   color: "#8ea64c",
-  aliases: [
-    "tsq",
-  ],
+  aliases: ["tsq"],
   tm_scope: "source.scm",
   ace_mode: "text",
   language_id: 436081647,
-  extensions: [
-    ".scm",
-  ],
+  extensions: [".scm"],
 } as const;
 
 /**
@@ -12485,10 +9784,7 @@ export const Turing = {
   tm_scope: "source.turing",
   ace_mode: "text",
   language_id: 375,
-  extensions: [
-    ".t",
-    ".tu",
-  ],
+  extensions: [".t", ".tu"],
 } as const;
 
 /**
@@ -12501,9 +9797,7 @@ export const Turtle = {
   codemirror_mode: "turtle",
   codemirror_mime_type: "text/turtle",
   language_id: 376,
-  extensions: [
-    ".ttl",
-  ],
+  extensions: [".ttl"],
 } as const;
 
 /**
@@ -12517,9 +9811,7 @@ export const Twig = {
   codemirror_mode: "twig",
   codemirror_mime_type: "text/x-twig",
   language_id: 377,
-  extensions: [
-    ".twig",
-  ],
+  extensions: [".twig"],
 } as const;
 
 /**
@@ -12527,15 +9819,11 @@ export const Twig = {
  */
 export const TypeLanguage = {
   type: "data",
-  aliases: [
-    "tl",
-  ],
+  aliases: ["tl"],
   tm_scope: "source.tl",
   ace_mode: "text",
   language_id: 632765617,
-  extensions: [
-    ".tl",
-  ],
+  extensions: [".tl"],
 } as const;
 
 /**
@@ -12544,25 +9832,14 @@ export const TypeLanguage = {
 export const TypeScript = {
   type: "programming",
   color: "#3178c6",
-  aliases: [
-    "ts",
-  ],
+  aliases: ["ts"],
   tm_scope: "source.ts",
   ace_mode: "typescript",
   codemirror_mode: "javascript",
   codemirror_mime_type: "application/typescript",
   language_id: 378,
-  extensions: [
-    ".ts",
-    ".cts",
-    ".mts",
-  ],
-  interpreters: [
-    "bun",
-    "deno",
-    "ts-node",
-    "tsx",
-  ],
+  extensions: [".ts", ".cts", ".mts"],
+  interpreters: ["bun", "deno", "ts-node", "tsx"],
 } as const;
 
 /**
@@ -12571,15 +9848,11 @@ export const TypeScript = {
 export const TypeSpec = {
   type: "programming",
   color: "#4A3665",
-  aliases: [
-    "tsp",
-  ],
+  aliases: ["tsp"],
   tm_scope: "source.tsp",
   ace_mode: "text",
   language_id: 952272597,
-  extensions: [
-    ".tsp",
-  ],
+  extensions: [".tsp"],
 } as const;
 
 /**
@@ -12588,15 +9861,11 @@ export const TypeSpec = {
 export const Typst = {
   type: "programming",
   color: "#239dad",
-  aliases: [
-    "typ",
-  ],
+  aliases: ["typ"],
   tm_scope: "source.typst",
   ace_mode: "text",
   language_id: 704730682,
-  extensions: [
-    ".typ",
-  ],
+  extensions: [".typ"],
 } as const;
 
 /**
@@ -12611,9 +9880,7 @@ export const UnifiedParallelC = {
   codemirror_mime_type: "text/x-csrc",
   group: "C",
   language_id: 379,
-  extensions: [
-    ".upc",
-  ],
+  extensions: [".upc"],
 } as const;
 
 /**
@@ -12627,15 +9894,7 @@ export const Unity3DAsset = {
   codemirror_mode: "yaml",
   codemirror_mime_type: "text/x-yaml",
   language_id: 380,
-  extensions: [
-    ".anim",
-    ".asset",
-    ".mask",
-    ".mat",
-    ".meta",
-    ".prefab",
-    ".unity",
-  ],
+  extensions: [".anim", ".asset", ".mask", ".mat", ".meta", ".prefab", ".unity"],
 } as const;
 
 /**
@@ -12643,19 +9902,12 @@ export const Unity3DAsset = {
  */
 export const UnixAssembly = {
   type: "programming",
-  aliases: [
-    "gas",
-    "gnu asm",
-    "unix asm",
-  ],
+  aliases: ["gas", "gnu asm", "unix asm"],
   tm_scope: "source.x86",
   ace_mode: "assembly_x86",
   group: "Assembly",
   language_id: 120,
-  extensions: [
-    ".s",
-    ".ms",
-  ],
+  extensions: [".s", ".ms"],
 } as const;
 
 /**
@@ -12669,9 +9921,7 @@ export const Uno = {
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-csharp",
   language_id: 381,
-  extensions: [
-    ".uno",
-  ],
+  extensions: [".uno"],
 } as const;
 
 /**
@@ -12685,9 +9935,7 @@ export const UnrealScript = {
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-java",
   language_id: 382,
-  extensions: [
-    ".uc",
-  ],
+  extensions: [".uc"],
 } as const;
 
 /**
@@ -12699,9 +9947,7 @@ export const UntypedPlutusCore = {
   tm_scope: "source.uplc",
   ace_mode: "text",
   language_id: 1061635506,
-  extensions: [
-    ".uplc",
-  ],
+  extensions: [".uplc"],
 } as const;
 
 /**
@@ -12710,17 +9956,11 @@ export const UntypedPlutusCore = {
 export const UrWeb = {
   type: "programming",
   color: "#ccccee",
-  aliases: [
-    "Ur/Web",
-    "Ur",
-  ],
+  aliases: ["Ur/Web", "Ur"],
   tm_scope: "source.ur",
   ace_mode: "text",
   language_id: 383,
-  extensions: [
-    ".ur",
-    ".urs",
-  ],
+  extensions: [".ur", ".urs"],
 } as const;
 
 /**
@@ -12729,17 +9969,13 @@ export const UrWeb = {
 export const V = {
   type: "programming",
   color: "#4f87c4",
-  aliases: [
-    "vlang",
-  ],
+  aliases: ["vlang"],
   tm_scope: "source.v",
   ace_mode: "golang",
   codemirror_mode: "go",
   codemirror_mime_type: "text/x-go",
   language_id: 603371597,
-  extensions: [
-    ".v",
-  ],
+  extensions: [".v"],
 } as const;
 
 /**
@@ -12748,20 +9984,13 @@ export const V = {
 export const VBA = {
   type: "programming",
   color: "#867db1",
-  aliases: [
-    "visual basic for applications",
-  ],
+  aliases: ["visual basic for applications"],
   tm_scope: "source.vba",
   ace_mode: "text",
   codemirror_mode: "vb",
   codemirror_mime_type: "text/x-vb",
   language_id: 399230729,
-  extensions: [
-    ".bas",
-    ".cls",
-    ".frm",
-    ".vba",
-  ],
+  extensions: [".bas", ".cls", ".frm", ".vba"],
 } as const;
 
 /**
@@ -12775,9 +10004,7 @@ export const VBScript = {
   codemirror_mode: "vbscript",
   codemirror_mime_type: "text/vbscript",
   language_id: 408016005,
-  extensions: [
-    ".vbs",
-  ],
+  extensions: [".vbs"],
 } as const;
 
 /**
@@ -12789,9 +10016,7 @@ export const VCL = {
   tm_scope: "source.vcl",
   ace_mode: "text",
   language_id: 384,
-  extensions: [
-    ".vcl",
-  ],
+  extensions: [".vcl"],
 } as const;
 
 /**
@@ -12805,16 +10030,7 @@ export const VHDL = {
   codemirror_mode: "vhdl",
   codemirror_mime_type: "text/x-vhdl",
   language_id: 385,
-  extensions: [
-    ".vhdl",
-    ".vhd",
-    ".vhf",
-    ".vhi",
-    ".vho",
-    ".vhs",
-    ".vht",
-    ".vhw",
-  ],
+  extensions: [".vhdl", ".vhd", ".vhf", ".vhi", ".vho", ".vhs", ".vht", ".vhw"],
 } as const;
 
 /**
@@ -12826,10 +10042,7 @@ export const Vala = {
   tm_scope: "source.vala",
   ace_mode: "vala",
   language_id: 386,
-  extensions: [
-    ".vala",
-    ".vapi",
-  ],
+  extensions: [".vala", ".vapi"],
 } as const;
 
 /**
@@ -12838,16 +10051,11 @@ export const Vala = {
 export const ValveDataFormat = {
   type: "data",
   color: "#f26025",
-  aliases: [
-    "keyvalues",
-    "vdf",
-  ],
+  aliases: ["keyvalues", "vdf"],
   tm_scope: "source.keyvalues",
   ace_mode: "text",
   language_id: 544060961,
-  extensions: [
-    ".vdf",
-  ],
+  extensions: [".vdf"],
 } as const;
 
 /**
@@ -12856,18 +10064,13 @@ export const ValveDataFormat = {
 export const VelocityTemplateLanguage = {
   type: "markup",
   color: "#507cff",
-  aliases: [
-    "vtl",
-    "velocity",
-  ],
+  aliases: ["vtl", "velocity"],
   tm_scope: "source.velocity",
   ace_mode: "velocity",
   codemirror_mode: "velocity",
   codemirror_mime_type: "text/velocity",
   language_id: 292377326,
-  extensions: [
-    ".vtl",
-  ],
+  extensions: [".vtl"],
 } as const;
 
 /**
@@ -12879,9 +10082,7 @@ export const Vento = {
   tm_scope: "source.vento",
   ace_mode: "text",
   language_id: 757053899,
-  extensions: [
-    ".vto",
-  ],
+  extensions: [".vto"],
 } as const;
 
 /**
@@ -12895,10 +10096,7 @@ export const Verilog = {
   codemirror_mode: "verilog",
   codemirror_mime_type: "text/x-verilog",
   language_id: 387,
-  extensions: [
-    ".v",
-    ".veo",
-  ],
+  extensions: [".v", ".veo"],
 } as const;
 
 /**
@@ -12907,16 +10105,11 @@ export const Verilog = {
 export const VimHelpFile = {
   type: "prose",
   color: "#199f4b",
-  aliases: [
-    "help",
-    "vimhelp",
-  ],
+  aliases: ["help", "vimhelp"],
   tm_scope: "text.vim-help",
   ace_mode: "text",
   language_id: 508563686,
-  extensions: [
-    ".txt",
-  ],
+  extensions: [".txt"],
 } as const;
 
 /**
@@ -12925,31 +10118,12 @@ export const VimHelpFile = {
 export const VimScript = {
   type: "programming",
   color: "#199f4b",
-  aliases: [
-    "vim",
-    "viml",
-    "nvim",
-    "vimscript",
-  ],
+  aliases: ["vim", "viml", "nvim", "vimscript"],
   tm_scope: "source.viml",
   ace_mode: "text",
   language_id: 388,
-  extensions: [
-    ".vim",
-    ".vba",
-    ".vimrc",
-    ".vmb",
-  ],
-  filenames: [
-    ".exrc",
-    ".gvimrc",
-    ".nvimrc",
-    ".vimrc",
-    "_vimrc",
-    "gvimrc",
-    "nvimrc",
-    "vimrc",
-  ],
+  extensions: [".vim", ".vba", ".vimrc", ".vmb"],
+  filenames: [".exrc", ".gvimrc", ".nvimrc", ".vimrc", "_vimrc", "gvimrc", "nvimrc", "vimrc"],
 } as const;
 
 /**
@@ -12958,20 +10132,11 @@ export const VimScript = {
 export const VimSnippet = {
   type: "markup",
   color: "#199f4b",
-  aliases: [
-    "SnipMate",
-    "UltiSnip",
-    "UltiSnips",
-    "NeoSnippet",
-  ],
+  aliases: ["SnipMate", "UltiSnip", "UltiSnips", "NeoSnippet"],
   tm_scope: "source.vim-snippet",
   ace_mode: "text",
   language_id: 81265970,
-  extensions: [
-    ".snip",
-    ".snippet",
-    ".snippets",
-  ],
+  extensions: [".snip", ".snippet", ".snippets"],
 } as const;
 
 /**
@@ -12980,21 +10145,13 @@ export const VimSnippet = {
 export const VisualBasicNET = {
   type: "programming",
   color: "#945db7",
-  aliases: [
-    "visual basic",
-    "vbnet",
-    "vb .net",
-    "vb.net",
-  ],
+  aliases: ["visual basic", "vbnet", "vb .net", "vb.net"],
   tm_scope: "source.vbnet",
   ace_mode: "text",
   codemirror_mode: "vb",
   codemirror_mime_type: "text/x-vb",
   language_id: 389,
-  extensions: [
-    ".vb",
-    ".vbhtml",
-  ],
+  extensions: [".vb", ".vbhtml"],
 } as const;
 
 /**
@@ -13003,25 +10160,13 @@ export const VisualBasicNET = {
 export const VisualBasic60 = {
   type: "programming",
   color: "#2c6353",
-  aliases: [
-    "vb6",
-    "vb 6",
-    "visual basic 6",
-    "visual basic classic",
-    "classic visual basic",
-  ],
+  aliases: ["vb6", "vb 6", "visual basic 6", "visual basic classic", "classic visual basic"],
   tm_scope: "source.vba",
   ace_mode: "text",
   codemirror_mode: "vb",
   codemirror_mime_type: "text/x-vb",
   language_id: 679594952,
-  extensions: [
-    ".bas",
-    ".cls",
-    ".ctl",
-    ".Dsr",
-    ".frm",
-  ],
+  extensions: [".bas", ".cls", ".ctl", ".Dsr", ".frm"],
 } as const;
 
 /**
@@ -13035,9 +10180,7 @@ export const Volt = {
   codemirror_mode: "d",
   codemirror_mime_type: "text/x-d",
   language_id: 390,
-  extensions: [
-    ".volt",
-  ],
+  extensions: [".volt"],
 } as const;
 
 /**
@@ -13051,9 +10194,7 @@ export const Vue = {
   codemirror_mode: "vue",
   codemirror_mime_type: "text/x-vue",
   language_id: 391,
-  extensions: [
-    ".vue",
-  ],
+  extensions: [".vue"],
 } as const;
 
 /**
@@ -13065,9 +10206,7 @@ export const Vyper = {
   tm_scope: "source.vyper",
   ace_mode: "text",
   language_id: 1055641948,
-  extensions: [
-    ".vy",
-  ],
+  extensions: [".vy"],
 } as const;
 
 /**
@@ -13076,15 +10215,11 @@ export const Vyper = {
 export const WDL = {
   type: "programming",
   color: "#42f1f4",
-  aliases: [
-    "Workflow Description Language",
-  ],
+  aliases: ["Workflow Description Language"],
   tm_scope: "source.wdl",
   ace_mode: "text",
   language_id: 374521672,
-  extensions: [
-    ".wdl",
-  ],
+  extensions: [".wdl"],
 } as const;
 
 /**
@@ -13096,9 +10231,7 @@ export const WGSL = {
   tm_scope: "source.wgsl",
   ace_mode: "text",
   language_id: 836605993,
-  extensions: [
-    ".wgsl",
-  ],
+  extensions: [".wgsl"],
 } as const;
 
 /**
@@ -13109,9 +10242,7 @@ export const WavefrontMaterial = {
   tm_scope: "source.wavefront.mtl",
   ace_mode: "text",
   language_id: 392,
-  extensions: [
-    ".mtl",
-  ],
+  extensions: [".mtl"],
 } as const;
 
 /**
@@ -13122,9 +10253,7 @@ export const WavefrontObject = {
   tm_scope: "source.wavefront.obj",
   ace_mode: "text",
   language_id: 393,
-  extensions: [
-    ".obj",
-  ],
+  extensions: [".obj"],
 } as const;
 
 /**
@@ -13136,9 +10265,7 @@ export const WebOntologyLanguage = {
   tm_scope: "text.xml",
   ace_mode: "xml",
   language_id: 394,
-  extensions: [
-    ".owl",
-  ],
+  extensions: [".owl"],
 } as const;
 
 /**
@@ -13147,19 +10274,13 @@ export const WebOntologyLanguage = {
 export const WebAssembly = {
   type: "programming",
   color: "#04133b",
-  aliases: [
-    "wast",
-    "wasm",
-  ],
+  aliases: ["wast", "wasm"],
   tm_scope: "source.webassembly",
   ace_mode: "lisp",
   codemirror_mode: "wast",
   codemirror_mime_type: "text/webassembly",
   language_id: 956556503,
-  extensions: [
-    ".wast",
-    ".wat",
-  ],
+  extensions: [".wast", ".wat"],
 } as const;
 
 /**
@@ -13168,17 +10289,13 @@ export const WebAssembly = {
 export const WebAssemblyInterfaceType = {
   type: "data",
   color: "#6250e7",
-  aliases: [
-    "wit",
-  ],
+  aliases: ["wit"],
   tm_scope: "source.wit",
   ace_mode: "text",
   codemirror_mode: "webidl",
   codemirror_mime_type: "text/x-webidl",
   language_id: 134534086,
-  extensions: [
-    ".wit",
-  ],
+  extensions: [".wit"],
 } as const;
 
 /**
@@ -13191,9 +10308,7 @@ export const WebIDL = {
   codemirror_mode: "webidl",
   codemirror_mime_type: "text/x-webidl",
   language_id: 395,
-  extensions: [
-    ".webidl",
-  ],
+  extensions: [".webidl"],
 } as const;
 
 /**
@@ -13201,16 +10316,12 @@ export const WebIDL = {
  */
 export const WebVTT = {
   type: "data",
-  aliases: [
-    "vtt",
-  ],
+  aliases: ["vtt"],
   tm_scope: "text.vtt",
   ace_mode: "text",
   wrap: true,
   language_id: 658679714,
-  extensions: [
-    ".vtt",
-  ],
+  extensions: [".vtt"],
 } as const;
 
 /**
@@ -13218,16 +10329,12 @@ export const WebVTT = {
  */
 export const WgetConfig = {
   type: "data",
-  aliases: [
-    "wgetrc",
-  ],
+  aliases: ["wgetrc"],
   tm_scope: "source.wgetrc",
   ace_mode: "text",
   group: "INI",
   language_id: 668457123,
-  filenames: [
-    ".wgetrc",
-  ],
+  filenames: [".wgetrc"],
 } as const;
 
 /**
@@ -13239,9 +10346,7 @@ export const Whiley = {
   tm_scope: "source.whiley",
   ace_mode: "text",
   language_id: 888779559,
-  extensions: [
-    ".whiley",
-  ],
+  extensions: [".whiley"],
 } as const;
 
 /**
@@ -13250,19 +10355,12 @@ export const Whiley = {
 export const Wikitext = {
   type: "prose",
   color: "#fc5757",
-  aliases: [
-    "mediawiki",
-    "wiki",
-  ],
+  aliases: ["mediawiki", "wiki"],
   tm_scope: "text.html.mediawiki",
   ace_mode: "mediawiki",
   wrap: true,
   language_id: 228,
-  extensions: [
-    ".mediawiki",
-    ".wiki",
-    ".wikitext",
-  ],
+  extensions: [".mediawiki", ".wiki", ".wikitext"],
 } as const;
 
 /**
@@ -13275,9 +10373,7 @@ export const Win32MessageFile = {
   codemirror_mode: "properties",
   codemirror_mime_type: "text/x-properties",
   language_id: 950967261,
-  extensions: [
-    ".mc",
-  ],
+  extensions: [".mc"],
 } as const;
 
 /**
@@ -13291,9 +10387,7 @@ export const WindowsRegistryEntries = {
   codemirror_mode: "properties",
   codemirror_mime_type: "text/x-properties",
   language_id: 969674868,
-  extensions: [
-    ".reg",
-  ],
+  extensions: [".reg"],
 } as const;
 
 /**
@@ -13305,9 +10399,7 @@ export const WitcherScript = {
   tm_scope: "source.witcherscript",
   ace_mode: "text",
   language_id: 686821385,
-  extensions: [
-    ".ws",
-  ],
+  extensions: [".ws"],
 } as const;
 
 /**
@@ -13316,30 +10408,13 @@ export const WitcherScript = {
 export const WolframLanguage = {
   type: "programming",
   color: "#dd1100",
-  aliases: [
-    "mathematica",
-    "mma",
-    "wolfram",
-    "wolfram lang",
-    "wl",
-  ],
+  aliases: ["mathematica", "mma", "wolfram", "wolfram lang", "wl"],
   tm_scope: "source.mathematica",
   ace_mode: "text",
   codemirror_mode: "mathematica",
   codemirror_mime_type: "text/x-mathematica",
   language_id: 224,
-  extensions: [
-    ".mathematica",
-    ".cdf",
-    ".m",
-    ".ma",
-    ".mt",
-    ".nb",
-    ".nbp",
-    ".wl",
-    ".wls",
-    ".wlt",
-  ],
+  extensions: [".mathematica", ".cdf", ".m", ".ma", ".mt", ".nb", ".nbp", ".wl", ".wls", ".wlt"],
   interpreters: [
     "wolfram",
     "WolframKernel",
@@ -13361,9 +10436,7 @@ export const Wollok = {
   tm_scope: "source.wollok",
   ace_mode: "wollok",
   language_id: 632745969,
-  extensions: [
-    ".wlk",
-  ],
+  extensions: [".wlk"],
 } as const;
 
 /**
@@ -13375,9 +10448,7 @@ export const WorldofWarcraftAddonData = {
   tm_scope: "source.toc",
   ace_mode: "text",
   language_id: 396,
-  extensions: [
-    ".toc",
-  ],
+  extensions: [".toc"],
 } as const;
 
 /**
@@ -13386,15 +10457,11 @@ export const WorldofWarcraftAddonData = {
 export const Wren = {
   type: "programming",
   color: "#383838",
-  aliases: [
-    "wrenlang",
-  ],
+  aliases: ["wrenlang"],
   tm_scope: "source.wren",
   ace_mode: "text",
   language_id: 713580619,
-  extensions: [
-    ".wren",
-  ],
+  extensions: [".wren"],
 } as const;
 
 /**
@@ -13402,18 +10469,14 @@ export const Wren = {
  */
 export const XBitMap = {
   type: "data",
-  aliases: [
-    "xbm",
-  ],
+  aliases: ["xbm"],
   tm_scope: "source.c",
   ace_mode: "c_cpp",
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-csrc",
   group: "C",
   language_id: 782911107,
-  extensions: [
-    ".xbm",
-  ],
+  extensions: [".xbm"],
 } as const;
 
 /**
@@ -13424,12 +10487,7 @@ export const XFontDirectoryIndex = {
   tm_scope: "source.fontdir",
   ace_mode: "text",
   language_id: 208700028,
-  filenames: [
-    "encodings.dir",
-    "fonts.alias",
-    "fonts.dir",
-    "fonts.scale",
-  ],
+  filenames: ["encodings.dir", "fonts.alias", "fonts.dir", "fonts.scale"],
 } as const;
 
 /**
@@ -13437,19 +10495,14 @@ export const XFontDirectoryIndex = {
  */
 export const XPixMap = {
   type: "data",
-  aliases: [
-    "xpm",
-  ],
+  aliases: ["xpm"],
   tm_scope: "source.c",
   ace_mode: "c_cpp",
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-csrc",
   group: "C",
   language_id: 781846279,
-  extensions: [
-    ".xpm",
-    ".pm",
-  ],
+  extensions: [".xpm", ".pm"],
 } as const;
 
 /**
@@ -13458,15 +10511,11 @@ export const XPixMap = {
 export const X10 = {
   type: "programming",
   color: "#4B6BEF",
-  aliases: [
-    "xten",
-  ],
+  aliases: ["xten"],
   tm_scope: "source.x10",
   ace_mode: "text",
   language_id: 397,
-  extensions: [
-    ".x10",
-  ],
+  extensions: [".x10"],
 } as const;
 
 /**
@@ -13480,9 +10529,7 @@ export const XC = {
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-csrc",
   language_id: 398,
-  extensions: [
-    ".xc",
-  ],
+  extensions: [".xc"],
 } as const;
 
 /**
@@ -13493,11 +10540,7 @@ export const XCompose = {
   tm_scope: "config.xcompose",
   ace_mode: "text",
   language_id: 225167241,
-  filenames: [
-    ".XCompose",
-    "XCompose",
-    "xcompose",
-  ],
+  filenames: [".XCompose", "XCompose", "xcompose"],
 } as const;
 
 /**
@@ -13506,11 +10549,7 @@ export const XCompose = {
 export const XML = {
   type: "data",
   color: "#0060ac",
-  aliases: [
-    "rss",
-    "xsd",
-    "wsdl",
-  ],
+  aliases: ["rss", "xsd", "wsdl"],
   tm_scope: "text.xml",
   ace_mode: "xml",
   codemirror_mode: "xml",
@@ -13675,10 +10714,7 @@ export const XPages = {
   codemirror_mode: "xml",
   codemirror_mime_type: "text/xml",
   language_id: 400,
-  extensions: [
-    ".xsp-config",
-    ".xsp.metadata",
-  ],
+  extensions: [".xsp-config", ".xsp.metadata"],
 } as const;
 
 /**
@@ -13691,10 +10727,7 @@ export const XProc = {
   codemirror_mode: "xml",
   codemirror_mime_type: "text/xml",
   language_id: 401,
-  extensions: [
-    ".xpl",
-    ".xproc",
-  ],
+  extensions: [".xpl", ".xproc"],
 } as const;
 
 /**
@@ -13708,13 +10741,7 @@ export const XQuery = {
   codemirror_mode: "xquery",
   codemirror_mime_type: "application/xquery",
   language_id: 402,
-  extensions: [
-    ".xquery",
-    ".xq",
-    ".xql",
-    ".xqm",
-    ".xqy",
-  ],
+  extensions: [".xquery", ".xq", ".xql", ".xqm", ".xqy"],
 } as const;
 
 /**
@@ -13727,9 +10754,7 @@ export const XS = {
   codemirror_mode: "clike",
   codemirror_mime_type: "text/x-csrc",
   language_id: 403,
-  extensions: [
-    ".xs",
-  ],
+  extensions: [".xs"],
 } as const;
 
 /**
@@ -13738,18 +10763,13 @@ export const XS = {
 export const XSLT = {
   type: "programming",
   color: "#EB8CEB",
-  aliases: [
-    "xsl",
-  ],
+  aliases: ["xsl"],
   tm_scope: "text.xml.xsl",
   ace_mode: "xml",
   codemirror_mode: "xml",
   codemirror_mime_type: "text/xml",
   language_id: 404,
-  extensions: [
-    ".xslt",
-    ".xsl",
-  ],
+  extensions: [".xslt", ".xsl"],
 } as const;
 
 /**
@@ -13761,9 +10781,7 @@ export const Xmake = {
   tm_scope: "source.xmake",
   ace_mode: "text",
   language_id: 225223071,
-  filenames: [
-    "xmake.lua",
-  ],
+  filenames: ["xmake.lua"],
 } as const;
 
 /**
@@ -13796,9 +10814,7 @@ export const Xonsh = {
   codemirror_mode: "python",
   codemirror_mime_type: "text/x-python",
   language_id: 614078284,
-  extensions: [
-    ".xsh",
-  ],
+  extensions: [".xsh"],
 } as const;
 
 /**
@@ -13810,9 +10826,7 @@ export const Xtend = {
   tm_scope: "source.xtend",
   ace_mode: "text",
   language_id: 406,
-  extensions: [
-    ".xtend",
-  ],
+  extensions: [".xtend"],
 } as const;
 
 /**
@@ -13821,9 +10835,7 @@ export const Xtend = {
 export const YAML = {
   type: "data",
   color: "#cb171e",
-  aliases: [
-    "yml",
-  ],
+  aliases: ["yml"],
   tm_scope: "source.yaml",
   ace_mode: "yaml",
   codemirror_mode: "yaml",
@@ -13861,9 +10873,7 @@ export const YANG = {
   tm_scope: "source.yang",
   ace_mode: "text",
   language_id: 408,
-  extensions: [
-    ".yang",
-  ],
+  extensions: [".yang"],
 } as const;
 
 /**
@@ -13875,10 +10885,7 @@ export const YARA = {
   tm_scope: "source.yara",
   ace_mode: "text",
   language_id: 805122868,
-  extensions: [
-    ".yar",
-    ".yara",
-  ],
+  extensions: [".yar", ".yara"],
 } as const;
 
 /**
@@ -13887,16 +10894,11 @@ export const YARA = {
 export const YASnippet = {
   type: "markup",
   color: "#32AB90",
-  aliases: [
-    "snippet",
-    "yas",
-  ],
+  aliases: ["snippet", "yas"],
   tm_scope: "source.yasnippet",
   ace_mode: "text",
   language_id: 378760102,
-  extensions: [
-    ".yasnippet",
-  ],
+  extensions: [".yasnippet"],
 } as const;
 
 /**
@@ -13908,11 +10910,7 @@ export const Yacc = {
   tm_scope: "source.yacc",
   ace_mode: "text",
   language_id: 409,
-  extensions: [
-    ".y",
-    ".yacc",
-    ".yy",
-  ],
+  extensions: [".y", ".yacc", ".yy"],
 } as const;
 
 /**
@@ -13924,9 +10922,7 @@ export const Yul = {
   tm_scope: "source.yul",
   ace_mode: "text",
   language_id: 237469033,
-  extensions: [
-    ".yul",
-  ],
+  extensions: [".yul"],
 } as const;
 
 /**
@@ -13938,10 +10934,7 @@ export const ZAP = {
   tm_scope: "source.zap",
   ace_mode: "text",
   language_id: 952972794,
-  extensions: [
-    ".zap",
-    ".xzap",
-  ],
+  extensions: [".zap", ".xzap"],
 } as const;
 
 /**
@@ -13953,10 +10946,7 @@ export const ZIL = {
   tm_scope: "source.zil",
   ace_mode: "text",
   language_id: 973483626,
-  extensions: [
-    ".zil",
-    ".mud",
-  ],
+  extensions: [".zil", ".mud"],
 } as const;
 
 /**
@@ -13964,16 +10954,11 @@ export const ZIL = {
  */
 export const Zeek = {
   type: "programming",
-  aliases: [
-    "bro",
-  ],
+  aliases: ["bro"],
   tm_scope: "source.zeek",
   ace_mode: "zeek",
   language_id: 40,
-  extensions: [
-    ".zeek",
-    ".bro",
-  ],
+  extensions: [".zeek", ".bro"],
 } as const;
 
 /**
@@ -13985,9 +10970,7 @@ export const ZenScript = {
   tm_scope: "source.zenscript",
   ace_mode: "text",
   language_id: 494938890,
-  extensions: [
-    ".zs",
-  ],
+  extensions: [".zs"],
 } as const;
 
 /**
@@ -13999,9 +10982,7 @@ export const Zephir = {
   tm_scope: "source.php.zephir",
   ace_mode: "php",
   language_id: 410,
-  extensions: [
-    ".zep",
-  ],
+  extensions: [".zep"],
 } as const;
 
 /**
@@ -14013,10 +10994,7 @@ export const Zig = {
   tm_scope: "source.zig",
   ace_mode: "zig",
   language_id: 646424281,
-  extensions: [
-    ".zig",
-    ".zig.zon",
-  ],
+  extensions: [".zig", ".zig.zon"],
 } as const;
 
 /**
@@ -14028,11 +11006,7 @@ export const Zimpl = {
   tm_scope: "none",
   ace_mode: "text",
   language_id: 411,
-  extensions: [
-    ".zimpl",
-    ".zmpl",
-    ".zpl",
-  ],
+  extensions: [".zimpl", ".zmpl", ".zpl"],
 } as const;
 
 /**
@@ -14044,9 +11018,7 @@ export const Zmodel = {
   tm_scope: "source.zmodel",
   ace_mode: "text",
   language_id: 803760908,
-  extensions: [
-    ".zmodel",
-  ],
+  extensions: [".zmodel"],
 } as const;
 
 /**
@@ -14054,17 +11026,12 @@ export const Zmodel = {
  */
 export const cURLConfig = {
   type: "data",
-  aliases: [
-    "curlrc",
-  ],
+  aliases: ["curlrc"],
   tm_scope: "source.curlrc",
   ace_mode: "text",
   group: "INI",
   language_id: 992375436,
-  filenames: [
-    ".curlrc",
-    "_curlrc",
-  ],
+  filenames: [".curlrc", "_curlrc"],
 } as const;
 
 /**
@@ -14073,16 +11040,11 @@ export const cURLConfig = {
 export const crontab = {
   type: "data",
   color: "#ead7ac",
-  aliases: [
-    "cron",
-    "cron table",
-  ],
+  aliases: ["cron", "cron table"],
   tm_scope: "text.crontab",
   ace_mode: "tcl",
   language_id: 705203557,
-  filenames: [
-    "crontab",
-  ],
+  filenames: ["crontab"],
 } as const;
 
 /**
@@ -14093,11 +11055,7 @@ export const desktop = {
   tm_scope: "source.desktop",
   ace_mode: "text",
   language_id: 412,
-  extensions: [
-    ".desktop",
-    ".desktop.in",
-    ".service",
-  ],
+  extensions: [".desktop", ".desktop.in", ".service"],
 } as const;
 
 /**
@@ -14108,17 +11066,8 @@ export const dircolors = {
   tm_scope: "source.dircolors",
   ace_mode: "text",
   language_id: 691605112,
-  extensions: [
-    ".dircolors",
-  ],
-  filenames: [
-    ".dir_colors",
-    ".dircolors",
-    "DIR_COLORS",
-    "_dir_colors",
-    "_dircolors",
-    "dir_colors",
-  ],
+  extensions: [".dircolors"],
+  filenames: [".dir_colors", ".dircolors", "DIR_COLORS", "_dir_colors", "_dircolors", "dir_colors"],
 } as const;
 
 /**
@@ -14130,10 +11079,7 @@ export const eC = {
   tm_scope: "source.c.ec",
   ace_mode: "text",
   language_id: 413,
-  extensions: [
-    ".ec",
-    ".eh",
-  ],
+  extensions: [".ec", ".eh"],
 } as const;
 
 /**
@@ -14146,9 +11092,7 @@ export const edn = {
   codemirror_mode: "clojure",
   codemirror_mime_type: "application/edn",
   language_id: 414,
-  extensions: [
-    ".edn",
-  ],
+  extensions: [".edn"],
 } as const;
 
 /**
@@ -14161,12 +11105,8 @@ export const fish = {
   ace_mode: "text",
   group: "Shell",
   language_id: 415,
-  extensions: [
-    ".fish",
-  ],
-  interpreters: [
-    "fish",
-  ],
+  extensions: [".fish"],
+  interpreters: ["fish"],
 } as const;
 
 /**
@@ -14178,9 +11118,7 @@ export const hoon = {
   tm_scope: "source.hoon",
   ace_mode: "text",
   language_id: 560883276,
-  extensions: [
-    ".hoon",
-  ],
+  extensions: [".hoon"],
 } as const;
 
 /**
@@ -14189,18 +11127,13 @@ export const hoon = {
 export const iCalendar = {
   type: "data",
   color: "#ec564c",
-  aliases: [
-    "iCal",
-  ],
+  aliases: ["iCal"],
   tm_scope: "source.iCalendar",
   ace_mode: "properties",
   codemirror_mode: "properties",
   codemirror_mime_type: "text/x-properties",
   language_id: 98384424,
-  extensions: [
-    ".ics",
-    ".ical",
-  ],
+  extensions: [".ics", ".ical"],
 } as const;
 
 /**
@@ -14212,17 +11145,8 @@ export const jq = {
   tm_scope: "source.jq",
   ace_mode: "text",
   language_id: 905371884,
-  extensions: [
-    ".jq",
-  ],
-  interpreters: [
-    "gojq",
-    "jaq",
-    "jq",
-    "jqjq",
-    "jqq",
-    "query-json",
-  ],
+  extensions: [".jq"],
+  interpreters: ["gojq", "jaq", "jq", "jqjq", "jqq", "query-json"],
 } as const;
 
 /**
@@ -14234,9 +11158,7 @@ export const kvlang = {
   tm_scope: "source.python.kivy",
   ace_mode: "text",
   language_id: 970675279,
-  extensions: [
-    ".kv",
-  ],
+  extensions: [".kv"],
 } as const;
 
 /**
@@ -14248,9 +11170,7 @@ export const mIRCScript = {
   tm_scope: "source.msl",
   ace_mode: "text",
   language_id: 517654727,
-  extensions: [
-    ".mrc",
-  ],
+  extensions: [".mrc"],
 } as const;
 
 /**
@@ -14262,9 +11182,7 @@ export const mcfunction = {
   tm_scope: "source.mcfunction",
   ace_mode: "text",
   language_id: 462488745,
-  extensions: [
-    ".mcfunction",
-  ],
+  extensions: [".mcfunction"],
 } as const;
 
 /**
@@ -14279,9 +11197,7 @@ export const mdsvex = {
   codemirror_mime_type: "text/x-gfm",
   wrap: true,
   language_id: 566198445,
-  extensions: [
-    ".svx",
-  ],
+  extensions: [".svx"],
 } as const;
 
 /**
@@ -14293,9 +11209,7 @@ export const mupad = {
   tm_scope: "source.mupad",
   ace_mode: "text",
   language_id: 416,
-  extensions: [
-    ".mu",
-  ],
+  extensions: [".mu"],
 } as const;
 
 /**
@@ -14308,13 +11222,8 @@ export const nanorc = {
   ace_mode: "text",
   group: "INI",
   language_id: 775996197,
-  extensions: [
-    ".nanorc",
-  ],
-  filenames: [
-    ".nanorc",
-    "nanorc",
-  ],
+  extensions: [".nanorc"],
+  filenames: [".nanorc", "nanorc"],
 } as const;
 
 /**
@@ -14326,9 +11235,7 @@ export const nesC = {
   tm_scope: "source.nesc",
   ace_mode: "text",
   language_id: 417,
-  extensions: [
-    ".nc",
-  ],
+  extensions: [".nc"],
 } as const;
 
 /**
@@ -14340,9 +11247,7 @@ export const ooc = {
   tm_scope: "source.ooc",
   ace_mode: "text",
   language_id: 418,
-  extensions: [
-    ".ooc",
-  ],
+  extensions: [".ooc"],
 } as const;
 
 /**
@@ -14356,9 +11261,7 @@ export const q = {
   codemirror_mode: "q",
   codemirror_mime_type: "text/x-q",
   language_id: 970539067,
-  extensions: [
-    ".q",
-  ],
+  extensions: [".q"],
 } as const;
 
 /**
@@ -14367,21 +11270,14 @@ export const q = {
 export const reStructuredText = {
   type: "prose",
   color: "#141414",
-  aliases: [
-    "rst",
-  ],
+  aliases: ["rst"],
   tm_scope: "text.restructuredtext",
   ace_mode: "rst",
   codemirror_mode: "rst",
   codemirror_mime_type: "text/x-rst",
   wrap: true,
   language_id: 419,
-  extensions: [
-    ".rst",
-    ".rest",
-    ".rest.txt",
-    ".rst.txt",
-  ],
+  extensions: [".rst", ".rest", ".rest.txt", ".rst.txt"],
 } as const;
 
 /**
@@ -14389,16 +11285,11 @@ export const reStructuredText = {
  */
 export const robotstxt = {
   type: "data",
-  aliases: [
-    "robots",
-    "robots txt",
-  ],
+  aliases: ["robots", "robots txt"],
   tm_scope: "text.robots-txt",
   ace_mode: "text",
   language_id: 674736065,
-  filenames: [
-    "robots.txt",
-  ],
+  filenames: ["robots.txt"],
 } as const;
 
 /**
@@ -14410,15 +11301,8 @@ export const sed = {
   tm_scope: "source.sed",
   ace_mode: "text",
   language_id: 847830017,
-  extensions: [
-    ".sed",
-  ],
-  interpreters: [
-    "gsed",
-    "minised",
-    "sed",
-    "ssed",
-  ],
+  extensions: [".sed"],
+  interpreters: ["gsed", "minised", "sed", "ssed"],
 } as const;
 
 /**
@@ -14430,9 +11314,7 @@ export const templ = {
   tm_scope: "source.templ",
   ace_mode: "text",
   language_id: 795579337,
-  extensions: [
-    ".templ",
-  ],
+  extensions: [".templ"],
 } as const;
 
 /**
@@ -14441,18 +11323,13 @@ export const templ = {
 export const vCard = {
   type: "data",
   color: "#ee2647",
-  aliases: [
-    "virtual contact file",
-    "electronic business card",
-  ],
+  aliases: ["virtual contact file", "electronic business card"],
   tm_scope: "source.vcard",
   ace_mode: "properties",
   codemirror_mode: "properties",
   codemirror_mime_type: "text/x-properties",
   language_id: 851476558,
-  extensions: [
-    ".vcf",
-  ],
+  extensions: [".vcf"],
 } as const;
 
 /**
@@ -14466,9 +11343,7 @@ export const wisp = {
   codemirror_mode: "clojure",
   codemirror_mime_type: "text/x-clojure",
   language_id: 420,
-  extensions: [
-    ".wisp",
-  ],
+  extensions: [".wisp"],
 } as const;
 
 /**
@@ -14477,17 +11352,9 @@ export const wisp = {
 export const xBase = {
   type: "programming",
   color: "#403a40",
-  aliases: [
-    "advpl",
-    "clipper",
-    "foxpro",
-  ],
+  aliases: ["advpl", "clipper", "foxpro"],
   tm_scope: "source.harbour",
   ace_mode: "text",
   language_id: 421,
-  extensions: [
-    ".prg",
-    ".ch",
-    ".prw",
-  ],
+  extensions: [".prg", ".ch", ".prw"],
 } as const;

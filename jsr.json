@@ -15,7 +15,5 @@
     "scripts/**",
     "tsconfig.json"
   ],
-  "include": [
-    "languages.json"
-  ]
+  "include": ["languages.json"]
 }

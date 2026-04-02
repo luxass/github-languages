@@ -1,37 +1,30 @@
 import { execSync } from "node:child_process";
-import {
-  writeFile,
-} from "node:fs/promises";
+import { writeFile } from "node:fs/promises";
 import process from "node:process";
-import {
-  array,
-  boolean,
-  number,
-  object,
-  optional,
-  parseAsync,
-  record,
-  string,
-} from "valibot";
+
+import { array, boolean, number, object, optional, parseAsync, record, string } from "valibot";
 import YAML from "yaml";
 
-const LANGUAGES_SCHEMA = record(string(), object({
-  type: string(),
-  color: optional(string()),
-  aliases: optional(array(string())),
-  tm_scope: string(),
-  ace_mode: string(),
-  codemirror_mode: optional(string()),
-  codemirror_mime_type: optional(string()),
-  wrap: optional(boolean()),
-  group: optional(string()),
-  language_id: number(),
-  extensions: optional(array(string())),
-  interpreters: optional(array(string())),
-  filenames: optional(array(string())),
-  fs_name: optional(string()),
-  searchable: optional(boolean()),
-}));
+const LANGUAGES_SCHEMA = record(
+  string(),
+  object({
+    type: string(),
+    color: optional(string()),
+    aliases: optional(array(string())),
+    tm_scope: string(),
+    ace_mode: string(),
+    codemirror_mode: optional(string()),
+    codemirror_mime_type: optional(string()),
+    wrap: optional(boolean()),
+    group: optional(string()),
+    language_id: number(),
+    extensions: optional(array(string())),
+    interpreters: optional(array(string())),
+    filenames: optional(array(string())),
+    fs_name: optional(string()),
+    searchable: optional(boolean()),
+  }),
+);
 
 async function run() {
   if (!process.env.GITHUB_TOKEN) {
@@ -39,11 +32,14 @@ async function run() {
     process.exit(1);
   }
 
-  const res = await fetch("https://raw.githubusercontent.com/github/linguist/master/lib/linguist/languages.yml", {
-    headers: {
-      Authorization: `bearer ${process.env.GITHUB_TOKEN}`,
+  const res = await fetch(
+    "https://raw.githubusercontent.com/github/linguist/master/lib/linguist/languages.yml",
+    {
+      headers: {
+        Authorization: `bearer ${process.env.GITHUB_TOKEN}`,
+      },
     },
-  });
+  );
 
   if (!res.ok) {
     console.error("Failed to fetch schema");
@@ -92,7 +88,9 @@ export const ${normalizedKey} = ${JSON.stringify(lang, null, 2)} as const;\n\n`;
   });
 
   await writeFile("./src/languages.ts", content);
-  await writeFile("./src/index.ts", `
+  await writeFile(
+    "./src/index.ts",
+    `
 /**
  * All language definitions from Github's linguist.
  * @module
@@ -119,9 +117,10 @@ export interface Language {
   filenames?: string[] | undefined
   fs_name?: string | undefined
   searchable?: boolean | undefined
-}`);
+}`,
+  );
 
-  execSync("npx eslint . --fix");
+  execSync("pnpm run fmt", { stdio: "inherit" });
 }
 
 run().catch((err) => {
