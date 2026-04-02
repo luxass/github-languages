@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "target": "ES2022",
+    "target": "ES2024",
     "lib": [
-      "ES2022"
+      "ES2024"
     ],
     "moduleDetection": "force",
     "module": "ESNext",
@@ -10,6 +10,9 @@
     "resolveJsonModule": true,
     "allowJs": true,
     "strict": true,
+    "types": [
+      "node"
+    ],
     "noUncheckedIndexedAccess": true,
     "declaration": true,
     "noEmit": true,
