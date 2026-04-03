@@ -20,7 +20,7 @@ jobs:
       github.event.pull_request.merged == true &&
         github.event.pull_request.head.ref == 'update-github-languages' &&
         github.repository == 'luxass/github-languages' &&
-        (github.event.pull_request.user.login == 'luxass' || github.event.pull_request.user.login == 'schema-language-autorelease[bot]')
+        (github.event.pull_request.user.login == 'luxass' || github.event.pull_request.user.login == 'huginn-watch[bot]')
     steps:
       - name: generate token
         uses: actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859 # v3.0.0
@@ -55,8 +55,8 @@ jobs:
           CURRENT_VERSION=$(cat package.json | jq -r '.version')
           PATCH_VERSION=$(echo $CURRENT_VERSION | awk -F. '{printf "%d.%d.%d", $1, $2, $3+1}')
 
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git config user.name "github-actions[bot]"
+          git config user.email "273299945+huginn-watch[bot]@users.noreply.github.com"
+          git config user.name "huginn-watch[bot]"
 
           npx bumpp $PATCH_VERSION --commit --tag --push --yes
         env:

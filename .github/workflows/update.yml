@@ -170,8 +170,8 @@ jobs:
             I will be waiting for your approval 👋.
 
             This is an automated PR to update GitHub Languages.
-          committer: schema-language-autorelease[bot] <272992541+schema-language-autorelease[bot]@users.noreply.github.com>
-          author: schema-language-autorelease[bot] <272992541+schema-language-autorelease[bot]@users.noreply.github.com>
+          committer: huginn-watch[bot] <273299945+huginn-watch[bot]@users.noreply.github.com>
+          author: huginn-watch[bot] <273299945+huginn-watch[bot]@users.noreply.github.com>
           branch: update-github-languages
           add-paths: languages.json,src/languages.ts
           base: main
