@@ -3,6 +3,7 @@ minimumReleaseAge: 5760
 trustPolicy: no-downgrade
 catalogMode: prefer
 strictDepBuilds: true
+blockExoticSubdeps: true
 
 overrides:
   "undici-types": "6.24.0"
