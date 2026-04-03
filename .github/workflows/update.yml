@@ -113,11 +113,13 @@ jobs:
           # Build the request JSON using jq to safely insert the prompt and diff into the REQUEST_TEMPLATE.
           REQUEST_JSON=$(jq --arg system "$SYSTEM_PROMPT" --arg diff "$DIFF_CONTENT" '.messages[0].content=$system | .messages[1].content=("Generate a PR title for the following Linguist language changes:\n\n" + $diff)' <<< "$REQUEST_TEMPLATE")
 
-          # Call the GitHub Models API via curl
-          RESPONSE=$(curl -s -X POST "https://models.github.ai/inference/chat/completions" \
+          # Call the GitHub Models API via curl (pipe JSON via stdin to avoid shell quoting issues)
+          RESPONSE=$(printf '%s' "$REQUEST_JSON" | curl -s -X POST "https://models.github.ai/inference/chat/completions" \
             -H "Content-Type: application/json" \
             -H "Authorization: Bearer $GH_TOKEN" \
-            -d "$REQUEST_JSON")
+            --data-binary @-)
+
+          echo "API response: $RESPONSE"
 
           # Extract the generated JSON content and build the title
           CONTENT=$(echo "$RESPONSE" | jq -r '.choices[0].message.content')
