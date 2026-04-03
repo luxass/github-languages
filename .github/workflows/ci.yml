@@ -13,7 +13,7 @@ permissions: {}
 
 jobs:
   ci:
-    uses: luxass/shared-workflows/.github/workflows/ci.yaml@262ac659334b242eb257cb94bc16bc61ae0e1101 # v0.1.0
+    uses: luxass/shared-workflows/.github/workflows/ci.yaml@477a19d60c922bc63fa3f926f531572cdfaf3e95 # v0.3.3
     with:
       fmt: true
       fmt-script: "fmt:check"
