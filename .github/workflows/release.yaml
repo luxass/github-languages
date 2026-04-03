@@ -60,8 +60,5 @@ jobs:
           TAG: ${{ steps.tag.outputs.tag }}
           NPM_CONFIG_PROVENANCE: true
 
-      - name: publish to jsr
-        run: pnpm dlx jsr publish --allow-dirty
-
       - name: print dirty files
         run: git status --porcelain
