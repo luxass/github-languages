@@ -19,8 +19,18 @@ jobs:
       contents: write
       pull-requests: write
       models: read
+    environment:
+      name: auto-release
+      deployment: false
     if: github.repository == 'luxass/github-languages'
     steps:
+      - name: generate token
+        uses: actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859 # v3.0.0
+        id: app-token
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           persist-credentials: false
@@ -138,11 +148,13 @@ jobs:
         uses: peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0 # v8.1.0
         if: ${{ github.event.inputs.dry-run != 'true' }}
         env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
           COMMIT_MESSAGE: "${{ steps.pr-metadata.outputs.title || 'feat: updated github languages' }}"
           NEW_LANGUAGES: ${{ steps.generate-diff.outputs.result-new-languages }}
           REMOVED_LANGUAGES: ${{ steps.generate-diff.outputs.result-removed-languages }}
           MODIFIED_LANGUAGES: ${{ steps.generate-diff.outputs.result-modified-languages }}
         with:
+          token: ${{ steps.app-token.outputs.token }}
           commit-message: ${{ env.COMMIT_MESSAGE }}
           title: ${{ env.COMMIT_MESSAGE }}
           body: |
@@ -161,6 +173,4 @@ jobs:
           branch: update-github-languages
           add-paths: languages.json,src/languages.ts
           base: main
-          committer: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
-          author: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
           reviewers: luxass
