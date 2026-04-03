@@ -72,12 +72,10 @@ jobs:
             You will receive a plain-text summary of what changed — which languages were added, removed, or had properties modified. Your task is to return a JSON object with these fields:
 
             - type: The conventional commit type. Use "feat" when languages are added, "chore" when languages are removed or properties are updated, "fix" when an incorrect value is corrected.
-            - scope: The language name if exactly one language changed (e.g. "TypeScript", "Rust"). Use empty string if multiple languages changed.
-            - message: A concise imperative-mood description of the change. Must keep the full title (type(scope): message) under 72 characters.
+            - message: A concise imperative-mood description of the change, under 72 characters.
 
             Rules:
-            - Scope must be the actual language name from the summary, or empty string — never generic terms like "languages", "linguist", "schema", or "config".
-            - Message must be specific: mention whether languages were added/removed/updated and how many if more than one.
+            - Message must be specific: mention which language(s) were added/removed/updated and how many if more than one.
             - Do not include filler like "update", "sync", or "bump" unless nothing more specific applies.
           REQUEST_TEMPLATE: |
             {
@@ -96,11 +94,10 @@ jobs:
                     "type": "object",
                     "properties": {
                       "type": { "type": "string", "enum": ["feat", "fix", "chore"] },
-                      "scope": { "type": "string", "maxLength": 50 },
                       "message": { "type": "string", "maxLength": 72 }
                     },
                     "additionalProperties": false,
-                    "required": ["type", "scope", "message"]
+                    "required": ["type", "message"]
                   }
                 }
               }
@@ -126,9 +123,8 @@ jobs:
           CONTENT=$(echo "$RESPONSE" | jq -r '.choices[0].message.content')
 
           TYPE=$(echo "$CONTENT" | jq -r '.type')
-          SCOPE=$(echo "$CONTENT" | jq -r '.scope')
           MESSAGE=$(echo "$CONTENT" | jq -r '.message')
-          TITLE="$TYPE${SCOPE:+($SCOPE)}: $MESSAGE"
+          TITLE="$TYPE: $MESSAGE"
 
           echo "✅ Generated PR title: $TITLE"
           {
