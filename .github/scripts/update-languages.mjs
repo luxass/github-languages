@@ -98,14 +98,17 @@ function buildPlainDiff(added, removed, modified) {
 function buildAddedMarkdown(added, newLanguages) {
   if (added.size === 0) return "";
 
-  const lines = [
-    "<details>",
-    `  <summary>New Languages (${added.size})</summary><br/>`,
-    "",
-  ];
+  const lines = ["<details>", `  <summary>New Languages (${added.size})</summary><br/>`, ""];
 
   for (const name of added) {
-    lines.push(`#### ${name}`, "", "```json", JSON.stringify(newLanguages[name], null, 2), "```", "");
+    lines.push(
+      `#### ${name}`,
+      "",
+      "```json",
+      JSON.stringify(newLanguages[name], null, 2),
+      "```",
+      "",
+    );
   }
 
   lines.push("<br/></details>");
@@ -115,14 +118,17 @@ function buildAddedMarkdown(added, newLanguages) {
 function buildRemovedMarkdown(removed, oldLanguages) {
   if (removed.size === 0) return "";
 
-  const lines = [
-    "<details>",
-    `  <summary>Removed Languages (${removed.size})</summary><br/>`,
-    "",
-  ];
+  const lines = ["<details>", `  <summary>Removed Languages (${removed.size})</summary><br/>`, ""];
 
   for (const name of removed) {
-    lines.push(`#### ${name}`, "", "```json", JSON.stringify(oldLanguages[name], null, 2), "```", "");
+    lines.push(
+      `#### ${name}`,
+      "",
+      "```json",
+      JSON.stringify(oldLanguages[name], null, 2),
+      "```",
+      "",
+    );
   }
 
   lines.push("<br/></details>");
