@@ -32,8 +32,8 @@ catalogs:
       version: 2.8.3
   types:
     '@types/node':
-      specifier: 22.19.14
-      version: 22.19.14
+      specifier: 24.12.2
+      version: 24.12.2
 
 overrides:
   undici-types: 6.24.0
@@ -44,7 +44,7 @@ importers:
     devDependencies:
       '@types/node':
         specifier: catalog:types
-        version: 22.19.14
+        version: 24.12.2
       oxfmt:
         specifier: catalog:dev
         version: 0.43.0
@@ -516,8 +516,8 @@ packages:
   '@types/jsesc@2.5.1':
     resolution: {integrity: sha512-9VN+6yxLOPLOav+7PwjZbxiID2bVaeq0ED4qSQmdQTdjnXJSaCVKTR58t15oqH1H5t8Ng2ZX1SabJVoN9Q34bw==}
 
-  '@types/node@22.19.14':
-    resolution: {integrity: sha512-a39m4Z/qy3oYWP8Fc5RO674p/ENAB88JbwnmNwu6+hlfDTbqwE649936RqKNAXAOUwfggSVg6y2KwQcYBYaTsA==}
+  '@types/node@24.12.2':
+    resolution: {integrity: sha512-A1sre26ke7HDIuY/M23nd9gfB+nrmhtYyMINbjI1zHJxYteKR6qSMX56FsmjMcDb3SMcjJg5BiRRgOCC/yBD0g==}
 
   ansis@4.2.0:
     resolution: {integrity: sha512-HqZ5rWlFjGiV0tDm3UxxgNRqsOTniqoKZu0pIAfh7TZQMGuZK+hH0drySty0si0QXj1ieop4+SkSfPZBPPkHig==}
@@ -1010,7 +1010,7 @@ snapshots:
 
   '@types/jsesc@2.5.1': {}
 
-  '@types/node@22.19.14':
+  '@types/node@24.12.2':
     dependencies:
       undici-types: 6.24.0
 
