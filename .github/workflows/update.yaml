@@ -25,29 +25,33 @@ jobs:
     if: github.repository == 'luxass/github-languages'
     steps:
       - name: generate token
-        uses: actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859 # v3.0.0
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
         id: app-token
         with:
-          app-id: ${{ secrets.APP_ID }}
+          repositories: luxass/github-languages
+          client-id: ${{ secrets.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          permission-contents: write
+          permission-pull-requests: write
 
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           persist-credentials: false
 
       - name: setup pnpm
-        uses: pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320 # v5.0.0
+        uses: pnpm/action-setup@0e279bb959325dab635dd2c09392533439d90093 # v6.0.8
 
       - name: setup node
-        uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6.3.0
+        uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6.4.0
         with:
           node-version: lts/*
+          package-manager-cache: false
 
       - name: install dependencies
         run: pnpm install
 
       - name: old github languages
-        uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8.0.0
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         id: old-github-languages
         with:
           script: |
@@ -63,7 +67,7 @@ jobs:
 
       - name: generate diff
         id: generate-diff
-        uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8.0.0
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         with:
           script: |
             const { generateDiff } = await import('${{ github.workspace }}/.github/scripts/update-languages.mjs')
@@ -73,68 +77,46 @@ jobs:
         id: pr-metadata
         if: ${{ steps.generate-diff.outputs.DIFF != '' && github.event.inputs.dry-run != 'true' }}
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SYSTEM_PROMPT: |
-            You generate conventional commit titles for automated pull requests that sync changes from GitHub's Linguist repository.
-
-            Linguist is GitHub's library for detecting programming languages, syntax highlighting, and language statistics. It maintains a registry of language definitions in languages.yml, where each entry describes a language's file extensions, color, TextMate scope, Ace/CodeMirror modes, and other metadata.
-
-            You will receive a plain-text summary of what changed — which languages were added, removed, or had properties modified. Your task is to return a JSON object with these fields:
-
-            - type: The conventional commit type. Use "feat" when languages are added, "chore" when languages are removed or properties are updated, "fix" when an incorrect value is corrected.
-            - message: A concise imperative-mood description of the change, under 72 characters.
-
-            Rules:
-            - Message must be specific: mention which language(s) were added/removed/updated and how many if more than one.
-            - Do not include filler like "update", "sync", or "bump" unless nothing more specific applies.
-          REQUEST_TEMPLATE: |
-            {
-              "messages": [
-                { "role": "system", "content": "" },
-                { "role": "user", "content": "" }
-              ],
-              "model": "xai/grok-3-mini",
-              "reasoning_effort": "high",
-              "response_format": {
-                "type": "json_schema",
-                "json_schema": {
-                  "name": "pr-title",
-                  "strict": true,
-                  "schema": {
-                    "type": "object",
-                    "properties": {
-                      "type": { "type": "string", "enum": ["feat", "fix", "chore"] },
-                      "message": { "type": "string", "maxLength": 72 }
-                    },
-                    "additionalProperties": false,
-                    "required": ["type", "message"]
-                  }
-                }
-              }
-            }
+          PR_METADATA_URL: ${{ vars.PR_METADATA_URL }}
+          PR_METADATA_HMAC_SECRET: ${{ secrets.PR_METADATA_HMAC_SECRET }}
+          REPOSITORY: ${{ github.repository }}
+          PR_METADATA_CONTEXT: |
+            This repository syncs GitHub Linguist language metadata into generated TypeScript sources.
+            Prefer the most specific changed language name as the scope when there is a clear single target.
+            Use "feat" when languages are added, "chore" when languages are removed or metadata is updated, and "fix" when an incorrect value is corrected.
 
         run: |
           set -euo pipefail
 
           DIFF_CONTENT=$(cat languages.diff)
 
-          # Build the request JSON using jq to safely insert the prompt and diff into the REQUEST_TEMPLATE.
-          REQUEST_JSON=$(jq --arg system "$SYSTEM_PROMPT" --arg diff "$DIFF_CONTENT" '.messages[0].content=$system | .messages[1].content=("Generate a PR title for the following Linguist language changes:\n\n" + $diff)' <<< "$REQUEST_TEMPLATE")
+          REQUEST_JSON=$(jq -n \
+            --arg repository "$REPOSITORY" \
+            --arg context "$PR_METADATA_CONTEXT" \
+            --arg diff "$DIFF_CONTENT" \
+            '{
+              repository: $repository,
+              context: $context,
+              diff: $diff
+            }')
 
-          # Call the GitHub Models API via curl (pipe JSON via stdin to avoid shell quoting issues)
-          RESPONSE=$(printf '%s' "$REQUEST_JSON" | curl -s -X POST "https://models.github.ai/inference/chat/completions" \
+          TIMESTAMP=$(( $(date +%s) * 1000 ))
+          SIGNATURE=$(printf '%s' "${TIMESTAMP}.${REQUEST_JSON}" | openssl dgst -sha256 -hmac "$PR_METADATA_HMAC_SECRET" -hex | awk '{print $2}')
+
+          RESPONSE=$(printf '%s' "$REQUEST_JSON" | curl -fsS -X POST "$PR_METADATA_URL" \
             -H "Content-Type: application/json" \
-            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "User-Agent: luxass/github-languages (+https://github.com/luxass/github-languages; workflow=update.yaml)" \
+            -H "X-Timestamp: $TIMESTAMP" \
+            -H "X-Signature: $SIGNATURE" \
             --data-binary @-)
 
           echo "API response: $RESPONSE"
 
-          # Extract the generated JSON content and build the title
-          CONTENT=$(echo "$RESPONSE" | jq -r '.choices[0].message.content')
-
-          TYPE=$(echo "$CONTENT" | jq -r '.type')
-          MESSAGE=$(echo "$CONTENT" | jq -r '.message')
-          TITLE="$TYPE: $MESSAGE"
+          TYPE=$(echo "$RESPONSE" | jq -r '.type')
+          SCOPE=$(echo "$RESPONSE" | jq -r '.scope')
+          MESSAGE=$(echo "$RESPONSE" | jq -r '.message')
+          BODY=$(echo "$RESPONSE" | jq -r '.body')
+          TITLE="$TYPE${SCOPE:+($SCOPE)}: $MESSAGE"
 
           echo "✅ Generated PR title: $TITLE"
           {
@@ -144,32 +126,56 @@ jobs:
             echo "GITHUB_EOF"
           } >> "$GITHUB_OUTPUT"
 
+          {
+            echo "body<<GITHUB_EOF"
+            printf '%s' "$BODY"
+            echo
+            echo "GITHUB_EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: prepare pr body
+        id: pr-body
+        if: ${{ github.event.inputs.dry-run != 'true' }}
+        env:
+          NEW_LANGUAGES: ${{ steps.generate-diff.outputs.result-new-languages }}
+          REMOVED_LANGUAGES: ${{ steps.generate-diff.outputs.result-removed-languages }}
+          MODIFIED_LANGUAGES: ${{ steps.generate-diff.outputs.result-modified-languages }}
+        run: |
+          set -euo pipefail
+
+          BODY=$(cat <<EOF
+          I found some new changes in GitHub's Linguist Repository.
+
+          I don't know what they changed, but I'm sure it's important.
+          If you want you can go take a look yourself.
+
+          ${NEW_LANGUAGES}
+          ${REMOVED_LANGUAGES}
+          ${MODIFIED_LANGUAGES}
+
+          I will be waiting for your approval 👋.
+
+          This is an automated PR to update GitHub Languages.
+          EOF
+          )
+
+          {
+            echo "body<<GITHUB_EOF"
+            printf '%s\n' "$BODY"
+            echo "GITHUB_EOF"
+          } >> "$GITHUB_OUTPUT"
+
       - name: create pull request
-        uses: peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0 # v8.1.0
+        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
         if: ${{ github.event.inputs.dry-run != 'true' }}
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
           COMMIT_MESSAGE: "${{ steps.pr-metadata.outputs.title || 'feat: updated github languages' }}"
-          NEW_LANGUAGES: ${{ steps.generate-diff.outputs.result-new-languages }}
-          REMOVED_LANGUAGES: ${{ steps.generate-diff.outputs.result-removed-languages }}
-          MODIFIED_LANGUAGES: ${{ steps.generate-diff.outputs.result-modified-languages }}
         with:
           token: ${{ steps.app-token.outputs.token }}
           commit-message: ${{ env.COMMIT_MESSAGE }}
           title: ${{ env.COMMIT_MESSAGE }}
-          body: |
-            I found some new changes in GitHub's Linguist Repository.
-
-            I don't know what they changed, but I'm sure it's important.
-            If you want you can go take a look yourself.
-
-            ${{ env.NEW_LANGUAGES }}
-            ${{ env.REMOVED_LANGUAGES }}
-            ${{ env.MODIFIED_LANGUAGES }}
-
-            I will be waiting for your approval 👋.
-
-            This is an automated PR to update GitHub Languages.
+          body: ${{ steps.pr-body.outputs.body }}
           committer: huginn-watch[bot] <273299945+huginn-watch[bot]@users.noreply.github.com>
           author: huginn-watch[bot] <273299945+huginn-watch[bot]@users.noreply.github.com>
           branch: update-github-languages
