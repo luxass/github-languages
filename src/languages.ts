@@ -9104,6 +9104,18 @@ export const SourcePawn = {
 } as const;
 
 /**
+ * GitHub's language definition for SpiceDB Schema.
+ */
+export const SpiceDBSchema = {
+  type: "data",
+  color: "#a5318a",
+  tm_scope: "source.spicedb",
+  ace_mode: "text",
+  language_id: 864005057,
+  extensions: [".zed"],
+} as const;
+
+/**
  * GitHub's language definition for Spline Font Database.
  */
 export const SplineFontDatabase = {
@@ -9416,6 +9428,8 @@ export const TOML = {
     "Cargo.toml.orig",
     "Gopkg.lock",
     "Pipfile",
+    "mise.local.lock",
+    "mise.lock",
     "pdm.lock",
     "poetry.lock",
     "uv.lock",
