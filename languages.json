@@ -6521,6 +6521,14 @@
     "language_id": 354,
     "extensions": [".sp", ".inc"]
   },
+  "SpiceDB Schema": {
+    "type": "data",
+    "color": "#a5318a",
+    "tm_scope": "source.spicedb",
+    "ace_mode": "text",
+    "language_id": 864005057,
+    "extensions": [".zed"]
+  },
   "Spline Font Database": {
     "type": "data",
     "tm_scope": "text.sfd",
@@ -6743,6 +6751,8 @@
       "Cargo.toml.orig",
       "Gopkg.lock",
       "Pipfile",
+      "mise.local.lock",
+      "mise.lock",
       "pdm.lock",
       "poetry.lock",
       "uv.lock"
