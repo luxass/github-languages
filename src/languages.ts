@@ -3975,6 +3975,19 @@ export const IGORPro = {
 } as const;
 
 /**
+ * GitHub's language definition for IL Assembly.
+ */
+export const ILAssembly = {
+  type: "programming",
+  color: "#512BD4",
+  aliases: ["ilasm", "msil"],
+  tm_scope: "source.il",
+  ace_mode: "text",
+  language_id: 592065806,
+  extensions: [".il"],
+} as const;
+
+/**
  * GitHub's language definition for INI.
  */
 export const INI = {
@@ -7698,6 +7711,18 @@ export const QuickBASIC = {
   codemirror_mime_type: "text/x-vb",
   language_id: 593107205,
   extensions: [".bas", ".bi"],
+} as const;
+
+/**
+ * GitHub's language definition for Quint.
+ */
+export const Quint = {
+  type: "programming",
+  color: "#9d6ce5",
+  tm_scope: "source.quint",
+  ace_mode: "text",
+  language_id: 562056483,
+  extensions: [".qnt"],
 } as const;
 
 /**

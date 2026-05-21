@@ -2806,6 +2806,15 @@
     "language_id": 162,
     "extensions": [".ipf"]
   },
+  "IL Assembly": {
+    "type": "programming",
+    "color": "#512BD4",
+    "aliases": ["ilasm", "msil"],
+    "tm_scope": "source.il",
+    "ace_mode": "text",
+    "language_id": 592065806,
+    "extensions": [".il"]
+  },
   "INI": {
     "type": "data",
     "color": "#d1dbe0",
@@ -5481,6 +5490,14 @@
     "codemirror_mime_type": "text/x-vb",
     "language_id": 593107205,
     "extensions": [".bas", ".bi"]
+  },
+  "Quint": {
+    "type": "programming",
+    "color": "#9d6ce5",
+    "tm_scope": "source.quint",
+    "ace_mode": "text",
+    "language_id": 562056483,
+    "extensions": [".qnt"]
   },
   "R": {
     "type": "programming",
