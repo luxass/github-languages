@@ -18,7 +18,7 @@ export default defineConfig({
     "typescript/no-unnecessary-boolean-literal-compare": "off",
     "typescript/no-unsafe-type-assertion": "off",
     curly: "off",
-    "no-underscore-dangle": "off"
+    "no-underscore-dangle": "off",
   },
   overrides: [
     {
