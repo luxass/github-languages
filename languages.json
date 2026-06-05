@@ -429,6 +429,16 @@
     "language_id": 96642275,
     "extensions": [".bas"]
   },
+  "BAML": {
+    "type": "programming",
+    "color": "#a855f7",
+    "tm_scope": "source.baml",
+    "ace_mode": "io",
+    "codemirror_mode": "stylus",
+    "codemirror_mime_type": "text/x-styl",
+    "language_id": 502521509,
+    "extensions": [".baml"]
+  },
   "BASIC": {
     "type": "programming",
     "color": "#ff0000",
@@ -2818,7 +2828,7 @@
   "INI": {
     "type": "data",
     "color": "#d1dbe0",
-    "aliases": ["dosini"],
+    "aliases": ["conf", "dosini"],
     "tm_scope": "source.ini",
     "ace_mode": "ini",
     "codemirror_mode": "properties",
@@ -2828,12 +2838,19 @@
       ".ini",
       ".cfg",
       ".cnf",
+      ".container",
       ".dof",
       ".frm",
       ".lektorproject",
+      ".mount",
+      ".network",
       ".prefs",
       ".pro",
       ".properties",
+      ".service",
+      ".socket",
+      ".target",
+      ".timer",
       ".url"
     ],
     "filenames": [
@@ -2895,6 +2912,7 @@
       ".dockerignore",
       ".easignore",
       ".eleventyignore",
+      ".eslint-ignore",
       ".eslintignore",
       ".gitignore",
       ".ignore",
@@ -3043,6 +3061,7 @@
       ".jsonl",
       ".mcmeta",
       ".sarif",
+      ".slnlaunch",
       ".tact",
       ".tfstate",
       ".tfstate.backup",
@@ -3264,8 +3283,10 @@
       ".xsjslib"
     ],
     "interpreters": [
+      "bun",
       "chakra",
       "d8",
+      "deno",
       "gjs",
       "js",
       "node",
@@ -3996,6 +4017,7 @@
       "Makefile.frag",
       "Makefile.in",
       "Makefile.inc",
+      "Makefile.pc",
       "Makefile.wat",
       "makefile",
       "makefile.sco",
@@ -4846,6 +4868,18 @@
     "language_id": 267,
     "extensions": [".org"]
   },
+  "OverPy": {
+    "type": "programming",
+    "color": "#78b355",
+    "aliases": ["opy"],
+    "tm_scope": "source.opy",
+    "ace_mode": "python",
+    "codemirror_mode": "python",
+    "codemirror_mime_type": "text/x-python",
+    "wrap": true,
+    "language_id": 492781155,
+    "extensions": [".opy"]
+  },
   "OverpassQL": {
     "type": "programming",
     "color": "#cce2aa",
@@ -5249,6 +5283,17 @@
     "ace_mode": "prisma",
     "language_id": 499933428,
     "extensions": [".prisma"]
+  },
+  "Pro*C": {
+    "type": "programming",
+    "color": "#bb8368",
+    "tm_scope": "source.c",
+    "ace_mode": "c_cpp",
+    "codemirror_mode": "clike",
+    "codemirror_mime_type": "text/x-csrc",
+    "language_id": 991047534,
+    "extensions": [".pc"],
+    "fs_name": "ProC"
   },
   "Processing": {
     "type": "programming",
@@ -5774,6 +5819,14 @@
     "language_id": 1020148948,
     "filenames": ["_redirects"]
   },
+  "Redscript": {
+    "type": "programming",
+    "color": "#f44336",
+    "tm_scope": "source.redscript",
+    "ace_mode": "text",
+    "language_id": 686691365,
+    "extensions": [".reds"]
+  },
   "Regular Expression": {
     "type": "data",
     "color": "#009a00",
@@ -5837,6 +5890,14 @@
     "ace_mode": "robot",
     "language_id": 324,
     "extensions": [".robot", ".resource"]
+  },
+  "Robots Exclusion Rules": {
+    "type": "data",
+    "aliases": ["robots", "robots txt", "robotx.txt"],
+    "tm_scope": "text.robots-txt",
+    "ace_mode": "text",
+    "language_id": 674736065,
+    "filenames": ["robots.txt"]
   },
   "Roc": {
     "type": "programming",
@@ -6959,6 +7020,7 @@
       "README.me",
       "README.mysql",
       "README.nss",
+      "README.pc",
       "click.me",
       "delete.me",
       "keep.me",
@@ -7233,7 +7295,7 @@
     "tm_scope": "source.keyvalues",
     "ace_mode": "text",
     "language_id": 544060961,
-    "extensions": [".vdf"]
+    "extensions": [".vdf", ".vmf"]
   },
   "Velocity Template Language": {
     "type": "markup",
@@ -7987,8 +8049,9 @@
     "type": "data",
     "tm_scope": "source.desktop",
     "ace_mode": "text",
+    "group": "INI",
     "language_id": 412,
-    "extensions": [".desktop", ".desktop.in", ".service"]
+    "extensions": [".desktop", ".desktop.in"]
   },
   "dircolors": {
     "type": "data",
@@ -8129,6 +8192,17 @@
     "language_id": 418,
     "extensions": [".ooc"]
   },
+  "pkg-config": {
+    "type": "data",
+    "color": "#2b5e82",
+    "aliases": ["pkgconf"],
+    "tm_scope": "source.pkgconf",
+    "ace_mode": "properties",
+    "codemirror_mode": "properties",
+    "codemirror_mime_type": "text/x-properties",
+    "language_id": 925023573,
+    "extensions": [".pc", ".pc.in"]
+  },
   "q": {
     "type": "programming",
     "color": "#0040cd",
@@ -8150,14 +8224,6 @@
     "wrap": true,
     "language_id": 419,
     "extensions": [".rst", ".rest", ".rest.txt", ".rst.txt"]
-  },
-  "robots.txt": {
-    "type": "data",
-    "aliases": ["robots", "robots txt"],
-    "tm_scope": "text.robots-txt",
-    "ace_mode": "text",
-    "language_id": 674736065,
-    "filenames": ["robots.txt"]
   },
   "sed": {
     "type": "programming",

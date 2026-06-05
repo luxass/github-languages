@@ -626,6 +626,20 @@ export const B4X = {
 } as const;
 
 /**
+ * GitHub's language definition for BAML.
+ */
+export const BAML = {
+  type: "programming",
+  color: "#a855f7",
+  tm_scope: "source.baml",
+  ace_mode: "io",
+  codemirror_mode: "stylus",
+  codemirror_mime_type: "text/x-styl",
+  language_id: 502521509,
+  extensions: [".baml"],
+} as const;
+
+/**
  * GitHub's language definition for BASIC.
  */
 export const BASIC = {
@@ -3993,7 +4007,7 @@ export const ILAssembly = {
 export const INI = {
   type: "data",
   color: "#d1dbe0",
-  aliases: ["dosini"],
+  aliases: ["conf", "dosini"],
   tm_scope: "source.ini",
   ace_mode: "ini",
   codemirror_mode: "properties",
@@ -4003,12 +4017,19 @@ export const INI = {
     ".ini",
     ".cfg",
     ".cnf",
+    ".container",
     ".dof",
     ".frm",
     ".lektorproject",
+    ".mount",
+    ".network",
     ".prefs",
     ".pro",
     ".properties",
+    ".service",
+    ".socket",
+    ".target",
+    ".timer",
     ".url",
   ],
   filenames: [
@@ -4086,6 +4107,7 @@ export const IgnoreList = {
     ".dockerignore",
     ".easignore",
     ".eleventyignore",
+    ".eslint-ignore",
     ".eslintignore",
     ".gitignore",
     ".ignore",
@@ -4290,6 +4312,7 @@ export const JSON = {
     ".jsonl",
     ".mcmeta",
     ".sarif",
+    ".slnlaunch",
     ".tact",
     ".tfstate",
     ".tfstate.backup",
@@ -4562,7 +4585,20 @@ export const JavaScript = {
     ".xsjs",
     ".xsjslib",
   ],
-  interpreters: ["chakra", "d8", "gjs", "js", "node", "nodejs", "qjs", "rhino", "v8", "v8-shell"],
+  interpreters: [
+    "bun",
+    "chakra",
+    "d8",
+    "deno",
+    "gjs",
+    "js",
+    "node",
+    "nodejs",
+    "qjs",
+    "rhino",
+    "v8",
+    "v8-shell",
+  ],
   filenames: ["Jakefile"],
 } as const;
 
@@ -5592,6 +5628,7 @@ export const Makefile = {
     "Makefile.frag",
     "Makefile.in",
     "Makefile.inc",
+    "Makefile.pc",
     "Makefile.wat",
     "makefile",
     "makefile.sco",
@@ -6816,6 +6853,22 @@ export const Org = {
 } as const;
 
 /**
+ * GitHub's language definition for OverPy.
+ */
+export const OverPy = {
+  type: "programming",
+  color: "#78b355",
+  aliases: ["opy"],
+  tm_scope: "source.opy",
+  ace_mode: "python",
+  codemirror_mode: "python",
+  codemirror_mime_type: "text/x-python",
+  wrap: true,
+  language_id: 492781155,
+  extensions: [".opy"],
+} as const;
+
+/**
  * GitHub's language definition for OverpassQL.
  */
 export const OverpassQL = {
@@ -7370,6 +7423,21 @@ export const Prisma = {
   ace_mode: "prisma",
   language_id: 499933428,
   extensions: [".prisma"],
+} as const;
+
+/**
+ * GitHub's language definition for Pro*C.
+ */
+export const ProstarC = {
+  type: "programming",
+  color: "#bb8368",
+  tm_scope: "source.c",
+  ace_mode: "c_cpp",
+  codemirror_mode: "clike",
+  codemirror_mime_type: "text/x-csrc",
+  language_id: 991047534,
+  extensions: [".pc"],
+  fs_name: "ProC",
 } as const;
 
 /**
@@ -8113,6 +8181,18 @@ export const RedirectRules = {
 } as const;
 
 /**
+ * GitHub's language definition for Redscript.
+ */
+export const Redscript = {
+  type: "programming",
+  color: "#f44336",
+  tm_scope: "source.redscript",
+  ace_mode: "text",
+  language_id: 686691365,
+  extensions: [".reds"],
+} as const;
+
+/**
  * GitHub's language definition for Regular Expression.
  */
 export const RegularExpression = {
@@ -8206,6 +8286,18 @@ export const RobotFramework = {
   ace_mode: "robot",
   language_id: 324,
   extensions: [".robot", ".resource"],
+} as const;
+
+/**
+ * GitHub's language definition for Robots Exclusion Rules.
+ */
+export const RobotsExclusionRules = {
+  type: "data",
+  aliases: ["robots", "robots txt", "robotx.txt"],
+  tm_scope: "text.robots-txt",
+  ace_mode: "text",
+  language_id: 674736065,
+  filenames: ["robots.txt"],
 } as const;
 
 /**
@@ -9708,6 +9800,7 @@ export const Text = {
     "README.me",
     "README.mysql",
     "README.nss",
+    "README.pc",
     "click.me",
     "delete.me",
     "keep.me",
@@ -10094,7 +10187,7 @@ export const ValveDataFormat = {
   tm_scope: "source.keyvalues",
   ace_mode: "text",
   language_id: 544060961,
-  extensions: [".vdf"],
+  extensions: [".vdf", ".vmf"],
 } as const;
 
 /**
@@ -11093,8 +11186,9 @@ export const desktop = {
   type: "data",
   tm_scope: "source.desktop",
   ace_mode: "text",
+  group: "INI",
   language_id: 412,
-  extensions: [".desktop", ".desktop.in", ".service"],
+  extensions: [".desktop", ".desktop.in"],
 } as const;
 
 /**
@@ -11290,6 +11384,21 @@ export const ooc = {
 } as const;
 
 /**
+ * GitHub's language definition for pkg-config.
+ */
+export const pkg_config = {
+  type: "data",
+  color: "#2b5e82",
+  aliases: ["pkgconf"],
+  tm_scope: "source.pkgconf",
+  ace_mode: "properties",
+  codemirror_mode: "properties",
+  codemirror_mime_type: "text/x-properties",
+  language_id: 925023573,
+  extensions: [".pc", ".pc.in"],
+} as const;
+
+/**
  * GitHub's language definition for q.
  */
 export const q = {
@@ -11317,18 +11426,6 @@ export const reStructuredText = {
   wrap: true,
   language_id: 419,
   extensions: [".rst", ".rest", ".rest.txt", ".rst.txt"],
-} as const;
-
-/**
- * GitHub's language definition for robots.txt.
- */
-export const robotstxt = {
-  type: "data",
-  aliases: ["robots", "robots txt"],
-  tm_scope: "text.robots-txt",
-  ace_mode: "text",
-  language_id: 674736065,
-  filenames: ["robots.txt"],
 } as const;
 
 /**
