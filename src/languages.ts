@@ -3603,6 +3603,22 @@ export const GroovyServerPages = {
 } as const;
 
 /**
+ * GitHub's language definition for GtkRC.
+ */
+export const GtkRC = {
+  type: "data",
+  color: "#7fe719",
+  aliases: ["gtk", "gtk 1", "gtk 2"],
+  tm_scope: "source.gtkrc",
+  ace_mode: "ruby",
+  codemirror_mode: "ruby",
+  codemirror_mime_type: "text/x-ruby",
+  language_id: 876401352,
+  extensions: [".gtkrc"],
+  filenames: ["gtkrc", "gtkrc-2.0"],
+} as const;
+
+/**
  * GitHub's language definition for HAProxy.
  */
 export const HAProxy = {
@@ -7371,6 +7387,19 @@ export const PostScript = {
   ace_mode: "text",
   language_id: 291,
   extensions: [".ps", ".eps", ".epsi", ".pfa"],
+} as const;
+
+/**
+ * GitHub's language definition for Power Query.
+ */
+export const PowerQuery = {
+  type: "programming",
+  color: "#d38e0d",
+  aliases: ["powerquery"],
+  tm_scope: "source.powerquery",
+  ace_mode: "text",
+  language_id: 37496382,
+  extensions: [".pq"],
 } as const;
 
 /**
