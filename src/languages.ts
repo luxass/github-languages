@@ -3284,7 +3284,7 @@ export const GitConfig = {
   group: "INI",
   language_id: 807968997,
   extensions: [".gitconfig"],
-  filenames: [".gitconfig", ".gitmodules"],
+  filenames: [".gitconfig", ".gitmodules", ".tgitconfig", "config.worktree"],
 } as const;
 
 /**
@@ -4118,6 +4118,7 @@ export const IgnoreList = {
     ".atomignore",
     ".babelignore",
     ".bzrignore",
+    ".ckignore",
     ".coffeelintignore",
     ".cvsignore",
     ".dockerignore",
@@ -4131,6 +4132,7 @@ export const IgnoreList = {
     ".nodemonignore",
     ".npmignore",
     ".prettierignore",
+    ".rgignore",
     ".stylelintignore",
     ".vercelignore",
     ".vscodeignore",

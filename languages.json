@@ -2321,7 +2321,7 @@
     "group": "INI",
     "language_id": 807968997,
     "extensions": [".gitconfig"],
-    "filenames": [".gitconfig", ".gitmodules"]
+    "filenames": [".gitconfig", ".gitmodules", ".tgitconfig", "config.worktree"]
   },
   "Git Revision List": {
     "type": "data",
@@ -2919,6 +2919,7 @@
       ".atomignore",
       ".babelignore",
       ".bzrignore",
+      ".ckignore",
       ".coffeelintignore",
       ".cvsignore",
       ".dockerignore",
@@ -2932,6 +2933,7 @@
       ".nodemonignore",
       ".npmignore",
       ".prettierignore",
+      ".rgignore",
       ".stylelintignore",
       ".vercelignore",
       ".vscodeignore",
