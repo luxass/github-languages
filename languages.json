@@ -578,6 +578,15 @@
     "language_id": 35,
     "extensions": [".bmx"]
   },
+  "Blueprint": {
+    "type": "markup",
+    "color": "#3584E4",
+    "aliases": ["blp"],
+    "tm_scope": "source.blueprint",
+    "ace_mode": "text",
+    "language_id": 765545512,
+    "extensions": [".blp"]
+  },
   "Bluespec": {
     "type": "programming",
     "color": "#12223c",

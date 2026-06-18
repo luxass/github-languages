@@ -843,6 +843,19 @@ export const BlitzMax = {
 } as const;
 
 /**
+ * GitHub's language definition for Blueprint.
+ */
+export const Blueprint = {
+  type: "markup",
+  color: "#3584E4",
+  aliases: ["blp"],
+  tm_scope: "source.blueprint",
+  ace_mode: "text",
+  language_id: 765545512,
+  extensions: [".blp"],
+} as const;
+
+/**
  * GitHub's language definition for Bluespec.
  */
 export const Bluespec = {
