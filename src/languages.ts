@@ -1005,7 +1005,7 @@ export const C = {
  */
 export const Csharp = {
   type: "programming",
-  color: "#178600",
+  color: "#7355dd",
   aliases: ["csharp", "cake", "cakescript"],
   tm_scope: "source.cs",
   ace_mode: "csharp",
