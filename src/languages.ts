@@ -1371,10 +1371,8 @@ export const CapnProto = {
 export const Carbon = {
   type: "programming",
   color: "#222222",
-  tm_scope: "source.v",
-  ace_mode: "golang",
-  codemirror_mode: "go",
-  codemirror_mime_type: "text/x-go",
+  tm_scope: "source.carbon",
+  ace_mode: "text",
   language_id: 55627273,
   extensions: [".carbon"],
 } as const;
@@ -3379,6 +3377,21 @@ export const GlyphBitmapDistributionFormat = {
 } as const;
 
 /**
+ * GitHub's language definition for Gno.
+ */
+export const Gno = {
+  type: "programming",
+  color: "#226c57",
+  aliases: ["gnolang"],
+  tm_scope: "source.gno",
+  ace_mode: "golang",
+  codemirror_mode: "go",
+  codemirror_mime_type: "text/x-go",
+  language_id: 279301301,
+  extensions: [".gno"],
+} as const;
+
+/**
  * GitHub's language definition for Gnuplot.
  */
 export const Gnuplot = {
@@ -4361,6 +4374,7 @@ export const JSON = {
     ".htmlhintrc",
     ".imgbotconfig",
     ".nycrc",
+    ".secrets.baseline",
     ".tern-config",
     ".tern-project",
     ".watchmanconfig",
