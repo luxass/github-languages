@@ -308,6 +308,18 @@ export const Aiken = {
 } as const;
 
 /**
+ * GitHub's language definition for Aleo.
+ */
+export const Aleo = {
+  type: "programming",
+  color: "#154BF9",
+  tm_scope: "source.aleo",
+  ace_mode: "text",
+  language_id: 566431048,
+  extensions: [".aleo"],
+} as const;
+
+/**
  * GitHub's language definition for Alloy.
  */
 export const Alloy = {
@@ -557,7 +569,7 @@ export const AutoHotkey = {
   tm_scope: "source.ahk",
   ace_mode: "autohotkey",
   language_id: 26,
-  extensions: [".ahk", ".ahkl"],
+  extensions: [".ahk", ".ah1", ".ah2", ".ahkl"],
 } as const;
 
 /**
@@ -649,6 +661,31 @@ export const BASIC = {
   ace_mode: "basic",
   language_id: 28923963,
   extensions: [".bas"],
+} as const;
+
+/**
+ * GitHub's language definition for BBCode.
+ */
+export const BBCode = {
+  type: "markup",
+  color: "#CAFF42",
+  tm_scope: "text.bbcode",
+  ace_mode: "text",
+  language_id: 206921123,
+  extensions: [".bbcode"],
+} as const;
+
+/**
+ * GitHub's language definition for BIRD2.
+ */
+export const BIRD2 = {
+  type: "data",
+  color: "#b6d7e4",
+  aliases: ["bird", "bird3"],
+  tm_scope: "source.bird2",
+  ace_mode: "text",
+  language_id: 584191811,
+  filenames: ["bird.conf"],
 } as const;
 
 /**
@@ -4306,6 +4343,19 @@ export const JARManifest = {
 } as const;
 
 /**
+ * GitHub's language definition for JASS.
+ */
+export const JASS = {
+  type: "programming",
+  color: "#FF0303",
+  aliases: ["jass2"],
+  tm_scope: "source.jass",
+  ace_mode: "text",
+  language_id: 504860504,
+  extensions: [".j"],
+} as const;
+
+/**
  * GitHub's language definition for JCL.
  */
 export const JCL = {
@@ -4406,6 +4456,7 @@ export const JSONwithComments = {
     ".jsonc",
     ".code-snippets",
     ".code-workspace",
+    ".hujson",
     ".sublime-build",
     ".sublime-color-scheme",
     ".sublime-commands",
@@ -5399,6 +5450,18 @@ export const LiveScript = {
 } as const;
 
 /**
+ * GitHub's language definition for Lobster.
+ */
+export const Lobster = {
+  type: "programming",
+  color: "#f95428",
+  tm_scope: "source.lobster",
+  ace_mode: "python",
+  language_id: 790066842,
+  extensions: [".lobster"],
+} as const;
+
+/**
  * GitHub's language definition for Logos.
  */
 export const Logos = {
@@ -5885,6 +5948,18 @@ export const MiniD = {
   ace_mode: "text",
   language_id: 231,
   extensions: [".minid"],
+} as const;
+
+/**
+ * GitHub's language definition for MiniScript.
+ */
+export const MiniScript = {
+  type: "programming",
+  color: "#4B4A56",
+  tm_scope: "source.ms",
+  ace_mode: "text",
+  language_id: 704299647,
+  extensions: [".ms"],
 } as const;
 
 /**
@@ -8820,12 +8895,12 @@ export const Sail = {
 } as const;
 
 /**
- * GitHub's language definition for SaltStack.
+ * GitHub's language definition for Salt.
  */
-export const SaltStack = {
+export const Salt = {
   type: "programming",
-  color: "#646464",
-  aliases: ["saltstate", "salt"],
+  color: "#57bcad",
+  aliases: ["saltstack", "saltstate"],
   tm_scope: "source.yaml.salt",
   ace_mode: "yaml",
   codemirror_mode: "yaml",
@@ -8959,6 +9034,7 @@ export const Shell = {
     ".command",
     ".fcgi",
     ".ksh",
+    ".pacscript",
     ".sbatch",
     ".sh.in",
     ".slurm",
@@ -9701,6 +9777,18 @@ export const Talon = {
 } as const;
 
 /**
+ * GitHub's language definition for Tape.
+ */
+export const Tape = {
+  type: "programming",
+  aliases: ["vhs"],
+  tm_scope: "source.vhs",
+  ace_mode: "text",
+  language_id: 516874200,
+  extensions: [".tape"],
+} as const;
+
+/**
  * GitHub's language definition for Tcl.
  */
 export const Tcl = {
@@ -9940,6 +10028,20 @@ export const Toit = {
 } as const;
 
 /**
+ * GitHub's language definition for Tolk.
+ */
+export const Tolk = {
+  type: "programming",
+  color: "#30A1F5",
+  tm_scope: "source.tolk",
+  ace_mode: "text",
+  codemirror_mode: "stylus",
+  codemirror_mime_type: "text/x-styl",
+  language_id: 678673060,
+  extensions: [".tolk"],
+} as const;
+
+/**
  * GitHub's language definition for Tor Config.
  */
 export const TorConfig = {
@@ -10029,7 +10131,7 @@ export const TypeScript = {
   codemirror_mime_type: "application/typescript",
   language_id: 378,
   extensions: [".ts", ".cts", ".mts"],
-  interpreters: ["bun", "deno", "ts-node", "tsx"],
+  interpreters: ["bun", "deno", "ts-node", "tsx", "node"],
 } as const;
 
 /**
@@ -10287,6 +10389,18 @@ export const Verilog = {
   codemirror_mime_type: "text/x-verilog",
   language_id: 387,
   extensions: [".v", ".veo"],
+} as const;
+
+/**
+ * GitHub's language definition for Verse.
+ */
+export const Verse = {
+  type: "programming",
+  color: "#518ef8",
+  tm_scope: "source.verse",
+  ace_mode: "text",
+  language_id: 180832205,
+  extensions: [".verse"],
 } as const;
 
 /**
@@ -10807,6 +10921,7 @@ export const XML = {
     ".pt",
     ".pubxml",
     ".qhelp",
+    ".rbxmx",
     ".rdf",
     ".res",
     ".resx",
@@ -11509,6 +11624,21 @@ export const templ = {
   ace_mode: "text",
   language_id: 795579337,
   extensions: [".templ"],
+} as const;
+
+/**
+ * GitHub's language definition for ucode.
+ */
+export const ucode = {
+  type: "programming",
+  color: "#00b8d4",
+  tm_scope: "source.ucode",
+  ace_mode: "javascript",
+  codemirror_mode: "javascript",
+  codemirror_mime_type: "text/javascript",
+  language_id: 365454253,
+  extensions: [".uc"],
+  interpreters: ["ucode"],
 } as const;
 
 /**
