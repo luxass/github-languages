@@ -418,12 +418,20 @@
     "extensions": [".awk", ".auk", ".gawk", ".mawk", ".nawk"],
     "interpreters": ["awk", "gawk", "mawk", "nawk"]
   },
+  "B": {
+    "type": "programming",
+    "color": "#da7666",
+    "tm_scope": "source.c",
+    "ace_mode": "text",
+    "language_id": 700792152,
+    "extensions": [".b"]
+  },
   "B (Formal Method)": {
     "type": "programming",
     "color": "#8aa8c5",
     "tm_scope": "source.b",
     "ace_mode": "text",
-    "language_id": 700792152,
+    "language_id": 993355937,
     "extensions": [".mch"]
   },
   "B4X": {
@@ -2983,6 +2991,17 @@
       "gitignore-global",
       "gitignore_global"
     ]
+  },
+  "ImHex Pattern Language": {
+    "type": "programming",
+    "color": "#3a6be0",
+    "aliases": ["ImHex", "ImHexPatternLanguage", "imhexpl"],
+    "tm_scope": "source.pl",
+    "ace_mode": "c_cpp",
+    "codemirror_mode": "clike",
+    "codemirror_mime_type": "text/x-csrc",
+    "language_id": 805861688,
+    "extensions": [".hexpat"]
   },
   "ImageJ Macro": {
     "type": "programming",
