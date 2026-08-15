@@ -611,6 +611,18 @@ export const Awk = {
 } as const;
 
 /**
+ * GitHub's language definition for B.
+ */
+export const B = {
+  type: "programming",
+  color: "#da7666",
+  tm_scope: "source.c",
+  ace_mode: "text",
+  language_id: 700792152,
+  extensions: [".b"],
+} as const;
+
+/**
  * GitHub's language definition for B (Formal Method).
  */
 export const BFormalMethod = {
@@ -618,7 +630,7 @@ export const BFormalMethod = {
   color: "#8aa8c5",
   tm_scope: "source.b",
   ace_mode: "text",
-  language_id: 700792152,
+  language_id: 993355937,
   extensions: [".mch"],
 } as const;
 
@@ -4202,6 +4214,21 @@ export const IgnoreList = {
     "gitignore-global",
     "gitignore_global",
   ],
+} as const;
+
+/**
+ * GitHub's language definition for ImHex Pattern Language.
+ */
+export const ImHexPatternLanguage = {
+  type: "programming",
+  color: "#3a6be0",
+  aliases: ["ImHex", "ImHexPatternLanguage", "imhexpl"],
+  tm_scope: "source.pl",
+  ace_mode: "c_cpp",
+  codemirror_mode: "clike",
+  codemirror_mime_type: "text/x-csrc",
+  language_id: 805861688,
+  extensions: [".hexpat"],
 } as const;
 
 /**
