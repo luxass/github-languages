@@ -1198,7 +1198,7 @@
     "codemirror_mode": "coffeescript",
     "codemirror_mime_type": "text/x-coffeescript",
     "language_id": 63,
-    "extensions": [".coffee", "._coffee", ".cake", ".cjsx", ".iced"],
+    "extensions": [".coffee", "._coffee", ".cake", ".cjsx", ".coffee.erb", ".iced"],
     "interpreters": ["coffee"],
     "filenames": ["Cakefile"]
   },
@@ -2348,7 +2348,7 @@
     "ace_mode": "text",
     "wrap": true,
     "language_id": 131750475,
-    "filenames": ["COMMIT_EDITMSG"]
+    "filenames": [".gitmessage", "COMMIT_EDITMSG"]
   },
   "Git Config": {
     "type": "data",
@@ -2920,6 +2920,7 @@
       ".buckconfig",
       ".coveragerc",
       ".flake8",
+      ".gitreview",
       ".pylintrc",
       "HOSTS",
       "buildozer.spec",
@@ -2967,6 +2968,7 @@
     "language_id": 74444240,
     "extensions": [".gitignore"],
     "filenames": [
+      ".agignore",
       ".atomignore",
       ".babelignore",
       ".bzrignore",
@@ -3164,6 +3166,7 @@
       ".htmlhintrc",
       ".imgbotconfig",
       ".nycrc",
+      ".releaserc",
       ".secrets.baseline",
       ".tern-config",
       ".tern-project",
@@ -3212,6 +3215,7 @@
     "filenames": [
       ".babelrc",
       ".devcontainer.json",
+      ".eslintrc",
       ".eslintrc.json",
       ".jscsrc",
       ".jshintrc",
@@ -5665,9 +5669,9 @@
     "codemirror_mode": "r",
     "codemirror_mime_type": "text/x-rsrc",
     "language_id": 307,
-    "extensions": [".r", ".rd", ".rsx"],
+    "extensions": [".r", ".rd", ".rhistory", ".rsx"],
     "interpreters": ["Rscript"],
-    "filenames": [".Rprofile", "expr-dist"]
+    "filenames": [".Rapp.history", ".Rhistory", ".Rprofile", "expr-dist"]
   },
   "RAML": {
     "type": "markup",
@@ -7838,6 +7842,7 @@
       ".kml",
       ".launch",
       ".mdpolicy",
+      ".meta4",
       ".mjml",
       ".mm",
       ".mod",
@@ -8056,7 +8061,9 @@
       ".clang-format",
       ".clang-tidy",
       ".clangd",
+      ".eslintrc",
       ".gemrc",
+      ".releaserc",
       "CITATION.cff",
       "glide.lock",
       "pixi.lock",

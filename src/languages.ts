@@ -1713,7 +1713,7 @@ export const CoffeeScript = {
   codemirror_mode: "coffeescript",
   codemirror_mime_type: "text/x-coffeescript",
   language_id: 63,
-  extensions: [".coffee", "._coffee", ".cake", ".cjsx", ".iced"],
+  extensions: [".coffee", "._coffee", ".cake", ".cjsx", ".coffee.erb", ".iced"],
   interpreters: ["coffee"],
   filenames: ["Cakefile"],
 } as const;
@@ -3327,7 +3327,7 @@ export const GitCommit = {
   ace_mode: "text",
   wrap: true,
   language_id: 131750475,
-  filenames: ["COMMIT_EDITMSG"],
+  filenames: [".gitmessage", "COMMIT_EDITMSG"],
 } as const;
 
 /**
@@ -4127,6 +4127,7 @@ export const INI = {
     ".buckconfig",
     ".coveragerc",
     ".flake8",
+    ".gitreview",
     ".pylintrc",
     "HOSTS",
     "buildozer.spec",
@@ -4190,6 +4191,7 @@ export const IgnoreList = {
   language_id: 74444240,
   extensions: [".gitignore"],
   filenames: [
+    ".agignore",
     ".atomignore",
     ".babelignore",
     ".bzrignore",
@@ -4451,6 +4453,7 @@ export const JSON = {
     ".htmlhintrc",
     ".imgbotconfig",
     ".nycrc",
+    ".releaserc",
     ".secrets.baseline",
     ".tern-config",
     ".tern-project",
@@ -4503,6 +4506,7 @@ export const JSONwithComments = {
   filenames: [
     ".babelrc",
     ".devcontainer.json",
+    ".eslintrc",
     ".eslintrc.json",
     ".jscsrc",
     ".jshintrc",
@@ -7965,9 +7969,9 @@ export const R = {
   codemirror_mode: "r",
   codemirror_mime_type: "text/x-rsrc",
   language_id: 307,
-  extensions: [".r", ".rd", ".rsx"],
+  extensions: [".r", ".rd", ".rhistory", ".rsx"],
   interpreters: ["Rscript"],
-  filenames: [".Rprofile", "expr-dist"],
+  filenames: [".Rapp.history", ".Rhistory", ".Rprofile", "expr-dist"],
 } as const;
 
 /**
@@ -10927,6 +10931,7 @@ export const XML = {
     ".kml",
     ".launch",
     ".mdpolicy",
+    ".meta4",
     ".mjml",
     ".mm",
     ".mod",
@@ -11189,7 +11194,9 @@ export const YAML = {
     ".clang-format",
     ".clang-tidy",
     ".clangd",
+    ".eslintrc",
     ".gemrc",
+    ".releaserc",
     "CITATION.cff",
     "glide.lock",
     "pixi.lock",
