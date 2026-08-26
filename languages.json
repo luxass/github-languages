@@ -1911,6 +1911,14 @@
     "language_id": 106,
     "extensions": [".fx", ".flux"]
   },
+  "FPP": {
+    "type": "programming",
+    "color": "#d37327",
+    "tm_scope": "source.fpp",
+    "ace_mode": "text",
+    "language_id": 252360067,
+    "extensions": [".fpp", ".fppi"]
+  },
   "Factor": {
     "type": "programming",
     "color": "#636746",
@@ -5641,6 +5649,16 @@
     "language_id": 472308069,
     "extensions": [".qc"]
   },
+  "Quartus Simulation IP": {
+    "type": "data",
+    "color": "#58C42E",
+    "tm_scope": "source.tcl",
+    "ace_mode": "tcl",
+    "codemirror_mode": "tcl",
+    "codemirror_mime_type": "text/x-tcl",
+    "language_id": 828144309,
+    "extensions": [".sip"]
+  },
   "QuickBASIC": {
     "type": "programming",
     "color": "#008080",
@@ -6232,6 +6250,16 @@
       "port_contexts",
       "security_classes"
     ]
+  },
+  "SIP": {
+    "type": "programming",
+    "color": "#4E8D83",
+    "tm_scope": "source.c++",
+    "ace_mode": "c_cpp",
+    "codemirror_mode": "clike",
+    "codemirror_mime_type": "text/x-c++src",
+    "language_id": 796891177,
+    "extensions": [".sip"]
   },
   "SMT": {
     "type": "programming",
@@ -7469,6 +7497,15 @@
     "language_id": 180832205,
     "extensions": [".verse"]
   },
+  "Vespa Schema Definition": {
+    "type": "data",
+    "color": "#61D790",
+    "aliases": ["vespa"],
+    "tm_scope": "source.vespaSchema",
+    "ace_mode": "text",
+    "language_id": 587879709,
+    "extensions": [".sd"]
+  },
   "Vim Help File": {
     "type": "prose",
     "color": "#199f4b",
@@ -7478,16 +7515,6 @@
     "language_id": 508563686,
     "extensions": [".txt"]
   },
-  "Vim Script": {
-    "type": "programming",
-    "color": "#199f4b",
-    "aliases": ["vim", "viml", "nvim", "vimscript"],
-    "tm_scope": "source.viml",
-    "ace_mode": "text",
-    "language_id": 388,
-    "extensions": [".vim", ".vba", ".vimrc", ".vmb"],
-    "filenames": [".exrc", ".gvimrc", ".nvimrc", ".vimrc", "_vimrc", "gvimrc", "nvimrc", "vimrc"]
-  },
   "Vim Snippet": {
     "type": "markup",
     "color": "#199f4b",
@@ -7496,6 +7523,16 @@
     "ace_mode": "text",
     "language_id": 81265970,
     "extensions": [".snip", ".snippet", ".snippets"]
+  },
+  "Vim script": {
+    "type": "programming",
+    "color": "#199f4b",
+    "aliases": ["vim", "viml", "nvim", "vimscript"],
+    "tm_scope": "source.viml",
+    "ace_mode": "text",
+    "language_id": 388,
+    "extensions": [".vim", ".vba", ".vimrc", ".vmb"],
+    "filenames": [".exrc", ".gvimrc", ".nvimrc", ".vimrc", "_vimrc", "gvimrc", "nvimrc", "vimrc"]
   },
   "Visual Basic .NET": {
     "type": "programming",
