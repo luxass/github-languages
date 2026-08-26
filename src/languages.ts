@@ -2716,6 +2716,18 @@ export const FLUX = {
 } as const;
 
 /**
+ * GitHub's language definition for FPP.
+ */
+export const FPP = {
+  type: "programming",
+  color: "#d37327",
+  tm_scope: "source.fpp",
+  ace_mode: "text",
+  language_id: 252360067,
+  extensions: [".fpp", ".fppi"],
+} as const;
+
+/**
  * GitHub's language definition for Factor.
  */
 export const Factor = {
@@ -7931,6 +7943,20 @@ export const QuakeC = {
 } as const;
 
 /**
+ * GitHub's language definition for Quartus Simulation IP.
+ */
+export const QuartusSimulationIP = {
+  type: "data",
+  color: "#58C42E",
+  tm_scope: "source.tcl",
+  ace_mode: "tcl",
+  codemirror_mode: "tcl",
+  codemirror_mime_type: "text/x-tcl",
+  language_id: 828144309,
+  extensions: [".sip"],
+} as const;
+
+/**
  * GitHub's language definition for QuickBASIC.
  */
 export const QuickBASIC = {
@@ -8724,6 +8750,20 @@ export const SELinuxPolicy = {
     "port_contexts",
     "security_classes",
   ],
+} as const;
+
+/**
+ * GitHub's language definition for SIP.
+ */
+export const SIP = {
+  type: "programming",
+  color: "#4E8D83",
+  tm_scope: "source.c++",
+  ace_mode: "c_cpp",
+  codemirror_mode: "clike",
+  codemirror_mime_type: "text/x-c++src",
+  language_id: 796891177,
+  extensions: [".sip"],
 } as const;
 
 /**
@@ -10435,6 +10475,19 @@ export const Verse = {
 } as const;
 
 /**
+ * GitHub's language definition for Vespa Schema Definition.
+ */
+export const VespaSchemaDefinition = {
+  type: "data",
+  color: "#61D790",
+  aliases: ["vespa"],
+  tm_scope: "source.vespaSchema",
+  ace_mode: "text",
+  language_id: 587879709,
+  extensions: [".sd"],
+} as const;
+
+/**
  * GitHub's language definition for Vim Help File.
  */
 export const VimHelpFile = {
@@ -10448,20 +10501,6 @@ export const VimHelpFile = {
 } as const;
 
 /**
- * GitHub's language definition for Vim Script.
- */
-export const VimScript = {
-  type: "programming",
-  color: "#199f4b",
-  aliases: ["vim", "viml", "nvim", "vimscript"],
-  tm_scope: "source.viml",
-  ace_mode: "text",
-  language_id: 388,
-  extensions: [".vim", ".vba", ".vimrc", ".vmb"],
-  filenames: [".exrc", ".gvimrc", ".nvimrc", ".vimrc", "_vimrc", "gvimrc", "nvimrc", "vimrc"],
-} as const;
-
-/**
  * GitHub's language definition for Vim Snippet.
  */
 export const VimSnippet = {
@@ -10472,6 +10511,20 @@ export const VimSnippet = {
   ace_mode: "text",
   language_id: 81265970,
   extensions: [".snip", ".snippet", ".snippets"],
+} as const;
+
+/**
+ * GitHub's language definition for Vim script.
+ */
+export const Vimscript = {
+  type: "programming",
+  color: "#199f4b",
+  aliases: ["vim", "viml", "nvim", "vimscript"],
+  tm_scope: "source.viml",
+  ace_mode: "text",
+  language_id: 388,
+  extensions: [".vim", ".vba", ".vimrc", ".vmb"],
+  filenames: [".exrc", ".gvimrc", ".nvimrc", ".vimrc", "_vimrc", "gvimrc", "nvimrc", "vimrc"],
 } as const;
 
 /**
