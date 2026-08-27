@@ -5994,6 +5994,14 @@
     "language_id": 498022874,
     "extensions": [".r"]
   },
+  "Rhai": {
+    "type": "programming",
+    "color": "#FBA63B",
+    "tm_scope": "source.rhai",
+    "ace_mode": "text",
+    "language_id": 713228814,
+    "extensions": [".rhai"]
+  },
   "Rich Text Format": {
     "type": "markup",
     "tm_scope": "text.rtf",
