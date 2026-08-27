@@ -8432,6 +8432,18 @@ export const Rez = {
 } as const;
 
 /**
+ * GitHub's language definition for Rhai.
+ */
+export const Rhai = {
+  type: "programming",
+  color: "#FBA63B",
+  tm_scope: "source.rhai",
+  ace_mode: "text",
+  language_id: 713228814,
+  extensions: [".rhai"],
+} as const;
+
+/**
  * GitHub's language definition for Rich Text Format.
  */
 export const RichTextFormat = {
