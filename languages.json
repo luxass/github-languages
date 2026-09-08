@@ -328,6 +328,16 @@
     "language_id": 20,
     "extensions": [".arc"]
   },
+  "ArkTS": {
+    "type": "programming",
+    "color": "#0080ff",
+    "tm_scope": "source.ets",
+    "ace_mode": "typescript",
+    "codemirror_mode": "javascript",
+    "codemirror_mime_type": "application/typescript",
+    "language_id": 56341321,
+    "extensions": [".ets"]
+  },
   "AsciiDoc": {
     "type": "prose",
     "color": "#73a0c5",
@@ -3676,6 +3686,15 @@
     "ace_mode": "text",
     "language_id": 191,
     "extensions": [".ll"]
+  },
+  "LLVM TableGen": {
+    "type": "programming",
+    "color": "#6E8B3D",
+    "aliases": ["tablegen"],
+    "tm_scope": "source.tablegen",
+    "ace_mode": "text",
+    "language_id": 184265095,
+    "extensions": [".td"]
   },
   "LOLCODE": {
     "type": "programming",
