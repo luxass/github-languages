@@ -481,6 +481,20 @@ export const Arc = {
 } as const;
 
 /**
+ * GitHub's language definition for ArkTS.
+ */
+export const ArkTS = {
+  type: "programming",
+  color: "#0080ff",
+  tm_scope: "source.ets",
+  ace_mode: "typescript",
+  codemirror_mode: "javascript",
+  codemirror_mime_type: "application/typescript",
+  language_id: 56341321,
+  extensions: [".ets"],
+} as const;
+
+/**
  * GitHub's language definition for AsciiDoc.
  */
 export const AsciiDoc = {
@@ -5139,6 +5153,19 @@ export const LLVM = {
   ace_mode: "text",
   language_id: 191,
   extensions: [".ll"],
+} as const;
+
+/**
+ * GitHub's language definition for LLVM TableGen.
+ */
+export const LLVMTableGen = {
+  type: "programming",
+  color: "#6E8B3D",
+  aliases: ["tablegen"],
+  tm_scope: "source.tablegen",
+  ace_mode: "text",
+  language_id: 184265095,
+  extensions: [".td"],
 } as const;
 
 /**
