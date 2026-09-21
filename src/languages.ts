@@ -2544,7 +2544,7 @@ export const Eiffel = {
  */
 export const Elixir = {
   type: "programming",
-  color: "#6e4a7e",
+  color: "#8847B9",
   tm_scope: "source.elixir",
   ace_mode: "elixir",
   language_id: 100,
