@@ -778,6 +778,18 @@ export const Befunge = {
 } as const;
 
 /**
+ * GitHub's language definition for Bend.
+ */
+export const Bend = {
+  type: "programming",
+  aliases: ["bend2"],
+  tm_scope: "source.bend",
+  ace_mode: "text",
+  language_id: 571794812,
+  extensions: [".bend"],
+} as const;
+
+/**
  * GitHub's language definition for Berry.
  */
 export const Berry = {
@@ -6205,6 +6217,7 @@ export const MoonBit = {
   ace_mode: "text",
   language_id: 181453007,
   extensions: [".mbt"],
+  filenames: ["moon.mod", "moon.pkg"],
 } as const;
 
 /**
