@@ -533,6 +533,14 @@
     "language_id": 30,
     "extensions": [".befunge", ".bf"]
   },
+  "Bend": {
+    "type": "programming",
+    "aliases": ["bend2"],
+    "tm_scope": "source.bend",
+    "ace_mode": "text",
+    "language_id": 571794812,
+    "extensions": [".bend"]
+  },
   "Berry": {
     "type": "programming",
     "color": "#15A13C",
@@ -4421,7 +4429,8 @@
     "tm_scope": "source.moonbit",
     "ace_mode": "text",
     "language_id": 181453007,
-    "extensions": [".mbt"]
+    "extensions": [".mbt"],
+    "filenames": ["moon.mod", "moon.pkg"]
   },
   "MoonScript": {
     "type": "programming",
