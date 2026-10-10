@@ -7,14 +7,14 @@ blockExoticSubdeps: true
 
 catalogs:
   dev:
-    publint: 0.3.21
-    tsdown: 0.22.0
+    publint: 0.3.25
+    tsdown: 0.23.0
     typescript: 6.0.3
     valibot: 1.4.1
-    yaml: 2.9.0
-    oxfmt: 0.52.0
+    yaml: 2.9.1
+    oxfmt: 0.71.0
     oxlint: 1.67.0
-    oxlint-tsgolint: 0.23.0
+    oxlint-tsgolint: 0.25.0
 
   types:
-    "@types/node": 24.12.4
+    "@types/node": 24.19.1
