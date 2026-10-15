@@ -778,6 +778,18 @@ export const Befunge = {
 } as const;
 
 /**
+ * GitHub's language definition for Bend.
+ */
+export const Bend = {
+  type: "programming",
+  aliases: ["bend2"],
+  tm_scope: "source.bend",
+  ace_mode: "text",
+  language_id: 571794812,
+  extensions: [".bend"],
+} as const;
+
+/**
  * GitHub's language definition for Berry.
  */
 export const Berry = {
@@ -6205,6 +6217,7 @@ export const MoonBit = {
   ace_mode: "text",
   language_id: 181453007,
   extensions: [".mbt"],
+  filenames: ["moon.mod", "moon.pkg"],
 } as const;
 
 /**
@@ -10168,11 +10181,13 @@ export const TorConfig = {
  * GitHub's language definition for Tree-sitter Query.
  */
 export const Tree_sitterQuery = {
-  type: "programming",
+  type: "data",
   color: "#8ea64c",
   aliases: ["tsq"],
-  tm_scope: "source.scm",
-  ace_mode: "text",
+  tm_scope: "source.tsq",
+  ace_mode: "scheme",
+  codemirror_mode: "scheme",
+  codemirror_mime_type: "text/x-scheme",
   language_id: 436081647,
   extensions: [".scm"],
 } as const;
