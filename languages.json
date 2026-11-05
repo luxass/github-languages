@@ -411,6 +411,15 @@
     "language_id": 27,
     "extensions": [".au3"]
   },
+  "AviSynth": {
+    "type": "programming",
+    "color": "#6C5D95",
+    "aliases": ["avisynth+", "avisynthplus", "avs", "avsplus"],
+    "tm_scope": "source.avisynth",
+    "ace_mode": "text",
+    "language_id": 781893374,
+    "extensions": [".avs", ".avsi"]
+  },
   "Avro IDL": {
     "type": "data",
     "color": "#0040FF",
@@ -532,6 +541,14 @@
     "ace_mode": "text",
     "language_id": 30,
     "extensions": [".befunge", ".bf"]
+  },
+  "Bend": {
+    "type": "programming",
+    "aliases": ["bend2"],
+    "tm_scope": "source.bend",
+    "ace_mode": "text",
+    "language_id": 571794812,
+    "extensions": [".bend"]
   },
   "Berry": {
     "type": "programming",
@@ -1700,6 +1717,14 @@
     "language_id": 963512632,
     "filenames": ["Earthfile"]
   },
+  "EasyCrypt": {
+    "type": "programming",
+    "color": "#2a5db0",
+    "tm_scope": "source.easycrypt",
+    "ace_mode": "text",
+    "language_id": 1032978328,
+    "extensions": [".ec"]
+  },
   "Easybuild": {
     "type": "data",
     "color": "#069406",
@@ -1823,13 +1848,13 @@
   "Emacs Lisp": {
     "type": "programming",
     "color": "#c065db",
-    "aliases": ["cask", "eask", "elisp", "emacs"],
+    "aliases": ["cask", "eask", "elisp", "emacs", "lisp data"],
     "tm_scope": "source.emacs.lisp",
     "ace_mode": "lisp",
     "codemirror_mode": "commonlisp",
     "codemirror_mime_type": "text/x-common-lisp",
     "language_id": 102,
-    "extensions": [".el", ".emacs", ".emacs.desktop"],
+    "extensions": [".el", ".eld", ".emacs", ".emacs.desktop"],
     "filenames": [
       ".abbrev_defs",
       ".emacs",
@@ -2888,6 +2913,14 @@
     "language_id": 161,
     "extensions": [".pro", ".dlm"]
   },
+  "IFC": {
+    "type": "data",
+    "tm_scope": "source.ifc",
+    "ace_mode": "text",
+    "group": "STEP",
+    "language_id": 423304113,
+    "extensions": [".ifc"]
+  },
   "IGOR Pro": {
     "type": "programming",
     "color": "#0000cc",
@@ -2936,6 +2969,7 @@
     ],
     "filenames": [
       ".buckconfig",
+      ".codespellrc",
       ".coveragerc",
       ".flake8",
       ".gitreview",
@@ -2987,15 +3021,20 @@
     "extensions": [".gitignore"],
     "filenames": [
       ".agignore",
+      ".aiexclude",
+      ".aiignore",
       ".atomignore",
       ".babelignore",
       ".bzrignore",
       ".ckignore",
+      ".clang-format-ignore",
       ".coffeelintignore",
+      ".cursorignore",
       ".cvsignore",
       ".dockerignore",
       ".easignore",
       ".eleventyignore",
+      ".elpaignore",
       ".eslint-ignore",
       ".eslintignore",
       ".gitignore",
@@ -3003,8 +3042,10 @@
       ".markdownlintignore",
       ".nodemonignore",
       ".npmignore",
+      ".nxignore",
       ".prettierignore",
       ".rgignore",
+      ".stow-local-ignore",
       ".stylelintignore",
       ".vercelignore",
       ".vscodeignore",
@@ -3180,6 +3221,7 @@
       ".all-contributorsrc",
       ".arcconfig",
       ".auto-changelog",
+      ".autorc",
       ".c8rc",
       ".htmlhintrc",
       ".imgbotconfig",
@@ -4068,6 +4110,14 @@
     "language_id": 512838272,
     "extensions": [".mdx"]
   },
+  "METAFONT": {
+    "type": "programming",
+    "color": "#8a4a2b",
+    "tm_scope": "source.metafont",
+    "ace_mode": "text",
+    "language_id": 1058854440,
+    "extensions": [".mf"]
+  },
   "MLIR": {
     "type": "programming",
     "color": "#5EC8DB",
@@ -4265,6 +4315,14 @@
     "language_id": 799141244,
     "filenames": ["meson.build", "meson_options.txt"]
   },
+  "MetaPost": {
+    "type": "programming",
+    "color": "#2b6cb0",
+    "tm_scope": "source.metapost",
+    "ace_mode": "text",
+    "language_id": 330845793,
+    "extensions": [".mp"]
+  },
   "Metal": {
     "type": "programming",
     "color": "#8f14e9",
@@ -4421,7 +4479,8 @@
     "tm_scope": "source.moonbit",
     "ace_mode": "text",
     "language_id": 181453007,
-    "extensions": [".mbt"]
+    "extensions": [".mbt"],
+    "filenames": ["moon.mod", "moon.pkg"]
   },
   "MoonScript": {
     "type": "programming",
@@ -4991,7 +5050,7 @@
     "codemirror_mode": "shell",
     "codemirror_mime_type": "text/x-sh",
     "language_id": 723589315,
-    "filenames": [".ackrc", ".rspec", ".yardopts", "ackrc", "mocha.opts"]
+    "filenames": [".ackrc", ".ert-runner", ".rspec", ".yardopts", "ackrc", "mocha.opts"]
   },
   "Org": {
     "type": "prose",
@@ -5385,7 +5444,7 @@
   "Power Query": {
     "type": "programming",
     "color": "#d38e0d",
-    "aliases": ["powerquery"],
+    "aliases": ["powerquery", "m language", "m formula language"],
     "tm_scope": "source.powerquery",
     "ace_mode": "text",
     "language_id": 37496382,
@@ -5592,6 +5651,7 @@
       ".rpy",
       ".spec",
       ".tac",
+      ".vpy",
       ".wsgi",
       ".xpy"
     ],
@@ -6378,6 +6438,14 @@
     "language_id": 424510560,
     "extensions": [".star"]
   },
+  "STEP": {
+    "type": "data",
+    "aliases": ["iso-10303-21", "p21"],
+    "tm_scope": "source.ifc",
+    "ace_mode": "text",
+    "language_id": 32760317,
+    "extensions": [".step", ".stp"]
+  },
   "STL": {
     "type": "data",
     "color": "#373b5e",
@@ -7024,6 +7092,14 @@
     "language_id": 918334941,
     "extensions": [".sql"]
   },
+  "TSRX": {
+    "type": "programming",
+    "color": "#6f00ff",
+    "tm_scope": "source.tsrx",
+    "ace_mode": "text",
+    "language_id": 647519071,
+    "extensions": [".tsrx"]
+  },
   "TSV": {
     "type": "data",
     "color": "#237346",
@@ -7179,9 +7255,10 @@
   },
   "Text": {
     "type": "prose",
-    "aliases": ["fundamental", "plain text"],
+    "aliases": ["fundamental", "indented text", "plain text", "paragraph indent text", "parindent"],
     "tm_scope": "none",
     "ace_mode": "text",
+    "codemirror_mime_type": "text/plain",
     "wrap": true,
     "language_id": 372,
     "extensions": [".txt", ".fr", ".nb", ".ncl", ".no"],
@@ -7280,11 +7357,13 @@
     "filenames": ["torrc"]
   },
   "Tree-sitter Query": {
-    "type": "programming",
+    "type": "data",
     "color": "#8ea64c",
     "aliases": ["tsq"],
-    "tm_scope": "source.scm",
-    "ace_mode": "text",
+    "tm_scope": "source.tsq",
+    "ace_mode": "scheme",
+    "codemirror_mode": "scheme",
+    "codemirror_mime_type": "text/x-scheme",
     "language_id": 436081647,
     "extensions": [".scm"]
   },
@@ -7352,6 +7431,14 @@
     "ace_mode": "text",
     "language_id": 704730682,
     "extensions": [".typ"]
+  },
+  "Uiua": {
+    "type": "programming",
+    "color": "#c87dff",
+    "tm_scope": "source.uiua",
+    "ace_mode": "text",
+    "language_id": 52486065,
+    "extensions": [".ua"]
   },
   "Unified Parallel C": {
     "type": "programming",
@@ -7619,6 +7706,14 @@
     "ace_mode": "text",
     "language_id": 374521672,
     "extensions": [".wdl"]
+  },
+  "WESL": {
+    "type": "programming",
+    "color": "#0391e3",
+    "tm_scope": "source.wesl",
+    "ace_mode": "text",
+    "language_id": 858810660,
+    "extensions": [".wesl"]
   },
   "WGSL": {
     "type": "programming",
