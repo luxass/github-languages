@@ -25,8 +25,8 @@ catalogs:
       specifier: 6.0.3
       version: 6.0.3
     valibot:
-      specifier: 1.4.1
-      version: 1.4.1
+      specifier: 1.5.0
+      version: 1.5.0
     yaml:
       specifier: 2.9.0
       version: 2.9.0
@@ -62,7 +62,7 @@ importers:
         version: 6.0.3
       valibot:
         specifier: catalog:dev
-        version: 1.4.1(typescript@6.0.3)
+        version: 1.5.0(typescript@6.0.3)
       yaml:
         specifier: catalog:dev
         version: 2.9.0
@@ -746,8 +746,8 @@ packages:
   undici-types@7.16.0:
     resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
 
-  valibot@1.4.1:
-    resolution: {integrity: sha512-klCmFTz2jeDluy9RwX+F884TCiogtdBJ/YaxSx1EOBYXa3NXNWj8kR1jjN8rzluwojJVWWaHJ4r1U5LfICnM3g==}
+  valibot@1.5.0:
+    resolution: {integrity: sha512-nil6AkP2TChWL43Z5uJ6GTxX01CUA+g8LWUM+N/rB9NBbkUMaUsi9PUNzlUPgoKASgmx9f7eGOYpJ04/fSa6FQ==}
     peerDependencies:
       typescript: '>=5'
     peerDependenciesMeta:
@@ -1244,7 +1244,7 @@ snapshots:
 
   undici-types@7.16.0: {}
 
-  valibot@1.4.1(typescript@6.0.3):
+  valibot@1.5.0(typescript@6.0.3):
     optionalDependencies:
       typescript: 6.0.3
 
