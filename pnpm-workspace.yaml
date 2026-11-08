@@ -17,4 +17,4 @@ catalogs:
     oxlint-tsgolint: 7.0.2005
 
   types:
-    "@types/node": 24.12.4
+    "@types/node": 26.6.6
