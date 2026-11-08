@@ -9,7 +9,7 @@ catalogs:
   dev:
     publint: 0.3.25
     tsdown: 0.23.5
-    typescript: 6.0.3
+    typescript: 7.0.2
     valibot: 1.5.0
     yaml: 2.9.1
     oxfmt: 0.76.0
