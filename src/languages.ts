@@ -176,7 +176,7 @@ export const APL = {
   codemirror_mime_type: "text/apl",
   language_id: 6,
   extensions: [".apl", ".dyalog"],
-  interpreters: ["apl", "aplx", "dyalog"],
+  interpreters: ["apl", "aplx", "dyalog", "dyalogscript"],
 } as const;
 
 /**
@@ -600,6 +600,19 @@ export const AutoIt = {
 } as const;
 
 /**
+ * GitHub's language definition for AviSynth.
+ */
+export const AviSynth = {
+  type: "programming",
+  color: "#6C5D95",
+  aliases: ["avisynth+", "avisynthplus", "avs", "avsplus"],
+  tm_scope: "source.avisynth",
+  ace_mode: "text",
+  language_id: 781893374,
+  extensions: [".avs", ".avsi"],
+} as const;
+
+/**
  * GitHub's language definition for Avro IDL.
  */
 export const AvroIDL = {
@@ -775,6 +788,19 @@ export const Befunge = {
   ace_mode: "text",
   language_id: 30,
   extensions: [".befunge", ".bf"],
+} as const;
+
+/**
+ * GitHub's language definition for Bend.
+ */
+export const Bend = {
+  type: "programming",
+  color: "#8b83b5",
+  aliases: ["bend2"],
+  tm_scope: "source.bend",
+  ace_mode: "text",
+  language_id: 571794812,
+  extensions: [".bend"],
 } as const;
 
 /**
@@ -1450,6 +1476,18 @@ export const CartoCSS = {
   ace_mode: "text",
   language_id: 53,
   extensions: [".mss"],
+} as const;
+
+/**
+ * GitHub's language definition for Cedar.
+ */
+export const Cedar = {
+  type: "programming",
+  color: "#51732F",
+  tm_scope: "source.cedar",
+  ace_mode: "text",
+  language_id: 658370221,
+  extensions: [".cedar"],
 } as const;
 
 /**
@@ -2425,6 +2463,18 @@ export const Earthly = {
 } as const;
 
 /**
+ * GitHub's language definition for EasyCrypt.
+ */
+export const EasyCrypt = {
+  type: "programming",
+  color: "#2a5db0",
+  tm_scope: "source.easycrypt",
+  ace_mode: "text",
+  language_id: 1032978328,
+  extensions: [".ec"],
+} as const;
+
+/**
  * GitHub's language definition for Easybuild.
  */
 export const Easybuild = {
@@ -2598,13 +2648,13 @@ export const ElvishTranscript = {
 export const EmacsLisp = {
   type: "programming",
   color: "#c065db",
-  aliases: ["cask", "eask", "elisp", "emacs"],
+  aliases: ["cask", "eask", "elisp", "emacs", "lisp data"],
   tm_scope: "source.emacs.lisp",
   ace_mode: "lisp",
   codemirror_mode: "commonlisp",
   codemirror_mime_type: "text/x-common-lisp",
   language_id: 102,
-  extensions: [".el", ".emacs", ".emacs.desktop"],
+  extensions: [".el", ".eld", ".emacs", ".emacs.desktop"],
   filenames: [
     ".abbrev_defs",
     ".emacs",
@@ -3573,6 +3623,18 @@ export const Golo = {
 } as const;
 
 /**
+ * GitHub's language definition for Goose.
+ */
+export const Goose = {
+  type: "programming",
+  color: "#40E0D0",
+  tm_scope: "source.goose",
+  ace_mode: "text",
+  language_id: 897293049,
+  extensions: [".goose"],
+} as const;
+
+/**
  * GitHub's language definition for Gosu.
  */
 export const Gosu = {
@@ -4093,6 +4155,18 @@ export const IDL = {
 } as const;
 
 /**
+ * GitHub's language definition for IFC.
+ */
+export const IFC = {
+  type: "data",
+  tm_scope: "source.ifc",
+  ace_mode: "text",
+  group: "STEP",
+  language_id: 423304113,
+  extensions: [".ifc"],
+} as const;
+
+/**
  * GitHub's language definition for IGOR Pro.
  */
 export const IGORPro = {
@@ -4151,6 +4225,7 @@ export const INI = {
   ],
   filenames: [
     ".buckconfig",
+    ".codespellrc",
     ".coveragerc",
     ".flake8",
     ".gitreview",
@@ -4218,15 +4293,20 @@ export const IgnoreList = {
   extensions: [".gitignore"],
   filenames: [
     ".agignore",
+    ".aiexclude",
+    ".aiignore",
     ".atomignore",
     ".babelignore",
     ".bzrignore",
     ".ckignore",
+    ".clang-format-ignore",
     ".coffeelintignore",
+    ".cursorignore",
     ".cvsignore",
     ".dockerignore",
     ".easignore",
     ".eleventyignore",
+    ".elpaignore",
     ".eslint-ignore",
     ".eslintignore",
     ".gitignore",
@@ -4234,8 +4314,10 @@ export const IgnoreList = {
     ".markdownlintignore",
     ".nodemonignore",
     ".npmignore",
+    ".nxignore",
     ".prettierignore",
     ".rgignore",
+    ".stow-local-ignore",
     ".stylelintignore",
     ".vercelignore",
     ".vscodeignore",
@@ -4475,6 +4557,7 @@ export const JSON = {
     ".all-contributorsrc",
     ".arcconfig",
     ".auto-changelog",
+    ".autorc",
     ".c8rc",
     ".htmlhintrc",
     ".imgbotconfig",
@@ -5003,6 +5086,18 @@ export const KakouneScript = {
 } as const;
 
 /**
+ * GitHub's language definition for KerML.
+ */
+export const KerML = {
+  type: "programming",
+  color: "#5C6BC0",
+  tm_scope: "source.kerml",
+  ace_mode: "text",
+  language_id: 435722551,
+  extensions: [".kerml"],
+} as const;
+
+/**
  * GitHub's language definition for KerboScript.
  */
 export const KerboScript = {
@@ -5290,6 +5385,7 @@ export const Latte = {
  */
 export const Lean = {
   type: "programming",
+  color: "#3d6ac9",
   tm_scope: "source.lean",
   ace_mode: "text",
   language_id: 197,
@@ -5705,6 +5801,18 @@ export const MDX = {
 } as const;
 
 /**
+ * GitHub's language definition for METAFONT.
+ */
+export const METAFONT = {
+  type: "programming",
+  color: "#8a4a2b",
+  tm_scope: "source.metafont",
+  ace_mode: "text",
+  language_id: 1058854440,
+  extensions: [".mf"],
+} as const;
+
+/**
  * GitHub's language definition for MLIR.
  */
 export const MLIR = {
@@ -5974,6 +6082,18 @@ export const Meson = {
 } as const;
 
 /**
+ * GitHub's language definition for MetaPost.
+ */
+export const MetaPost = {
+  type: "programming",
+  color: "#2b6cb0",
+  tm_scope: "source.metapost",
+  ace_mode: "text",
+  language_id: 330845793,
+  extensions: [".mp"],
+} as const;
+
+/**
  * GitHub's language definition for Metal.
  */
 export const Metal = {
@@ -6205,6 +6325,7 @@ export const MoonBit = {
   ace_mode: "text",
   language_id: 181453007,
   extensions: [".mbt"],
+  filenames: ["moon.mod", "moon.pkg"],
 } as const;
 
 /**
@@ -7026,7 +7147,7 @@ export const OptionList = {
   codemirror_mode: "shell",
   codemirror_mime_type: "text/x-sh",
   language_id: 723589315,
-  filenames: [".ackrc", ".rspec", ".yardopts", "ackrc", "mocha.opts"],
+  filenames: [".ackrc", ".ert-runner", ".rspec", ".yardopts", "ackrc", "mocha.opts"],
 } as const;
 
 /**
@@ -7569,7 +7690,7 @@ export const PostScript = {
 export const PowerQuery = {
   type: "programming",
   color: "#d38e0d",
-  aliases: ["powerquery"],
+  aliases: ["powerquery", "m language", "m formula language"],
   tm_scope: "source.powerquery",
   ace_mode: "text",
   language_id: 37496382,
@@ -7860,6 +7981,7 @@ export const Python = {
     ".rpy",
     ".spec",
     ".tac",
+    ".vpy",
     ".wsgi",
     ".xpy",
   ],
@@ -8928,6 +9050,18 @@ export const STAR = {
 } as const;
 
 /**
+ * GitHub's language definition for STEP.
+ */
+export const STEP = {
+  type: "data",
+  aliases: ["iso-10303-21", "p21"],
+  tm_scope: "source.ifc",
+  ace_mode: "text",
+  language_id: 32760317,
+  extensions: [".step", ".stp"],
+} as const;
+
+/**
  * GitHub's language definition for STL.
  */
 export const STL = {
@@ -9710,6 +9844,19 @@ export const Swift = {
 } as const;
 
 /**
+ * GitHub's language definition for SysML.
+ */
+export const SysML = {
+  type: "programming",
+  color: "#3F51B5",
+  aliases: ["sysmlv2", "sysml2"],
+  tm_scope: "source.sysml",
+  ace_mode: "text",
+  language_id: 627066216,
+  extensions: [".sysml"],
+} as const;
+
+/**
  * GitHub's language definition for SystemVerilog.
  */
 export const SystemVerilog = {
@@ -9819,6 +9966,18 @@ export const TSQL = {
   ace_mode: "sql",
   language_id: 918334941,
   extensions: [".sql"],
+} as const;
+
+/**
+ * GitHub's language definition for TSRX.
+ */
+export const TSRX = {
+  type: "programming",
+  color: "#6f00ff",
+  tm_scope: "source.tsrx",
+  ace_mode: "text",
+  language_id: 647519071,
+  extensions: [".tsrx"],
 } as const;
 
 /**
@@ -10035,9 +10194,10 @@ export const Texinfo = {
  */
 export const Text = {
   type: "prose",
-  aliases: ["fundamental", "plain text"],
+  aliases: ["fundamental", "indented text", "plain text", "paragraph indent text", "parindent"],
   tm_scope: "none",
   ace_mode: "text",
+  codemirror_mime_type: "text/plain",
   wrap: true,
   language_id: 372,
   extensions: [".txt", ".fr", ".nb", ".ncl", ".no"],
@@ -10168,11 +10328,13 @@ export const TorConfig = {
  * GitHub's language definition for Tree-sitter Query.
  */
 export const Tree_sitterQuery = {
-  type: "programming",
+  type: "data",
   color: "#8ea64c",
   aliases: ["tsq"],
-  tm_scope: "source.scm",
-  ace_mode: "text",
+  tm_scope: "source.tsq",
+  ace_mode: "scheme",
+  codemirror_mode: "scheme",
+  codemirror_mime_type: "text/x-scheme",
   language_id: 436081647,
   extensions: [".scm"],
 } as const;
@@ -10268,6 +10430,18 @@ export const Typst = {
   ace_mode: "text",
   language_id: 704730682,
   extensions: [".typ"],
+} as const;
+
+/**
+ * GitHub's language definition for Uiua.
+ */
+export const Uiua = {
+  type: "programming",
+  color: "#c87dff",
+  tm_scope: "source.uiua",
+  ace_mode: "text",
+  language_id: 52486065,
+  extensions: [".ua"],
 } as const;
 
 /**
@@ -10647,6 +10821,18 @@ export const WDL = {
   ace_mode: "text",
   language_id: 374521672,
   extensions: [".wdl"],
+} as const;
+
+/**
+ * GitHub's language definition for WESL.
+ */
+export const WESL = {
+  type: "programming",
+  color: "#0391e3",
+  tm_scope: "source.wesl",
+  ace_mode: "text",
+  language_id: 858810660,
+  extensions: [".wesl"],
 } as const;
 
 /**
