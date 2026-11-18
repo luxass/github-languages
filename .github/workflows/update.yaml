@@ -4,38 +4,40 @@ on:
   workflow_dispatch:
     inputs:
       dry-run:
-        description: Run the workflow without creating a pull request
+        description: Generate the diff and PR metadata without creating a pull request
         required: false
         default: false
         type: boolean
+      model:
+        description: Optional Workers AI model for PR metadata. The service rejects models outside its allowlist.
+        required: false
+        default: ""
+        type: string
   schedule:
     - cron: "0 0 * * *"
 
+concurrency:
+  group: update-github-languages
+  cancel-in-progress: false
+
+# PR writes use the GitHub App token, not GITHUB_TOKEN.
+permissions:
+  contents: read # check out the repository and fetch the update branch
+  pull-requests: read # find the open update PR before deciding whether to update it
+
 jobs:
   update-github-languages:
+    name: update github languages
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    permissions:
-      contents: write
-      pull-requests: write
-      models: read
     environment:
       name: huginn
       deployment: false
     if: github.repository == 'luxass/github-languages'
     steps:
-      - name: generate token
-        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
-        id: app-token
-        with:
-          repositories: luxass/github-languages
-          client-id: ${{ secrets.APP_ID }}
-          private-key: ${{ secrets.APP_PRIVATE_KEY }}
-          permission-contents: write
-          permission-pull-requests: write
-
       - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
         with:
+          ref: main
           persist-credentials: false
 
       - name: setup pnpm
@@ -48,7 +50,7 @@ jobs:
           package-manager-cache: false
 
       - name: install dependencies
-        run: pnpm install
+        run: pnpm install --frozen-lockfile
 
       - name: old github languages
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
@@ -73,112 +75,271 @@ jobs:
             const { generateDiff } = await import('${{ github.workspace }}/.github/scripts/update-languages.mjs')
             await generateDiff({ github, context, core })
 
+      - name: check pr metadata input
+        id: metadata-input
+        env:
+          HAS_LANGUAGE_DIFF: ${{ steps.generate-diff.outputs.DIFF }}
+        run: |
+          set -euo pipefail
+
+          DIFF_BYTES=0
+          if [ "$HAS_LANGUAGE_DIFF" = true ]; then
+            DIFF_BYTES=$(wc -c < languages.diff)
+          fi
+          echo "bytes=$DIFF_BYTES" >> "$GITHUB_OUTPUT"
+
+          # The service accepts 100,000 characters. A byte limit is conservative for UTF-8.
+          if [ "$DIFF_BYTES" -gt 0 ] && [ "$DIFF_BYTES" -le 100000 ]; then
+            echo "ai-eligible=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ai-eligible=false" >> "$GITHUB_OUTPUT"
+          fi
+
+          if git diff --quiet -- languages.json src/languages.ts; then
+            echo "has-changes=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "has-changes=true" >> "$GITHUB_OUTPUT"
+          fi
+
+          git diff --stat -- languages.json src/languages.ts >> "$GITHUB_STEP_SUMMARY"
+
+      # Updating an open PR replaces its title and body, including manual corrections.
+      # Leave a complete PR alone when it already contains exactly today's files.
+      - name: check existing pull request
+        id: existing-pr
+        if: ${{ steps.metadata-input.outputs.has-changes == 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          UPDATE_BRANCH: update-github-languages
+        run: |
+          set -euo pipefail
+
+          if ! OPEN_PR=$(gh pr list --repo "$GITHUB_REPOSITORY" --head "$UPDATE_BRANCH" --base main \
+            --state open --json number,body --jq '.[0] // empty'); then
+            echo "::warning::Could not look up the existing update PR. Updating it as usual."
+            echo "up-to-date=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          if [ -z "$OPEN_PR" ]; then
+            echo "up-to-date=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          # An incomplete PR is retried, so a temporary AI failure does not need manual work.
+          if jq -e '.body // "" | contains("<!-- pr-metadata:incomplete -->")' <<< "$OPEN_PR" > /dev/null; then
+            echo "up-to-date=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          if ! git fetch --no-tags --depth=1 origin "+refs/heads/$UPDATE_BRANCH:refs/remotes/origin/$UPDATE_BRANCH"; then
+            echo "::warning::Could not fetch $UPDATE_BRANCH. Updating the PR as usual."
+            echo "up-to-date=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          if git diff --quiet "refs/remotes/origin/$UPDATE_BRANCH" -- languages.json src/languages.ts; then
+            PR_NUMBER=$(jq -r '.number' <<< "$OPEN_PR")
+            echo "up-to-date=true" >> "$GITHUB_OUTPUT"
+            printf '\nPR #%s already contains these changes. It was left unchanged.\n' "$PR_NUMBER" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "up-to-date=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: generate pr metadata (ai)
         id: pr-metadata
-        if: ${{ steps.generate-diff.outputs.DIFF != '' && github.event.inputs.dry-run != 'true' }}
+        if: ${{ steps.metadata-input.outputs.ai-eligible == 'true' && (inputs.dry-run || steps.existing-pr.outputs.up-to-date != 'true') }}
+        continue-on-error: true
         env:
           PR_METADATA_URL: ${{ vars.PR_METADATA_URL }}
           PR_METADATA_HMAC_SECRET: ${{ secrets.PR_METADATA_HMAC_SECRET }}
           REPOSITORY: ${{ github.repository }}
+          PR_METADATA_MODEL: ${{ inputs.model }}
+          # Repository instructions only. The service owns the shared prompt, trust rules, and output rules.
           PR_METADATA_CONTEXT: |
             This repository syncs GitHub Linguist language metadata into generated TypeScript sources.
-            Prefer the most specific changed language name as the scope when there is a clear single target.
-            Use "feat" when languages are added, "chore" when languages are removed or metadata is updated, and "fix" when an incorrect value is corrected.
-
+            The changes are a summary of added, removed, and modified languages, not a git diff. Modified entries list the changed property names.
+            Added languages are feat. Removed languages and changed metadata are chore. Name every removed language in the body.
+            Use the language name as the scope when exactly one language changed.
         run: |
           set -euo pipefail
 
-          DIFF_CONTENT=$(cat languages.diff)
+          : "${PR_METADATA_URL:?PR_METADATA_URL is not configured}"
+          : "${PR_METADATA_HMAC_SECRET:?PR_METADATA_HMAC_SECRET is not configured}"
 
-          REQUEST_JSON=$(jq -n \
+          jq -n \
             --arg repository "$REPOSITORY" \
             --arg context "$PR_METADATA_CONTEXT" \
-            --arg diff "$DIFF_CONTENT" \
-            '{
-              repository: $repository,
-              context: $context,
-              diff: $diff
-            }')
+            --arg model "$PR_METADATA_MODEL" \
+            --rawfile diff languages.diff \
+            '{repository: $repository, context: $context, diff: $diff}
+              + (if $model == "" then {} else {model: $model} end)' \
+            > "$RUNNER_TEMP/pr-metadata-request.json"
 
           TIMESTAMP=$(( $(date +%s) * 1000 ))
-          SIGNATURE=$(printf '%s' "${TIMESTAMP}.${REQUEST_JSON}" | openssl dgst -sha256 -hmac "$PR_METADATA_HMAC_SECRET" -hex | awk '{print $2}')
+          SIGNATURE=$({ printf '%s.' "$TIMESTAMP"; cat "$RUNNER_TEMP/pr-metadata-request.json"; } \
+            | openssl dgst -sha256 -hmac "$PR_METADATA_HMAC_SECRET" -hex | awk '{print $2}')
 
-          RESPONSE=$(printf '%s' "$REQUEST_JSON" | curl -fsS -X POST "$PR_METADATA_URL" \
+          HTTP_STATUS=$(curl -sS --proto '=https' --connect-timeout 10 --max-time 60 --max-filesize 65536 \
+            --retry 1 --retry-delay 2 --retry-max-time 90 \
+            -X POST "$PR_METADATA_URL" \
             -H "Content-Type: application/json" \
             -H "User-Agent: luxass/github-languages (+https://github.com/luxass/github-languages; workflow=update.yaml)" \
             -H "X-Timestamp: $TIMESTAMP" \
             -H "X-Signature: $SIGNATURE" \
-            --data-binary @-)
+            --data-binary "@$RUNNER_TEMP/pr-metadata-request.json" \
+            --output "$RUNNER_TEMP/pr-metadata.json" \
+            --write-out '%{http_code}')
 
-          echo "API response: $RESPONSE"
+          if [ "$HTTP_STATUS" != 200 ]; then
+            # One line, no control characters, so the message cannot inject workflow commands.
+            SERVICE_MESSAGE=$(jq -r '.message // "" | tostring | gsub("[[:cntrl:]]"; " ") | .[0:300]' \
+              "$RUNNER_TEMP/pr-metadata.json" 2> /dev/null || true)
+            echo "::error::PR metadata service returned HTTP $HTTP_STATUS: $SERVICE_MESSAGE"
 
-          TYPE=$(echo "$RESPONSE" | jq -r '.type')
-          SCOPE=$(echo "$RESPONSE" | jq -r '.scope')
-          MESSAGE=$(echo "$RESPONSE" | jq -r '.message')
-          BODY=$(echo "$RESPONSE" | jq -r '.body')
-          TITLE="$TYPE${SCOPE:+($SCOPE)}: $MESSAGE"
+            # A rejected manual model choice is an operator mistake, not an AI failure.
+            if [ "$HTTP_STATUS" = 400 ] && [ -n "$PR_METADATA_MODEL" ]; then
+              echo "request-rejected=true" >> "$GITHUB_OUTPUT"
+            fi
+            exit 1
+          fi
 
-          echo "✅ Generated PR title: $TITLE"
-          {
-            echo "title<<GITHUB_EOF"
-            printf '%s' "$TITLE"
-            echo
-            echo "GITHUB_EOF"
-          } >> "$GITHUB_OUTPUT"
+          # The service enforces the content rules. This check keeps the title single-line and the
+          # release marker unforgeable, even if the service changes. Invalid metadata is a failure.
+          jq -e '
+            type == "object" and
+            (.type | IN("docs", "feat", "fix", "chore")) and
+            (.message | type == "string" and length > 0 and length <= 72 and (test("[[:cntrl:]]") | not)) and
+            (.body | type == "string" and length > 0 and length <= 6000) and
+            ([.message, .body] | all(ascii_downcase | (contains("[incomplete]") or contains("<!--")) | not))
+          ' "$RUNNER_TEMP/pr-metadata.json" > /dev/null
 
-          {
-            echo "body<<GITHUB_EOF"
-            printf '%s' "$BODY"
-            echo
-            echo "GITHUB_EOF"
-          } >> "$GITHUB_OUTPUT"
+          # A scope that cannot appear in a conventional title is dropped. The rest of the metadata is still used.
+          SCOPE=$(jq -r '
+            if (.scope | type) == "string" and (.scope | test("^[^[:cntrl:]():\\[\\]`]{1,60}$"))
+            then .scope else "" end
+          ' "$RUNNER_TEMP/pr-metadata.json")
+          if [ -z "$SCOPE" ] && jq -e '.scope | type == "string" and length > 0' "$RUNNER_TEMP/pr-metadata.json" > /dev/null; then
+            echo "::notice::Dropped an unusable scope from the generated PR title."
+          fi
 
-      - name: prepare pr body
-        id: pr-body
-        if: ${{ github.event.inputs.dry-run != 'true' }}
+          TITLE=$(jq -r --arg scope "$SCOPE" \
+            '.type + (if $scope == "" then "" else "(" + $scope + ")" end) + ": " + .message' \
+            "$RUNNER_TEMP/pr-metadata.json")
+          printf 'title=%s\n' "$TITLE" >> "$GITHUB_OUTPUT"
+
+      - name: stop on rejected model
+        if: ${{ steps.pr-metadata.outputs.request-rejected == 'true' }}
         env:
+          PR_METADATA_MODEL: ${{ inputs.model }}
+        run: |
+          echo "::error::The metadata service rejected this request. Check that the model input is in the service allowlist: ${PR_METADATA_MODEL//[[:cntrl:]]/ }"
+          exit 1
+
+      - name: prepare pull request
+        id: pr
+        if: ${{ inputs.dry-run || steps.existing-pr.outputs.up-to-date != 'true' }}
+        env:
+          AI_OUTCOME: ${{ steps.pr-metadata.outcome }}
+          AI_TITLE: ${{ steps.pr-metadata.outputs.title }}
+          DIFF_BYTES: ${{ steps.metadata-input.outputs.bytes }}
+          HAS_CHANGES: ${{ steps.metadata-input.outputs.has-changes }}
           NEW_LANGUAGES: ${{ steps.generate-diff.outputs.result-new-languages }}
           REMOVED_LANGUAGES: ${{ steps.generate-diff.outputs.result-removed-languages }}
           MODIFIED_LANGUAGES: ${{ steps.generate-diff.outputs.result-modified-languages }}
         run: |
           set -euo pipefail
 
-          BODY=$(cat <<EOF
+          BODY_PATH="$RUNNER_TEMP/github-languages-pr-body.md"
+          INCOMPLETE=true
+          TITLE='chore: [incomplete] update GitHub languages'
+
+          # Every PR body has the same shape: greeting, summary, changes, sign-off.
+          # The incomplete marker must stay the first line: the merge check and auto-release look for it.
+          if [ "$AI_OUTCOME" = success ] && [ -n "$AI_TITLE" ]; then
+            INCOMPLETE=false
+            TITLE="$AI_TITLE"
+            printf "I found some new changes in GitHub's Linguist Repository.\n\n" > "$BODY_PATH"
+            jq -r '.body' "$RUNNER_TEMP/pr-metadata.json" >> "$BODY_PATH"
+          else
+            if [ "$DIFF_BYTES" -gt 100000 ]; then
+              REASON='the language changes were too big for me to summarize'
+            elif [ "$DIFF_BYTES" -eq 0 ]; then
+              REASON='only the generated sources changed, so there were no language changes to summarize'
+            else
+              REASON="my summary service didn't give me anything I could use"
+            fi
+
+            cat > "$BODY_PATH" <<EOF
+          <!-- pr-metadata:incomplete -->
           I found some new changes in GitHub's Linguist Repository.
 
-          I don't know what they changed, but I'm sure it's important.
-          If you want you can go take a look yourself.
+          I don't know what they changed, but I'm sure it's important. I couldn't write a summary this time, because $REASON, so this PR is a draft.
 
-          ${NEW_LANGUAGES}
-          ${REMOVED_LANGUAGES}
-          ${MODIFIED_LANGUAGES}
-
-          I will be waiting for your approval 👋.
-
-          This is an automated PR to update GitHub Languages.
+          Can you take a look? Give it a proper title and summary, remove \`[incomplete]\` from the title and the hidden marker at the top of this description, and mark it ready for review. I won't release anything until then 👋
           EOF
-          )
+          fi
 
-          {
-            echo "body<<GITHUB_EOF"
-            printf '%s\n' "$BODY"
-            echo "GITHUB_EOF"
-          } >> "$GITHUB_OUTPUT"
+          # Keep the complete PR body below GitHub's 65,536 character limit. Large changes stay in Files changed.
+          DETAILS_PATH="$RUNNER_TEMP/github-languages-details.md"
+          printf '%s\n%s\n%s\n' "$NEW_LANGUAGES" "$REMOVED_LANGUAGES" "$MODIFIED_LANGUAGES" > "$DETAILS_PATH"
+          if [ "$DIFF_BYTES" -gt 0 ] && [ "$(wc -c < "$DETAILS_PATH")" -le 40000 ]; then
+            printf '\n### Changes\n' >> "$BODY_PATH"
+            cat "$DETAILS_PATH" >> "$BODY_PATH"
+          elif [ "$DIFF_BYTES" -gt 0 ]; then
+            printf "\n### Changes\nThe changes are too big to show here, so take a look at **Files changed** instead.\n" >> "$BODY_PATH"
+          fi
 
+          if [ "$INCOMPLETE" = false ]; then
+            printf '\nI will be waiting for your approval 👋\n' >> "$BODY_PATH"
+          fi
+          printf '\nThis is an automated PR to update GitHub Languages.\n' >> "$BODY_PATH"
+          printf 'title=%s\nincomplete=%s\n' "$TITLE" "$INCOMPLETE" >> "$GITHUB_OUTPUT"
+
+          if [ "$HAS_CHANGES" = true ]; then
+            printf '## PR preview\n\n%s\n\n' "$TITLE" >> "$GITHUB_STEP_SUMMARY"
+            cat "$BODY_PATH" >> "$GITHUB_STEP_SUMMARY"
+          else
+            printf '\nNo language or generated-source changes found.\n' >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: generate token
+        if: ${{ !inputs.dry-run && steps.existing-pr.outputs.up-to-date != 'true' }}
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+        id: app-token
+        with:
+          repositories: github-languages
+          client-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          permission-contents: write
+          permission-pull-requests: write
+
+      # Run on no-change days too, so the action can reconcile an existing update branch.
       - name: create pull request
+        id: create-pr
         uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
-        if: ${{ github.event.inputs.dry-run != 'true' }}
-        env:
-          GH_TOKEN: ${{ steps.app-token.outputs.token }}
-          COMMIT_MESSAGE: "${{ steps.pr-metadata.outputs.title || 'feat: updated github languages' }}"
+        if: ${{ !inputs.dry-run && steps.existing-pr.outputs.up-to-date != 'true' }}
         with:
           token: ${{ steps.app-token.outputs.token }}
-          commit-message: ${{ env.COMMIT_MESSAGE }}
-          title: ${{ env.COMMIT_MESSAGE }}
-          body: ${{ steps.pr-body.outputs.body }}
+          commit-message: ${{ steps.pr.outputs.title }}
+          title: ${{ steps.pr.outputs.title }}
+          body-path: ${{ runner.temp }}/github-languages-pr-body.md
+          draft: ${{ steps.pr.outputs.incomplete == 'true' && 'always-true' || 'false' }}
           committer: huginn-watch[bot] <273299945+huginn-watch[bot]@users.noreply.github.com>
           author: huginn-watch[bot] <273299945+huginn-watch[bot]@users.noreply.github.com>
           branch: update-github-languages
           add-paths: languages.json,src/languages.ts
           base: main
           reviewers: luxass
+
+      # always-true only converts an existing PR when its branch changes. Enforce draft even if only metadata changed.
+      - name: ensure incomplete pull request is a draft
+        if: ${{ !inputs.dry-run && steps.pr.outputs.incomplete == 'true' && steps.create-pr.outputs.pull-request-number != '' }}
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          PR_NUMBER: ${{ steps.create-pr.outputs.pull-request-number }}
+        run: |
+          set -euo pipefail
+          if [ "$(gh pr view "$PR_NUMBER" --repo "$GITHUB_REPOSITORY" --json isDraft --jq '.isDraft')" != true ]; then
+            gh pr ready "$PR_NUMBER" --repo "$GITHUB_REPOSITORY" --undo
+          fi
