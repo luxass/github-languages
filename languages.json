@@ -119,6 +119,16 @@
     "extensions": [".apl", ".dyalog"],
     "interpreters": ["apl", "aplx", "dyalog", "dyalogscript"]
   },
+  "ARM Assembly": {
+    "type": "programming",
+    "color": "#eeeebb",
+    "aliases": ["armasm"],
+    "tm_scope": "source.armasm",
+    "ace_mode": "text",
+    "group": "Assembly",
+    "language_id": 97814729,
+    "extensions": [".s"]
+  },
   "ASL": {
     "type": "programming",
     "tm_scope": "source.asl",
@@ -338,6 +348,17 @@
     "language_id": 56341321,
     "extensions": [".ets"]
   },
+  "Artistic Style Configuration": {
+    "type": "data",
+    "color": "#8ea8ff",
+    "aliases": ["astyle", "astylerc"],
+    "tm_scope": "source.astylerc",
+    "ace_mode": "properties",
+    "codemirror_mode": "properties",
+    "codemirror_mime_type": "text/x-properties",
+    "language_id": 254551626,
+    "filenames": [".astylerc"]
+  },
   "AsciiDoc": {
     "type": "prose",
     "color": "#73a0c5",
@@ -480,6 +501,15 @@
     "tm_scope": "source.basic",
     "ace_mode": "basic",
     "language_id": 28923963,
+    "extensions": [".bas"]
+  },
+  "BBC BASIC": {
+    "type": "programming",
+    "color": "#004499",
+    "aliases": ["bbcbasic"],
+    "tm_scope": "source.bbcbasic",
+    "ace_mode": "text",
+    "language_id": 980104359,
     "extensions": [".bas"]
   },
   "BBCode": {
@@ -1281,6 +1311,14 @@
     "extensions": [".cwl"],
     "interpreters": ["cwl-runner"]
   },
+  "Compact": {
+    "type": "programming",
+    "color": "#3d6bfc",
+    "tm_scope": "source.compact",
+    "ace_mode": "text",
+    "language_id": 150469806,
+    "extensions": [".compact"]
+  },
   "Component Pascal": {
     "type": "programming",
     "color": "#B0CE4E",
@@ -1452,6 +1490,15 @@
     "ace_mode": "text",
     "language_id": 37531557,
     "extensions": [".d2"]
+  },
+  "DAX": {
+    "type": "programming",
+    "color": "#F7E17C",
+    "aliases": ["data analysis expressions"],
+    "tm_scope": "source.dax",
+    "ace_mode": "text",
+    "language_id": 968586875,
+    "extensions": [".dax"]
   },
   "DIGITAL Command Language": {
     "type": "programming",
@@ -1629,7 +1676,7 @@
     "tm_scope": "source.dune",
     "ace_mode": "lisp",
     "language_id": 754574151,
-    "filenames": ["dune-project"]
+    "filenames": ["dune", "dune-project", "dune-workspace"]
   },
   "Dylan": {
     "type": "programming",
@@ -2990,6 +3037,7 @@
       ".coveragerc",
       ".flake8",
       ".gitreview",
+      ".perlcriticrc",
       ".pylintrc",
       "HOSTS",
       "buildozer.spec",
@@ -3097,6 +3145,15 @@
     "ace_mode": "text",
     "language_id": 1057618448,
     "extensions": [".imba"]
+  },
+  "Indent Profile": {
+    "type": "data",
+    "color": "#54463a",
+    "aliases": ["indent"],
+    "tm_scope": "source.indent-profile",
+    "ace_mode": "text",
+    "language_id": 1064163815,
+    "filenames": [".indent.pro"]
   },
   "Inform 7": {
     "type": "programming",
@@ -5076,7 +5133,15 @@
     "codemirror_mode": "shell",
     "codemirror_mime_type": "text/x-sh",
     "language_id": 723589315,
-    "filenames": [".ackrc", ".ert-runner", ".rspec", ".yardopts", "ackrc", "mocha.opts"]
+    "filenames": [
+      ".ackrc",
+      ".ert-runner",
+      ".perltidyrc",
+      ".rspec",
+      ".yardopts",
+      "ackrc",
+      "mocha.opts"
+    ]
   },
   "Org": {
     "type": "prose",
@@ -8491,7 +8556,7 @@
   "mdsvex": {
     "type": "markup",
     "color": "#5f9ea0",
-    "tm_scope": "none",
+    "tm_scope": "text.html.pfm",
     "ace_mode": "markdown",
     "codemirror_mode": "gfm",
     "codemirror_mime_type": "text/x-gfm",
