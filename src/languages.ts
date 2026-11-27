@@ -180,6 +180,20 @@ export const APL = {
 } as const;
 
 /**
+ * GitHub's language definition for ARM Assembly.
+ */
+export const ARMAssembly = {
+  type: "programming",
+  color: "#eeeebb",
+  aliases: ["armasm"],
+  tm_scope: "source.armasm",
+  ace_mode: "text",
+  group: "Assembly",
+  language_id: 97814729,
+  extensions: [".s"],
+} as const;
+
+/**
  * GitHub's language definition for ASL.
  */
 export const ASL = {
@@ -495,6 +509,21 @@ export const ArkTS = {
 } as const;
 
 /**
+ * GitHub's language definition for Artistic Style Configuration.
+ */
+export const ArtisticStyleConfiguration = {
+  type: "data",
+  color: "#8ea8ff",
+  aliases: ["astyle", "astylerc"],
+  tm_scope: "source.astylerc",
+  ace_mode: "properties",
+  codemirror_mode: "properties",
+  codemirror_mime_type: "text/x-properties",
+  language_id: 254551626,
+  filenames: [".astylerc"],
+} as const;
+
+/**
  * GitHub's language definition for AsciiDoc.
  */
 export const AsciiDoc = {
@@ -699,6 +728,19 @@ export const BASIC = {
   tm_scope: "source.basic",
   ace_mode: "basic",
   language_id: 28923963,
+  extensions: [".bas"],
+} as const;
+
+/**
+ * GitHub's language definition for BBC BASIC.
+ */
+export const BBCBASIC = {
+  type: "programming",
+  color: "#004499",
+  aliases: ["bbcbasic"],
+  tm_scope: "source.bbcbasic",
+  ace_mode: "text",
+  language_id: 980104359,
   extensions: [".bas"],
 } as const;
 
@@ -1830,6 +1872,18 @@ export const CommonWorkflowLanguage = {
 } as const;
 
 /**
+ * GitHub's language definition for Compact.
+ */
+export const Compact = {
+  type: "programming",
+  color: "#3d6bfc",
+  tm_scope: "source.compact",
+  ace_mode: "text",
+  language_id: 150469806,
+  extensions: [".compact"],
+} as const;
+
+/**
  * GitHub's language definition for Component Pascal.
  */
 export const ComponentPascal = {
@@ -2075,6 +2129,19 @@ export const D2 = {
   ace_mode: "text",
   language_id: 37531557,
   extensions: [".d2"],
+} as const;
+
+/**
+ * GitHub's language definition for DAX.
+ */
+export const DAX = {
+  type: "programming",
+  color: "#F7E17C",
+  aliases: ["data analysis expressions"],
+  tm_scope: "source.dax",
+  ace_mode: "text",
+  language_id: 968586875,
+  extensions: [".dax"],
 } as const;
 
 /**
@@ -2324,7 +2391,7 @@ export const Dune = {
   tm_scope: "source.dune",
   ace_mode: "lisp",
   language_id: 754574151,
-  filenames: ["dune-project"],
+  filenames: ["dune", "dune-project", "dune-workspace"],
 } as const;
 
 /**
@@ -4229,6 +4296,7 @@ export const INI = {
     ".coveragerc",
     ".flake8",
     ".gitreview",
+    ".perlcriticrc",
     ".pylintrc",
     "HOSTS",
     "buildozer.spec",
@@ -4364,6 +4432,19 @@ export const Imba = {
   ace_mode: "text",
   language_id: 1057618448,
   extensions: [".imba"],
+} as const;
+
+/**
+ * GitHub's language definition for Indent Profile.
+ */
+export const IndentProfile = {
+  type: "data",
+  color: "#54463a",
+  aliases: ["indent"],
+  tm_scope: "source.indent-profile",
+  ace_mode: "text",
+  language_id: 1064163815,
+  filenames: [".indent.pro"],
 } as const;
 
 /**
@@ -7147,7 +7228,7 @@ export const OptionList = {
   codemirror_mode: "shell",
   codemirror_mime_type: "text/x-sh",
   language_id: 723589315,
-  filenames: [".ackrc", ".ert-runner", ".rspec", ".yardopts", "ackrc", "mocha.opts"],
+  filenames: [".ackrc", ".ert-runner", ".perltidyrc", ".rspec", ".yardopts", "ackrc", "mocha.opts"],
 } as const;
 
 /**
@@ -11809,7 +11890,7 @@ export const mcfunction = {
 export const mdsvex = {
   type: "markup",
   color: "#5f9ea0",
-  tm_scope: "none",
+  tm_scope: "text.html.pfm",
   ace_mode: "markdown",
   codemirror_mode: "gfm",
   codemirror_mime_type: "text/x-gfm",
